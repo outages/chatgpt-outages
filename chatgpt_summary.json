@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-01-29T09:47:09.443-08:00"
+    "updated_at": "2023-01-29T10:17:41.369-08:00"
   },
   "components": [
     {
@@ -41,10 +41,10 @@
   "incidents": [
     {
       "id": "ttsvq5p4379d",
-      "name": "Increased latency on the Moderations API and DALLE API",
+      "name": "Multiple API endpoints are down",
       "status": "investigating",
       "created_at": "2023-01-29T08:06:38.054-08:00",
-      "updated_at": "2023-01-29T09:47:09.432-08:00",
+      "updated_at": "2023-01-29T10:17:41.364-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
