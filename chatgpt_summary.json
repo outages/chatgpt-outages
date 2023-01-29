@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-01-29T10:41:56.651-08:00"
+    "updated_at": "2023-01-29T11:14:28.496-08:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-01-29T08:06:38.091-08:00",
+      "updated_at": "2023-01-29T11:14:28.452-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -38,103 +38,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "ttsvq5p4379d",
-      "name": "Multiple API endpoints are down",
-      "status": "investigating",
-      "created_at": "2023-01-29T08:06:38.054-08:00",
-      "updated_at": "2023-01-29T10:41:56.645-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/tkx1tz2syx2g",
-      "started_at": "2023-01-29T06:15:38.000-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "xv43l7m9vmj1",
-          "status": "investigating",
-          "body": "The DALLE API is restored. We are continuing to investigate degraded performance in the Moderations API.",
-          "incident_id": "ttsvq5p4379d",
-          "created_at": "2023-01-29T10:41:46.922-08:00",
-          "updated_at": "2023-01-29T10:41:56.641-08:00",
-          "display_at": "2023-01-29T10:41:46.000-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q02vxqmm1th1",
-          "status": "investigating",
-          "body": "Multiple endpoints are down. We are taking mitigation steps.",
-          "incident_id": "ttsvq5p4379d",
-          "created_at": "2023-01-29T09:47:09.428-08:00",
-          "updated_at": "2023-01-29T09:47:09.428-08:00",
-          "display_at": "2023-01-29T09:47:09.428-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g7n4ds3c9kd4",
-          "status": "investigating",
-          "body": "We are investigating increased latency on the Moderations API and DALLE API.",
-          "incident_id": "ttsvq5p4379d",
-          "created_at": "2023-01-29T08:06:38.141-08:00",
-          "updated_at": "2023-01-29T08:07:15.498-08:00",
-          "display_at": "2023-01-29T06:15:38.000-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2023-01-29T08:06:38.091-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
