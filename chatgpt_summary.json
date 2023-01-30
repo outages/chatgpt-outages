@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-01-29T11:14:28.496-08:00"
+    "updated_at": "2023-01-30T12:43:25.853-08:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "API",
       "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-01-29T11:14:28.452-08:00",
+      "updated_at": "2023-01-30T12:42:27.663-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -27,7 +27,7 @@
       "name": "Playground Site",
       "status": "operational",
       "created_at": "2021-04-01T16:01:59.049-07:00",
-      "updated_at": "2023-01-18T10:18:31.174-08:00",
+      "updated_at": "2023-01-30T12:43:25.848-08:00",
       "position": 2,
       "description": "The OpenAI Playground at beta.openai.com",
       "showcase": true,
