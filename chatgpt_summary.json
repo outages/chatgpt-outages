@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-02-21T03:06:04.752-08:00"
+    "updated_at": "2023-02-21T04:15:43.844-08:00"
   },
   "components": [
     {
@@ -39,279 +39,39 @@
     },
     {
       "id": "tbwycthtqm69",
-      "name": "ChatGPT",
-      "status": "major_outage",
+      "name": "chat.openai.com",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-02-20T23:40:25.236-08:00",
+      "updated_at": "2023-02-21T04:15:18.341-08:00",
       "position": 3,
-      "description": "The service powering chat.openai.com.",
+      "description": "https://chat.openai.com",
       "showcase": true,
       "start_date": "2023-02-14",
       "group_id": null,
       "page_id": "jbxzcdv9xc4d",
       "group": false,
       "only_show_if_degraded": false
-    }
-  ],
-  "incidents": [
+    },
     {
-      "id": "mq5jgswy45fr",
-      "name": "Outage on all models",
-      "status": "monitoring",
-      "created_at": "2023-02-20T23:40:25.000-08:00",
-      "updated_at": "2023-02-21T03:06:04.744-08:00",
-      "monitoring_at": "2023-02-21T02:04:55.121-08:00",
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/33vlsqpwgyyn",
-      "started_at": "2023-02-20T23:40:25.000-08:00",
+      "id": "csm9vdtjbsf0",
+      "name": "labs.openai.com",
+      "status": "operational",
+      "created_at": "2023-02-21T04:15:43.840-08:00",
+      "updated_at": "2023-02-21T04:15:43.840-08:00",
+      "position": 4,
+      "description": "https://labs.openai.com",
+      "showcase": true,
+      "start_date": "2023-02-21",
+      "group_id": null,
       "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "83x0sxy9shhr",
-          "status": "monitoring",
-          "body": "Models and playground are available again, and we will continue to monitor.  ChatGPT is continuing to have issues that we are investigating.",
-          "incident_id": "mq5jgswy45fr",
-          "created_at": "2023-02-21T03:06:04.741-08:00",
-          "updated_at": "2023-02-21T03:06:04.741-08:00",
-          "display_at": "2023-02-21T03:06:04.741-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "major_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "p4pvx4j7r7n7",
-              "name": "Playground Site",
-              "old_status": "major_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "lky5h0hstjpt",
-          "status": "monitoring",
-          "body": "Service is now beginning to recover, we are continuing to monitor.",
-          "incident_id": "mq5jgswy45fr",
-          "created_at": "2023-02-21T02:04:55.121-08:00",
-          "updated_at": "2023-02-21T02:04:55.121-08:00",
-          "display_at": "2023-02-21T02:04:55.121-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "p4pvx4j7r7n7",
-              "name": "Playground Site",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "05zy99twwkzt",
-          "status": "identified",
-          "body": "We are continuing to work to resolve the underlying issue, and are investigating alternatives to recover service faster.",
-          "incident_id": "mq5jgswy45fr",
-          "created_at": "2023-02-21T01:55:00.842-08:00",
-          "updated_at": "2023-02-21T01:55:00.842-08:00",
-          "display_at": "2023-02-21T01:55:00.842-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "p4pvx4j7r7n7",
-              "name": "Playground Site",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hq78fc2plzjv",
-          "status": "identified",
-          "body": "We are continuing to work on recovering services.",
-          "incident_id": "mq5jgswy45fr",
-          "created_at": "2023-02-21T00:52:45.492-08:00",
-          "updated_at": "2023-02-21T00:52:45.492-08:00",
-          "display_at": "2023-02-21T00:52:45.492-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "p4pvx4j7r7n7",
-              "name": "Playground Site",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "f8bw6qmg7z8m",
-          "status": "identified",
-          "body": "We have identified the root cause and are working to recover service.",
-          "incident_id": "mq5jgswy45fr",
-          "created_at": "2023-02-20T23:59:47.156-08:00",
-          "updated_at": "2023-02-20T23:59:47.156-08:00",
-          "display_at": "2023-02-20T23:59:47.156-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "p4pvx4j7r7n7",
-              "name": "Playground Site",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rd25g2xpfv9j",
-          "status": "investigating",
-          "body": "We are currently investigating an outage affecting all models, including ChatGPT and Playground, beginning around 11:05 pm Pacific.",
-          "incident_id": "mq5jgswy45fr",
-          "created_at": "2023-02-20T23:40:25.281-08:00",
-          "updated_at": "2023-02-20T23:43:12.811-08:00",
-          "display_at": "2023-02-20T23:40:25.000-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "p4pvx4j7r7n7",
-              "name": "Playground Site",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "p4pvx4j7r7n7",
-          "name": "Playground Site",
-          "status": "operational",
-          "created_at": "2021-04-01T16:01:59.049-07:00",
-          "updated_at": "2023-02-21T03:06:04.699-08:00",
-          "position": 1,
-          "description": "The OpenAI Playground at beta.openai.com",
-          "showcase": true,
-          "start_date": "2021-03-31",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2023-02-21T03:06:04.713-08:00",
-          "position": 2,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "major_outage",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2023-02-20T23:40:25.236-08:00",
-          "position": 3,
-          "description": "The service powering chat.openai.com.",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
+      "group": false,
+      "only_show_if_degraded": false
     }
   ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
