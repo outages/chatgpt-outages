@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-02-23T12:22:08.353-08:00"
+    "updated_at": "2023-02-23T12:43:32.046-08:00"
   },
   "components": [
     {
@@ -74,10 +74,10 @@
       "name": "Outage on multiple models",
       "status": "investigating",
       "created_at": "2023-02-23T12:22:08.251-08:00",
-      "updated_at": "2023-02-23T12:22:08.349-08:00",
+      "updated_at": "2023-02-23T12:43:00.301-08:00",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "critical",
+      "impact": "major",
       "shortlink": "https://stspg.io/dmbl6z97983p",
       "started_at": "2023-02-23T12:22:08.245-08:00",
       "page_id": "jbxzcdv9xc4d",
