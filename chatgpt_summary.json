@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-03-01T12:44:44.046-08:00"
+    "updated_at": "2023-03-01T14:59:30.107-08:00"
   },
   "components": [
     {
@@ -68,100 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "55sczvtl6hyj",
-      "name": "Outage on Moderations API, impacting latency on DALL·E and Labs",
-      "status": "monitoring",
-      "created_at": "2023-03-01T11:45:55.934-08:00",
-      "updated_at": "2023-03-01T12:44:44.043-08:00",
-      "monitoring_at": "2023-03-01T12:44:44.025-08:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/sllw6cjs0y24",
-      "started_at": "2023-03-01T11:45:55.929-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "p9z06sc5xh38",
-          "status": "monitoring",
-          "body": "Mitigations have been put in place for the Moderations API and latency is returning to expected levels. We will continue to monitor API traffic to ensure this issue has been resolved.",
-          "incident_id": "55sczvtl6hyj",
-          "created_at": "2023-03-01T12:44:44.025-08:00",
-          "updated_at": "2023-03-01T12:44:44.025-08:00",
-          "display_at": "2023-03-01T12:44:44.025-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "nmrs983bppz7",
-          "status": "investigating",
-          "body": "We are continuing to work on mitigations to the Moderations API. As a result of this issue DALL·E and Labs are experiencing increased latencies.",
-          "incident_id": "55sczvtl6hyj",
-          "created_at": "2023-03-01T12:31:53.929-08:00",
-          "updated_at": "2023-03-01T12:31:53.929-08:00",
-          "display_at": "2023-03-01T12:31:53.929-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b16n5rkfzpzq",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "55sczvtl6hyj",
-          "created_at": "2023-03-01T11:45:56.007-08:00",
-          "updated_at": "2023-03-01T11:45:56.007-08:00",
-          "display_at": "2023-03-01T11:45:56.007-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2023-03-01T12:44:43.990-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
