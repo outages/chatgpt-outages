@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-03-07T05:08:02.536-08:00"
+    "updated_at": "2023-03-08T09:50:44.403-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "chat.openai.com",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-02-27T10:21:41.823-08:00",
+      "updated_at": "2023-03-08T09:50:44.360-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -68,10 +68,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "xz0g27bjwpgd",
+      "name": "Missing conversation history in ChatGPT",
+      "status": "identified",
+      "created_at": "2023-03-08T09:50:44.332-08:00",
+      "updated_at": "2023-03-08T09:50:44.401-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/q65p26b27z14",
+      "started_at": "2023-03-08T09:50:44.327-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "q542qfczwhvy",
+          "status": "identified",
+          "body": "Many users are reporting issues viewing their conversation history. No data has been lost and we are working to fully restore this feature as soon as possible.",
+          "incident_id": "xz0g27bjwpgd",
+          "created_at": "2023-03-08T09:50:44.398-08:00",
+          "updated_at": "2023-03-08T09:50:44.398-08:00",
+          "display_at": "2023-03-08T09:50:44.398-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "chat.openai.com",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tbwycthtqm69",
+          "name": "chat.openai.com",
+          "status": "degraded_performance",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2023-03-08T09:50:44.360-08:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
