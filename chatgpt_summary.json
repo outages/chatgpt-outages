@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-03-20T12:54:30.452-07:00"
+    "updated_at": "2023-03-20T13:16:13.222-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "chat.openai.com",
-      "status": "major_outage",
+      "status": "degraded_performance",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-03-20T09:41:47.316-07:00",
+      "updated_at": "2023-03-20T13:12:34.434-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -74,7 +74,7 @@
       "name": "Labs is having an outage",
       "status": "monitoring",
       "created_at": "2023-03-20T10:14:08.695-07:00",
-      "updated_at": "2023-03-20T12:54:30.449-07:00",
+      "updated_at": "2023-03-20T13:16:13.213-07:00",
       "monitoring_at": "2023-03-20T12:54:30.433-07:00",
       "resolved_at": null,
       "impact": "critical",
@@ -82,6 +82,26 @@
       "started_at": "2023-03-20T10:14:08.690-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "4kjzt4dfhtyq",
+          "status": "monitoring",
+          "body": "We are allowing some free Labs traffic while we investigate an issue with end to end request latency causing a backlog of requests to be processed.",
+          "incident_id": "4cckbrhr8hr0",
+          "created_at": "2023-03-20T13:16:13.210-07:00",
+          "updated_at": "2023-03-20T13:16:13.210-07:00",
+          "display_at": "2023-03-20T13:16:13.210-07:00",
+          "affected_components": [
+            {
+              "code": "csm9vdtjbsf0",
+              "name": "labs.openai.com",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nf8kwdzq6f8d",
           "status": "monitoring",
@@ -204,16 +224,36 @@
     {
       "id": "jq9232rcmktd",
       "name": "chat.openai.com is down",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-03-20T09:41:47.283-07:00",
-      "updated_at": "2023-03-20T11:58:21.556-07:00",
-      "monitoring_at": null,
+      "updated_at": "2023-03-20T13:12:34.508-07:00",
+      "monitoring_at": "2023-03-20T13:12:34.491-07:00",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/rsdyj7qrkmkb",
       "started_at": "2023-03-20T09:41:47.278-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "whl7hb462d13",
+          "status": "monitoring",
+          "body": "We are gradually rolling out a fix that users will receive as capacity allows.",
+          "incident_id": "jq9232rcmktd",
+          "created_at": "2023-03-20T13:12:34.491-07:00",
+          "updated_at": "2023-03-20T13:12:34.491-07:00",
+          "display_at": "2023-03-20T13:12:34.491-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "chat.openai.com",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "r02j4qypxtd4",
           "status": "identified",
@@ -279,9 +319,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "chat.openai.com",
-          "status": "major_outage",
+          "status": "degraded_performance",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2023-03-20T09:41:47.316-07:00",
+          "updated_at": "2023-03-20T13:12:34.434-07:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -296,7 +336,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
