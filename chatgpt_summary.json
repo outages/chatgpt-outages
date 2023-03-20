@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-03-19T11:43:24.741-07:00"
+    "updated_at": "2023-03-20T02:18:30.198-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "chat.openai.com",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-03-18T13:34:35.466-07:00",
+      "updated_at": "2023-03-20T02:18:30.109-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -68,10 +68,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "y6cdztrnth60",
+      "name": "Outage on chat.openai.com",
+      "status": "investigating",
+      "created_at": "2023-03-20T02:18:30.078-07:00",
+      "updated_at": "2023-03-20T02:18:30.191-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/wxrhf0r1mtll",
+      "started_at": "2023-03-20T02:18:30.073-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "cj52wyx03cw8",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "y6cdztrnth60",
+          "created_at": "2023-03-20T02:18:30.189-07:00",
+          "updated_at": "2023-03-20T02:18:30.189-07:00",
+          "display_at": "2023-03-20T02:18:30.189-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "chat.openai.com",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tbwycthtqm69",
+          "name": "chat.openai.com",
+          "status": "major_outage",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2023-03-20T02:18:30.109-07:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
