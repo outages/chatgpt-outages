@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-03-20T16:07:16.995-07:00"
+    "updated_at": "2023-03-20T16:17:44.402-07:00"
   },
   "components": [
     {
@@ -71,10 +71,10 @@
   "incidents": [
     {
       "id": "4cckbrhr8hr0",
-      "name": "Labs is having an outage",
+      "name": "DALL·E Web Interface Incident",
       "status": "monitoring",
       "created_at": "2023-03-20T10:14:08.695-07:00",
-      "updated_at": "2023-03-20T16:07:16.986-07:00",
+      "updated_at": "2023-03-20T16:17:44.399-07:00",
       "monitoring_at": "2023-03-20T12:54:30.433-07:00",
       "resolved_at": null,
       "impact": "critical",
@@ -323,10 +323,10 @@
     },
     {
       "id": "jq9232rcmktd",
-      "name": "chat.openai.com is down",
+      "name": "ChatGPT Web Interface Incident",
       "status": "monitoring",
       "created_at": "2023-03-20T09:41:47.283-07:00",
-      "updated_at": "2023-03-20T14:14:22.674-07:00",
+      "updated_at": "2023-03-20T16:10:58.688-07:00",
       "monitoring_at": "2023-03-20T13:12:34.491-07:00",
       "resolved_at": null,
       "impact": "critical",
@@ -334,6 +334,26 @@
       "started_at": "2023-03-20T09:41:47.278-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "r0w9kjjcvc49",
+          "status": "monitoring",
+          "body": "We have a root cause for the loss of conversation history and are actively working to restore it now",
+          "incident_id": "jq9232rcmktd",
+          "created_at": "2023-03-20T16:09:42.582-07:00",
+          "updated_at": "2023-03-20T16:09:42.582-07:00",
+          "display_at": "2023-03-20T16:09:42.582-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "chat.openai.com",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "g98b1vlnkzwb",
           "status": "monitoring",
