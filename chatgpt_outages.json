@@ -1,0 +1,13 @@
+{
+  "page": {
+    "id": "jbxzcdv9xc4d",
+    "name": "OpenAI",
+    "url": "https://status.openai.com",
+    "time_zone": "America/Los_Angeles",
+    "updated_at": "2023-06-12T20:13:03.147-07:00"
+  },
+  "status": {
+    "indicator": "none",
+    "description": "All Systems Operational"
+  }
+}
