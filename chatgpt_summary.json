@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-06-20T21:25:24.290-07:00"
+    "updated_at": "2023-06-20T21:28:51.312-07:00"
   },
   "components": [
     {
@@ -24,10 +24,10 @@
     },
     {
       "id": "tbwycthtqm69",
-      "name": "chat.openai.com",
+      "name": "ChatGPT",
       "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-06-08T15:19:03.043-07:00",
+      "updated_at": "2023-06-20T21:28:44.593-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -39,10 +39,10 @@
     },
     {
       "id": "csm9vdtjbsf0",
-      "name": "labs.openai.com",
+      "name": "Labs",
       "status": "operational",
       "created_at": "2023-02-21T04:15:43.840-08:00",
-      "updated_at": "2023-05-16T12:21:12.504-07:00",
+      "updated_at": "2023-06-20T21:28:51.309-07:00",
       "position": 3,
       "description": "https://labs.openai.com",
       "showcase": true,
@@ -54,10 +54,10 @@
     },
     {
       "id": "p4pvx4j7r7n7",
-      "name": "Playground Site",
+      "name": "Playground",
       "status": "operational",
       "created_at": "2021-04-01T16:01:59.049-07:00",
-      "updated_at": "2023-03-28T13:04:29.232-07:00",
+      "updated_at": "2023-06-20T21:28:30.023-07:00",
       "position": 4,
       "description": "The OpenAI Playground at platform.openai.com",
       "showcase": true,
