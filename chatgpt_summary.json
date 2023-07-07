@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-07-06T20:18:56.449-07:00"
+    "updated_at": "2023-07-06T21:23:49.105-07:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "API",
       "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-07-05T16:28:35.426-07:00",
+      "updated_at": "2023-07-06T21:23:49.043-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -27,7 +27,7 @@
       "name": "ChatGPT",
       "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-06-30T12:20:56.012-07:00",
+      "updated_at": "2023-07-06T21:23:49.056-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -68,7 +68,107 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "k8zt0j662p02",
+      "name": "Elevated error rates affecting gpt-4 and ChatGPT",
+      "status": "monitoring",
+      "created_at": "2023-07-06T21:17:51.621-07:00",
+      "updated_at": "2023-07-06T21:23:49.102-07:00",
+      "monitoring_at": "2023-07-06T21:23:49.086-07:00",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/02q4q7l8fzx2",
+      "started_at": "2023-07-06T21:17:51.616-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "r503m20fjthc",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "k8zt0j662p02",
+          "created_at": "2023-07-06T21:23:49.086-07:00",
+          "updated_at": "2023-07-06T21:23:49.086-07:00",
+          "display_at": "2023-07-06T21:23:49.086-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "947b8fr2q282",
+          "status": "investigating",
+          "body": "There are currently elevated error rates on both ChatGPT and gpt-4. We are currently investigating this issue.",
+          "incident_id": "k8zt0j662p02",
+          "created_at": "2023-07-06T21:17:51.689-07:00",
+          "updated_at": "2023-07-06T21:17:51.689-07:00",
+          "display_at": "2023-07-06T21:17:51.689-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-07-06T21:23:49.043-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "operational",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2023-07-06T21:23:49.056-07:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
