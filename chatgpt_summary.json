@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-07-10T20:20:21.180-07:00"
+    "updated_at": "2023-07-10T20:43:42.992-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-07-10T19:36:50.513-07:00",
+      "updated_at": "2023-07-10T20:40:47.631-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -68,10 +68,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "gx1xm18qrmc3",
+      "name": "Elevated error rate affecting GPT-4",
+      "status": "investigating",
+      "created_at": "2023-07-10T20:40:47.611-07:00",
+      "updated_at": "2023-07-10T20:40:47.659-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/rgs903rx0xnh",
+      "started_at": "2023-07-10T20:40:47.607-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "c7nwczkv1z8l",
+          "status": "investigating",
+          "body": "We are currently investigating this issue",
+          "incident_id": "gx1xm18qrmc3",
+          "created_at": "2023-07-10T20:40:47.657-07:00",
+          "updated_at": "2023-07-10T20:40:47.657-07:00",
+          "display_at": "2023-07-10T20:40:47.657-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "partial_outage",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-07-10T20:40:47.631-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
