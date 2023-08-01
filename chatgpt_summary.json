@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-07-31T22:48:36.018-07:00"
+    "updated_at": "2023-08-01T12:50:19.852-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-07-26T11:56:17.971-07:00",
+      "updated_at": "2023-08-01T12:50:19.814-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -68,10 +68,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "40851s4v3r7y",
+      "name": "Erroneous rate-limit error messages",
+      "status": "investigating",
+      "created_at": "2023-08-01T12:50:19.790-07:00",
+      "updated_at": "2023-08-01T12:50:19.849-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/s8gp4bvf84vs",
+      "started_at": "2023-08-01T12:50:19.785-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "0tszd52vfpf4",
+          "status": "investigating",
+          "body": "We are investigating an issue where some some users are encountering erroneous rate-limiting error messages indicating that their rate limit is 0/min.",
+          "incident_id": "40851s4v3r7y",
+          "created_at": "2023-08-01T12:50:19.847-07:00",
+          "updated_at": "2023-08-01T12:50:19.847-07:00",
+          "display_at": "2023-08-01T12:50:19.847-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-08-01T12:50:19.814-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
