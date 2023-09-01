@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-08-31T21:43:19.885-07:00"
+    "updated_at": "2023-08-31T22:11:44.798-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-08-31T21:36:52.775-07:00",
+      "updated_at": "2023-08-31T22:11:44.748-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -68,63 +68,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "85tj32txyltd",
-      "name": "ChatGPT severely degraded",
-      "status": "identified",
-      "created_at": "2023-08-31T21:36:52.743-07:00",
-      "updated_at": "2023-08-31T21:36:52.822-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/3mvsd1gclyf0",
-      "started_at": "2023-08-31T21:36:52.738-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "qctxqgrsstm1",
-          "status": "identified",
-          "body": "Many unpaid users are experiencing an issue with ChatGPT. We have identified the issue and are working on a fix.",
-          "incident_id": "85tj32txyltd",
-          "created_at": "2023-08-31T21:36:52.819-07:00",
-          "updated_at": "2023-08-31T21:36:52.819-07:00",
-          "display_at": "2023-08-31T21:36:52.819-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "major_outage",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2023-08-31T21:36:52.775-07:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
