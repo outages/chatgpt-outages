@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-08-31T20:43:24.241-07:00"
+    "updated_at": "2023-08-31T21:43:19.885-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-08-31T20:06:40.556-07:00",
+      "updated_at": "2023-08-31T21:37:51.591-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-08-31T09:29:28.192-07:00",
+      "updated_at": "2023-08-31T21:36:52.775-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -70,32 +70,32 @@
   ],
   "incidents": [
     {
-      "id": "qm1mbg1w9b9z",
-      "name": "Elevated errors on GPT-3.5-Turbo and GPT-4 API",
+      "id": "85tj32txyltd",
+      "name": "ChatGPT severely degraded",
       "status": "identified",
-      "created_at": "2023-08-31T20:06:40.532-07:00",
-      "updated_at": "2023-08-31T20:08:52.240-07:00",
+      "created_at": "2023-08-31T21:36:52.743-07:00",
+      "updated_at": "2023-08-31T21:36:52.822-07:00",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/xl3vy333r4vl",
-      "started_at": "2023-08-31T20:06:40.000-07:00",
+      "impact": "critical",
+      "shortlink": "https://stspg.io/3mvsd1gclyf0",
+      "started_at": "2023-08-31T21:36:52.738-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
         {
-          "id": "b2pp384rcddb",
+          "id": "qctxqgrsstm1",
           "status": "identified",
-          "body": "We have identified an issue affecting some customers of the GPT-3.5 Turbo and GPT-4 API.",
-          "incident_id": "qm1mbg1w9b9z",
-          "created_at": "2023-08-31T20:06:40.588-07:00",
-          "updated_at": "2023-08-31T20:08:42.654-07:00",
-          "display_at": "2023-08-31T20:06:40.000-07:00",
+          "body": "Many unpaid users are experiencing an issue with ChatGPT. We have identified the issue and are working on a fix.",
+          "incident_id": "85tj32txyltd",
+          "created_at": "2023-08-31T21:36:52.819-07:00",
+          "updated_at": "2023-08-31T21:36:52.819-07:00",
+          "display_at": "2023-08-31T21:36:52.819-07:00",
           "affected_components": [
             {
-              "code": "scd0s93nldpb",
-              "name": "API",
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
               "old_status": "operational",
-              "new_status": "partial_outage"
+              "new_status": "major_outage"
             }
           ],
           "deliver_notifications": true,
@@ -105,15 +105,15 @@
       ],
       "components": [
         {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "partial_outage",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2023-08-31T20:06:40.556-07:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "major_outage",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2023-08-31T21:36:52.775-07:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
           "showcase": true,
-          "start_date": "2021-02-11",
+          "start_date": "2023-02-14",
           "group_id": null,
           "page_id": "jbxzcdv9xc4d",
           "group": false,
@@ -124,7 +124,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
