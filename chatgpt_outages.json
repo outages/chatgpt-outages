@@ -4,10 +4,10 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-09-07T15:15:11.465-07:00"
+    "updated_at": "2023-09-07T15:26:28.766-07:00"
   },
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
