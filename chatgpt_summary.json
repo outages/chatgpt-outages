@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-09-15T13:18:09.807-07:00"
+    "updated_at": "2023-09-15T13:24:37.510-07:00"
   },
   "components": [
     {
@@ -72,16 +72,36 @@
     {
       "id": "7n8jqsxkzs38",
       "name": "High error rates for sampling requests to fine tuned snapshots (babbage-002, davinci-002, gpt-3.5-turbo)",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-09-15T12:56:43.116-07:00",
-      "updated_at": "2023-09-15T13:18:09.801-07:00",
-      "monitoring_at": null,
+      "updated_at": "2023-09-15T13:24:37.508-07:00",
+      "monitoring_at": "2023-09-15T13:24:37.493-07:00",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/d5j8zvnk0dzr",
       "started_at": "2023-09-15T12:56:43.111-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "qt0yph8wwn2l",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "7n8jqsxkzs38",
+          "created_at": "2023-09-15T13:24:37.493-07:00",
+          "updated_at": "2023-09-15T13:24:37.493-07:00",
+          "display_at": "2023-09-15T13:24:37.493-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "jv1tx6lbmbmr",
           "status": "identified",
