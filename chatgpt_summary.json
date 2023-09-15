@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-09-15T12:56:43.221-07:00"
+    "updated_at": "2023-09-15T13:18:09.807-07:00"
   },
   "components": [
     {
@@ -72,9 +72,9 @@
     {
       "id": "7n8jqsxkzs38",
       "name": "High error rates for sampling requests to fine tuned snapshots (babbage-002, davinci-002, gpt-3.5-turbo)",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2023-09-15T12:56:43.116-07:00",
-      "updated_at": "2023-09-15T12:56:43.217-07:00",
+      "updated_at": "2023-09-15T13:18:09.801-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -82,6 +82,46 @@
       "started_at": "2023-09-15T12:56:43.111-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "jv1tx6lbmbmr",
+          "status": "identified",
+          "body": "Error rates for sampling on babbage-002 fine tunes have normalized. Error rates for davinci-002 fine tunes are dropping. Error rates for gpt-3.5-turbo fine tunes are still elevated.",
+          "incident_id": "7n8jqsxkzs38",
+          "created_at": "2023-09-15T13:18:09.799-07:00",
+          "updated_at": "2023-09-15T13:18:09.799-07:00",
+          "display_at": "2023-09-15T13:18:09.799-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "phmtj0mv3fq0",
+          "status": "identified",
+          "body": "A fix has been implemented and is being rolled out. Babbage-002 traffic is stabilizing.",
+          "incident_id": "7n8jqsxkzs38",
+          "created_at": "2023-09-15T13:09:16.999-07:00",
+          "updated_at": "2023-09-15T13:09:16.999-07:00",
+          "display_at": "2023-09-15T13:09:16.999-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "nymsc1xtgl6d",
           "status": "investigating",
