@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-09-15T12:43:29.331-07:00"
+    "updated_at": "2023-09-15T12:56:43.221-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-09-14T11:23:23.755-07:00",
+      "updated_at": "2023-09-15T12:56:43.150-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -70,14 +70,67 @@
   ],
   "incidents": [
     {
+      "id": "7n8jqsxkzs38",
+      "name": "High error rates for sampling requests to fine tuned snapshots (babbage-002, davinci-002, gpt-3.5-turbo)",
+      "status": "investigating",
+      "created_at": "2023-09-15T12:56:43.116-07:00",
+      "updated_at": "2023-09-15T12:56:43.217-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/d5j8zvnk0dzr",
+      "started_at": "2023-09-15T12:56:43.111-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "nymsc1xtgl6d",
+          "status": "investigating",
+          "body": "Sampling for fine tunes of babbage-002 and davinci-002 have very high error rates. Sampling for fine tunes of gpt-3.5-turbo are elevated.",
+          "incident_id": "7n8jqsxkzs38",
+          "created_at": "2023-09-15T12:56:43.213-07:00",
+          "updated_at": "2023-09-15T12:56:43.213-07:00",
+          "display_at": "2023-09-15T12:56:43.213-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "partial_outage",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-09-15T12:56:43.150-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
       "id": "dsds2vdmgnnw",
       "name": "Elevated error rates across multiple models (text, image, and audio) and fine-tuning",
       "status": "investigating",
       "created_at": "2023-09-15T12:34:27.873-07:00",
-      "updated_at": "2023-09-15T12:43:14.301-07:00",
+      "updated_at": "2023-09-15T12:56:43.171-07:00",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "major",
       "shortlink": "https://stspg.io/wgq1swpy3kmr",
       "started_at": "2023-09-15T12:34:27.868-07:00",
       "page_id": "jbxzcdv9xc4d",
@@ -107,9 +160,9 @@
         {
           "id": "scd0s93nldpb",
           "name": "API",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2023-09-14T11:23:23.755-07:00",
+          "updated_at": "2023-09-15T12:56:43.150-07:00",
           "position": 1,
           "description": "All OpenAI API services at api.openai.com",
           "showcase": true,
@@ -125,7 +178,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
