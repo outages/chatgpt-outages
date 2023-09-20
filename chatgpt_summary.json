@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-09-20T11:26:09.531-07:00"
+    "updated_at": "2023-09-20T15:43:30.397-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-09-15T16:25:38.459-07:00",
+      "updated_at": "2023-09-20T15:43:30.362-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -68,10 +68,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "rt6cxft629h0",
+      "name": "Elevated error rates for sampling requests for fine-tunes of davinci-002 and babbage-002",
+      "status": "identified",
+      "created_at": "2023-09-20T15:43:30.342-07:00",
+      "updated_at": "2023-09-20T15:43:30.395-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/5gz63k8614nd",
+      "started_at": "2023-09-20T15:43:30.337-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "325qd3hhx0s9",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "rt6cxft629h0",
+          "created_at": "2023-09-20T15:43:30.393-07:00",
+          "updated_at": "2023-09-20T15:43:30.393-07:00",
+          "display_at": "2023-09-20T15:43:30.393-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-09-20T15:43:30.362-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
