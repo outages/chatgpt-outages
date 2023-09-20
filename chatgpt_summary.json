@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-09-19T20:45:41.018-07:00"
+    "updated_at": "2023-09-20T09:51:15.243-07:00"
   },
   "components": [
     {
@@ -68,7 +68,82 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "70cbfl5cqxbj",
+      "name": "Moderation API returning incorrect scores",
+      "status": "investigating",
+      "created_at": "2023-09-20T09:51:15.192-07:00",
+      "updated_at": "2023-09-20T09:51:15.240-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/53s0xrjx07fb",
+      "started_at": "2023-09-20T09:51:15.184-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "zdm63903f107",
+          "status": "investigating",
+          "body": "As of September 19th around 3pm, the Moderation API is returning incorrect scores. We are currently investigating.",
+          "incident_id": "70cbfl5cqxbj",
+          "created_at": "2023-09-20T09:51:15.237-07:00",
+          "updated_at": "2023-09-20T09:51:15.237-07:00",
+          "display_at": "2023-09-20T09:51:15.237-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-09-15T16:25:38.459-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "operational",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2023-09-13T14:58:40.402-07:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
