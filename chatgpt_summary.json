@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-09-26T15:43:31.113-07:00"
+    "updated_at": "2023-09-26T15:49:08.594-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-09-26T15:10:32.214-07:00",
+      "updated_at": "2023-09-26T15:49:08.530-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -40,9 +40,9 @@
     {
       "id": "csm9vdtjbsf0",
       "name": "Labs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-21T04:15:43.840-08:00",
-      "updated_at": "2023-09-26T15:10:32.229-07:00",
+      "updated_at": "2023-09-26T15:49:08.543-07:00",
       "position": 3,
       "description": "https://labs.openai.com",
       "showcase": true,
@@ -68,163 +68,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "b6tkh7zdsgwc",
-      "name": "High error rates on DALLE API and Labs generations",
-      "status": "monitoring",
-      "created_at": "2023-09-26T15:10:32.176-07:00",
-      "updated_at": "2023-09-26T15:42:30.944-07:00",
-      "monitoring_at": "2023-09-26T15:42:30.928-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/j75rrsj4n5d0",
-      "started_at": "2023-09-26T15:10:32.169-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "nl5xkf8mryxk",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "b6tkh7zdsgwc",
-          "created_at": "2023-09-26T15:42:30.928-07:00",
-          "updated_at": "2023-09-26T15:42:30.928-07:00",
-          "display_at": "2023-09-26T15:42:30.928-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "csm9vdtjbsf0",
-              "name": "Labs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rz43gp989snt",
-          "status": "identified",
-          "body": "The fix has been implemented and we are continuing to monitor the situation.",
-          "incident_id": "b6tkh7zdsgwc",
-          "created_at": "2023-09-26T15:39:28.927-07:00",
-          "updated_at": "2023-09-26T15:39:28.927-07:00",
-          "display_at": "2023-09-26T15:39:28.927-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "csm9vdtjbsf0",
-              "name": "Labs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ybgw0hh7vmlz",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "b6tkh7zdsgwc",
-          "created_at": "2023-09-26T15:21:35.807-07:00",
-          "updated_at": "2023-09-26T15:21:35.807-07:00",
-          "display_at": "2023-09-26T15:21:35.807-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "csm9vdtjbsf0",
-              "name": "Labs",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xfrlkljgt2f3",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "b6tkh7zdsgwc",
-          "created_at": "2023-09-26T15:10:32.281-07:00",
-          "updated_at": "2023-09-26T15:10:32.281-07:00",
-          "display_at": "2023-09-26T15:10:32.281-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "csm9vdtjbsf0",
-              "name": "Labs",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2023-09-26T15:10:32.214-07:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "csm9vdtjbsf0",
-          "name": "Labs",
-          "status": "degraded_performance",
-          "created_at": "2023-02-21T04:15:43.840-08:00",
-          "updated_at": "2023-09-26T15:10:32.229-07:00",
-          "position": 3,
-          "description": "https://labs.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-21",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
