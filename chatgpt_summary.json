@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-10-10T20:51:38.863-07:00"
+    "updated_at": "2023-10-11T09:59:24.429-07:00"
   },
   "components": [
     {
@@ -68,7 +68,81 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "4391qn7gqfb1",
+      "name": "Fine-tuning jobs backed up",
+      "status": "identified",
+      "created_at": "2023-10-11T09:54:40.440-07:00",
+      "updated_at": "2023-10-11T09:59:24.423-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/q67pfrsqbsbn",
+      "started_at": "2023-10-11T09:54:40.434-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "4dsrdvk7pph1",
+          "status": "identified",
+          "body": "The issue has been identified and jobs are now being processed again, it will take time for the queue to empty",
+          "incident_id": "4391qn7gqfb1",
+          "created_at": "2023-10-11T09:59:24.421-07:00",
+          "updated_at": "2023-10-11T09:59:24.421-07:00",
+          "display_at": "2023-10-11T09:59:24.421-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "w0w1zdc696pt",
+          "status": "investigating",
+          "body": "Approximately 5% of fine-tuning jobs have been stuck in a queued state, we are investigating",
+          "incident_id": "4391qn7gqfb1",
+          "created_at": "2023-10-11T09:54:40.484-07:00",
+          "updated_at": "2023-10-11T09:54:40.484-07:00",
+          "display_at": "2023-10-11T09:54:40.484-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-09-28T18:45:31.027-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
