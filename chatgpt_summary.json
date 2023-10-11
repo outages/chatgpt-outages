@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-10-11T10:43:43.616-07:00"
+    "updated_at": "2023-10-11T11:29:35.961-07:00"
   },
   "components": [
     {
@@ -72,16 +72,36 @@
     {
       "id": "4391qn7gqfb1",
       "name": "Fine-tuning jobs backed up",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2023-10-11T09:54:40.440-07:00",
-      "updated_at": "2023-10-11T09:59:24.423-07:00",
-      "monitoring_at": null,
+      "updated_at": "2023-10-11T11:29:35.958-07:00",
+      "monitoring_at": "2023-10-11T11:29:35.944-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/q67pfrsqbsbn",
       "started_at": "2023-10-11T09:54:40.434-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "5673c31d68v1",
+          "status": "monitoring",
+          "body": "The backlog of fine tuning jobs is steadily decreasing, we will continue to monitor the service for further disruptions. Expect an increased delay in the time it takes for a submitted job to begin running for the next few hours until the backlog settles.",
+          "incident_id": "4391qn7gqfb1",
+          "created_at": "2023-10-11T11:29:35.944-07:00",
+          "updated_at": "2023-10-11T11:29:35.944-07:00",
+          "display_at": "2023-10-11T11:29:35.944-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "4dsrdvk7pph1",
           "status": "identified",
