@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-10-15T20:52:13.865-07:00"
+    "updated_at": "2023-10-16T10:07:03.688-07:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "API",
       "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-10-13T01:36:04.906-07:00",
+      "updated_at": "2023-10-16T10:07:03.651-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
