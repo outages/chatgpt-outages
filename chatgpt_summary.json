@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-10-19T18:19:09.984-07:00"
+    "updated_at": "2023-10-19T19:27:42.366-07:00"
   },
   "components": [
     {
@@ -74,7 +74,7 @@
       "name": "Elevated API Errors",
       "status": "identified",
       "created_at": "2023-10-19T16:51:04.422-07:00",
-      "updated_at": "2023-10-19T18:19:09.977-07:00",
+      "updated_at": "2023-10-19T19:27:42.357-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -82,6 +82,26 @@
       "started_at": "2023-10-19T16:51:04.417-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "mfc0j73r3lwx",
+          "status": "identified",
+          "body": "The underlying issue affecting a subset of our API customers (and ChatGPT by extension) is with an upstream part of our API authentication stack. We're simultaneously scaling up the underlying cache resource we found to be near capacity, and working on an alternate system that does not use the cache. We will keep you posted as soon as we have an update, and are sorry for the trouble this is causing you.",
+          "incident_id": "fk0tcbydtybr",
+          "created_at": "2023-10-19T19:27:42.355-07:00",
+          "updated_at": "2023-10-19T19:27:42.355-07:00",
+          "display_at": "2023-10-19T19:27:42.355-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bxj6jwy5z6z3",
           "status": "identified",
