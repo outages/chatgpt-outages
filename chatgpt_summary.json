@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-10-18T20:52:42.301-07:00"
+    "updated_at": "2023-10-19T17:12:15.510-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-10-16T10:07:03.651-07:00",
+      "updated_at": "2023-10-19T17:06:49.146-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -68,10 +68,104 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "fk0tcbydtybr",
+      "name": "Elevated API Errors",
+      "status": "identified",
+      "created_at": "2023-10-19T16:51:04.422-07:00",
+      "updated_at": "2023-10-19T17:12:15.502-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/pgln1tkp249j",
+      "started_at": "2023-10-19T16:51:04.417-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "10csfnlv55fd",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented now.",
+          "incident_id": "fk0tcbydtybr",
+          "created_at": "2023-10-19T17:12:15.500-07:00",
+          "updated_at": "2023-10-19T17:12:15.500-07:00",
+          "display_at": "2023-10-19T17:12:15.500-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jjw4q1hn2328",
+          "status": "investigating",
+          "body": "ChatGPT for a subset of users is also impacted by this outage, we are continuing to investigate.",
+          "incident_id": "fk0tcbydtybr",
+          "created_at": "2023-10-19T17:06:49.183-07:00",
+          "updated_at": "2023-10-19T17:06:49.183-07:00",
+          "display_at": "2023-10-19T17:06:49.183-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6z5chn625wr4",
+          "status": "investigating",
+          "body": "We're experiencing an elevated level of API errors and are currently looking into the issue.",
+          "incident_id": "fk0tcbydtybr",
+          "created_at": "2023-10-19T16:51:04.479-07:00",
+          "updated_at": "2023-10-19T16:51:04.479-07:00",
+          "display_at": "2023-10-19T16:51:04.479-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "partial_outage",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-10-19T17:06:49.146-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
