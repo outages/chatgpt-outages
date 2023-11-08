@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-11-07T19:52:52.363-08:00"
+    "updated_at": "2023-11-07T20:47:11.278-08:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-11-07T19:52:52.256-08:00",
+      "updated_at": "2023-11-07T20:47:11.188-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-11-07T19:52:52.272-08:00",
+      "updated_at": "2023-11-07T20:47:11.202-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -40,9 +40,9 @@
     {
       "id": "csm9vdtjbsf0",
       "name": "Labs",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2023-02-21T04:15:43.840-08:00",
-      "updated_at": "2023-11-07T19:52:52.288-08:00",
+      "updated_at": "2023-11-07T20:47:11.215-08:00",
       "position": 3,
       "description": "https://labs.openai.com",
       "showcase": true,
@@ -55,9 +55,9 @@
     {
       "id": "p4pvx4j7r7n7",
       "name": "Playground",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2021-04-01T16:01:59.049-07:00",
-      "updated_at": "2023-11-07T19:52:52.304-08:00",
+      "updated_at": "2023-11-07T20:47:11.228-08:00",
       "position": 4,
       "description": "The OpenAI Playground at platform.openai.com",
       "showcase": true,
@@ -72,16 +72,92 @@
     {
       "id": "462433f2fk2j",
       "name": "Partial outage across ChatGPT and the API",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2023-11-07T19:52:52.209-08:00",
-      "updated_at": "2023-11-07T19:52:52.359-08:00",
-      "monitoring_at": null,
+      "updated_at": "2023-11-07T20:47:11.276-08:00",
+      "monitoring_at": "2023-11-07T20:47:11.260-08:00",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/1lrh83ph6d5n",
       "started_at": "2023-11-07T19:52:52.201-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "21ldcr31cr4w",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we're seeing services back to normal, but we are still monitoring to ensure we're fully restored.",
+          "incident_id": "462433f2fk2j",
+          "created_at": "2023-11-07T20:47:11.260-08:00",
+          "updated_at": "2023-11-07T20:47:11.260-08:00",
+          "display_at": "2023-11-07T20:47:11.260-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "p4pvx4j7r7n7",
+              "name": "Playground",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "csm9vdtjbsf0",
+              "name": "Labs",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jn8plwq937fd",
+          "status": "investigating",
+          "body": "API and ChatGPT continue to have periodic outages – we have implemented a couple mitigations but are still investigating the issue.",
+          "incident_id": "462433f2fk2j",
+          "created_at": "2023-11-07T20:33:25.500-08:00",
+          "updated_at": "2023-11-07T20:33:25.500-08:00",
+          "display_at": "2023-11-07T20:33:25.500-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "p4pvx4j7r7n7",
+              "name": "Playground",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "csm9vdtjbsf0",
+              "name": "Labs",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "25csw0pf47p9",
           "status": "investigating",
@@ -125,9 +201,9 @@
         {
           "id": "scd0s93nldpb",
           "name": "API",
-          "status": "partial_outage",
+          "status": "degraded_performance",
           "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2023-11-07T19:52:52.256-08:00",
+          "updated_at": "2023-11-07T20:47:11.188-08:00",
           "position": 1,
           "description": "All OpenAI API services at api.openai.com",
           "showcase": true,
@@ -140,9 +216,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "partial_outage",
+          "status": "degraded_performance",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2023-11-07T19:52:52.272-08:00",
+          "updated_at": "2023-11-07T20:47:11.202-08:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -155,9 +231,9 @@
         {
           "id": "csm9vdtjbsf0",
           "name": "Labs",
-          "status": "partial_outage",
+          "status": "degraded_performance",
           "created_at": "2023-02-21T04:15:43.840-08:00",
-          "updated_at": "2023-11-07T19:52:52.288-08:00",
+          "updated_at": "2023-11-07T20:47:11.215-08:00",
           "position": 3,
           "description": "https://labs.openai.com",
           "showcase": true,
@@ -170,9 +246,9 @@
         {
           "id": "p4pvx4j7r7n7",
           "name": "Playground",
-          "status": "partial_outage",
+          "status": "degraded_performance",
           "created_at": "2021-04-01T16:01:59.049-07:00",
-          "updated_at": "2023-11-07T19:52:52.304-08:00",
+          "updated_at": "2023-11-07T20:47:11.228-08:00",
           "position": 4,
           "description": "The OpenAI Playground at platform.openai.com",
           "showcase": true,
@@ -188,7 +264,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
