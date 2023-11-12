@@ -4,10 +4,10 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-11-11T22:15:17.767-08:00"
+    "updated_at": "2023-11-11T22:44:54.667-08:00"
   },
   "status": {
-    "indicator": "critical",
-    "description": "Major System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
