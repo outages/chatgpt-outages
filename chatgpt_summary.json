@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-11-15T21:02:11.566-08:00"
+    "updated_at": "2023-11-16T07:58:53.815-08:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2023-11-15T12:49:27.298-08:00",
+      "updated_at": "2023-11-16T07:58:53.761-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -40,9 +40,9 @@
     {
       "id": "csm9vdtjbsf0",
       "name": "Labs",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2023-02-21T04:15:43.840-08:00",
-      "updated_at": "2023-11-15T07:05:03.015-08:00",
+      "updated_at": "2023-11-16T07:58:53.774-08:00",
       "position": 3,
       "description": "https://labs.openai.com",
       "showcase": true,
@@ -68,10 +68,85 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "cmf2z1kq9b35",
+      "name": "Elevated DALLE API Errors",
+      "status": "investigating",
+      "created_at": "2023-11-16T07:58:53.732-08:00",
+      "updated_at": "2023-11-16T07:58:53.813-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/m5gsq9pyrbk8",
+      "started_at": "2023-11-16T07:58:53.727-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "52g2lk8gq8gm",
+          "status": "investigating",
+          "body": "We're experiencing an elevated level of DALLE API and Labs errors and are currently looking into the issue.",
+          "incident_id": "cmf2z1kq9b35",
+          "created_at": "2023-11-16T07:58:53.810-08:00",
+          "updated_at": "2023-11-16T07:58:53.810-08:00",
+          "display_at": "2023-11-16T07:58:53.810-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "csm9vdtjbsf0",
+              "name": "Labs",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "partial_outage",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-11-16T07:58:53.761-08:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "csm9vdtjbsf0",
+          "name": "Labs",
+          "status": "partial_outage",
+          "created_at": "2023-02-21T04:15:43.840-08:00",
+          "updated_at": "2023-11-16T07:58:53.774-08:00",
+          "position": 3,
+          "description": "https://labs.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-21",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
