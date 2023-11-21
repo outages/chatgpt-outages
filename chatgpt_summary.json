@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-11-21T14:43:33.772-08:00"
+    "updated_at": "2023-11-21T15:29:52.171-08:00"
   },
   "components": [
     {
@@ -74,7 +74,7 @@
       "name": "Elevated Errors on API and ChatGPT",
       "status": "identified",
       "created_at": "2023-11-21T14:09:04.823-08:00",
-      "updated_at": "2023-11-21T14:14:09.950-08:00",
+      "updated_at": "2023-11-21T15:29:52.164-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -82,6 +82,32 @@
       "started_at": "2023-11-21T14:09:04.815-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "7frw2v217xtk",
+          "status": "identified",
+          "body": "We're continuing to work on a fix. The underlying issue is due to an issue with our database replicas. ChatGPT and non-completion API endpoints are partially impacted, while completion API endpoints including chat completions are only minimally impacted. We will post as we have more updates.",
+          "incident_id": "n254wyd7nml7",
+          "created_at": "2023-11-21T15:29:52.162-08:00",
+          "updated_at": "2023-11-21T15:29:52.162-08:00",
+          "display_at": "2023-11-21T15:29:52.162-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zmvynd6d20t7",
           "status": "identified",
