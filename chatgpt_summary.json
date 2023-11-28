@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-11-28T05:01:22.644-08:00"
+    "updated_at": "2023-11-28T05:27:37.121-08:00"
   },
   "components": [
     {
@@ -72,9 +72,9 @@
     {
       "id": "xzsbnxzpw1j2",
       "name": "Increased errors during streaming Chat Completions",
-      "status": "monitoring",
+      "status": "identified",
       "created_at": "2023-11-28T05:00:01.871-08:00",
-      "updated_at": "2023-11-28T05:01:22.640-08:00",
+      "updated_at": "2023-11-28T05:27:37.112-08:00",
       "monitoring_at": "2023-11-28T05:00:01.911-08:00",
       "resolved_at": null,
       "impact": "major",
@@ -82,6 +82,26 @@
       "started_at": "2023-11-28T05:00:01.863-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "zzpbhjffbz1x",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "xzsbnxzpw1j2",
+          "created_at": "2023-11-28T05:27:37.110-08:00",
+          "updated_at": "2023-11-28T05:27:37.110-08:00",
+          "display_at": "2023-11-28T05:27:37.110-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wnnckptfn68j",
           "status": "monitoring",
