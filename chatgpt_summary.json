@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-12-01T10:43:27.519-08:00"
+    "updated_at": "2023-12-01T13:50:28.670-08:00"
   },
   "components": [
     {
@@ -68,61 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "13hqyjbvmf4l",
-      "name": "Issue with API credits",
-      "status": "investigating",
-      "created_at": "2023-12-01T09:52:43.731-08:00",
-      "updated_at": "2023-12-01T09:52:43.785-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/8swdwlk28h05",
-      "started_at": "2023-12-01T09:52:43.723-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "yl647z666g56",
-          "status": "investigating",
-          "body": "We are currently investigating an issue where newly purchased API credits are not immediately applying.",
-          "incident_id": "13hqyjbvmf4l",
-          "created_at": "2023-12-01T09:52:43.782-08:00",
-          "updated_at": "2023-12-01T09:52:43.782-08:00",
-          "display_at": "2023-12-01T09:52:43.782-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2023-11-23T06:37:41.776-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
