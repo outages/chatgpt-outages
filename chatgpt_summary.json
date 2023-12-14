@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-12-13T17:52:48.105-08:00"
+    "updated_at": "2023-12-13T18:29:35.303-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2023-12-13T17:52:48.061-08:00",
+      "updated_at": "2023-12-13T18:29:35.271-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -72,16 +72,56 @@
     {
       "id": "myrbs3mvcxn1",
       "name": "Major outage on ChatGPT on web",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2023-12-13T17:52:48.032-08:00",
-      "updated_at": "2023-12-13T17:52:48.102-08:00",
-      "monitoring_at": null,
+      "updated_at": "2023-12-13T18:29:35.296-08:00",
+      "monitoring_at": "2023-12-13T18:24:40.906-08:00",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/6lv96mpfbyjw",
       "started_at": "2023-12-13T17:52:48.027-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "h7x4gjtnrvz8",
+          "status": "monitoring",
+          "body": "We are continuing to monitor for any further issues.",
+          "incident_id": "myrbs3mvcxn1",
+          "created_at": "2023-12-13T18:29:35.294-08:00",
+          "updated_at": "2023-12-13T18:29:35.294-08:00",
+          "display_at": "2023-12-13T18:29:35.294-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "481g9lx35hsw",
+          "status": "monitoring",
+          "body": "We have identified and addressed the source of the problem and are monitoring.",
+          "incident_id": "myrbs3mvcxn1",
+          "created_at": "2023-12-13T18:24:40.906-08:00",
+          "updated_at": "2023-12-13T18:24:40.906-08:00",
+          "display_at": "2023-12-13T18:24:40.906-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "major_outage",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "7wgzl3qg7gvb",
           "status": "investigating",
@@ -107,9 +147,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "major_outage",
+          "status": "operational",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2023-12-13T17:52:48.061-08:00",
+          "updated_at": "2023-12-13T18:29:35.271-08:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -125,7 +165,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
