@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-12-14T10:38:35.255-08:00"
+    "updated_at": "2023-12-14T11:27:09.937-08:00"
   },
   "components": [
     {
@@ -68,7 +68,61 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "v51l19tgy6pd",
+      "name": "Elevated API Errors",
+      "status": "investigating",
+      "created_at": "2023-12-14T11:27:09.881-08:00",
+      "updated_at": "2023-12-14T11:27:09.934-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/q19slvdfxy0f",
+      "started_at": "2023-12-14T11:27:09.873-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "fw2jvdwpgl9v",
+          "status": "investigating",
+          "body": "We're experiencing an elevated level of API errors and are currently looking into the issue.",
+          "incident_id": "v51l19tgy6pd",
+          "created_at": "2023-12-14T11:27:09.931-08:00",
+          "updated_at": "2023-12-14T11:27:09.931-08:00",
+          "display_at": "2023-12-14T11:27:09.931-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2023-11-23T06:37:41.776-08:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
