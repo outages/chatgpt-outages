@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-01-17T09:43:42.506-08:00"
+    "updated_at": "2024-01-17T09:47:48.861-08:00"
   },
   "components": [
     {
@@ -68,61 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "g3k6lsj173gz",
-      "name": "Elevated error rate on text-embedding-ada-002",
-      "status": "investigating",
-      "created_at": "2024-01-17T09:06:47.518-08:00",
-      "updated_at": "2024-01-17T09:06:47.565-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/206v1xw4n0ry",
-      "started_at": "2024-01-17T09:06:47.513-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "zkwgq5zyt2pw",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "g3k6lsj173gz",
-          "created_at": "2024-01-17T09:06:47.562-08:00",
-          "updated_at": "2024-01-17T09:06:47.562-08:00",
-          "display_at": "2024-01-17T09:06:47.562-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-01-08T12:37:15.259-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
