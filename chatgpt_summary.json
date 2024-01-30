@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-01-29T14:58:25.894-08:00"
+    "updated_at": "2024-01-29T16:38:11.143-08:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-01-08T12:37:15.259-08:00",
+      "updated_at": "2024-01-29T16:29:44.851-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-01-29T14:56:07.200-08:00",
+      "updated_at": "2024-01-29T16:30:43.996-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -68,10 +68,151 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "n38dwwksfkv9",
+      "name": "Elevated errors affecting API",
+      "status": "monitoring",
+      "created_at": "2024-01-29T16:26:23.325-08:00",
+      "updated_at": "2024-01-29T16:37:12.081-08:00",
+      "monitoring_at": "2024-01-29T16:37:12.063-08:00",
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/h51nzr7kt9q5",
+      "started_at": "2024-01-29T16:26:23.321-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "rnlz0xf0ms30",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "n38dwwksfkv9",
+          "created_at": "2024-01-29T16:37:12.063-08:00",
+          "updated_at": "2024-01-29T16:37:12.063-08:00",
+          "display_at": "2024-01-29T16:37:12.063-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "sc8xj7x6n2ts",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "n38dwwksfkv9",
+          "created_at": "2024-01-29T16:30:44.028-08:00",
+          "updated_at": "2024-01-29T16:30:44.028-08:00",
+          "display_at": "2024-01-29T16:30:44.028-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gm0tc09q6flm",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "n38dwwksfkv9",
+          "created_at": "2024-01-29T16:29:44.906-08:00",
+          "updated_at": "2024-01-29T16:29:44.906-08:00",
+          "display_at": "2024-01-29T16:29:44.906-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "dbj2yxrf39hw",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "n38dwwksfkv9",
+          "created_at": "2024-01-29T16:26:23.390-08:00",
+          "updated_at": "2024-01-29T16:26:23.390-08:00",
+          "display_at": "2024-01-29T16:26:23.390-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "major_outage",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2024-01-29T16:29:44.851-08:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "major_outage",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2024-01-29T16:30:43.996-08:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
