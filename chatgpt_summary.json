@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-02-12T09:43:46.821-08:00"
+    "updated_at": "2024-02-12T10:19:46.074-08:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-02-12T09:19:45.090-08:00",
+      "updated_at": "2024-02-12T10:19:45.941-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-02-12T09:19:45.105-08:00",
+      "updated_at": "2024-02-12T10:19:45.994-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -72,16 +72,68 @@
     {
       "id": "shqybftjc7mc",
       "name": "Elevated errors on GPT-4V for ChatGPT and API",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-02-12T09:19:31.456-08:00",
-      "updated_at": "2024-02-12T09:19:45.150-08:00",
-      "monitoring_at": null,
+      "updated_at": "2024-02-12T10:19:46.067-08:00",
+      "monitoring_at": "2024-02-12T10:19:30.464-08:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/cpq6c218k43l",
       "started_at": "2024-02-12T09:19:31.450-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "6bqbz48n43lm",
+          "status": "monitoring",
+          "body": "We are continuing to monitor for any further issues.",
+          "incident_id": "shqybftjc7mc",
+          "created_at": "2024-02-12T10:19:46.066-08:00",
+          "updated_at": "2024-02-12T10:19:46.066-08:00",
+          "display_at": "2024-02-12T10:19:46.066-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "ryhc9vycdc91",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "shqybftjc7mc",
+          "created_at": "2024-02-12T10:19:30.464-08:00",
+          "updated_at": "2024-02-12T10:19:30.464-08:00",
+          "display_at": "2024-02-12T10:19:30.464-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xrqzls9bq5xw",
           "status": "identified",
@@ -139,9 +191,9 @@
         {
           "id": "scd0s93nldpb",
           "name": "API",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-02-12T09:19:45.090-08:00",
+          "updated_at": "2024-02-12T10:19:45.941-08:00",
           "position": 1,
           "description": "All OpenAI API services at api.openai.com",
           "showcase": true,
@@ -154,9 +206,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-02-12T09:19:45.105-08:00",
+          "updated_at": "2024-02-12T10:19:45.994-08:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -172,7 +224,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
