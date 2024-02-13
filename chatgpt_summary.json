@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-02-13T13:46:35.203-08:00"
+    "updated_at": "2024-02-13T15:38:47.126-08:00"
   },
   "components": [
     {
@@ -69,120 +69,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "mswp9vt22gm2",
-      "name": "Elevated errors across multiple API endpoints and ChatGPT",
-      "status": "monitoring",
-      "created_at": "2024-02-13T12:11:38.309-08:00",
-      "updated_at": "2024-02-13T13:46:35.201-08:00",
-      "monitoring_at": "2024-02-13T13:46:35.189-08:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/c5y8kly3mfkr",
-      "started_at": "2024-02-13T12:11:38.304-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "fbv1615kt1xy",
-          "status": "monitoring",
-          "body": "A fix has been implemented, and we are monitoring the results.",
-          "incident_id": "mswp9vt22gm2",
-          "created_at": "2024-02-13T13:46:35.189-08:00",
-          "updated_at": "2024-02-13T13:46:35.189-08:00",
-          "display_at": "2024-02-13T13:46:35.189-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q6tfh810s7kn",
-          "status": "identified",
-          "body": "We have identified this issue and a fix is being implemented.",
-          "incident_id": "mswp9vt22gm2",
-          "created_at": "2024-02-13T12:38:32.028-08:00",
-          "updated_at": "2024-02-13T12:38:32.028-08:00",
-          "display_at": "2024-02-13T12:38:32.028-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cddt57fpcgy1",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "mswp9vt22gm2",
-          "created_at": "2024-02-13T12:11:38.348-08:00",
-          "updated_at": "2024-02-13T12:11:38.348-08:00",
-          "display_at": "2024-02-13T12:11:38.348-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-02-13T13:46:35.158-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "operational",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-02-13T13:46:35.168-08:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
     {
       "id": "70p519qgngrw",
       "name": "Elevated errors on GPT-4V for ChatGPT and API",
