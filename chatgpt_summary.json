@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-04T13:13:49.670-08:00"
+    "updated_at": "2024-03-04T14:29:47.230-08:00"
   },
   "components": [
     {
@@ -68,81 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "4xc1wqft73w8",
-      "name": "Elevated rate of request timeouts in Assistants API",
-      "status": "monitoring",
-      "created_at": "2024-03-04T09:54:36.343-08:00",
-      "updated_at": "2024-03-04T13:13:49.667-08:00",
-      "monitoring_at": "2024-03-04T13:13:49.650-08:00",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/p2c81yqnc0x0",
-      "started_at": "2024-03-04T09:54:36.338-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "sbsv1shq4v7c",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "4xc1wqft73w8",
-          "created_at": "2024-03-04T13:13:49.650-08:00",
-          "updated_at": "2024-03-04T13:13:49.650-08:00",
-          "display_at": "2024-03-04T13:13:49.650-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bbqg59mjvnpg",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "4xc1wqft73w8",
-          "created_at": "2024-03-04T09:54:36.386-08:00",
-          "updated_at": "2024-03-04T09:54:36.386-08:00",
-          "display_at": "2024-03-04T09:54:36.386-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-03-01T19:05:12.156-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
