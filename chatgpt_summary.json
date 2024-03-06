@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-06T11:41:41.446-08:00"
+    "updated_at": "2024-03-06T14:27:40.782-08:00"
   },
   "components": [
     {
@@ -68,7 +68,61 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "r2vrysp441yc",
+      "name": "Elevated error rate impacting ChatGPT",
+      "status": "investigating",
+      "created_at": "2024-03-06T14:27:40.727-08:00",
+      "updated_at": "2024-03-06T14:27:40.778-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/891g46cpk8zl",
+      "started_at": "2024-03-06T14:27:40.721-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "pc4kwh28td90",
+          "status": "investigating",
+          "body": "ChatGPT is currently experiencing an elevated error rate.",
+          "incident_id": "r2vrysp441yc",
+          "created_at": "2024-03-06T14:27:40.775-08:00",
+          "updated_at": "2024-03-06T14:27:40.775-08:00",
+          "display_at": "2024-03-06T14:27:40.775-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "operational",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2024-02-28T08:29:55.628-08:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
