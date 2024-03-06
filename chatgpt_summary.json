@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-06T01:43:10.210-08:00"
+    "updated_at": "2024-03-06T02:37:16.949-08:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-03-06T01:36:22.644-08:00",
+      "updated_at": "2024-03-06T02:37:16.899-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -70,6 +70,79 @@
   ],
   "incidents": [
     {
+      "id": "x6txscwvw8j9",
+      "name": "Delays while processing fine-tuning jobs / spike in job errors",
+      "status": "monitoring",
+      "created_at": "2024-03-06T01:36:22.597-08:00",
+      "updated_at": "2024-03-06T02:37:16.947-08:00",
+      "monitoring_at": "2024-03-06T02:37:16.934-08:00",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/381dw73f0mtj",
+      "started_at": "2024-03-06T01:36:22.586-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "2x2m8wd5xp59",
+          "status": "monitoring",
+          "body": "Error rates for jobs are still elevated but dropped. The job queue is backed up still but emptying quickly. Queue wait time is ~1 hour",
+          "incident_id": "x6txscwvw8j9",
+          "created_at": "2024-03-06T02:37:16.934-08:00",
+          "updated_at": "2024-03-06T02:37:16.934-08:00",
+          "display_at": "2024-03-06T02:37:16.934-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "5f85h9mgbnc9",
+          "status": "identified",
+          "body": "We experienced a large spike in errors for actively running fine-tuning jobs. The errors have been mitigated but there is now a backlog in jobs to be processed.",
+          "incident_id": "x6txscwvw8j9",
+          "created_at": "2024-03-06T01:36:22.721-08:00",
+          "updated_at": "2024-03-06T01:36:22.721-08:00",
+          "display_at": "2024-03-06T01:36:22.721-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2024-03-06T02:37:16.899-08:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
       "id": "8dpb195tp2tp",
       "name": "Elevated error rate across API endpoints",
       "status": "investigating",
@@ -107,62 +180,9 @@
         {
           "id": "scd0s93nldpb",
           "name": "API",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-03-06T01:36:22.644-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "x6txscwvw8j9",
-      "name": "Delays while processing fine-tuning jobs / spike in job errors",
-      "status": "identified",
-      "created_at": "2024-03-06T01:36:22.597-08:00",
-      "updated_at": "2024-03-06T01:36:22.724-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/381dw73f0mtj",
-      "started_at": "2024-03-06T01:36:22.586-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "5f85h9mgbnc9",
-          "status": "identified",
-          "body": "We experienced a large spike in errors for actively running fine-tuning jobs. The errors have been mitigated but there is now a backlog in jobs to be processed.",
-          "incident_id": "x6txscwvw8j9",
-          "created_at": "2024-03-06T01:36:22.721-08:00",
-          "updated_at": "2024-03-06T01:36:22.721-08:00",
-          "display_at": "2024-03-06T01:36:22.721-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-03-06T01:36:22.644-08:00",
+          "updated_at": "2024-03-06T02:37:16.899-08:00",
           "position": 1,
           "description": "All OpenAI API services at api.openai.com",
           "showcase": true,
@@ -178,7 +198,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
