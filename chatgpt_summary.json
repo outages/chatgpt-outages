@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-14T05:55:14.453-07:00"
+    "updated_at": "2024-03-14T06:02:25.307-07:00"
   },
   "components": [
     {
@@ -71,10 +71,10 @@
   "incidents": [
     {
       "id": "vy3rjsn7pp5j",
-      "name": "Increased error rates and latency on GPT-3.5-Turbo",
+      "name": "Increased error rates and latency on GPT-3.5-Turbo and ChatGPT",
       "status": "monitoring",
       "created_at": "2024-03-14T05:55:14.355-07:00",
-      "updated_at": "2024-03-14T05:55:14.450-07:00",
+      "updated_at": "2024-03-14T06:02:25.304-07:00",
       "monitoring_at": "2024-03-14T05:55:14.441-07:00",
       "resolved_at": null,
       "impact": "minor",
