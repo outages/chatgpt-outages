@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-15T15:51:02.364-07:00"
+    "updated_at": "2024-03-15T16:31:38.935-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-03-15T15:50:22.404-07:00",
+      "updated_at": "2024-03-15T16:31:38.875-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -68,64 +68,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "06kspq62g9jk",
-      "name": "Billing Alert Delays",
-      "status": "investigating",
-      "created_at": "2024-03-15T15:50:22.372-07:00",
-      "updated_at": "2024-03-15T15:51:02.361-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/x1mr2twvgt9z",
-      "started_at": "2024-03-15T14:40:22.000-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "t0xpdb8b73rv",
-          "status": "investigating",
-          "body": "Delivery of billing alerts on API usage limits is currently experiencing delays",
-          "incident_id": "06kspq62g9jk",
-          "created_at": "2024-03-15T15:50:22.450-07:00",
-          "updated_at": "2024-03-15T15:51:02.285-07:00",
-          "display_at": "2024-03-15T14:40:22.000-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-03-15T15:50:22.404-07:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
