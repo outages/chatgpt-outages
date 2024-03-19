@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-19T15:43:16.010-07:00"
+    "updated_at": "2024-03-19T16:08:44.489-07:00"
   },
   "components": [
     {
@@ -71,17 +71,57 @@
   "incidents": [
     {
       "id": "34vcy5pdxxrr",
-      "name": "Elevated errors for GPT-3.5 0613 in our API",
-      "status": "investigating",
+      "name": "Elevated errors for gpt-3.5-turbo-0613 and gpt-3.5-turbo-instruct in our API",
+      "status": "monitoring",
       "created_at": "2024-03-19T14:53:54.083-07:00",
-      "updated_at": "2024-03-19T14:53:54.135-07:00",
-      "monitoring_at": null,
+      "updated_at": "2024-03-19T16:08:44.486-07:00",
+      "monitoring_at": "2024-03-19T16:08:44.471-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/t0l7cg7234s1",
       "started_at": "2024-03-19T14:53:54.078-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "4zxcr0wyjnz9",
+          "status": "monitoring",
+          "body": "As of 3:58p pacific the elevated errors on gpt-3.5-turbo-0613 have resolved.\n\nErrors remain elevated for gpt-3.5-turbo-instruct which we continue to investigate.",
+          "incident_id": "34vcy5pdxxrr",
+          "created_at": "2024-03-19T16:08:44.471-07:00",
+          "updated_at": "2024-03-19T16:08:44.471-07:00",
+          "display_at": "2024-03-19T16:08:44.471-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "5n8tp6st5rkv",
+          "status": "identified",
+          "body": "Confirmed this issue impacts gpt-3.5-turbo-0613 and gpt-3.5-turbo-instruct",
+          "incident_id": "34vcy5pdxxrr",
+          "created_at": "2024-03-19T15:52:00.766-07:00",
+          "updated_at": "2024-03-19T15:52:00.766-07:00",
+          "display_at": "2024-03-19T15:52:00.766-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "29z5lv51kc2z",
           "status": "investigating",
@@ -125,9 +165,9 @@
     {
       "id": "vlmww06nns0z",
       "name": "Elevated errors in requests to GPT-4 in the API",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-03-19T14:04:45.032-07:00",
-      "updated_at": "2024-03-19T14:18:04.391-07:00",
+      "updated_at": "2024-03-19T15:57:10.414-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -135,6 +175,32 @@
       "started_at": "2024-03-19T14:04:45.027-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "6jjzxd7wj6cx",
+          "status": "identified",
+          "body": "As of 3:01p pacific a fix has been identified and is in the process of being deployed.",
+          "incident_id": "vlmww06nns0z",
+          "created_at": "2024-03-19T15:57:10.412-07:00",
+          "updated_at": "2024-03-19T15:57:10.412-07:00",
+          "display_at": "2024-03-19T15:57:10.412-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ysvhgnq4lt9l",
           "status": "investigating",
