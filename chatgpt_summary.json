@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-19T14:43:13.223-07:00"
+    "updated_at": "2024-03-19T14:53:54.137-07:00"
   },
   "components": [
     {
@@ -69,6 +69,59 @@
     }
   ],
   "incidents": [
+    {
+      "id": "34vcy5pdxxrr",
+      "name": "Elevated errors for GPT-3.5 0613 in our API",
+      "status": "investigating",
+      "created_at": "2024-03-19T14:53:54.083-07:00",
+      "updated_at": "2024-03-19T14:53:54.135-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/t0l7cg7234s1",
+      "started_at": "2024-03-19T14:53:54.078-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "29z5lv51kc2z",
+          "status": "investigating",
+          "body": "Starting Mar 19, 2024 at 2:40p pacific we noticed elevated errors to our API using GPT-3.5 limited to 0613. We are currently investigating. ChatGPT is not impacted.",
+          "incident_id": "34vcy5pdxxrr",
+          "created_at": "2024-03-19T14:53:54.133-07:00",
+          "updated_at": "2024-03-19T14:53:54.133-07:00",
+          "display_at": "2024-03-19T14:53:54.133-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2024-03-19T14:04:45.064-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
     {
       "id": "vlmww06nns0z",
       "name": "Elevated errors in requests to GPT-4 in the API",
