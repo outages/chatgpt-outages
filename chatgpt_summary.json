@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-20T12:43:13.534-07:00"
+    "updated_at": "2024-03-20T15:00:20.943-07:00"
   },
   "components": [
     {
@@ -74,8 +74,8 @@
       "name": "Elevated errors in requests to GPT-4 in the API",
       "status": "monitoring",
       "created_at": "2024-03-20T12:41:06.960-07:00",
-      "updated_at": "2024-03-20T12:41:07.030-07:00",
-      "monitoring_at": "2024-03-20T12:41:07.022-07:00",
+      "updated_at": "2024-03-20T15:00:20.940-07:00",
+      "monitoring_at": "2024-03-20T12:41:07.000-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/ldtrqcy9cbgg",
@@ -85,11 +85,11 @@
         {
           "id": "pzrj9sy5hzfk",
           "status": "monitoring",
-          "body": "As of 10:57a pacific resolution continues for the remaining elevated errors in the API for GPT-4. Specifically contexts above 124563 are having problems. The fix should resolve the remaining elevated errors from yesterday's incident https://status.openai.com/incidents/vlmww06nns0z. We are monitoring the deploy as traffic returns to normal.",
+          "body": "As of 10:57a pacific resolution continues for the remaining elevated errors in the API for GPT-4. Specifically token context winsows above 124563 are having problems. The fix should resolve the remaining elevated errors from yesterday's incident https://status.openai.com/incidents/vlmww06nns0z. We are monitoring the deploy as traffic returns to normal.",
           "incident_id": "15vnk6cbbzb4",
           "created_at": "2024-03-20T12:41:07.022-07:00",
-          "updated_at": "2024-03-20T12:41:07.022-07:00",
-          "display_at": "2024-03-20T12:41:07.022-07:00",
+          "updated_at": "2024-03-20T15:00:20.921-07:00",
+          "display_at": "2024-03-20T12:41:07.000-07:00",
           "affected_components": [
             {
               "code": "scd0s93nldpb",
