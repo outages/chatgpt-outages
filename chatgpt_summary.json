@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-22T16:45:42.126-07:00"
+    "updated_at": "2024-03-22T17:06:40.051-07:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "API",
       "status": "degraded_performance",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-03-22T16:26:17.373-07:00",
+      "updated_at": "2024-03-22T17:06:39.991-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -70,71 +70,38 @@
   ],
   "incidents": [
     {
-      "id": "l8bf357j4l4d",
-      "name": "Elevated errors in the API for gpt-4-1106-preview",
-      "status": "investigating",
-      "created_at": "2024-03-22T16:28:31.516-07:00",
-      "updated_at": "2024-03-22T16:28:31.560-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/lzhbcpqz4l68",
-      "started_at": "2024-03-22T16:28:31.511-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "cgb53clwzbm2",
-          "status": "investigating",
-          "body": "We're currently investigating elevated errors in the API for gpt-4-1106-preview. This is impacting the API and not ChatGPT at this time.",
-          "incident_id": "l8bf357j4l4d",
-          "created_at": "2024-03-22T16:28:31.557-07:00",
-          "updated_at": "2024-03-22T16:28:31.557-07:00",
-          "display_at": "2024-03-22T16:28:31.557-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-03-22T16:26:17.373-07:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
       "id": "v0g2kxvhk4jc",
       "name": "Elevated errors in the Assistants API",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-03-22T16:26:17.348-07:00",
-      "updated_at": "2024-03-22T16:26:17.410-07:00",
-      "monitoring_at": null,
+      "updated_at": "2024-03-22T17:06:40.048-07:00",
+      "monitoring_at": "2024-03-22T17:06:40.030-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/pwqc4ql14w77",
       "started_at": "2024-03-22T16:26:17.344-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "99q0vgf6rj15",
+          "status": "monitoring",
+          "body": "We have identified the cause and are mitigating the issue. We are monitoring the situation as error rates are going down.",
+          "incident_id": "v0g2kxvhk4jc",
+          "created_at": "2024-03-22T17:06:40.030-07:00",
+          "updated_at": "2024-03-22T17:06:40.030-07:00",
+          "display_at": "2024-03-22T17:06:40.030-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bjrmrvtm47hs",
           "status": "investigating",
@@ -162,7 +129,7 @@
           "name": "API",
           "status": "degraded_performance",
           "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-03-22T16:26:17.373-07:00",
+          "updated_at": "2024-03-22T17:06:39.991-07:00",
           "position": 1,
           "description": "All OpenAI API services at api.openai.com",
           "showcase": true,
