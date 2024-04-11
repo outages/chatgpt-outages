@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-04-11T07:10:43.816-07:00"
+    "updated_at": "2024-04-11T07:42:18.117-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-04-11T07:05:40.814-07:00",
+      "updated_at": "2024-04-11T07:42:18.088-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -72,16 +72,36 @@
     {
       "id": "6w4b9337p6xt",
       "name": "Increased latency and error rate affecting gpt-3.5-turbo",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-04-11T07:05:40.782-07:00",
-      "updated_at": "2024-04-11T07:05:40.870-07:00",
-      "monitoring_at": null,
+      "updated_at": "2024-04-11T07:42:18.115-07:00",
+      "monitoring_at": "2024-04-11T07:42:18.105-07:00",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/3rnh72fswxc5",
       "started_at": "2024-04-11T07:05:40.777-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "gfvmjygs2gy2",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "6w4b9337p6xt",
+          "created_at": "2024-04-11T07:42:18.105-07:00",
+          "updated_at": "2024-04-11T07:42:18.105-07:00",
+          "display_at": "2024-04-11T07:42:18.105-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dpkq3rcmpmxv",
           "status": "investigating",
@@ -107,9 +127,9 @@
         {
           "id": "scd0s93nldpb",
           "name": "API",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-04-11T07:05:40.814-07:00",
+          "updated_at": "2024-04-11T07:42:18.088-07:00",
           "position": 1,
           "description": "All OpenAI API services at api.openai.com",
           "showcase": true,
@@ -125,7 +145,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
