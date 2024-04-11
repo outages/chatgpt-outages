@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-04-11T09:30:27.844-07:00"
+    "updated_at": "2024-04-11T12:03:04.271-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-04-11T07:42:18.088-07:00",
+      "updated_at": "2024-04-11T11:57:33.909-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -68,10 +68,84 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "6z0kjhhj0wbm",
+      "name": "Increased Queue Wait Times for GPT-3.5-Turbo Fine-Tuning Jobs",
+      "status": "identified",
+      "created_at": "2024-04-11T11:57:33.888-07:00",
+      "updated_at": "2024-04-11T12:03:04.180-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/jy7km6jmhs4m",
+      "started_at": "2024-04-11T11:57:33.884-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "3g0tqmjlf060",
+          "status": "identified",
+          "body": "We are continuing to work on a fix for this issue.",
+          "incident_id": "6z0kjhhj0wbm",
+          "created_at": "2024-04-11T12:02:58.807-07:00",
+          "updated_at": "2024-04-11T12:02:58.807-07:00",
+          "display_at": "2024-04-11T12:02:58.807-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "z7rl5f446z7b",
+          "status": "identified",
+          "body": "We are experiencing increased wait time for gpt-3.5-turbo (all variants) fine-tuning jobs. Currently, wait times are approximately an hour.",
+          "incident_id": "6z0kjhhj0wbm",
+          "created_at": "2024-04-11T11:57:33.938-07:00",
+          "updated_at": "2024-04-11T11:57:33.938-07:00",
+          "display_at": "2024-04-11T11:57:33.938-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2024-04-11T11:57:33.909-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
