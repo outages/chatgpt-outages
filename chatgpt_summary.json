@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-04-11T13:05:55.860-07:00"
+    "updated_at": "2024-04-11T15:19:27.110-07:00"
   },
   "components": [
     {
@@ -74,7 +74,7 @@
       "name": "Increased Queue Wait Times for GPT-3.5-Turbo Fine-Tuning Jobs",
       "status": "identified",
       "created_at": "2024-04-11T11:57:33.888-07:00",
-      "updated_at": "2024-04-11T12:03:04.180-07:00",
+      "updated_at": "2024-04-11T15:19:27.103-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -82,6 +82,26 @@
       "started_at": "2024-04-11T11:57:33.884-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "ynnp0v63yh51",
+          "status": "identified",
+          "body": "We are continuing to work towards deploying a fix. At this time the queues for 3.5-turbo fine-tunes (all versions) are still backed up, wait times for jobs to be processed is > 1 hour.",
+          "incident_id": "6z0kjhhj0wbm",
+          "created_at": "2024-04-11T15:19:27.102-07:00",
+          "updated_at": "2024-04-11T15:19:27.102-07:00",
+          "display_at": "2024-04-11T15:19:27.102-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "3g0tqmjlf060",
           "status": "identified",
