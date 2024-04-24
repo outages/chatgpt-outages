@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-04-24T11:17:54.563-07:00"
+    "updated_at": "2024-04-24T11:30:25.275-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-04-24T10:34:03.938-07:00",
+      "updated_at": "2024-04-24T11:30:25.237-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -68,124 +68,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "5lnkhd8p9d0d",
-      "name": "Elevated errors on ChatGPT",
-      "status": "monitoring",
-      "created_at": "2024-04-24T10:33:51.797-07:00",
-      "updated_at": "2024-04-24T11:17:54.562-07:00",
-      "monitoring_at": "2024-04-24T11:17:54.549-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/cvwzd02nzqrl",
-      "started_at": "2024-04-24T10:33:51.792-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "dqvzb4ycbh2f",
-          "status": "monitoring",
-          "body": "A series of mitigations has been applied and we are actively monitoring traffic returning to normal in ChatGPT.",
-          "incident_id": "5lnkhd8p9d0d",
-          "created_at": "2024-04-24T11:17:54.549-07:00",
-          "updated_at": "2024-04-24T11:17:54.549-07:00",
-          "display_at": "2024-04-24T11:17:54.549-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7h35js10gz60",
-          "status": "identified",
-          "body": "Our team has identified the source of the elevated errors and is working through a fix at this time.",
-          "incident_id": "5lnkhd8p9d0d",
-          "created_at": "2024-04-24T11:08:22.495-07:00",
-          "updated_at": "2024-04-24T11:08:22.495-07:00",
-          "display_at": "2024-04-24T11:08:22.495-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "rpgg2hdkby1r",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "5lnkhd8p9d0d",
-          "created_at": "2024-04-24T10:34:03.985-07:00",
-          "updated_at": "2024-04-24T10:34:03.985-07:00",
-          "display_at": "2024-04-24T10:34:03.985-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "j3ssq120kx64",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "5lnkhd8p9d0d",
-          "created_at": "2024-04-24T10:33:51.836-07:00",
-          "updated_at": "2024-04-24T10:33:51.836-07:00",
-          "display_at": "2024-04-24T10:33:51.836-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "degraded_performance",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-04-24T10:34:03.938-07:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
