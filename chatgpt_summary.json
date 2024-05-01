@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-05-01T10:43:29.122-07:00"
+    "updated_at": "2024-05-01T11:50:49.869-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-05-01T10:12:50.656-07:00",
+      "updated_at": "2024-05-01T11:50:49.811-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -68,64 +68,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "j1glqxyh61gk",
-      "name": "Users are facing elevated error rates on ChatGPT",
-      "status": "identified",
-      "created_at": "2024-05-01T10:12:50.634-07:00",
-      "updated_at": "2024-05-01T10:12:50.689-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/g3mvc3h6znyz",
-      "started_at": "2024-05-01T10:12:50.629-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "9lfrh2xc1ly4",
-          "status": "identified",
-          "body": "We have identified an issue that affected customers, causing some users on ChatGPT to see a blank screen. The incident began at 6 PM PT yesterday, and we are currently working on a fix.",
-          "incident_id": "j1glqxyh61gk",
-          "created_at": "2024-05-01T10:12:50.688-07:00",
-          "updated_at": "2024-05-01T10:12:50.688-07:00",
-          "display_at": "2024-05-01T10:12:50.688-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "degraded_performance",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-05-01T10:12:50.656-07:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
