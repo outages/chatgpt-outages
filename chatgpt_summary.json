@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-05-03T00:18:28.512-07:00"
+    "updated_at": "2024-05-03T00:25:35.609-07:00"
   },
   "components": [
     {
@@ -72,9 +72,9 @@
     {
       "id": "kprfbhg9g654",
       "name": "Elevated errors on ChatGPT",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-05-03T00:18:28.434-07:00",
-      "updated_at": "2024-05-03T00:18:28.509-07:00",
+      "updated_at": "2024-05-03T00:25:35.603-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -82,6 +82,26 @@
       "started_at": "2024-05-03T00:18:28.428-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "nnk9smhdx26f",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "kprfbhg9g654",
+          "created_at": "2024-05-03T00:25:19.376-07:00",
+          "updated_at": "2024-05-03T00:25:35.600-07:00",
+          "display_at": "2024-05-03T00:23:19.000-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "39ywrhgvqv6s",
           "status": "investigating",
