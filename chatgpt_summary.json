@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-05-07T19:47:45.180-07:00"
+    "updated_at": "2024-05-07T20:16:18.958-07:00"
   },
   "components": [
     {
@@ -72,16 +72,36 @@
     {
       "id": "vn8j63zg56hz",
       "name": "Elevated errors uploading files in ChatGPT",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-05-07T17:39:19.412-07:00",
-      "updated_at": "2024-05-07T19:11:03.091-07:00",
-      "monitoring_at": null,
+      "updated_at": "2024-05-07T20:16:18.955-07:00",
+      "monitoring_at": "2024-05-07T20:16:18.938-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/fky5smm6lx3h",
       "started_at": "2024-05-07T17:39:19.406-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "xqqld5d0t3rq",
+          "status": "monitoring",
+          "body": "A mitigation is in place and we are now monitoring to ensure elevated errors uploading files in ChatGPT does not return.",
+          "incident_id": "vn8j63zg56hz",
+          "created_at": "2024-05-07T20:16:18.938-07:00",
+          "updated_at": "2024-05-07T20:16:18.938-07:00",
+          "display_at": "2024-05-07T20:16:18.938-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1nts4gvfcx1q",
           "status": "identified",
