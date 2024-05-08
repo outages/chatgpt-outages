@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-05-08T04:32:42.932-07:00"
+    "updated_at": "2024-05-08T09:37:01.284-07:00"
   },
   "components": [
     {
@@ -68,121 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vn8j63zg56hz",
-      "name": "Elevated errors uploading files in ChatGPT",
-      "status": "monitoring",
-      "created_at": "2024-05-07T17:39:19.412-07:00",
-      "updated_at": "2024-05-07T23:58:40.637-07:00",
-      "monitoring_at": "2024-05-07T20:16:18.938-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/fky5smm6lx3h",
-      "started_at": "2024-05-07T17:39:19.406-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "hgztc1gttybj",
-          "status": "monitoring",
-          "body": "Error rates for file uploads on ChatGPT have returned to normal. We are continuing to monitor for any further issues.",
-          "incident_id": "vn8j63zg56hz",
-          "created_at": "2024-05-07T23:58:40.635-07:00",
-          "updated_at": "2024-05-07T23:58:40.635-07:00",
-          "display_at": "2024-05-07T23:58:40.635-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xqqld5d0t3rq",
-          "status": "monitoring",
-          "body": "A mitigation is in place and we are now monitoring to ensure elevated errors uploading files in ChatGPT does not return.",
-          "incident_id": "vn8j63zg56hz",
-          "created_at": "2024-05-07T20:16:18.938-07:00",
-          "updated_at": "2024-05-07T20:16:18.938-07:00",
-          "display_at": "2024-05-07T20:16:18.938-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1nts4gvfcx1q",
-          "status": "identified",
-          "body": "We have identified the issue causing the elevated file uploads in ChatGPT. We are currently developing a fix.",
-          "incident_id": "vn8j63zg56hz",
-          "created_at": "2024-05-07T19:11:03.088-07:00",
-          "updated_at": "2024-05-07T19:11:03.088-07:00",
-          "display_at": "2024-05-07T19:11:03.088-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "249dcrmn8pxf",
-          "status": "investigating",
-          "body": "We noticed increasing errors during file uploads in ChatGPT yesterday. We are currently investigating the the issue. This is impacting ChatGPT and not the API.",
-          "incident_id": "vn8j63zg56hz",
-          "created_at": "2024-05-07T17:39:19.496-07:00",
-          "updated_at": "2024-05-07T17:39:19.496-07:00",
-          "display_at": "2024-05-07T17:39:19.496-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "operational",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-05-07T23:58:40.615-07:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
