@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-05-14T12:58:48.775-07:00"
+    "updated_at": "2024-05-14T14:05:25.175-07:00"
   },
   "components": [
     {
@@ -74,7 +74,7 @@
       "name": "Elevated error rates for ChatGPT voice",
       "status": "monitoring",
       "created_at": "2024-05-14T09:44:10.630-07:00",
-      "updated_at": "2024-05-14T12:58:48.766-07:00",
+      "updated_at": "2024-05-14T14:05:25.168-07:00",
       "monitoring_at": "2024-05-14T10:47:45.585-07:00",
       "resolved_at": null,
       "impact": "minor",
@@ -82,6 +82,26 @@
       "started_at": "2024-05-14T09:44:10.624-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "zw3frcc8mnf8",
+          "status": "monitoring",
+          "body": "We are continuing to monitor performance, and will keep doing so along with providing updates until performance has returned to normal.",
+          "incident_id": "5gthxl1ypwl2",
+          "created_at": "2024-05-14T14:05:25.165-07:00",
+          "updated_at": "2024-05-14T14:05:25.165-07:00",
+          "display_at": "2024-05-14T14:05:25.165-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "gs3f1lkxb0qk",
           "status": "monitoring",
