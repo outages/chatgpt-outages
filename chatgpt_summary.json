@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-05-23T15:44:00.389-07:00"
+    "updated_at": "2024-05-23T15:51:55.689-07:00"
   },
   "components": [
     {
@@ -71,10 +71,10 @@
   "incidents": [
     {
       "id": "9gm58mclcmst",
-      "name": "Elevated ChatGPT Error Rate",
+      "name": "Elevated API and ChatGPT Latency and Error Rate",
       "status": "investigating",
       "created_at": "2024-05-23T15:34:57.932-07:00",
-      "updated_at": "2024-05-23T15:34:58.015-07:00",
+      "updated_at": "2024-05-23T15:51:55.683-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -85,11 +85,11 @@
         {
           "id": "99ptcctynlrq",
           "status": "investigating",
-          "body": "We're currently investigating an elevated level of errors affecting ChatGPT users.",
+          "body": "We're currently investigating an elevated level of errors affecting API and ChatGPT users.",
           "incident_id": "9gm58mclcmst",
           "created_at": "2024-05-23T15:34:58.012-07:00",
-          "updated_at": "2024-05-23T15:34:58.012-07:00",
-          "display_at": "2024-05-23T15:34:58.012-07:00",
+          "updated_at": "2024-05-23T15:51:55.681-07:00",
+          "display_at": "2024-05-23T15:34:58.000-07:00",
           "affected_components": [
             {
               "code": "tbwycthtqm69",
