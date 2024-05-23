@@ -2,9 +2,9 @@
   "page": {
     "id": "jbxzcdv9xc4d",
     "name": "OpenAI",
-    "url": "https://status.openai.com",
+    "url": "http://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-05-23T01:22:21.599-07:00"
+    "updated_at": "2024-05-23T02:58:21.235-07:00"
   },
   "status": {
     "indicator": "minor",
