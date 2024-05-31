@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-05-31T15:45:19.225-07:00"
+    "updated_at": "2024-05-31T15:52:38.530-07:00"
   },
   "components": [
     {
@@ -74,22 +74,22 @@
       "name": "Some Batch API Calls Are Failing",
       "status": "identified",
       "created_at": "2024-05-31T15:45:09.514-07:00",
-      "updated_at": "2024-05-31T15:45:09.566-07:00",
+      "updated_at": "2024-05-31T15:52:38.526-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/gs2p1llrcht4",
-      "started_at": "2024-05-31T15:45:09.510-07:00",
+      "started_at": "2024-05-31T15:45:09.000-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
         {
           "id": "shdsy90tzfzk",
           "status": "identified",
-          "body": "Batch APIs that include a float parameter are failing with an Error 400 Bad Request. Engineers have identified the issue and are working on a resolution.",
+          "body": "Batch API requests that include a float parameter are failing with an Error 400 Bad Request. Engineers have identified the issue and are working on a resolution.",
           "incident_id": "qr0k0p729t5k",
           "created_at": "2024-05-31T15:45:09.565-07:00",
-          "updated_at": "2024-05-31T15:45:09.565-07:00",
-          "display_at": "2024-05-31T15:45:09.565-07:00",
+          "updated_at": "2024-05-31T15:52:38.433-07:00",
+          "display_at": "2024-05-31T15:45:09.000-07:00",
           "affected_components": [
             {
               "code": "scd0s93nldpb",
