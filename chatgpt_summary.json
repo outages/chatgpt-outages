@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-05-31T17:11:03.946-07:00"
+    "updated_at": "2024-05-31T18:05:37.710-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-05-31T15:45:09.536-07:00",
+      "updated_at": "2024-05-31T18:05:37.654-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -68,84 +68,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "qr0k0p729t5k",
-      "name": "Some Batch API Calls Are Failing",
-      "status": "monitoring",
-      "created_at": "2024-05-30T22:00:09.000-07:00",
-      "updated_at": "2024-05-31T17:11:03.943-07:00",
-      "monitoring_at": "2024-05-31T17:11:03.928-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/gs2p1llrcht4",
-      "started_at": "2024-05-30T22:00:09.000-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "v5ng9f07kyrv",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "qr0k0p729t5k",
-          "created_at": "2024-05-31T17:11:03.928-07:00",
-          "updated_at": "2024-05-31T17:11:03.928-07:00",
-          "display_at": "2024-05-31T17:11:03.928-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "shdsy90tzfzk",
-          "status": "identified",
-          "body": "Batch API requests that include a float parameter are failing with an Error 400 Bad Request. Engineers have identified the issue and are working on a resolution.",
-          "incident_id": "qr0k0p729t5k",
-          "created_at": "2024-05-31T15:45:09.565-07:00",
-          "updated_at": "2024-05-31T16:21:00.944-07:00",
-          "display_at": "2024-05-30T22:00:09.000-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-05-31T15:45:09.536-07:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
