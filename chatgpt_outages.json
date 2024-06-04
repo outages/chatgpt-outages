@@ -4,10 +4,10 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-06-04T04:19:57.978-07:00"
+    "updated_at": "2024-06-04T04:45:55.841-07:00"
   },
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
