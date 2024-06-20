@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-06-20T04:45:09.711-07:00"
+    "updated_at": "2024-06-20T12:43:34.852-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-05-31T18:05:37.654-07:00",
+      "updated_at": "2024-06-20T12:38:51.301-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -68,10 +68,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "sbwl2td13jf9",
+      "name": "Elevated 5xx errors impacting the API",
+      "status": "identified",
+      "created_at": "2024-06-20T12:38:51.271-07:00",
+      "updated_at": "2024-06-20T12:38:51.358-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/cc4kd6v7y5h0",
+      "started_at": "2024-06-20T12:38:51.266-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "kb4q5lgpdd9m",
+          "status": "identified",
+          "body": "Customers may be experiencing a higher than normal level of 5xx errors when hitting our API endpoints. This is due to an ongoing outage with Cloudflare. Their wonderful team is hard at work addressing this issue, and we will keep this page updated with impacts to our customers.",
+          "incident_id": "sbwl2td13jf9",
+          "created_at": "2024-06-20T12:38:51.356-07:00",
+          "updated_at": "2024-06-20T12:38:51.356-07:00",
+          "display_at": "2024-06-20T12:38:51.356-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "partial_outage",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2024-06-20T12:38:51.301-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
