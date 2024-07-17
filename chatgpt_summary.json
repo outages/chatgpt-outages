@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-07-17T01:43:55.191-07:00"
+    "updated_at": "2024-07-17T03:01:54.189-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-07-17T01:43:00.833-07:00",
+      "updated_at": "2024-07-17T03:01:54.142-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -72,16 +72,36 @@
     {
       "id": "ff32y1r5px5r",
       "name": "ChatGPT outage",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-07-17T01:18:18.539-07:00",
-      "updated_at": "2024-07-17T01:43:01.176-07:00",
-      "monitoring_at": null,
+      "updated_at": "2024-07-17T03:01:54.187-07:00",
+      "monitoring_at": "2024-07-17T03:01:54.171-07:00",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/42yvwqn1l791",
       "started_at": "2024-07-17T01:18:18.531-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "h37k45thgn2y",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "ff32y1r5px5r",
+          "created_at": "2024-07-17T03:01:54.171-07:00",
+          "updated_at": "2024-07-17T03:01:54.171-07:00",
+          "display_at": "2024-07-17T03:01:54.171-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "m3p6rk3gs16z",
           "status": "investigating",
@@ -127,9 +147,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-07-17T01:43:00.833-07:00",
+          "updated_at": "2024-07-17T03:01:54.142-07:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -145,7 +165,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
