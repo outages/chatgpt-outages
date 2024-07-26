@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-07-26T07:28:50.505-07:00"
+    "updated_at": "2024-07-26T09:05:10.395-07:00"
   },
   "components": [
     {
@@ -68,108 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "rq519d4v09bw",
-      "name": "Increased latency and error rates affecting GPT-4o mini",
-      "status": "monitoring",
-      "created_at": "2024-07-26T04:21:40.342-07:00",
-      "updated_at": "2024-07-26T06:13:44.577-07:00",
-      "monitoring_at": "2024-07-26T06:13:44.564-07:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/50crcjnh1ccg",
-      "started_at": "2024-07-26T04:21:40.334-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "jwfytz5lclds",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "rq519d4v09bw",
-          "created_at": "2024-07-26T06:13:44.564-07:00",
-          "updated_at": "2024-07-26T06:13:44.564-07:00",
-          "display_at": "2024-07-26T06:13:44.564-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            },
-            {
-              "code": "p4pvx4j7r7n7",
-              "name": "Playground",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mfd293wx09qs",
-          "status": "investigating",
-          "body": "We're currently investigating increased API latency and error rates affecting gpt-4o-mini.",
-          "incident_id": "rq519d4v09bw",
-          "created_at": "2024-07-26T04:21:40.445-07:00",
-          "updated_at": "2024-07-26T04:21:40.445-07:00",
-          "display_at": "2024-07-26T04:21:40.445-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "p4pvx4j7r7n7",
-              "name": "Playground",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-07-26T06:13:44.528-07:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "p4pvx4j7r7n7",
-          "name": "Playground",
-          "status": "operational",
-          "created_at": "2021-04-01T16:01:59.049-07:00",
-          "updated_at": "2024-07-26T06:13:44.539-07:00",
-          "position": 4,
-          "description": "The OpenAI Playground at platform.openai.com",
-          "showcase": true,
-          "start_date": "2021-03-31",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
