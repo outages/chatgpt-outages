@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-07-27T16:21:01.557-07:00"
+    "updated_at": "2024-07-27T20:35:08.561-07:00"
   },
   "components": [
     {
@@ -68,141 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "b2cbq8c9crbs",
-      "name": "GPT-4o-mini Fine-Tuned Models High Error Rate",
-      "status": "monitoring",
-      "created_at": "2024-07-27T14:24:58.893-07:00",
-      "updated_at": "2024-07-27T16:21:01.555-07:00",
-      "monitoring_at": "2024-07-27T16:17:25.170-07:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/qc731p7mqg56",
-      "started_at": "2024-07-27T14:24:58.888-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "cp2jmg06kr80",
-          "status": "monitoring",
-          "body": "Service error rates and latencies for GPT-4o-mini fine-tunes have returned to normal. We will monitoring these services closely to ensure they continue to operate as expected.",
-          "incident_id": "b2cbq8c9crbs",
-          "created_at": "2024-07-27T16:17:25.170-07:00",
-          "updated_at": "2024-07-27T16:17:25.170-07:00",
-          "display_at": "2024-07-27T16:17:25.170-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gjxmcnhs4xlg",
-          "status": "identified",
-          "body": "Error rate is returning to 0% but we are still experiencing high variance in request latency. Continuing to monitor.",
-          "incident_id": "b2cbq8c9crbs",
-          "created_at": "2024-07-27T15:55:37.683-07:00",
-          "updated_at": "2024-07-27T15:55:37.683-07:00",
-          "display_at": "2024-07-27T15:55:37.683-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4hzvgdyq88qc",
-          "status": "identified",
-          "body": "A mitigation has been deployed, error rates are stabilizing but still elevated.",
-          "incident_id": "b2cbq8c9crbs",
-          "created_at": "2024-07-27T15:13:15.800-07:00",
-          "updated_at": "2024-07-27T15:13:15.800-07:00",
-          "display_at": "2024-07-27T15:13:15.800-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "45t3g70r4g0c",
-          "status": "identified",
-          "body": "We are continuing to work on a fix. The inference services for 4o-mini fine-tuned models (only 4o-mini) are still experiencing a partial outage.",
-          "incident_id": "b2cbq8c9crbs",
-          "created_at": "2024-07-27T14:56:37.776-07:00",
-          "updated_at": "2024-07-27T14:56:37.776-07:00",
-          "display_at": "2024-07-27T14:56:37.776-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2lh0b52l5w9b",
-          "status": "identified",
-          "body": "We are currently experiencing very high error rates for fine-tuned gpt-4o-mini models.",
-          "incident_id": "b2cbq8c9crbs",
-          "created_at": "2024-07-27T14:24:58.967-07:00",
-          "updated_at": "2024-07-27T14:24:58.967-07:00",
-          "display_at": "2024-07-27T14:24:58.967-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-07-27T16:17:25.133-07:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
