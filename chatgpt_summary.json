@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-08-13T08:43:20.402-07:00"
+    "updated_at": "2024-08-13T09:37:56.350-07:00"
   },
   "components": [
     {
@@ -68,81 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "vvtggc9m43m8",
-      "name": "Chat history failing to load for some users.",
-      "status": "monitoring",
-      "created_at": "2024-08-13T08:11:53.000-07:00",
-      "updated_at": "2024-08-13T08:43:20.400-07:00",
-      "monitoring_at": "2024-08-13T08:43:20.387-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/vpx194kd7vr5",
-      "started_at": "2024-08-13T08:11:53.000-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "3hx27076t4hm",
-          "status": "monitoring",
-          "body": "Chat history is now loading as expected for all users. We're monitoring and continuing to investigate the root cause of the disruption.",
-          "incident_id": "vvtggc9m43m8",
-          "created_at": "2024-08-13T08:43:20.387-07:00",
-          "updated_at": "2024-08-13T08:43:20.387-07:00",
-          "display_at": "2024-08-13T08:43:20.387-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mk8jldk9l4pr",
-          "status": "investigating",
-          "body": "We're investigating an issue where chat history is failing to load after log in for some users.",
-          "incident_id": "vvtggc9m43m8",
-          "created_at": "2024-08-13T08:11:53.427-07:00",
-          "updated_at": "2024-08-13T08:12:58.411-07:00",
-          "display_at": "2024-08-13T08:11:53.000-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "operational",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-08-13T08:43:20.361-07:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
