@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-08-28T08:46:16.829-07:00"
+    "updated_at": "2024-08-28T10:57:57.083-07:00"
   },
   "components": [
     {
@@ -68,81 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "frbqbb921940",
-      "name": "Elevated error rates for ChatGPT",
-      "status": "monitoring",
-      "created_at": "2024-08-28T08:19:53.065-07:00",
-      "updated_at": "2024-08-28T08:44:45.336-07:00",
-      "monitoring_at": "2024-08-28T08:44:45.324-07:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/ss7vx0qqtz1d",
-      "started_at": "2024-08-28T08:19:53.061-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "j6c574j80rmr",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "frbqbb921940",
-          "created_at": "2024-08-28T08:44:45.324-07:00",
-          "updated_at": "2024-08-28T08:44:45.324-07:00",
-          "display_at": "2024-08-28T08:44:45.324-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "partial_outage",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bmjlmzbrx4nt",
-          "status": "investigating",
-          "body": "We are currently investigating elevated error rates on ChatGPT.",
-          "incident_id": "frbqbb921940",
-          "created_at": "2024-08-28T08:19:53.118-07:00",
-          "updated_at": "2024-08-28T08:19:53.118-07:00",
-          "display_at": "2024-08-28T08:19:53.118-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "operational",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-08-28T08:44:45.302-07:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
