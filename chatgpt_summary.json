@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-12T12:46:16.540-07:00"
+    "updated_at": "2024-09-12T12:50:56.476-07:00"
   },
   "components": [
     {
@@ -68,101 +68,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "98ybsk5l2j4r",
-      "name": "Some users unable to login to ChatGPT when starting from their IdP",
-      "status": "monitoring",
-      "created_at": "2024-09-12T10:51:58.497-07:00",
-      "updated_at": "2024-09-12T12:46:16.537-07:00",
-      "monitoring_at": "2024-09-12T12:46:16.516-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/fn9gs8s4r1q1",
-      "started_at": "2024-09-12T10:51:58.490-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "gv5sg22s1fxm",
-          "status": "monitoring",
-          "body": "We've deployed a fix and are monitoring to verify resolution.",
-          "incident_id": "98ybsk5l2j4r",
-          "created_at": "2024-09-12T12:46:16.516-07:00",
-          "updated_at": "2024-09-12T12:46:16.516-07:00",
-          "display_at": "2024-09-12T12:46:16.516-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "x7fxb31hx8h3",
-          "status": "investigating",
-          "body": "We continue to investigate this issue.",
-          "incident_id": "98ybsk5l2j4r",
-          "created_at": "2024-09-12T12:05:28.739-07:00",
-          "updated_at": "2024-09-12T12:05:28.739-07:00",
-          "display_at": "2024-09-12T12:05:28.739-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8qj7fqz2xlfs",
-          "status": "investigating",
-          "body": "We are currently investigating an issue where some users cannot login when initiated from their IdP.",
-          "incident_id": "98ybsk5l2j4r",
-          "created_at": "2024-09-12T10:51:58.575-07:00",
-          "updated_at": "2024-09-12T10:51:58.575-07:00",
-          "display_at": "2024-09-12T10:51:58.575-07:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "operational",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-09-12T12:46:16.483-07:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
