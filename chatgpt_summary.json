@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-13T18:43:09.137-07:00"
+    "updated_at": "2024-09-14T07:19:38.031-07:00"
   },
   "components": [
     {
@@ -68,7 +68,61 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "dn454qypbw83",
+      "name": "Advanced Voice inaccessible to some alpha users",
+      "status": "investigating",
+      "created_at": "2024-09-14T07:19:37.986-07:00",
+      "updated_at": "2024-09-14T07:19:38.029-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/59m4f5fxzdbt",
+      "started_at": "2024-09-14T07:19:37.981-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "yy0lcj8gwc5r",
+          "status": "investigating",
+          "body": "We're currently investigating an issue preventing some users from accessing the Advanced Voice alpha for ChatGPT.",
+          "incident_id": "dn454qypbw83",
+          "created_at": "2024-09-14T07:19:38.026-07:00",
+          "updated_at": "2024-09-14T07:19:38.026-07:00",
+          "display_at": "2024-09-14T07:19:38.026-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "operational",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2024-09-12T12:46:16.483-07:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
