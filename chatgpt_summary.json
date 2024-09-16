@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-16T09:00:05.746-07:00"
+    "updated_at": "2024-09-16T09:35:06.517-07:00"
   },
   "components": [
     {
@@ -70,30 +70,30 @@
   ],
   "incidents": [
     {
-      "id": "bq8064vtt623",
-      "name": "API requests failing",
-      "status": "monitoring",
-      "created_at": "2024-09-16T08:59:38.357-07:00",
-      "updated_at": "2024-09-16T09:00:05.743-07:00",
-      "monitoring_at": "2024-09-16T08:59:38.412-07:00",
+      "id": "2mk4x5m4xvqs",
+      "name": "Workspace Analytics tab is broken for ChatGPT Enterprise users",
+      "status": "identified",
+      "created_at": "2024-09-16T09:33:27.451-07:00",
+      "updated_at": "2024-09-16T09:35:06.514-07:00",
+      "monitoring_at": null,
       "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/n366hxr66j7l",
-      "started_at": "2024-09-16T08:59:38.351-07:00",
+      "impact": "minor",
+      "shortlink": "https://stspg.io/9pb7ldp0x7s4",
+      "started_at": "2024-09-16T09:33:27.446-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
         {
-          "id": "6k3z6qnwvsqd",
-          "status": "monitoring",
-          "body": "For a short period, users were being blocked from sending requests to our API. This issue has already been fixed and we're monitoring closely.",
-          "incident_id": "bq8064vtt623",
-          "created_at": "2024-09-16T08:59:38.412-07:00",
-          "updated_at": "2024-09-16T08:59:38.412-07:00",
-          "display_at": "2024-09-16T08:59:38.412-07:00",
+          "id": "6v6fls5bwtjh",
+          "status": "identified",
+          "body": "The Workspace Analytics tab for ChatGPT Enterprise is currently not returning any data. We have identified the root cause and we're actively working on a fix.",
+          "incident_id": "2mk4x5m4xvqs",
+          "created_at": "2024-09-16T09:33:27.494-07:00",
+          "updated_at": "2024-09-16T09:33:27.494-07:00",
+          "display_at": "2024-09-16T09:33:27.494-07:00",
           "affected_components": [
             {
-              "code": "scd0s93nldpb",
-              "name": "API",
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
               "old_status": "operational",
               "new_status": "operational"
             }
@@ -105,15 +105,15 @@
       ],
       "components": [
         {
-          "id": "scd0s93nldpb",
-          "name": "API",
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
           "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-09-13T18:02:01.477-07:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2024-09-12T12:46:16.483-07:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
           "showcase": true,
-          "start_date": "2021-02-11",
+          "start_date": "2023-02-14",
           "group_id": null,
           "page_id": "jbxzcdv9xc4d",
           "group": false,
