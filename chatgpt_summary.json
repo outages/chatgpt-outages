@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-16T09:46:12.402-07:00"
+    "updated_at": "2024-09-16T09:59:15.512-07:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "API",
       "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-09-13T18:02:01.477-07:00",
+      "updated_at": "2024-09-16T09:58:19.783-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -27,7 +27,7 @@
       "name": "ChatGPT",
       "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-09-12T12:46:16.483-07:00",
+      "updated_at": "2024-09-16T09:59:15.509-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -109,7 +109,7 @@
           "name": "ChatGPT",
           "status": "operational",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-09-12T12:46:16.483-07:00",
+          "updated_at": "2024-09-16T09:59:15.509-07:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
