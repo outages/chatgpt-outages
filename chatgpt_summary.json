@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-16T14:11:48.456-07:00"
+    "updated_at": "2024-09-17T04:24:41.576-07:00"
   },
   "components": [
     {
@@ -72,16 +72,36 @@
     {
       "id": "2mk4x5m4xvqs",
       "name": "Workspace Analytics tab is broken for ChatGPT Enterprise users",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-09-16T09:33:27.451-07:00",
-      "updated_at": "2024-09-16T14:11:48.449-07:00",
-      "monitoring_at": null,
+      "updated_at": "2024-09-17T04:24:41.573-07:00",
+      "monitoring_at": "2024-09-17T04:24:41.550-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/9pb7ldp0x7s4",
       "started_at": "2024-09-16T09:33:27.446-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "5jk356yg12wc",
+          "status": "monitoring",
+          "body": "The Workspace Analytics tab should now be functioning as normal for ChatGPT Enterprise users. We're monitoring the situation.",
+          "incident_id": "2mk4x5m4xvqs",
+          "created_at": "2024-09-17T04:24:41.550-07:00",
+          "updated_at": "2024-09-17T04:24:41.550-07:00",
+          "display_at": "2024-09-17T04:24:41.550-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "3s9kn0hwr78b",
           "status": "identified",
