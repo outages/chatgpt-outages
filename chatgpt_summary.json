@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-18T06:14:55.083-07:00"
+    "updated_at": "2024-09-18T06:18:46.077-07:00"
   },
   "components": [
     {
@@ -73,13 +73,13 @@
       "id": "6ysbhfcs429p",
       "name": "ChatGPT web is experiencing issues on Chrome version 129",
       "status": "monitoring",
-      "created_at": "2024-09-18T05:33:02.071-07:00",
-      "updated_at": "2024-09-18T06:14:55.080-07:00",
+      "created_at": "2024-09-17T23:10:00.000-07:00",
+      "updated_at": "2024-09-18T06:18:46.074-07:00",
       "monitoring_at": "2024-09-18T06:14:55.064-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/5xpfh37pp6n0",
-      "started_at": "2024-09-18T05:33:02.066-07:00",
+      "started_at": "2024-09-17T23:10:00.000-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
         {
@@ -108,8 +108,8 @@
           "body": "We are currently investigating this issue.",
           "incident_id": "6ysbhfcs429p",
           "created_at": "2024-09-18T05:33:02.155-07:00",
-          "updated_at": "2024-09-18T05:33:02.155-07:00",
-          "display_at": "2024-09-18T05:33:02.155-07:00",
+          "updated_at": "2024-09-18T06:18:45.953-07:00",
+          "display_at": "2024-09-17T23:10:00.000-07:00",
           "affected_components": [
             {
               "code": "tbwycthtqm69",
