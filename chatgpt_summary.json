@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-18T14:43:14.355-07:00"
+    "updated_at": "2024-09-18T15:20:52.598-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-09-17T16:46:11.387-07:00",
+      "updated_at": "2024-09-18T15:12:12.397-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -69,6 +69,99 @@
     }
   ],
   "incidents": [
+    {
+      "id": "g1q7skfj3xr9",
+      "name": "Fine-tuning job are not being returned from API",
+      "status": "monitoring",
+      "created_at": "2024-09-18T15:12:12.373-07:00",
+      "updated_at": "2024-09-18T15:20:52.596-07:00",
+      "monitoring_at": "2024-09-18T15:20:52.582-07:00",
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/hlk6hzxmfb2y",
+      "started_at": "2024-09-18T15:12:12.368-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "7w0b0cq5zvfb",
+          "status": "monitoring",
+          "body": "Fine-tuning jobs are being returned from the API and are populating the UI on platform.openai.com/finetune",
+          "incident_id": "g1q7skfj3xr9",
+          "created_at": "2024-09-18T15:20:52.582-07:00",
+          "updated_at": "2024-09-18T15:20:52.582-07:00",
+          "display_at": "2024-09-18T15:20:52.582-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "wty6c4d551zg",
+          "status": "identified",
+          "body": "We've identified the problem and are pushing a fix. No data has been lost. We expect the issue to be fixed in the next 10 minutes",
+          "incident_id": "g1q7skfj3xr9",
+          "created_at": "2024-09-18T15:15:08.531-07:00",
+          "updated_at": "2024-09-18T15:15:08.531-07:00",
+          "display_at": "2024-09-18T15:15:08.531-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "nzf2qcjsh0v2",
+          "status": "identified",
+          "body": "No fine-tuning jobs are being returned from the /v1/fine_tuning/jobs endpoint.",
+          "incident_id": "g1q7skfj3xr9",
+          "created_at": "2024-09-18T15:12:12.430-07:00",
+          "updated_at": "2024-09-18T15:12:12.430-07:00",
+          "display_at": "2024-09-18T15:12:12.430-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "partial_outage",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2024-09-18T15:12:12.397-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
     {
       "id": "2mk4x5m4xvqs",
       "name": "Workspace Analytics tab is broken for ChatGPT Enterprise users",
@@ -205,7 +298,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
