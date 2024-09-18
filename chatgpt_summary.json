@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-17T17:56:01.327-07:00"
+    "updated_at": "2024-09-18T05:43:12.942-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-09-17T16:46:11.404-07:00",
+      "updated_at": "2024-09-18T05:33:02.106-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -69,6 +69,59 @@
     }
   ],
   "incidents": [
+    {
+      "id": "6ysbhfcs429p",
+      "name": "ChatGPT web is experiencing issues on Chrome version 129",
+      "status": "investigating",
+      "created_at": "2024-09-18T05:33:02.071-07:00",
+      "updated_at": "2024-09-18T05:33:02.158-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/5xpfh37pp6n0",
+      "started_at": "2024-09-18T05:33:02.066-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "2txvm4l8ng0j",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "6ysbhfcs429p",
+          "created_at": "2024-09-18T05:33:02.155-07:00",
+          "updated_at": "2024-09-18T05:33:02.155-07:00",
+          "display_at": "2024-09-18T05:33:02.155-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "degraded_performance",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2024-09-18T05:33:02.106-07:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
     {
       "id": "2mk4x5m4xvqs",
       "name": "Workspace Analytics tab is broken for ChatGPT Enterprise users",
@@ -167,9 +220,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-09-17T16:46:11.404-07:00",
+          "updated_at": "2024-09-18T05:33:02.106-07:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -185,7 +238,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
