@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-19T08:42:09.446-07:00"
+    "updated_at": "2024-09-19T10:50:01.761-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-09-18T06:14:55.035-07:00",
+      "updated_at": "2024-09-19T10:50:01.714-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -74,7 +74,7 @@
       "name": "Workspace Analytics tab is broken for ChatGPT Enterprise users",
       "status": "monitoring",
       "created_at": "2024-09-16T09:33:27.451-07:00",
-      "updated_at": "2024-09-18T12:46:34.848-07:00",
+      "updated_at": "2024-09-19T10:50:01.751-07:00",
       "monitoring_at": "2024-09-17T04:24:41.550-07:00",
       "resolved_at": null,
       "impact": "minor",
@@ -82,6 +82,26 @@
       "started_at": "2024-09-16T09:33:27.446-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "nmf5z6m0hwyp",
+          "status": "monitoring",
+          "body": "We’ve made some progress, and you may notice intermittent recovery. However, pages might still not load consistently as the issue is being resolved. We’re actively working to restore full functionality.",
+          "incident_id": "2mk4x5m4xvqs",
+          "created_at": "2024-09-19T10:50:01.748-07:00",
+          "updated_at": "2024-09-19T10:50:01.748-07:00",
+          "display_at": "2024-09-19T10:50:01.748-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "94t8r0hs09cq",
           "status": "monitoring",
@@ -187,9 +207,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-09-18T06:14:55.035-07:00",
+          "updated_at": "2024-09-19T10:50:01.714-07:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -205,7 +225,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
