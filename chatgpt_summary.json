@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-20T12:25:47.850-07:00"
+    "updated_at": "2024-09-20T12:36:44.678-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-09-20T10:17:35.798-07:00",
+      "updated_at": "2024-09-20T12:36:44.634-07:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -72,16 +72,36 @@
     {
       "id": "9c67ckjth8k3",
       "name": "ChatGPT Is Not Loading for Some Users",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-09-20T10:17:35.767-07:00",
-      "updated_at": "2024-09-20T11:14:55.891-07:00",
-      "monitoring_at": null,
+      "updated_at": "2024-09-20T12:36:44.675-07:00",
+      "monitoring_at": "2024-09-20T12:36:44.661-07:00",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/hm2w5p26n1pm",
       "started_at": "2024-09-20T10:17:35.762-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "wz3yfnp34gdl",
+          "status": "monitoring",
+          "body": "The engineering team has mitigate the errors for users using ChatGPT. Engineers are monitoring.",
+          "incident_id": "9c67ckjth8k3",
+          "created_at": "2024-09-20T12:36:44.661-07:00",
+          "updated_at": "2024-09-20T12:36:44.661-07:00",
+          "display_at": "2024-09-20T12:36:44.661-07:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "n6n72bx7tk7r",
           "status": "investigating",
@@ -127,9 +147,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-09-20T10:17:35.798-07:00",
+          "updated_at": "2024-09-20T12:36:44.634-07:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -280,9 +300,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-09-20T10:17:35.798-07:00",
+          "updated_at": "2024-09-20T12:36:44.634-07:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -298,7 +318,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
