@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-23T21:08:39.775-07:00"
+    "updated_at": "2024-09-23T21:19:50.871-07:00"
   },
   "components": [
     {
@@ -72,9 +72,9 @@
     {
       "id": "n6gp0rvd3d6s",
       "name": "Some fine-tuned snapshots are missing sampling permissions after finishing training",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-09-23T20:08:36.449-07:00",
-      "updated_at": "2024-09-23T21:08:39.770-07:00",
+      "updated_at": "2024-09-23T21:19:50.864-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -82,6 +82,26 @@
       "started_at": "2024-09-23T20:08:36.443-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "nz5lt105wf57",
+          "status": "identified",
+          "body": "A fix is being deployed, 404 errors should subside before 9:30pm PT.",
+          "incident_id": "n6gp0rvd3d6s",
+          "created_at": "2024-09-23T21:19:50.862-07:00",
+          "updated_at": "2024-09-23T21:19:50.862-07:00",
+          "display_at": "2024-09-23T21:19:50.862-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bbdsczdv2l61",
           "status": "investigating",
