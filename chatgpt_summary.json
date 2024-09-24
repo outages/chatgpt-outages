@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-09-23T21:19:50.871-07:00"
+    "updated_at": "2024-09-23T22:04:58.441-07:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-09-23T20:08:36.481-07:00",
+      "updated_at": "2024-09-23T22:04:54.032-07:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -69,119 +69,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "n6gp0rvd3d6s",
-      "name": "Some fine-tuned snapshots are missing sampling permissions after finishing training",
-      "status": "identified",
-      "created_at": "2024-09-23T20:08:36.449-07:00",
-      "updated_at": "2024-09-23T21:19:50.864-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/x678llpq0g85",
-      "started_at": "2024-09-23T20:08:36.443-07:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "nz5lt105wf57",
-          "status": "identified",
-          "body": "A fix is being deployed, 404 errors should subside before 9:30pm PT.",
-          "incident_id": "n6gp0rvd3d6s",
-          "created_at": "2024-09-23T21:19:50.862-07:00",
-          "updated_at": "2024-09-23T21:19:50.862-07:00",
-          "display_at": "2024-09-23T21:19:50.862-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bbdsczdv2l61",
-          "status": "investigating",
-          "body": "Issue has been identified and reproduced internally, we are preparing a fix.",
-          "incident_id": "n6gp0rvd3d6s",
-          "created_at": "2024-09-23T20:50:59.134-07:00",
-          "updated_at": "2024-09-23T20:50:59.134-07:00",
-          "display_at": "2024-09-23T20:50:59.134-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "6nglgkjjfdlc",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue. It appears to impact some fine-tuned models created after 4:10pm PT today (9/23)",
-          "incident_id": "n6gp0rvd3d6s",
-          "created_at": "2024-09-23T20:39:40.185-07:00",
-          "updated_at": "2024-09-23T21:08:39.768-07:00",
-          "display_at": "2024-09-23T20:39:40.000-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r0lj33yxf66m",
-          "status": "investigating",
-          "body": "We are investigating reports that sampling requests to fine-tuned models are returning 404 due to lack of sampling permissions.",
-          "incident_id": "n6gp0rvd3d6s",
-          "created_at": "2024-09-23T20:08:36.537-07:00",
-          "updated_at": "2024-09-23T20:08:36.537-07:00",
-          "display_at": "2024-09-23T20:08:36.537-07:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2024-09-23T20:08:36.481-07:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
     {
       "id": "2mk4x5m4xvqs",
       "name": "Workspace Analytics tab is broken for ChatGPT Enterprise users",
