@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-10-07T13:43:48.682-07:00"
+    "updated_at": "2024-10-07T14:22:26.899-07:00"
   },
   "components": [
     {
@@ -72,9 +72,9 @@
     {
       "id": "n55njyqz4hr8",
       "name": "Unable to create new fine-tuned models from existing fine-tuned models that were recently created",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-10-07T13:39:16.536-07:00",
-      "updated_at": "2024-10-07T13:39:16.573-07:00",
+      "updated_at": "2024-10-07T14:22:26.889-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
@@ -82,6 +82,26 @@
       "started_at": "2024-10-07T13:39:16.532-07:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "ym4rgn2l006b",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "n55njyqz4hr8",
+          "created_at": "2024-10-07T14:22:26.886-07:00",
+          "updated_at": "2024-10-07T14:22:26.886-07:00",
+          "display_at": "2024-10-07T14:22:26.886-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "shf1nk50980h",
           "status": "investigating",
