@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-10-14T09:20:33.792-07:00"
+    "updated_at": "2024-10-14T13:12:33.690-07:00"
   },
   "components": [
     {
@@ -68,7 +68,61 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "kfy40mxr686g",
+      "name": "Billing and Usage dashboard data not displaying for some users",
+      "status": "identified",
+      "created_at": "2024-10-14T13:12:33.634-07:00",
+      "updated_at": "2024-10-14T13:12:33.683-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/3pjjjffjm7xq",
+      "started_at": "2024-10-14T13:12:33.629-07:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "0sfn1p6l66c3",
+          "status": "identified",
+          "body": "We are currently investigating an issue where multiple users have reported no activity appearing in their billing and usage dashboards for certain models since October 10, 2024. Affected API customers are still able to use our models without disruption. Starting from ~1 PM PT today, users should start seeing data reflected again.",
+          "incident_id": "kfy40mxr686g",
+          "created_at": "2024-10-14T13:12:33.680-07:00",
+          "updated_at": "2024-10-14T13:12:33.680-07:00",
+          "display_at": "2024-10-14T13:12:33.680-07:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "operational",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2024-10-02T09:20:53.147-07:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
