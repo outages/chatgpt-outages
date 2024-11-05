@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-11-05T13:34:10.203-08:00"
+    "updated_at": "2024-11-05T14:40:11.761-08:00"
   },
   "components": [
     {
@@ -74,12 +74,12 @@
       "name": "Workspace Analytics Unavailable",
       "status": "identified",
       "created_at": "2024-11-05T10:48:57.854-08:00",
-      "updated_at": "2024-11-05T13:34:10.193-08:00",
+      "updated_at": "2024-11-05T14:40:11.755-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/1n0jwfbczq7r",
-      "started_at": "2024-11-05T10:48:57.846-08:00",
+      "started_at": "2024-11-05T10:48:57.000-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
         {
@@ -125,11 +125,11 @@
         {
           "id": "gz8rfghr41gm",
           "status": "identified",
-          "body": "Starting at 6pm PT on Monday, Nov 4th, the workspace analytics page has been unavailable. We have identified the root cause and are currently working on a fix. Thank you for your patience and we apologize for the inconvenience.",
+          "body": "Starting at 2:30pm PT on Monday, Nov 4th, the workspace analytics page has been unavailable. We have identified the root cause and are currently working on a fix. Thank you for your patience and we apologize for the inconvenience.",
           "incident_id": "rjbk171bq45j",
           "created_at": "2024-11-05T10:48:57.939-08:00",
-          "updated_at": "2024-11-05T10:48:57.939-08:00",
-          "display_at": "2024-11-05T10:48:57.939-08:00",
+          "updated_at": "2024-11-05T14:40:11.555-08:00",
+          "display_at": "2024-11-05T10:48:57.000-08:00",
           "affected_components": [
             {
               "code": "tbwycthtqm69",
