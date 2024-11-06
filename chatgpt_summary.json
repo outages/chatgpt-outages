@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-11-05T15:18:30.263-08:00"
+    "updated_at": "2024-11-05T15:55:51.683-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-11-05T10:48:57.890-08:00",
+      "updated_at": "2024-11-05T15:55:51.644-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -68,124 +68,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "rjbk171bq45j",
-      "name": "Workspace Analytics Unavailable",
-      "status": "monitoring",
-      "created_at": "2024-11-05T10:48:57.000-08:00",
-      "updated_at": "2024-11-05T15:18:30.261-08:00",
-      "monitoring_at": "2024-11-05T15:18:30.241-08:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/1n0jwfbczq7r",
-      "started_at": "2024-11-05T10:48:57.000-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "f2t54fw0wp3m",
-          "status": "monitoring",
-          "body": "We have now implemented a fix to make the workspace analytics page available again. If you are still unable to access that page, you should be able to soon.",
-          "incident_id": "rjbk171bq45j",
-          "created_at": "2024-11-05T15:18:30.241-08:00",
-          "updated_at": "2024-11-05T15:18:30.241-08:00",
-          "display_at": "2024-11-05T15:18:30.241-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g0s6wwdy6pw5",
-          "status": "identified",
-          "body": "We are continuing to work on the fix for this issue and will provide additional updates as we have them.",
-          "incident_id": "rjbk171bq45j",
-          "created_at": "2024-11-05T13:34:10.189-08:00",
-          "updated_at": "2024-11-05T13:34:10.189-08:00",
-          "display_at": "2024-11-05T13:34:10.189-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7yf69l2rfshz",
-          "status": "identified",
-          "body": "We are continuing to work on the fix for this issue and will provide additional updates as we have them.",
-          "incident_id": "rjbk171bq45j",
-          "created_at": "2024-11-05T11:54:43.708-08:00",
-          "updated_at": "2024-11-05T11:54:43.708-08:00",
-          "display_at": "2024-11-05T11:54:43.708-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gz8rfghr41gm",
-          "status": "identified",
-          "body": "Starting at 2:30pm PT on Monday, Nov 4th, the workspace analytics page has been unavailable. We have identified the root cause and are currently working on a fix. Thank you for your patience and we apologize for the inconvenience.",
-          "incident_id": "rjbk171bq45j",
-          "created_at": "2024-11-05T10:48:57.939-08:00",
-          "updated_at": "2024-11-05T14:40:11.555-08:00",
-          "display_at": "2024-11-05T10:48:57.000-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "degraded_performance",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-11-05T10:48:57.890-08:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
