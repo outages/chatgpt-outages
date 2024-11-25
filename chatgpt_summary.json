@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-11-25T11:20:40.069-08:00"
+    "updated_at": "2024-11-25T11:33:06.502-08:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2024-10-19T13:55:08.768-07:00",
+      "updated_at": "2024-11-25T11:33:06.425-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -71,10 +71,10 @@
   "incidents": [
     {
       "id": "3pn6gclf1cjx",
-      "name": "Elevated Error Rate for ChatGPT",
+      "name": "Elevated Error Rate for ChatGPT and API",
       "status": "identified",
       "created_at": "2024-11-25T11:03:15.174-08:00",
-      "updated_at": "2024-11-25T11:11:09.022-08:00",
+      "updated_at": "2024-11-25T11:33:06.487-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -82,6 +82,32 @@
       "started_at": "2024-11-25T11:03:15.167-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "53189zkr9kqz",
+          "status": "identified",
+          "body": "We have identified that this issue may also cause elevated errors in the API. We are continuing to work towards implementing a fix.",
+          "incident_id": "3pn6gclf1cjx",
+          "created_at": "2024-11-25T11:33:06.483-08:00",
+          "updated_at": "2024-11-25T11:33:06.483-08:00",
+          "display_at": "2024-11-25T11:33:06.483-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1pmsbjlmd4jv",
           "status": "identified",
@@ -124,6 +150,21 @@
         }
       ],
       "components": [
+        {
+          "id": "scd0s93nldpb",
+          "name": "API",
+          "status": "degraded_performance",
+          "created_at": "2021-02-12T12:31:47.393-08:00",
+          "updated_at": "2024-11-25T11:33:06.425-08:00",
+          "position": 1,
+          "description": "All OpenAI API services at api.openai.com",
+          "showcase": true,
+          "start_date": "2021-02-11",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        },
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
