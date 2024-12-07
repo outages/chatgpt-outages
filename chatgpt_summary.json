@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-12-06T14:31:50.252-08:00"
+    "updated_at": "2024-12-06T21:29:39.428-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-12-04T19:04:21.028-08:00",
+      "updated_at": "2024-12-06T21:29:39.388-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -68,10 +68,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "p7h80mvgv4xh",
+      "name": "ChatGPT users having issues with file uploads",
+      "status": "investigating",
+      "created_at": "2024-12-06T21:29:39.359-08:00",
+      "updated_at": "2024-12-06T21:29:39.425-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/jpw3996d8vmf",
+      "started_at": "2024-12-06T21:29:39.354-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "t28b5blzjxkw",
+          "status": "investigating",
+          "body": "We are currently investigating an issue where ChatGPT users are having issues with file uploads.",
+          "incident_id": "p7h80mvgv4xh",
+          "created_at": "2024-12-06T21:29:39.423-08:00",
+          "updated_at": "2024-12-06T21:29:39.423-08:00",
+          "display_at": "2024-12-06T21:29:39.423-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "partial_outage",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2024-12-06T21:29:39.388-08:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
