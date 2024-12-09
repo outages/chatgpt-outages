@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-12-09T05:43:02.950-08:00"
+    "updated_at": "2024-12-09T06:05:23.980-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-12-09T05:42:50.116-08:00",
+      "updated_at": "2024-12-09T06:05:23.943-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -72,16 +72,56 @@
     {
       "id": "dpn8kthpgwmg",
       "name": "Disruption to some ChatGPT Enterprise features",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2024-12-09T05:42:50.083-08:00",
-      "updated_at": "2024-12-09T05:43:02.946-08:00",
-      "monitoring_at": null,
+      "updated_at": "2024-12-09T06:05:23.978-08:00",
+      "monitoring_at": "2024-12-09T06:05:23.965-08:00",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/j2g7t5n3p2p7",
       "started_at": "2024-12-09T05:42:50.078-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "rdpt4sj8ynhh",
+          "status": "monitoring",
+          "body": "We're now recovered as of 05:44am PST. Login, Workplace Analytics, the Compliance API, and the Members tab for ChatGPT Enterprise are now all functioning as normal. We're continuing to monitor.",
+          "incident_id": "dpn8kthpgwmg",
+          "created_at": "2024-12-09T06:05:23.965-08:00",
+          "updated_at": "2024-12-09T06:05:23.965-08:00",
+          "display_at": "2024-12-09T06:05:23.965-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "hfxcm60f8r6b",
+          "status": "identified",
+          "body": "We've identified the root cause and have begun mitigation. We're observing an improvement in performance.",
+          "incident_id": "dpn8kthpgwmg",
+          "created_at": "2024-12-09T05:50:41.955-08:00",
+          "updated_at": "2024-12-09T05:50:41.955-08:00",
+          "display_at": "2024-12-09T05:50:41.955-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "9940ygffppz3",
           "status": "investigating",
@@ -107,9 +147,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2024-12-09T05:42:50.116-08:00",
+          "updated_at": "2024-12-09T06:05:23.943-08:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -125,7 +165,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
