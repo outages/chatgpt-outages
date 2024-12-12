@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-12-11T15:45:41.112-08:00"
+    "updated_at": "2024-12-11T16:56:14.785-08:00"
   },
   "components": [
     {
@@ -72,9 +72,9 @@
     {
       "id": "ctrsv3lwd797",
       "name": "API, ChatGPT & Sora Facing Issues",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-12-11T15:36:14.474-08:00",
-      "updated_at": "2024-12-11T15:45:41.105-08:00",
+      "updated_at": "2024-12-11T16:56:14.778-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -82,6 +82,84 @@
       "started_at": "2024-12-11T15:17:14.000-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "k7zd82twjhc8",
+          "status": "identified",
+          "body": "We have identified a pathway to recovery and we are starting to see some traffic successfully return. Continuing to work to return service to normal.",
+          "incident_id": "ctrsv3lwd797",
+          "created_at": "2024-12-11T16:55:10.116-08:00",
+          "updated_at": "2024-12-11T16:56:14.775-08:00",
+          "display_at": "2024-12-11T16:55:10.000-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8hbg3313jbk3",
+          "status": "identified",
+          "body": "ChatGPT, Sora, and the API remain down. We have identified the issue and are rolling out a remediation. We are working as fast as we can to return service to normal and apologize for the downtime.",
+          "incident_id": "ctrsv3lwd797",
+          "created_at": "2024-12-11T16:24:21.193-08:00",
+          "updated_at": "2024-12-11T16:24:21.193-08:00",
+          "display_at": "2024-12-11T16:24:21.193-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "gjywm6dz6k5m",
+          "status": "identified",
+          "body": "We have reports of API calls returning errors, and difficulties logging in to platform.openai.com and ChatGPT. We have identified the issue and are working to roll out a fix.",
+          "incident_id": "ctrsv3lwd797",
+          "created_at": "2024-12-11T15:53:39.719-08:00",
+          "updated_at": "2024-12-11T15:53:39.719-08:00",
+          "display_at": "2024-12-11T15:53:39.719-08:00",
+          "affected_components": [
+            {
+              "code": "scd0s93nldpb",
+              "name": "API",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vdwkh4h78zr4",
           "status": "investigating",
