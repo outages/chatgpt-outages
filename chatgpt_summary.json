@@ -2,9 +2,9 @@
   "page": {
     "id": "jbxzcdv9xc4d",
     "name": "OpenAI",
-    "url": "https://status.openai.com",
+    "url": "http://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-12-18T17:06:15.764-08:00"
+    "updated_at": "2024-12-19T07:24:48.464-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2024-12-17T15:23:09.034-08:00",
+      "updated_at": "2024-12-19T07:24:48.416-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -83,10 +83,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "nywxy1553mvg",
+      "name": "Some users not receiving verification emails when logging into ChatGPT",
+      "status": "investigating",
+      "created_at": "2024-12-19T07:24:48.385-08:00",
+      "updated_at": "2024-12-19T07:24:48.461-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/mj03l68h3pb1",
+      "started_at": "2024-12-19T07:24:48.380-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "pwmbllmctlzt",
+          "status": "investigating",
+          "body": "We're aware that some users are not receiving verification emails when logging into ChatGPT, leaving them blocked. We're currently investigating.",
+          "incident_id": "nywxy1553mvg",
+          "created_at": "2024-12-19T07:24:48.458-08:00",
+          "updated_at": "2024-12-19T07:24:48.458-08:00",
+          "display_at": "2024-12-19T07:24:48.458-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "degraded_performance",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2024-12-19T07:24:48.416-08:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
