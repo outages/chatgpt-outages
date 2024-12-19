@@ -2,9 +2,9 @@
   "page": {
     "id": "jbxzcdv9xc4d",
     "name": "OpenAI",
-    "url": "http://status.openai.com",
+    "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-12-19T07:24:48.464-08:00"
+    "updated_at": "2024-12-19T07:43:44.647-08:00"
   },
   "components": [
     {
@@ -89,7 +89,7 @@
       "name": "Some users not receiving verification emails when logging into ChatGPT",
       "status": "investigating",
       "created_at": "2024-12-19T07:24:48.385-08:00",
-      "updated_at": "2024-12-19T07:24:48.461-08:00",
+      "updated_at": "2024-12-19T07:43:44.638-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -97,6 +97,26 @@
       "started_at": "2024-12-19T07:24:48.380-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "q0ytm9n52mcs",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "nywxy1553mvg",
+          "created_at": "2024-12-19T07:43:44.634-08:00",
+          "updated_at": "2024-12-19T07:43:44.634-08:00",
+          "display_at": "2024-12-19T07:43:44.634-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "pwmbllmctlzt",
           "status": "investigating",
