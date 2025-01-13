@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-01-13T10:44:06.832-08:00"
+    "updated_at": "2025-01-13T11:43:29.396-08:00"
   },
   "components": [
     {
@@ -87,16 +87,36 @@
     {
       "id": "hsvr8b96tgcy",
       "name": "Access issues logging in with SSO for ChatGPT",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-01-13T08:46:03.428-08:00",
-      "updated_at": "2025-01-13T10:33:20.577-08:00",
-      "monitoring_at": null,
+      "updated_at": "2025-01-13T11:43:29.393-08:00",
+      "monitoring_at": "2025-01-13T11:43:29.379-08:00",
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/0znrhk3tv8k8",
       "started_at": "2025-01-13T08:46:03.420-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
+        {
+          "id": "m2lxbd3y4q23",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring results. We will post an update once we can confirm resolution or if the issue persists.",
+          "incident_id": "hsvr8b96tgcy",
+          "created_at": "2025-01-13T11:43:29.379-08:00",
+          "updated_at": "2025-01-13T11:43:29.379-08:00",
+          "display_at": "2025-01-13T11:43:29.379-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "9qnrxvb93krn",
           "status": "investigating",
