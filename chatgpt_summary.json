@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-01-21T12:05:56.868-08:00"
+    "updated_at": "2025-01-21T15:58:14.920-08:00"
   },
   "components": [
     {
@@ -83,141 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "twyj134w018b",
-      "name": "High error rates for Embeddings API",
-      "status": "monitoring",
-      "created_at": "2025-01-21T00:52:42.692-08:00",
-      "updated_at": "2025-01-21T12:05:56.866-08:00",
-      "monitoring_at": "2025-01-21T12:05:56.849-08:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/v62sw5ds19md",
-      "started_at": "2025-01-21T00:52:42.687-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "sjgj7rml61b8",
-          "status": "monitoring",
-          "body": "We have implemented a fix and are monitoring results. We will send an update once we have confirmed the issue is resolved.",
-          "incident_id": "twyj134w018b",
-          "created_at": "2025-01-21T12:05:56.849-08:00",
-          "updated_at": "2025-01-21T12:05:56.849-08:00",
-          "display_at": "2025-01-21T12:05:56.849-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kbhsr5v2lfrt",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
-          "incident_id": "twyj134w018b",
-          "created_at": "2025-01-21T12:01:23.509-08:00",
-          "updated_at": "2025-01-21T12:01:23.509-08:00",
-          "display_at": "2025-01-21T12:01:23.509-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "g21p733kvf1f",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue",
-          "incident_id": "twyj134w018b",
-          "created_at": "2025-01-21T11:08:49.145-08:00",
-          "updated_at": "2025-01-21T11:08:49.145-08:00",
-          "display_at": "2025-01-21T11:08:49.145-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7vxr18c2vpr7",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
-          "incident_id": "twyj134w018b",
-          "created_at": "2025-01-21T00:54:13.437-08:00",
-          "updated_at": "2025-01-21T00:54:13.437-08:00",
-          "display_at": "2025-01-21T00:54:13.437-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "partial_outage",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8n4xk5c198wx",
-          "status": "identified",
-          "body": "We are currently experiencing high error rates for Embeddings API. We are investigating and will post an update as soon as possible.",
-          "incident_id": "twyj134w018b",
-          "created_at": "2025-01-21T00:52:42.802-08:00",
-          "updated_at": "2025-01-21T00:52:42.802-08:00",
-          "display_at": "2025-01-21T00:52:42.802-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "operational",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2025-01-21T12:05:56.815-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
