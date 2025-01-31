@@ -4,10 +4,10 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-01-31T10:58:16.856-08:00"
+    "updated_at": "2025-01-31T11:14:39.822-08:00"
   },
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
