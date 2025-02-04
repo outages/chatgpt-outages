@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-04T10:44:06.103-08:00"
+    "updated_at": "2025-02-04T11:02:32.827-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2025-02-04T07:50:43.675-08:00",
+      "updated_at": "2025-02-04T11:02:32.745-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -85,14 +85,67 @@
   ],
   "incidents": [
     {
+      "id": "2w5bb7g12f92",
+      "name": "ChatGPT issues connecting Voice on Web",
+      "status": "investigating",
+      "created_at": "2025-02-04T11:02:32.702-08:00",
+      "updated_at": "2025-02-04T11:02:32.824-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/z8jxrdrtx0vj",
+      "started_at": "2025-02-04T11:02:32.695-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "rm1wtyycqwr1",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "2w5bb7g12f92",
+          "created_at": "2025-02-04T11:02:32.821-08:00",
+          "updated_at": "2025-02-04T11:02:32.821-08:00",
+          "display_at": "2025-02-04T11:02:32.821-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "partial_outage",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2025-02-04T11:02:32.745-08:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
       "id": "txz1yzp8xhcw",
       "name": "ChatGPT response times slower than normal.",
       "status": "monitoring",
       "created_at": "2025-02-04T07:50:43.639-08:00",
-      "updated_at": "2025-02-04T10:44:06.101-08:00",
+      "updated_at": "2025-02-04T11:02:32.789-08:00",
       "monitoring_at": "2025-02-04T10:44:06.086-08:00",
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/44whmlp8bb10",
       "started_at": "2025-02-04T07:50:43.633-08:00",
       "page_id": "jbxzcdv9xc4d",
@@ -162,9 +215,9 @@
         {
           "id": "tbwycthtqm69",
           "name": "ChatGPT",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2025-02-04T07:50:43.675-08:00",
+          "updated_at": "2025-02-04T11:02:32.745-08:00",
           "position": 2,
           "description": "https://chat.openai.com",
           "showcase": true,
@@ -181,6 +234,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "description": "Minor Service Outage"
   }
 }
