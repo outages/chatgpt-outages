@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-05T12:02:41.587-08:00"
+    "updated_at": "2025-02-05T12:20:41.381-08:00"
   },
   "components": [
     {
@@ -86,15 +86,15 @@
   "incidents": [
     {
       "id": "jcg6bphcd3l9",
-      "name": "Elevated Batch API batch creation errors starting from 4:40pm yesterday",
+      "name": "Elevated Batch API batch creation errors",
       "status": "monitoring",
-      "created_at": "2025-02-05T11:59:10.498-08:00",
-      "updated_at": "2025-02-05T12:02:41.583-08:00",
+      "created_at": "2025-02-04T16:40:10.000-08:00",
+      "updated_at": "2025-02-05T12:19:38.744-08:00",
       "monitoring_at": "2025-02-05T12:02:41.564-08:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/7xv1jp3bknbc",
-      "started_at": "2025-02-05T11:59:10.492-08:00",
+      "started_at": "2025-02-04T16:40:10.000-08:00",
       "page_id": "jbxzcdv9xc4d",
       "incident_updates": [
         {
@@ -143,8 +143,8 @@
           "body": "We are currently investigating this issue.",
           "incident_id": "jcg6bphcd3l9",
           "created_at": "2025-02-05T11:59:10.597-08:00",
-          "updated_at": "2025-02-05T11:59:10.597-08:00",
-          "display_at": "2025-02-05T11:59:10.597-08:00",
+          "updated_at": "2025-02-05T12:16:08.867-08:00",
+          "display_at": "2025-02-04T16:40:10.000-08:00",
           "affected_components": [
             {
               "code": "scd0s93nldpb",
