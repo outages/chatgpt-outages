@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-10T11:02:35.776-08:00"
+    "updated_at": "2025-02-10T15:23:17.807-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2025-02-10T09:52:32.728-08:00",
+      "updated_at": "2025-02-10T15:23:17.746-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -83,10 +83,64 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "5n02mc116gf0",
+      "name": "Elevated errors when using Audio Transcription, Image Generation, and Realtime API",
+      "status": "investigating",
+      "created_at": "2025-02-10T15:23:17.708-08:00",
+      "updated_at": "2025-02-10T15:23:17.802-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/8cx27wk4vssh",
+      "started_at": "2025-02-10T15:23:17.700-08:00",
+      "page_id": "jbxzcdv9xc4d",
+      "incident_updates": [
+        {
+          "id": "0yrm9h06px8x",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "5n02mc116gf0",
+          "created_at": "2025-02-10T15:23:17.799-08:00",
+          "updated_at": "2025-02-10T15:23:17.799-08:00",
+          "display_at": "2025-02-10T15:23:17.799-08:00",
+          "affected_components": [
+            {
+              "code": "tbwycthtqm69",
+              "name": "ChatGPT",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tbwycthtqm69",
+          "name": "ChatGPT",
+          "status": "degraded_performance",
+          "created_at": "2023-02-14T11:25:51.357-08:00",
+          "updated_at": "2025-02-10T15:23:17.746-08:00",
+          "position": 2,
+          "description": "https://chat.openai.com",
+          "showcase": true,
+          "start_date": "2023-02-14",
+          "group_id": null,
+          "page_id": "jbxzcdv9xc4d",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
