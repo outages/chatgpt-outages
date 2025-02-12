@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-12T03:20:35.388-08:00"
+    "updated_at": "2025-02-12T05:12:25.054-08:00"
   },
   "components": [
     {
@@ -83,81 +83,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "2ggy1dxx8z8c",
-      "name": "Elevated Subscription Loading Errors",
-      "status": "investigating",
-      "created_at": "2025-02-12T02:35:42.792-08:00",
-      "updated_at": "2025-02-12T02:36:11.903-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/gr11gshcmvhf",
-      "started_at": "2025-02-12T02:35:42.788-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "b92h4kz9svsz",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "2ggy1dxx8z8c",
-          "created_at": "2025-02-12T02:36:11.899-08:00",
-          "updated_at": "2025-02-12T02:36:11.899-08:00",
-          "display_at": "2025-02-12T02:36:11.899-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8nxmm71h9t7g",
-          "status": "investigating",
-          "body": "We're experiencing an elevated level of ChatGPT subscription loading errors and are currently looking into the issue.",
-          "incident_id": "2ggy1dxx8z8c",
-          "created_at": "2025-02-12T02:35:42.831-08:00",
-          "updated_at": "2025-02-12T02:35:42.831-08:00",
-          "display_at": "2025-02-12T02:35:42.831-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "operational",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2025-02-10T16:15:50.192-08:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
