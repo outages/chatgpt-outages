@@ -4,7 +4,7 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-19T10:42:55.016-08:00"
+    "updated_at": "2025-02-19T11:08:35.285-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2025-02-19T10:42:54.959-08:00",
+      "updated_at": "2025-02-19T11:08:35.228-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -83,104 +83,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "p81mt3mmtf32",
-      "name": "Elevated errors for ChatGPT",
-      "status": "investigating",
-      "created_at": "2025-02-19T09:59:19.358-08:00",
-      "updated_at": "2025-02-19T10:42:55.007-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/5pz5qqx3b47j",
-      "started_at": "2025-02-19T09:59:19.000-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "pj5lqwl7hh98",
-          "status": "investigating",
-          "body": "We have seen full recovery for free users. We are continuing to fix issues observed by paid users.",
-          "incident_id": "p81mt3mmtf32",
-          "created_at": "2025-02-19T10:42:55.004-08:00",
-          "updated_at": "2025-02-19T10:42:55.004-08:00",
-          "display_at": "2025-02-19T10:42:55.004-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kk39lfxq0fb4",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "p81mt3mmtf32",
-          "created_at": "2025-02-19T10:23:52.728-08:00",
-          "updated_at": "2025-02-19T10:23:52.728-08:00",
-          "display_at": "2025-02-19T10:23:52.728-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ldk18d91zb7r",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "p81mt3mmtf32",
-          "created_at": "2025-02-19T09:59:19.403-08:00",
-          "updated_at": "2025-02-19T10:23:49.362-08:00",
-          "display_at": "2025-02-19T09:59:19.000-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "degraded_performance",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2025-02-19T10:42:54.959-08:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
