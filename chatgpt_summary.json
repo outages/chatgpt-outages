@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-21T19:28:01.427-08:00"
+    "updated_at": "2025-02-21T19:54:36.232-08:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2025-02-21T19:19:27.492-08:00",
+      "updated_at": "2025-02-21T19:54:36.181-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -83,104 +83,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "v11gdwskrb3k",
-      "name": "Elevated errors in the API",
-      "status": "monitoring",
-      "created_at": "2025-02-21T06:41:27.000-08:00",
-      "updated_at": "2025-02-21T19:28:01.418-08:00",
-      "monitoring_at": "2025-02-21T19:23:54.636-08:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/40tftfpqp3tq",
-      "started_at": "2025-02-21T06:41:27.000-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "91h055k2x7qm",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "v11gdwskrb3k",
-          "created_at": "2025-02-21T19:23:54.636-08:00",
-          "updated_at": "2025-02-21T19:23:54.636-08:00",
-          "display_at": "2025-02-21T19:23:54.636-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "3z7s2v2gszw7",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "v11gdwskrb3k",
-          "created_at": "2025-02-21T19:22:55.228-08:00",
-          "updated_at": "2025-02-21T19:22:55.228-08:00",
-          "display_at": "2025-02-21T19:22:55.228-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wmbmgvhgdnzs",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "v11gdwskrb3k",
-          "created_at": "2025-02-21T19:19:27.533-08:00",
-          "updated_at": "2025-02-21T19:28:01.413-08:00",
-          "display_at": "2025-02-21T18:41:27.000-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2025-02-21T19:19:27.492-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
