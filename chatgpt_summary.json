@@ -4,15 +4,15 @@
     "name": "OpenAI",
     "url": "https://status.openai.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-26T07:40:55.152-08:00"
+    "updated_at": "2025-02-26T09:20:35.077-08:00"
   },
   "components": [
     {
       "id": "scd0s93nldpb",
       "name": "API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2025-02-26T05:29:11.756-08:00",
+      "updated_at": "2025-02-26T09:11:01.389-08:00",
       "position": 1,
       "description": "All OpenAI API services at api.openai.com",
       "showcase": true,
@@ -25,9 +25,9 @@
     {
       "id": "tbwycthtqm69",
       "name": "ChatGPT",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2025-02-26T05:53:12.455-08:00",
+      "updated_at": "2025-02-26T09:20:35.018-08:00",
       "position": 2,
       "description": "https://chat.openai.com",
       "showcase": true,
@@ -83,177 +83,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "v3gp367k72bc",
-      "name": "API performance degradation",
-      "status": "monitoring",
-      "created_at": "2025-02-26T05:29:11.700-08:00",
-      "updated_at": "2025-02-26T07:40:55.149-08:00",
-      "monitoring_at": "2025-02-26T07:40:55.131-08:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/ll6ncwgbxvpv",
-      "started_at": "2025-02-26T05:29:11.688-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "sq17rs01wkm4",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results.",
-          "incident_id": "v3gp367k72bc",
-          "created_at": "2025-02-26T07:40:55.131-08:00",
-          "updated_at": "2025-02-26T07:40:55.131-08:00",
-          "display_at": "2025-02-26T07:40:55.131-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "n3m4bl7zg0zf",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "v3gp367k72bc",
-          "created_at": "2025-02-26T06:51:36.761-08:00",
-          "updated_at": "2025-02-26T06:51:36.761-08:00",
-          "display_at": "2025-02-26T06:51:36.761-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "clkqwwksxkzz",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "v3gp367k72bc",
-          "created_at": "2025-02-26T05:29:11.833-08:00",
-          "updated_at": "2025-02-26T05:29:11.833-08:00",
-          "display_at": "2025-02-26T05:29:11.833-08:00",
-          "affected_components": [
-            {
-              "code": "scd0s93nldpb",
-              "name": "API",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "scd0s93nldpb",
-          "name": "API",
-          "status": "degraded_performance",
-          "created_at": "2021-02-12T12:31:47.393-08:00",
-          "updated_at": "2025-02-26T05:29:11.756-08:00",
-          "position": 1,
-          "description": "All OpenAI API services at api.openai.com",
-          "showcase": true,
-          "start_date": "2021-02-11",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
-      "id": "4jmhdz73gyb5",
-      "name": "Degraded performance for ChatGPT voice.",
-      "status": "investigating",
-      "created_at": "2025-02-26T05:53:12.419-08:00",
-      "updated_at": "2025-02-26T05:56:03.624-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/gxhd5cgqnjff",
-      "started_at": "2025-02-26T05:53:12.414-08:00",
-      "page_id": "jbxzcdv9xc4d",
-      "incident_updates": [
-        {
-          "id": "j3w3s6pqgbvq",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "4jmhdz73gyb5",
-          "created_at": "2025-02-26T05:55:32.684-08:00",
-          "updated_at": "2025-02-26T05:55:32.684-08:00",
-          "display_at": "2025-02-26T05:55:32.684-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v622brz144c8",
-          "status": "investigating",
-          "body": "We are currently investigating this issue.",
-          "incident_id": "4jmhdz73gyb5",
-          "created_at": "2025-02-26T05:53:12.503-08:00",
-          "updated_at": "2025-02-26T05:53:12.503-08:00",
-          "display_at": "2025-02-26T05:53:12.503-08:00",
-          "affected_components": [
-            {
-              "code": "tbwycthtqm69",
-              "name": "ChatGPT",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "tbwycthtqm69",
-          "name": "ChatGPT",
-          "status": "degraded_performance",
-          "created_at": "2023-02-14T11:25:51.357-08:00",
-          "updated_at": "2025-02-26T05:53:12.455-08:00",
-          "position": 2,
-          "description": "https://chat.openai.com",
-          "showcase": true,
-          "start_date": "2023-02-14",
-          "group_id": null,
-          "page_id": "jbxzcdv9xc4d",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
