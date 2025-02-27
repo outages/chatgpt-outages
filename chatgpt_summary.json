@@ -1,92 +1,239 @@
 {
   "page": {
-    "id": "jbxzcdv9xc4d",
+    "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
-    "url": "https://status.openai.com",
-    "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-27T03:19:15.640-08:00"
+    "url": "https://status.openai.com/",
+    "updated_at": "2025-02-27T21:35:42Z"
+  },
+  "status": {
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
-      "id": "scd0s93nldpb",
-      "name": "API",
+      "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
+      "name": "Login",
       "status": "operational",
-      "created_at": "2021-02-12T12:31:47.393-08:00",
-      "updated_at": "2025-02-26T09:11:01.389-08:00",
+      "created_at": "2025-02-25T01:42:53Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 0,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
+      "name": "Video generation",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:53Z",
+      "updated_at": "2025-02-27T17:12:21Z",
       "position": 1,
-      "description": "All OpenAI API services at api.openai.com",
-      "showcase": true,
-      "start_date": "2021-02-11",
-      "group_id": null,
-      "page_id": "jbxzcdv9xc4d",
-      "group": false,
-      "only_show_if_degraded": false
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "tbwycthtqm69",
-      "name": "ChatGPT",
+      "id": "01JMXCAX0QM438N5CDG2RMJ07X",
+      "name": "Video viewing",
       "status": "operational",
-      "created_at": "2023-02-14T11:25:51.357-08:00",
-      "updated_at": "2025-02-26T09:20:35.018-08:00",
+      "created_at": "2025-02-25T01:42:54Z",
+      "updated_at": "2025-02-27T17:12:21Z",
       "position": 2,
-      "description": "https://chat.openai.com",
-      "showcase": true,
-      "start_date": "2023-02-14",
-      "group_id": null,
-      "page_id": "jbxzcdv9xc4d",
-      "group": false,
-      "only_show_if_degraded": false
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "37kvgwvxvbml",
-      "name": "Sora",
+      "id": "01JMXCAX0Q6C4KFTHY65EP0ZB2",
+      "name": "Feed",
       "status": "operational",
-      "created_at": "2024-12-11T16:59:14.571-08:00",
-      "updated_at": "2025-02-18T15:59:44.227-08:00",
+      "created_at": "2025-02-25T01:42:54Z",
+      "updated_at": "2025-02-27T17:12:21Z",
       "position": 3,
-      "description": "https://sora.com/",
-      "showcase": true,
-      "start_date": "2024-12-11",
-      "group_id": null,
-      "page_id": "jbxzcdv9xc4d",
-      "group": false,
-      "only_show_if_degraded": false
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "p4pvx4j7r7n7",
-      "name": "Playground",
+      "id": "01JMXBRMFE796MJ8H81EGWA46P",
+      "name": "Uploads",
       "status": "operational",
-      "created_at": "2021-04-01T16:01:59.049-07:00",
-      "updated_at": "2024-12-17T06:37:54.562-08:00",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
       "position": 4,
-      "description": "The OpenAI Playground at platform.openai.com",
-      "showcase": true,
-      "start_date": "2021-03-31",
-      "group_id": null,
-      "page_id": "jbxzcdv9xc4d",
-      "group": false,
-      "only_show_if_degraded": false
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "csm9vdtjbsf0",
-      "name": "Labs",
+      "id": "01JMXBRMFE0V9J9X2HY3SKX399",
+      "name": "Completions (legacy)",
       "status": "operational",
-      "created_at": "2023-02-21T04:15:43.840-08:00",
-      "updated_at": "2024-12-17T06:37:59.622-08:00",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
       "position": 5,
-      "description": "https://labs.openai.com",
-      "showcase": true,
-      "start_date": "2023-02-21",
-      "group_id": null,
-      "page_id": "jbxzcdv9xc4d",
-      "group": false,
-      "only_show_if_degraded": false
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
+      "name": "Images",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 6,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
+      "name": "Embeddings",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 7,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
+      "name": "Batch",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 8,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEMZK0HPK19RYET250",
+      "name": "Fine-tuning",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 9,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
+      "name": "Files",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 10,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
+      "name": "Assistants",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 11,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
+      "name": "Audio",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 12,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEQW613TFE89F45035",
+      "name": "Realtime",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 13,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
+      "name": "Moderations",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 14,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
+      "name": "Login",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 15,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
+      "name": "Web",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 16,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
+      "name": "Mobile - iOS",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 17,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGQ7D3666XG5F9CA23",
+      "name": "Mobile - Android",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 18,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
+      "name": "WhatsApp",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 19,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
+      "name": "1-800-CHAT-GPT",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 20,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
+      "name": "Search",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 21,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
+      "name": "Advanced Data Analysis",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGQ9MXPY3VGHKFDRJ6",
+      "name": "Context connectors",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 23,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGRPKRQDYMKVYXDYHX",
+      "name": "Dall-E",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 24,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     }
-  ],
-  "incidents": [],
-  "scheduled_maintenances": [],
-  "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
-  }
+  ]
 }
