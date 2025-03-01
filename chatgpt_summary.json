@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-01T00:36:27Z"
+    "updated_at": "2025-03-01T03:19:21Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -239,13 +239,22 @@
   "incidents": [
     {
       "id": "01JN7J44A3ZKN67VETGV4321YF",
-      "name": "ChatGPT Advanced Voice Mode Partially Unavailable",
+      "name": "Errors affecting ChatGPT users",
       "status": "investigating",
       "created_at": "2025-03-01T00:36:27Z",
-      "updated_at": "2025-03-01T00:36:27Z",
+      "updated_at": "2025-03-01T03:19:21Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JN7VEDGTAJEPC4C8Y3DD5VG1",
+          "body": "",
+          "created_at": "2025-03-01T03:19:21Z",
+          "display_at": "2025-03-01T03:19:21Z",
+          "incident_id": "01JN7J44A3ZKN67VETGV4321YF",
+          "status": "investigating",
+          "updated_at": "2025-03-01T03:19:21Z"
+        },
         {
           "id": "01JN7J44A3PK2HGSBHK202C31C",
           "body": "",
