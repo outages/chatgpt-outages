@@ -128,39 +128,30 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
-      "name": "Advanced Data Analysis",
+      "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
+      "name": "Assistants",
       "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
+      "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-02-27T17:12:21Z",
       "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
-      "name": "1-800-CHAT-GPT",
+      "id": "01JMXBRMFEQW613TFE89F45035",
+      "name": "Realtime",
       "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
+      "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-02-27T17:12:21Z",
       "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXG5VWB72T922RQE6NR",
-      "name": "Memory",
+      "id": "01JMXBRMFE0V9J9X2HY3SKX399",
+      "name": "Completions (legacy)",
       "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
+      "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-02-27T17:12:21Z",
       "position": 15,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
-      "name": "Mobile - iOS",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
-      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,43 +160,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-02-27T17:12:21Z",
-      "position": 17,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGJ6C964H647A5DMX0",
-      "name": "GPT vision",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
-      "position": 18,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGQ7D3666XG5F9CA23",
-      "name": "Mobile - Android",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
-      "position": 19,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
-      "name": "WhatsApp",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
-      "position": 20,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGRPKRQDYMKVYXDYHX",
-      "name": "Dall-E",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
-      "position": 21,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,7 +169,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-02-27T17:12:21Z",
-      "position": 22,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -223,14 +178,59 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-02-27T17:12:21Z",
+      "position": 18,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
+      "name": "Images",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 19,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
+      "name": "Advanced Data Analysis",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 20,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
+      "name": "1-800-CHAT-GPT",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 21,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG5VWB72T922RQE6NR",
+      "name": "Memory",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
+      "name": "Mobile - iOS",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-02-27T17:12:21Z",
       "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
-      "name": "Audio",
+      "id": "01JMXBNJXGJ6C964H647A5DMX0",
+      "name": "GPT vision",
       "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
+      "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-02-27T17:12:21Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
