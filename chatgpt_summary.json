@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-02T23:48:24Z"
+    "updated_at": "2025-03-03T01:20:06Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -240,12 +240,22 @@
     {
       "id": "01JNCM5JAS74EGN07KQ9634R2A",
       "name": "gpt-4o-mini availability partially degraded via the API",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-03-02T23:48:24Z",
-      "updated_at": "2025-03-02T23:48:24Z",
-      "impact": "none",
+      "updated_at": "2025-03-03T01:20:06Z",
+      "monitoring_at": "2025-03-03T01:20:06Z",
+      "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JNCSDFVYKTVZJ6XN2Q21DXX4",
+          "body": "",
+          "created_at": "2025-03-03T01:20:06Z",
+          "display_at": "2025-03-03T01:20:06Z",
+          "incident_id": "01JNCM5JAS74EGN07KQ9634R2A",
+          "status": "monitoring",
+          "updated_at": "2025-03-03T01:20:06Z"
+        },
         {
           "id": "01JNCM5JAS3MQKDK6NHP4XVKTS",
           "body": "",
