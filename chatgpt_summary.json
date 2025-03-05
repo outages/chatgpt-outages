@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-05T00:06:54Z"
+    "updated_at": "2025-03-05T18:35:00Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -15,7 +15,7 @@
       "name": "Login",
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 0,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -24,7 +24,7 @@
       "name": "Video generation",
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -33,7 +33,7 @@
       "name": "Video viewing",
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -42,7 +42,7 @@
       "name": "Feed",
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -51,7 +51,7 @@
       "name": "Uploads",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -60,7 +60,7 @@
       "name": "Fine-tuning",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -69,7 +69,7 @@
       "name": "Files",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -78,7 +78,7 @@
       "name": "Context connectors",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -87,7 +87,7 @@
       "name": "Single Sign-On",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -96,7 +96,7 @@
       "name": "Login",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -105,7 +105,7 @@
       "name": "File uploads",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -114,7 +114,7 @@
       "name": "Search",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -123,7 +123,7 @@
       "name": "Moderations",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -132,7 +132,7 @@
       "name": "Assistants",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -141,7 +141,7 @@
       "name": "Realtime",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -150,7 +150,7 @@
       "name": "Completions (legacy)",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -159,7 +159,7 @@
       "name": "Voice mode",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -168,7 +168,7 @@
       "name": "Web",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
       "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -177,7 +177,7 @@
       "name": "Batch",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -186,35 +186,8 @@
       "name": "Images",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 19,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
-      "name": "Advanced Data Analysis",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
-      "position": 20,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
-      "name": "1-800-CHAT-GPT",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
-      "position": 21,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG5VWB72T922RQE6NR",
-      "name": "Memory",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
-      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -222,18 +195,67 @@
       "name": "Mobile - iOS",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "updated_at": "2025-03-05T18:32:34Z",
+      "position": 20,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGQ7D3666XG5F9CA23",
+      "name": "Mobile - Android",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-03-05T18:32:34Z",
+      "position": 21,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
+      "name": "WhatsApp",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-03-05T18:32:34Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
+      "name": "Chat",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXGJ6C964H647A5DMX0",
-      "name": "GPT vision",
+      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
+      "name": "Audio",
       "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-02-27T17:12:21Z",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-03-05T18:32:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JNKSDW55MQBXE1NVRKZW2HBG",
+      "name": "Elevated errors in Compliance API",
+      "status": "investigating",
+      "created_at": "2025-03-05T18:35:00Z",
+      "updated_at": "2025-03-05T18:35:00Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JNKSDW55K4AH8WR9HNG7FAR8",
+          "body": "",
+          "created_at": "2025-03-05T18:35:00Z",
+          "display_at": "2025-03-05T18:35:00Z",
+          "incident_id": "01JNKSDW55MQBXE1NVRKZW2HBG",
+          "status": "investigating",
+          "updated_at": "2025-03-05T18:35:00Z"
+        }
+      ]
     }
   ]
 }
