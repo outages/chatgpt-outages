@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-05T18:35:00Z"
+    "updated_at": "2025-03-05T19:12:22Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,21 @@
     {
       "id": "01JNKSDW55MQBXE1NVRKZW2HBG",
       "name": "Elevated errors in Compliance API",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2025-03-05T18:35:00Z",
-      "updated_at": "2025-03-05T18:35:00Z",
+      "updated_at": "2025-03-05T19:12:22Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JNKVJ9HHG9HB4BEFMKKMCQDM",
+          "body": "",
+          "created_at": "2025-03-05T19:12:22Z",
+          "display_at": "2025-03-05T19:12:22Z",
+          "incident_id": "01JNKSDW55MQBXE1NVRKZW2HBG",
+          "status": "identified",
+          "updated_at": "2025-03-05T19:12:22Z"
+        },
         {
           "id": "01JNKSDW55K4AH8WR9HNG7FAR8",
           "body": "",
