@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-09T19:58:31Z"
+    "updated_at": "2025-03-06T18:39:15Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -166,7 +166,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-05T18:32:34Z",
       "position": 17,
@@ -234,38 +234,6 @@
       "updated_at": "2025-03-05T18:32:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JNXZ74JG3WG03NCY7AS2YW8Y",
-      "name": "Temporary chat option is experiencing an issue",
-      "status": "monitoring",
-      "created_at": "2025-03-09T17:28:35Z",
-      "updated_at": "2025-03-09T19:58:31Z",
-      "monitoring_at": "2025-03-09T19:58:31Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JNY7SPCH7W38Q4EK119ZYVCD",
-          "body": "",
-          "created_at": "2025-03-09T19:58:31Z",
-          "display_at": "2025-03-09T19:58:31Z",
-          "incident_id": "01JNXZ74JG3WG03NCY7AS2YW8Y",
-          "status": "monitoring",
-          "updated_at": "2025-03-09T19:58:31Z"
-        },
-        {
-          "id": "01JNXZ74JGR2A6YNWPR9JRXFQJ",
-          "body": "",
-          "created_at": "2025-03-09T17:28:35Z",
-          "display_at": "2025-03-09T17:28:35Z",
-          "incident_id": "01JNXZ74JG3WG03NCY7AS2YW8Y",
-          "status": "investigating",
-          "updated_at": "2025-03-09T17:28:35Z"
-        }
-      ]
     }
   ]
 }
