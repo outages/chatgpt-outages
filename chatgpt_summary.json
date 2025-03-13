@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-13T06:36:52Z"
+    "updated_at": "2025-03-11T23:38:11Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,38 +234,6 @@
       "updated_at": "2025-03-05T18:32:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JP733RMMZNZ5EHGCW43NFYKH",
-      "name": "Misclassified billing for batch is identified",
-      "status": "monitoring",
-      "created_at": "2025-03-13T06:29:48Z",
-      "updated_at": "2025-03-13T06:36:52Z",
-      "monitoring_at": "2025-03-13T06:36:52Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JP73GPEZ3WH7YC62HZRSS6CY",
-          "body": "",
-          "created_at": "2025-03-13T06:36:52Z",
-          "display_at": "2025-03-13T06:36:52Z",
-          "incident_id": "01JP733RMMZNZ5EHGCW43NFYKH",
-          "status": "monitoring",
-          "updated_at": "2025-03-13T06:36:52Z"
-        },
-        {
-          "id": "01JP733RMM0N3JYQSA4ZZ2EEV9",
-          "body": "",
-          "created_at": "2025-03-13T06:29:48Z",
-          "display_at": "2025-03-13T06:29:48Z",
-          "incident_id": "01JP733RMMZNZ5EHGCW43NFYKH",
-          "status": "investigating",
-          "updated_at": "2025-03-13T06:29:48Z"
-        }
-      ]
     }
   ]
 }
