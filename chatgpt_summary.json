@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-15T18:26:46Z"
+    "updated_at": "2025-03-17T22:45:53Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,11 +242,20 @@
       "name": "Degraded gpt-4o (gpt-4o-2024-08-06) performance",
       "status": "monitoring",
       "created_at": "2025-03-15T18:17:53Z",
-      "updated_at": "2025-03-15T18:26:46Z",
-      "monitoring_at": "2025-03-15T18:17:53Z",
+      "updated_at": "2025-03-17T22:45:53Z",
+      "monitoring_at": "2025-03-17T22:45:53Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JPK4HWXQEYDGD6JYZ5EEZMAR",
+          "body": "",
+          "created_at": "2025-03-17T22:45:53Z",
+          "display_at": "2025-03-17T22:45:53Z",
+          "incident_id": "01JPDGDQZJ00EY8RWM6M1E86JM",
+          "status": "monitoring",
+          "updated_at": "2025-03-17T22:45:53Z"
+        },
         {
           "id": "01JPDGY05R3HJKYFZ4X007GZF6",
           "body": "",
