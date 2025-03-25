@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-25T15:13:32Z"
+    "updated_at": "2025-03-25T18:19:19Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -229,7 +229,7 @@
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 24,
@@ -237,6 +237,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
+      "name": "Elevated 429 error rates",
+      "status": "identified",
+      "created_at": "2025-03-25T18:19:19Z",
+      "updated_at": "2025-03-25T18:19:19Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JQ78FH8SQ0KD4BP853KJBV7G",
+          "body": "",
+          "created_at": "2025-03-25T18:19:19Z",
+          "display_at": "2025-03-25T18:19:19Z",
+          "incident_id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
+          "status": "identified",
+          "updated_at": "2025-03-25T18:19:19Z"
+        }
+      ]
+    },
     {
       "id": "01JQ6XVBHNTACMCMZEYG7WV6S9",
       "name": "Increased error rates in ChatGPT models 4.5 and 4o mini",
