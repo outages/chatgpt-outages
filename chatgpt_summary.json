@@ -157,7 +157,7 @@
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 16,
@@ -166,7 +166,7 @@
     {
       "id": "01JMXBRMFEKVBWKK82B44QFMCE",
       "name": "Audio",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 17,
@@ -229,7 +229,7 @@
     {
       "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
       "name": "Embeddings",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 24,
@@ -254,63 +254,6 @@
           "incident_id": "01JQ7ETREW8TCPZ62YXWHMAB0N",
           "status": "investigating",
           "updated_at": "2025-03-25T20:10:18Z"
-        }
-      ]
-    },
-    {
-      "id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
-      "name": "Elevated 429 error rates",
-      "status": "monitoring",
-      "created_at": "2025-03-25T18:19:19Z",
-      "updated_at": "2025-03-25T19:54:57Z",
-      "monitoring_at": "2025-03-25T19:54:57Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JQ7DYMTDGXJQ89QYHTYW8BMP",
-          "body": "",
-          "created_at": "2025-03-25T19:54:57Z",
-          "display_at": "2025-03-25T19:54:57Z",
-          "incident_id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
-          "status": "monitoring",
-          "updated_at": "2025-03-25T19:54:57Z"
-        },
-        {
-          "id": "01JQ7CYXXWGM1F18PYW9SXT73C",
-          "body": "",
-          "created_at": "2025-03-25T19:37:38Z",
-          "display_at": "2025-03-25T19:37:38Z",
-          "incident_id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
-          "status": "investigating",
-          "updated_at": "2025-03-25T19:37:38Z"
-        },
-        {
-          "id": "01JQ7AZACPBPYSNJF3K2FTXJ4P",
-          "body": "",
-          "created_at": "2025-03-25T19:02:53Z",
-          "display_at": "2025-03-25T19:02:53Z",
-          "incident_id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
-          "status": "investigating",
-          "updated_at": "2025-03-25T19:02:53Z"
-        },
-        {
-          "id": "01JQ7ADDS2C1ZND5P73FMEH6MV",
-          "body": "",
-          "created_at": "2025-03-25T18:53:07Z",
-          "display_at": "2025-03-25T18:53:07Z",
-          "incident_id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
-          "status": "investigating",
-          "updated_at": "2025-03-25T18:53:07Z"
-        },
-        {
-          "id": "01JQ78FH8SQ0KD4BP853KJBV7G",
-          "body": "",
-          "created_at": "2025-03-25T18:19:19Z",
-          "display_at": "2025-03-25T17:16:00Z",
-          "incident_id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
-          "status": "identified",
-          "updated_at": "2025-03-25T19:49:31Z"
         }
       ]
     }
