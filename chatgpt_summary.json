@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-25T18:19:19Z"
+    "updated_at": "2025-03-25T19:02:53Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -47,39 +47,21 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFE796MJ8H81EGWA46P",
-      "name": "Uploads",
-      "status": "operational",
+      "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
+      "name": "Files",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEMZK0HPK19RYET250",
-      "name": "Fine-tuning",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-03-13T18:31:32Z",
-      "position": 5,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
-      "name": "Files",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-03-13T18:31:32Z",
-      "position": 6,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 7,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -88,7 +70,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 8,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,7 +79,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 9,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,7 +88,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 10,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,7 +97,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 11,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -124,43 +106,43 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 12,
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
       "name": "Moderations",
-      "status": "operational",
+      "status": "partial_outage",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-03-13T18:31:32Z",
+      "position": 11,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
+      "name": "Assistants",
+      "status": "partial_outage",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-03-13T18:31:32Z",
+      "position": 12,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEQW613TFE89F45035",
+      "name": "Realtime",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
-      "name": "Assistants",
-      "status": "operational",
+      "id": "01JMXBRMFE0V9J9X2HY3SKX399",
+      "name": "Completions (legacy)",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 14,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEQW613TFE89F45035",
-      "name": "Realtime",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-03-13T18:31:32Z",
-      "position": 15,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFE0V9J9X2HY3SKX399",
-      "name": "Completions (legacy)",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-03-13T18:31:32Z",
-      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,7 +151,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 17,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,25 +160,25 @@
       "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 18,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
       "name": "Batch",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 19,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 20,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -205,7 +187,7 @@
       "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 21,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,7 +196,7 @@
       "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 22,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -223,13 +205,31 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-13T18:31:32Z",
-      "position": 23,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat",
-      "status": "degraded_performance",
+      "status": "partial_outage",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-03-13T18:31:32Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
+      "name": "Audio",
+      "status": "partial_outage",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-03-13T18:31:32Z",
+      "position": 23,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
+      "name": "Embeddings",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 24,
@@ -240,12 +240,30 @@
     {
       "id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
       "name": "Elevated 429 error rates",
-      "status": "identified",
+      "status": "investigating",
       "created_at": "2025-03-25T18:19:19Z",
-      "updated_at": "2025-03-25T18:19:19Z",
-      "impact": "minor",
+      "updated_at": "2025-03-25T19:02:53Z",
+      "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQ7AZACPBPYSNJF3K2FTXJ4P",
+          "body": "",
+          "created_at": "2025-03-25T19:02:53Z",
+          "display_at": "2025-03-25T19:02:53Z",
+          "incident_id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
+          "status": "investigating",
+          "updated_at": "2025-03-25T19:02:53Z"
+        },
+        {
+          "id": "01JQ7ADDS2C1ZND5P73FMEH6MV",
+          "body": "",
+          "created_at": "2025-03-25T18:53:07Z",
+          "display_at": "2025-03-25T18:53:07Z",
+          "incident_id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
+          "status": "investigating",
+          "updated_at": "2025-03-25T18:53:07Z"
+        },
         {
           "id": "01JQ78FH8SQ0KD4BP853KJBV7G",
           "body": "",
