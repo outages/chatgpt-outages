@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-25T19:02:53Z"
+    "updated_at": "2025-03-25T19:37:38Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -49,7 +49,7 @@
     {
       "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
       "name": "Files",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 4,
@@ -58,7 +58,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 5,
@@ -112,7 +112,7 @@
     {
       "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
       "name": "Moderations",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 11,
@@ -121,7 +121,7 @@
     {
       "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
       "name": "Assistants",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 12,
@@ -130,7 +130,7 @@
     {
       "id": "01JMXBRMFEQW613TFE89F45035",
       "name": "Realtime",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 13,
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBRMFE0V9J9X2HY3SKX399",
       "name": "Completions (legacy)",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 14,
@@ -166,7 +166,7 @@
     {
       "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
       "name": "Batch",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 17,
@@ -175,7 +175,7 @@
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 18,
@@ -211,7 +211,7 @@
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 22,
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBRMFEKVBWKK82B44QFMCE",
       "name": "Audio",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 23,
@@ -229,7 +229,7 @@
     {
       "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
       "name": "Embeddings",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-13T18:31:32Z",
       "position": 24,
@@ -242,10 +242,19 @@
       "name": "Elevated 429 error rates",
       "status": "investigating",
       "created_at": "2025-03-25T18:19:19Z",
-      "updated_at": "2025-03-25T19:02:53Z",
+      "updated_at": "2025-03-25T19:37:38Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQ7CYXXWGM1F18PYW9SXT73C",
+          "body": "",
+          "created_at": "2025-03-25T19:37:38Z",
+          "display_at": "2025-03-25T19:37:38Z",
+          "incident_id": "01JQ78FH8SGRMX71XJ9Q1PZDWW",
+          "status": "investigating",
+          "updated_at": "2025-03-25T19:37:38Z"
+        },
         {
           "id": "01JQ7AZACPBPYSNJF3K2FTXJ4P",
           "body": "",
