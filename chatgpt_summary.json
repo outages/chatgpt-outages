@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-26T00:50:16Z"
+    "updated_at": "2025-03-25T20:06:33Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -157,7 +157,7 @@
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 16,
@@ -175,7 +175,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 18,
@@ -234,78 +234,6 @@
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JQ7YVD5J7R4AXBE0PC69NW08",
-      "name": "High error rate in Chat Completions API",
-      "status": "identified",
-      "created_at": "2025-03-26T00:50:16Z",
-      "updated_at": "2025-03-26T00:50:16Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JQ7YVD5JZDFBWJ992J7V3FQ8",
-          "body": "",
-          "created_at": "2025-03-26T00:50:16Z",
-          "display_at": "2025-03-26T00:50:16Z",
-          "incident_id": "01JQ7YVD5J7R4AXBE0PC69NW08",
-          "status": "identified",
-          "updated_at": "2025-03-26T00:50:16Z"
-        }
-      ]
-    },
-    {
-      "id": "01JQ7ETREW8TCPZ62YXWHMAB0N",
-      "name": "Image generation in Sora experiencing issues",
-      "status": "monitoring",
-      "created_at": "2025-03-25T20:10:18Z",
-      "updated_at": "2025-03-26T00:39:25Z",
-      "monitoring_at": "2025-03-26T00:39:25Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JQ7Y7H6Z5HVSG6ZA30F5Y55J",
-          "body": "",
-          "created_at": "2025-03-26T00:39:25Z",
-          "display_at": "2025-03-26T00:39:25Z",
-          "incident_id": "01JQ7ETREW8TCPZ62YXWHMAB0N",
-          "status": "monitoring",
-          "updated_at": "2025-03-26T00:39:25Z"
-        },
-        {
-          "id": "01JQ7ETREWZEZENCP3N106PFN9",
-          "body": "",
-          "created_at": "2025-03-25T20:10:18Z",
-          "display_at": "2025-03-25T20:10:18Z",
-          "incident_id": "01JQ7ETREW8TCPZ62YXWHMAB0N",
-          "status": "investigating",
-          "updated_at": "2025-03-25T20:10:18Z"
-        }
-      ]
-    },
-    {
-      "id": "01JQ7WP307VDSV3862RK0HSK86",
-      "name": "Compliance API error rates",
-      "status": "identified",
-      "created_at": "2025-03-26T00:12:25Z",
-      "updated_at": "2025-03-26T00:12:25Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JQ7WP307WDBFC9E0N6968BP2",
-          "body": "",
-          "created_at": "2025-03-26T00:12:25Z",
-          "display_at": "2025-03-26T00:12:25Z",
-          "incident_id": "01JQ7WP307VDSV3862RK0HSK86",
-          "status": "identified",
-          "updated_at": "2025-03-26T00:12:25Z"
-        }
-      ]
     }
   ]
 }
