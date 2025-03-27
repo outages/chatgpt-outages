@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-26T21:41:31Z"
+    "updated_at": "2025-03-27T00:46:14Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -242,10 +242,19 @@
       "name": "ChatGPT Search not working with o3-mini",
       "status": "investigating",
       "created_at": "2025-03-26T21:41:31Z",
-      "updated_at": "2025-03-26T21:41:31Z",
+      "updated_at": "2025-03-27T00:46:14Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQAH0PZRBMSN8KKB5NHTG109",
+          "body": "",
+          "created_at": "2025-03-27T00:46:14Z",
+          "display_at": "2025-03-27T00:46:14Z",
+          "incident_id": "01JQA6EGKNNXKCNS72X5CZZQMX",
+          "status": "investigating",
+          "updated_at": "2025-03-27T00:46:14Z"
+        },
         {
           "id": "01JQA6EGKNCQRV6WM3QC5XGAW8",
           "body": "",
