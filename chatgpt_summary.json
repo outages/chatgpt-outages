@@ -3,17 +3,17 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-29T14:17:15Z"
+    "updated_at": "2025-03-27T15:52:09Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
       "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
       "name": "Files",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 0,
@@ -31,7 +31,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 2,
@@ -58,7 +58,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 5,
@@ -130,7 +130,7 @@
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 13,
@@ -234,73 +234,6 @@
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JQH1YQS74PJFKF4S4XQR944A",
-      "name": "File Uploads Error",
-      "status": "investigating",
-      "created_at": "2025-03-29T13:37:41Z",
-      "updated_at": "2025-03-29T14:17:15Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JQH475RVJSKRCRZPN8G61DW4",
-          "body": "",
-          "created_at": "2025-03-29T14:17:15Z",
-          "display_at": "2025-03-29T14:17:15Z",
-          "incident_id": "01JQH1YQS74PJFKF4S4XQR944A",
-          "status": "investigating",
-          "updated_at": "2025-03-29T14:17:15Z"
-        },
-        {
-          "id": "01JQH3279DR0KPJCVQMG0DF0NW",
-          "body": "",
-          "created_at": "2025-03-29T13:57:04Z",
-          "display_at": "2025-03-29T13:57:04Z",
-          "incident_id": "01JQH1YQS74PJFKF4S4XQR944A",
-          "status": "identified",
-          "updated_at": "2025-03-29T13:57:04Z"
-        },
-        {
-          "id": "01JQH2ER9ZF7NBMSXAK8FSCNJE",
-          "body": "",
-          "created_at": "2025-03-29T13:46:26Z",
-          "display_at": "2025-03-29T13:46:26Z",
-          "incident_id": "01JQH1YQS74PJFKF4S4XQR944A",
-          "status": "identified",
-          "updated_at": "2025-03-29T13:46:26Z"
-        },
-        {
-          "id": "01JQH29QB6G2WP70HD84EJ1CM7",
-          "body": "",
-          "created_at": "2025-03-29T13:43:41Z",
-          "display_at": "2025-03-29T13:43:41Z",
-          "incident_id": "01JQH1YQS74PJFKF4S4XQR944A",
-          "status": "identified",
-          "updated_at": "2025-03-29T13:43:41Z"
-        },
-        {
-          "id": "01JQH27WE9YZSZMPWQNFJRDE9N",
-          "body": "",
-          "created_at": "2025-03-29T13:42:41Z",
-          "display_at": "2025-03-29T13:42:41Z",
-          "incident_id": "01JQH1YQS74PJFKF4S4XQR944A",
-          "status": "identified",
-          "updated_at": "2025-03-29T13:42:41Z"
-        },
-        {
-          "id": "01JQH1YQS7DKP8CQQG6B77AXZC",
-          "body": "",
-          "created_at": "2025-03-29T13:37:41Z",
-          "display_at": "2025-03-29T13:37:41Z",
-          "incident_id": "01JQH1YQS74PJFKF4S4XQR944A",
-          "status": "identified",
-          "updated_at": "2025-03-29T13:37:41Z"
-        }
-      ]
     }
   ]
 }
