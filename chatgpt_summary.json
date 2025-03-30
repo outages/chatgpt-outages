@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-30T15:04:16Z"
+    "updated_at": "2025-03-30T15:21:21Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -22,7 +22,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 1,
@@ -240,13 +240,31 @@
   "incidents": [
     {
       "id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
-      "name": "Sign ups for web platform",
-      "status": "identified",
+      "name": "Login issues for web platform",
+      "status": "investigating",
       "created_at": "2025-03-30T11:10:17Z",
-      "updated_at": "2025-03-30T15:04:16Z",
+      "updated_at": "2025-03-30T15:21:21Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQKT9932Z2GPMEW8V1YV2AWE",
+          "body": "",
+          "created_at": "2025-03-30T15:21:21Z",
+          "display_at": "2025-03-30T15:21:21Z",
+          "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
+          "status": "investigating",
+          "updated_at": "2025-03-30T15:21:21Z"
+        },
+        {
+          "id": "01JQKSWVW1V43SW81SGPKKRWWK",
+          "body": "",
+          "created_at": "2025-03-30T15:14:35Z",
+          "display_at": "2025-03-30T15:14:35Z",
+          "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
+          "status": "investigating",
+          "updated_at": "2025-03-30T15:14:35Z"
+        },
         {
           "id": "01JQKS9ZJCTHQXZXB4P4G67YKB",
           "body": "",
