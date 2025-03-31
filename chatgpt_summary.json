@@ -272,7 +272,7 @@
           "display_at": "2025-03-30T17:52:21Z",
           "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
           "status": "identified",
-          "updated_at": "2025-03-30T17:52:21Z"
+          "updated_at": "2025-03-31T09:54:17Z"
         },
         {
           "id": "01JQKYCMYHHG32WNN9XWF0CVD2",
@@ -290,7 +290,7 @@
           "display_at": "2025-03-30T16:20:03Z",
           "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
           "status": "investigating",
-          "updated_at": "2025-03-30T16:20:03Z"
+          "updated_at": "2025-03-31T09:56:34Z"
         },
         {
           "id": "01JQKT9932Z2GPMEW8V1YV2AWE",
@@ -335,7 +335,7 @@
           "display_at": "2025-03-30T12:51:28Z",
           "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
           "status": "investigating",
-          "updated_at": "2025-03-30T12:51:28Z"
+          "updated_at": "2025-03-31T09:52:29Z"
         },
         {
           "id": "01JQKGQKCA8VHQGB55S26RCAF9",
@@ -353,7 +353,7 @@
           "display_at": "2025-03-30T11:41:58Z",
           "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
           "status": "resolved",
-          "updated_at": "2025-03-30T11:41:58Z"
+          "updated_at": "2025-03-31T09:52:48Z"
         },
         {
           "id": "01JQKCQWGEFRX3TP0D8ADQSBY0",
