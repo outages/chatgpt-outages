@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-30T21:45:04Z"
+    "updated_at": "2025-03-31T12:59:00Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -243,10 +243,19 @@
       "name": "Issues with new sign ups",
       "status": "identified",
       "created_at": "2025-03-30T11:10:17Z",
-      "updated_at": "2025-03-30T21:45:04Z",
+      "updated_at": "2025-03-31T12:59:00Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQP4HBDA0JZWFR4ZXD64VJ9K",
+          "body": "",
+          "created_at": "2025-03-31T12:59:00Z",
+          "display_at": "2025-03-31T12:59:00Z",
+          "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
+          "status": "identified",
+          "updated_at": "2025-03-31T12:59:00Z"
+        },
         {
           "id": "01JQMG7WNEW6ZBNR1150E90JK9",
           "body": "",
