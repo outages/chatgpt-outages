@@ -308,7 +308,7 @@
           "display_at": "2025-03-30T15:14:35Z",
           "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
           "status": "investigating",
-          "updated_at": "2025-03-30T15:14:35Z"
+          "updated_at": "2025-03-31T10:25:42Z"
         },
         {
           "id": "01JQKS9ZJCTHQXZXB4P4G67YKB",
@@ -317,7 +317,7 @@
           "display_at": "2025-03-30T15:04:16Z",
           "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
           "status": "identified",
-          "updated_at": "2025-03-30T15:04:16Z"
+          "updated_at": "2025-03-31T10:24:14Z"
         },
         {
           "id": "01JQKRPYCNNAJ1SJAKRKSR26TR",
@@ -326,7 +326,7 @@
           "display_at": "2025-03-30T14:53:52Z",
           "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
           "status": "identified",
-          "updated_at": "2025-03-30T14:53:52Z"
+          "updated_at": "2025-03-31T10:29:40Z"
         },
         {
           "id": "01JQKHPV18P6X2QQNA5HMHM2XA",
