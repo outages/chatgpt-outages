@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-31T20:53:17Z"
+    "updated_at": "2025-03-31T22:24:11Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "01JMDK9XYN8Z6K633X01G7WFD9",
       "name": "Labs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-18T22:36:51Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 3,
@@ -59,7 +59,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 5,
@@ -122,7 +122,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 12,
@@ -241,12 +241,22 @@
     {
       "id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
       "name": "Issues with new sign ups",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-03-30T11:10:17Z",
-      "updated_at": "2025-03-31T20:53:17Z",
+      "updated_at": "2025-03-31T22:24:11Z",
+      "monitoring_at": "2025-03-31T22:24:11Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQQ4W7CE6QTK1QXQNXPZMTNY",
+          "body": "",
+          "created_at": "2025-03-31T22:24:11Z",
+          "display_at": "2025-03-31T22:24:11Z",
+          "incident_id": "01JQKBXHSHTXGGHYPE3K7TRRDV",
+          "status": "monitoring",
+          "updated_at": "2025-03-31T22:24:11Z"
+        },
         {
           "id": "01JQPZNS54WKQJ0748AKGF97RH",
           "body": "",
