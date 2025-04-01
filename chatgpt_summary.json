@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-27T15:52:09Z"
+    "updated_at": "2025-04-01T14:44:32Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 2,
@@ -50,7 +50,7 @@
     {
       "id": "01JMXBNJXGQ9MXPY3VGHKFDRJ6",
       "name": "Context connectors",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 4,
@@ -59,7 +59,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 5,
@@ -68,7 +68,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 6,
@@ -113,7 +113,7 @@
     {
       "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
       "name": "Voice mode",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 11,
@@ -122,7 +122,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Web",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 12,
@@ -149,7 +149,7 @@
     {
       "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
       "name": "Mobile - iOS",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 15,
@@ -158,7 +158,7 @@
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 16,
@@ -167,7 +167,7 @@
     {
       "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
       "name": "WhatsApp",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 17,
@@ -194,7 +194,7 @@
     {
       "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
       "name": "1-800-CHAT-GPT",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 20,
@@ -203,7 +203,7 @@
     {
       "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
       "name": "Advanced Data Analysis",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 21,
@@ -212,7 +212,7 @@
     {
       "id": "01JMXBNJXGRPKRQDYMKVYXDYHX",
       "name": "Dall-E",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 22,
@@ -221,7 +221,7 @@
     {
       "id": "01JMXBNJXGJ6C964H647A5DMX0",
       "name": "GPT vision",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 23,
@@ -230,11 +230,33 @@
     {
       "id": "01JMXBNJXG5VWB72T922RQE6NR",
       "name": "Memory",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
+      "name": "Increased Error Rates in ChatGPT",
+      "status": "investigating",
+      "created_at": "2025-04-01T14:44:32Z",
+      "updated_at": "2025-04-01T14:44:32Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JQRWZ991DQ6KSGYY2A300BBB",
+          "body": "",
+          "created_at": "2025-04-01T14:44:32Z",
+          "display_at": "2025-04-01T14:44:32Z",
+          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
+          "status": "investigating",
+          "updated_at": "2025-04-01T14:44:32Z"
+        }
+      ]
     }
   ]
 }
