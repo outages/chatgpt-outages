@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-01T22:00:35Z"
+    "updated_at": "2025-03-27T15:52:09Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -235,38 +235,6 @@
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JQSK1JXSP7Q9TZGBKQS58TMC",
-      "name": "ChatGPT Web Login Delay",
-      "status": "monitoring",
-      "created_at": "2025-04-01T21:10:16Z",
-      "updated_at": "2025-04-01T22:00:35Z",
-      "monitoring_at": "2025-04-01T22:00:35Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JQSNXQRZE1Y2TZRPGD4TEC15",
-          "body": "",
-          "created_at": "2025-04-01T22:00:35Z",
-          "display_at": "2025-04-01T22:00:35Z",
-          "incident_id": "01JQSK1JXSP7Q9TZGBKQS58TMC",
-          "status": "monitoring",
-          "updated_at": "2025-04-01T22:00:35Z"
-        },
-        {
-          "id": "01JQSK1JXS97JTW4R267H9B13S",
-          "body": "",
-          "created_at": "2025-04-01T21:10:16Z",
-          "display_at": "2025-04-01T21:10:16Z",
-          "incident_id": "01JQSK1JXSP7Q9TZGBKQS58TMC",
-          "status": "investigating",
-          "updated_at": "2025-04-01T21:10:16Z"
-        }
-      ]
     }
   ]
 }
