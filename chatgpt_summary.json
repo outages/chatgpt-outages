@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-01T15:40:01Z"
+    "updated_at": "2025-04-01T18:38:00Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -122,7 +122,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 12,
@@ -149,7 +149,7 @@
     {
       "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
       "name": "Mobile - iOS",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 15,
@@ -158,7 +158,7 @@
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 16,
@@ -241,12 +241,22 @@
     {
       "id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
       "name": "Increased Error Rates in ChatGPT",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-04-01T14:44:32Z",
-      "updated_at": "2025-04-01T15:40:01Z",
+      "updated_at": "2025-04-01T20:09:00Z",
+      "monitoring_at": "2025-04-01T15:02:09Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQSFHCS469JE6XD96FX77SE7",
+          "body": "",
+          "created_at": "2025-04-01T20:09:00Z",
+          "display_at": "2025-04-01T18:38:00Z",
+          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
+          "status": "monitoring",
+          "updated_at": "2025-04-01T20:09:51Z"
+        },
         {
           "id": "01JQS04WPY6RBPREKFH6V6KHG9",
           "body": "",
