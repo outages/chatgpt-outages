@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-27T15:52:09Z"
+    "updated_at": "2025-04-02T14:10:28Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -122,7 +122,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Web",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 12,
@@ -149,7 +149,7 @@
     {
       "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
       "name": "Mobile - iOS",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 15,
@@ -158,7 +158,7 @@
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 16,
@@ -235,6 +235,28 @@
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JQVDDM5ZQ24ACFVE46QBVYCF",
+      "name": "Increased error rates in ChatGPT",
+      "status": "investigating",
+      "created_at": "2025-04-02T14:10:28Z",
+      "updated_at": "2025-04-02T14:10:28Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JQVDDM5Z42VGV8K1242Z848Y",
+          "body": "",
+          "created_at": "2025-04-02T14:10:28Z",
+          "display_at": "2025-04-02T14:10:28Z",
+          "incident_id": "01JQVDDM5ZQ24ACFVE46QBVYCF",
+          "status": "investigating",
+          "updated_at": "2025-04-02T14:10:28Z"
+        }
+      ]
     }
   ]
 }
