@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-02T14:43:44Z"
+    "updated_at": "2025-04-02T15:10:41Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -241,12 +241,22 @@
     {
       "id": "01JQVFAJ1NZP9PK1JAAA7JZ8TA",
       "name": "Sora degraded performance",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-04-02T14:43:44Z",
-      "updated_at": "2025-04-02T14:43:44Z",
+      "updated_at": "2025-04-02T15:10:41Z",
+      "monitoring_at": "2025-04-02T15:10:41Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQVGVX1V4QF86XBP5FRAY0DW",
+          "body": "",
+          "created_at": "2025-04-02T15:10:41Z",
+          "display_at": "2025-04-02T15:10:41Z",
+          "incident_id": "01JQVFAJ1NZP9PK1JAAA7JZ8TA",
+          "status": "monitoring",
+          "updated_at": "2025-04-02T15:10:41Z"
+        },
         {
           "id": "01JQVFAJ1NZVQSXBQKN0YFZD9N",
           "body": "",
@@ -261,12 +271,22 @@
     {
       "id": "01JQVDDM5ZQ24ACFVE46QBVYCF",
       "name": "Increased error rates in ChatGPT",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-04-02T14:10:28Z",
-      "updated_at": "2025-04-02T14:40:01Z",
+      "updated_at": "2025-04-02T15:07:00Z",
+      "monitoring_at": "2025-04-02T15:07:00Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQVGN4KASGN2A93RVVSRFTXY",
+          "body": "",
+          "created_at": "2025-04-02T15:07:00Z",
+          "display_at": "2025-04-02T15:07:00Z",
+          "incident_id": "01JQVDDM5ZQ24ACFVE46QBVYCF",
+          "status": "monitoring",
+          "updated_at": "2025-04-02T15:07:00Z"
+        },
         {
           "id": "01JQVF3QMJXYM0F129ZS4FRWTA",
           "body": "",
