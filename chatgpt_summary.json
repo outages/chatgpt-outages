@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-02T08:42:24Z"
+    "updated_at": "2025-04-02T08:50:20Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -239,106 +239,33 @@
   ],
   "incidents": [
     {
-      "id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-      "name": "Increased Error Rates in ChatGPT",
-      "status": "identified",
-      "created_at": "2025-04-01T14:44:32Z",
-      "updated_at": "2025-04-02T08:42:24Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JQTTMXBSQ08MMCG76DQ4EMYZ",
-          "body": "",
-          "created_at": "2025-04-02T08:42:24Z",
-          "display_at": "2025-04-02T08:42:24Z",
-          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-          "status": "identified",
-          "updated_at": "2025-04-02T08:42:24Z"
-        },
-        {
-          "id": "01JQSP960JTJP0BEFK6DTSFXWY",
-          "body": "",
-          "created_at": "2025-04-01T22:06:50Z",
-          "display_at": "2025-04-01T22:06:50Z",
-          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-          "status": "resolved",
-          "updated_at": "2025-04-01T22:06:50Z"
-        },
-        {
-          "id": "01JQSFHCS469JE6XD96FX77SE7",
-          "body": "",
-          "created_at": "2025-04-01T20:09:00Z",
-          "display_at": "2025-04-01T18:38:00Z",
-          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-          "status": "monitoring",
-          "updated_at": "2025-04-01T20:09:51Z"
-        },
-        {
-          "id": "01JQS04WPY6RBPREKFH6V6KHG9",
-          "body": "",
-          "created_at": "2025-04-01T15:40:01Z",
-          "display_at": "2025-04-01T15:40:01Z",
-          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-          "status": "identified",
-          "updated_at": "2025-04-01T15:40:01Z"
-        },
-        {
-          "id": "01JQRYJRFAKVXN7E7HWQGNAAHD",
-          "body": "",
-          "created_at": "2025-04-01T15:12:38Z",
-          "display_at": "2025-04-01T15:12:38Z",
-          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-          "status": "resolved",
-          "updated_at": "2025-04-01T15:12:38Z"
-        },
-        {
-          "id": "01JQRY34PKHA9A31YWS1XG2VX4",
-          "body": "",
-          "created_at": "2025-04-01T15:04:07Z",
-          "display_at": "2025-04-01T15:04:07Z",
-          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-          "status": "monitoring",
-          "updated_at": "2025-04-01T15:04:07Z"
-        },
-        {
-          "id": "01JQRXZHKVN56M70WH8G6XZS2J",
-          "body": "",
-          "created_at": "2025-04-01T15:02:09Z",
-          "display_at": "2025-04-01T15:02:09Z",
-          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-          "status": "monitoring",
-          "updated_at": "2025-04-01T15:04:26Z"
-        },
-        {
-          "id": "01JQRXW2WCX5004T0VDHH7BH66",
-          "body": "",
-          "created_at": "2025-04-01T15:00:16Z",
-          "display_at": "2025-04-01T15:00:16Z",
-          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-          "status": "identified",
-          "updated_at": "2025-04-01T15:00:16Z"
-        },
-        {
-          "id": "01JQRWZ991DQ6KSGYY2A300BBB",
-          "body": "",
-          "created_at": "2025-04-01T14:44:32Z",
-          "display_at": "2025-04-01T14:44:32Z",
-          "incident_id": "01JQRWZ991MQ4BP5R2TGG7E0QM",
-          "status": "investigating",
-          "updated_at": "2025-04-01T14:44:32Z"
-        }
-      ]
-    },
-    {
       "id": "01JQTT64FMYGVJW35VH9NTWGPW",
       "name": "Increased error rates in ChatGPT",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-04-02T08:34:19Z",
-      "updated_at": "2025-04-02T08:34:19Z",
+      "updated_at": "2025-04-02T08:50:20Z",
+      "monitoring_at": "2025-04-02T08:50:20Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JQTV3ECZJ39GC43AJ8H7GCXT",
+          "body": "",
+          "created_at": "2025-04-02T08:50:20Z",
+          "display_at": "2025-04-02T08:50:20Z",
+          "incident_id": "01JQTT64FMYGVJW35VH9NTWGPW",
+          "status": "monitoring",
+          "updated_at": "2025-04-02T08:50:20Z"
+        },
+        {
+          "id": "01JQTTVYF6344787T8GKKNYH4A",
+          "body": "",
+          "created_at": "2025-04-02T08:46:14Z",
+          "display_at": "2025-04-02T08:46:14Z",
+          "incident_id": "01JQTT64FMYGVJW35VH9NTWGPW",
+          "status": "identified",
+          "updated_at": "2025-04-02T08:46:14Z"
+        },
         {
           "id": "01JQTT64FMFMX2EV4AW6BW81H6",
           "body": "",
