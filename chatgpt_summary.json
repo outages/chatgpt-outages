@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-04T14:43:36Z"
+    "updated_at": "2025-04-04T15:37:47Z"
   },
   "status": {
-    "description": "Major System Outage",
-    "indicator": "critical"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "01JMDK9XYN8Z6K633X01G7WFD9",
       "name": "Labs",
-      "status": "full_outage",
+      "status": "operational",
       "created_at": "2025-02-18T22:36:51Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 3,
@@ -241,12 +241,22 @@
     {
       "id": "01JR0GY4J2NNFZE2XJAYV2MCM7",
       "name": "Labs website not loading",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-04-04T13:48:07Z",
-      "updated_at": "2025-04-04T14:43:36Z",
+      "updated_at": "2025-04-04T15:37:47Z",
+      "monitoring_at": "2025-04-04T15:37:47Z",
       "impact": "critical",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JR0Q6Y9RJZPTHWB7XTHWQK9S",
+          "body": "",
+          "created_at": "2025-04-04T15:37:47Z",
+          "display_at": "2025-04-04T15:37:47Z",
+          "incident_id": "01JR0GY4J2NNFZE2XJAYV2MCM7",
+          "status": "monitoring",
+          "updated_at": "2025-04-04T15:37:47Z"
+        },
         {
           "id": "01JR0M3QM2RE63KEWE7Y8Q6F1V",
           "body": "",
