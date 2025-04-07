@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-27T15:52:09Z"
+    "updated_at": "2025-04-07T14:59:35Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -29,49 +29,13 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
-      "name": "Image Generation",
-      "status": "operational",
-      "created_at": "2025-03-25T20:06:33Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 2,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JMDK9XYN8Z6K633X01G7WFD9",
       "name": "Labs",
       "status": "operational",
       "created_at": "2025-02-18T22:36:51Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 3,
+      "position": 2,
       "description": "https://labs.openai.com",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGQ9MXPY3VGHKFDRJ6",
-      "name": "Context connectors",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 4,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
-      "name": "File uploads",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 5,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -80,7 +44,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 7,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -89,7 +53,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 8,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -98,7 +62,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 9,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -107,7 +71,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 10,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -116,25 +80,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 11,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
-      "name": "Web",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 12,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
-      "name": "Voice mode",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 13,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -143,34 +89,16 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 14,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
-      "name": "Mobile - iOS",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 15,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 16,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
-      "name": "WhatsApp",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 17,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -179,52 +107,25 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 18,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGJ6C964H647A5DMX0",
-      "name": "GPT vision",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 19,
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBNJXGRPKRQDYMKVYXDYHX",
       "name": "Dall-E",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 20,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBNJXG5VWB72T922RQE6NR",
       "name": "Memory",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-03-25T20:06:33Z",
-      "position": 21,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
-      "name": "Advanced Data Analysis",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 22,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
-      "name": "1-800-CHAT-GPT",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-03-25T20:06:33Z",
-      "position": 23,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -233,8 +134,130 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-03-25T20:06:33Z",
+      "position": 13,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEMZK0HPK19RYET250",
+      "name": "Fine-tuning",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 14,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFE796MJ8H81EGWA46P",
+      "name": "Uploads",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 15,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG0SGB04EF3FT2KMAC",
+      "name": "Single Sign-On",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 16,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
+      "name": "Search",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 17,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0Q6C4KFTHY65EP0ZB2",
+      "name": "Feed",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:54Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 18,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0QM438N5CDG2RMJ07X",
+      "name": "Video viewing",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:54Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 19,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
+      "name": "Login",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:53Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 20,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
+      "name": "Video generation",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:53Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 21,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JQ7EJWA29C5X2B3QW8P9BEFF",
+      "name": "Image Generation",
+      "status": "operational",
+      "created_at": "2025-03-25T20:06:00Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMDK9XYNGWKNFAQ12VC4SPQH",
+      "name": "Playground",
+      "status": "operational",
+      "created_at": "2025-02-18T22:36:51Z",
+      "updated_at": "2025-03-25T20:06:33Z",
+      "position": 23,
+      "description": "The OpenAI Playground at platform.openai.com",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
+      "name": "Audio",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-03-25T20:06:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JR8C74Z22BN0HF3CSKG7BNW5",
+      "name": "Increased Error Rates in ChatGPT for Pro Users",
+      "status": "investigating",
+      "created_at": "2025-04-07T14:59:35Z",
+      "updated_at": "2025-04-07T14:59:35Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JR8C74Z2D51NVF4FMWMKQ766",
+          "body": "",
+          "created_at": "2025-04-07T14:59:35Z",
+          "display_at": "2025-04-07T14:59:35Z",
+          "incident_id": "01JR8C74Z22BN0HF3CSKG7BNW5",
+          "status": "investigating",
+          "updated_at": "2025-04-07T14:59:35Z"
+        }
+      ]
     }
   ]
 }
