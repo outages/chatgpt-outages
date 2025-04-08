@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-03-27T15:52:09Z"
+    "updated_at": "2025-04-08T07:11:11Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -104,7 +104,7 @@
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 10,
@@ -236,6 +236,28 @@
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JRA3T76QTH7CM37RA17TR7VS",
+      "name": "Retrieving stored completions has an elevated error rate",
+      "status": "identified",
+      "created_at": "2025-04-08T07:11:11Z",
+      "updated_at": "2025-04-08T07:11:11Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JRA3T76QERSFZ3M2A5BTJ366",
+          "body": "",
+          "created_at": "2025-04-08T07:11:11Z",
+          "display_at": "2025-04-08T07:11:11Z",
+          "incident_id": "01JRA3T76QTH7CM37RA17TR7VS",
+          "status": "identified",
+          "updated_at": "2025-04-08T07:11:11Z"
+        }
+      ]
     }
   ]
 }
