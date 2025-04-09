@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-09T18:45:32Z"
+    "updated_at": "2025-04-08T17:48:00Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -77,7 +77,7 @@
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-03-25T20:06:33Z",
       "position": 7,
@@ -239,26 +239,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01JRDXYAM1WF8CE9FW17T9N2M9",
-      "name": "Increased error rates in Moderation API and DALL·E API",
-      "status": "identified",
-      "created_at": "2025-04-09T18:45:32Z",
-      "updated_at": "2025-04-09T18:45:32Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JRDXYAM1R8S8RCD4VG1TCZD1",
-          "body": "",
-          "created_at": "2025-04-09T18:45:32Z",
-          "display_at": "2025-04-09T18:45:32Z",
-          "incident_id": "01JRDXYAM1WF8CE9FW17T9N2M9",
-          "status": "identified",
-          "updated_at": "2025-04-09T18:45:32Z"
-        }
-      ]
-    },
     {
       "id": "01JRB888M6TJVDDKGCA1YZ3ZHT",
       "name": "New users may experience temporary delays in video generation capabilities",
