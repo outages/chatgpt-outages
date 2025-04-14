@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-14T15:18:04Z"
+    "updated_at": "2025-04-14T15:53:47Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -105,7 +105,7 @@
     {
       "id": "01JMXBNJXGJ6C964H647A5DMX0",
       "name": "GPT vision",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-04-14T14:02:29Z",
       "position": 10,
@@ -242,12 +242,22 @@
     {
       "id": "01JRT78YSSVH3X75MNPPQGZ2DW",
       "name": "Elevated error rates on ChatGPT",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-04-14T13:19:31Z",
-      "updated_at": "2025-04-14T15:18:04Z",
+      "updated_at": "2025-04-14T15:53:47Z",
+      "monitoring_at": "2025-04-14T15:53:47Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JRTG3E5G8J8C4ABEZBGWS6SF",
+          "body": "",
+          "created_at": "2025-04-14T15:53:47Z",
+          "display_at": "2025-04-14T15:53:47Z",
+          "incident_id": "01JRT78YSSVH3X75MNPPQGZ2DW",
+          "status": "monitoring",
+          "updated_at": "2025-04-14T15:53:47Z"
+        },
         {
           "id": "01JRTE21CZSMND2CMHPCTPEK5P",
           "body": "",
