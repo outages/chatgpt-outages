@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-16T21:16:21Z"
+    "updated_at": "2025-04-16T21:27:56Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,12 +242,22 @@
     {
       "id": "01JS07BG79D1HX985ES4N464M8",
       "name": "ResponsesAPI Image Input Errors",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-04-16T21:16:21Z",
-      "updated_at": "2025-04-16T21:16:21Z",
+      "updated_at": "2025-04-16T21:27:56Z",
+      "monitoring_at": "2025-04-16T21:27:56Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JS080Q52ENSK2X1HQ0NK04TF",
+          "body": "",
+          "created_at": "2025-04-16T21:27:56Z",
+          "display_at": "2025-04-16T21:27:56Z",
+          "incident_id": "01JS07BG79D1HX985ES4N464M8",
+          "status": "monitoring",
+          "updated_at": "2025-04-16T21:27:56Z"
+        },
         {
           "id": "01JS07BG794RZET1F7ZAMCG0CX",
           "body": "",
