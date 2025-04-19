@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-18T23:44:32Z"
+    "updated_at": "2025-04-14T14:02:30Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -159,7 +159,7 @@
     {
       "id": "01JMXBRMFEQW613TFE89F45035",
       "name": "Realtime",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-04-14T14:02:29Z",
       "position": 16,
@@ -239,44 +239,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01JS5EATV27B4H3XR2NHANXXKY",
-      "name": "Elevated error rates for Text to speech (tts-1)",
-      "status": "identified",
-      "created_at": "2025-04-18T21:54:31Z",
-      "updated_at": "2025-04-18T23:44:32Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JS5MM9GYKE3WVNJZ9J2T34PY",
-          "body": "",
-          "created_at": "2025-04-18T23:44:32Z",
-          "display_at": "2025-04-18T23:44:32Z",
-          "incident_id": "01JS5EATV27B4H3XR2NHANXXKY",
-          "status": "identified",
-          "updated_at": "2025-04-18T23:44:32Z"
-        },
-        {
-          "id": "01JS5HYYCCANZ2B16AXSYYNZJ3",
-          "body": "",
-          "created_at": "2025-04-18T22:57:56Z",
-          "display_at": "2025-04-18T22:57:56Z",
-          "incident_id": "01JS5EATV27B4H3XR2NHANXXKY",
-          "status": "identified",
-          "updated_at": "2025-04-18T22:57:56Z"
-        },
-        {
-          "id": "01JS5EATV2K63WHSYTDVJKXK9R",
-          "body": "",
-          "created_at": "2025-04-18T21:54:31Z",
-          "display_at": "2025-04-18T21:54:31Z",
-          "incident_id": "01JS5EATV27B4H3XR2NHANXXKY",
-          "status": "identified",
-          "updated_at": "2025-04-18T21:54:31Z"
-        }
-      ]
-    },
     {
       "id": "01JRB888M6TJVDDKGCA1YZ3ZHT",
       "name": "New users may experience temporary delays in video generation capabilities",
