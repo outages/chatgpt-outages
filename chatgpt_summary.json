@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-23T01:58:51Z"
+    "updated_at": "2025-04-23T00:49:15Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -239,45 +239,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01JSG0RJ5E40TG0PGQTD09WYKB",
-      "name": "Elevated Conversation Error Rate on Operator",
-      "status": "monitoring",
-      "created_at": "2025-04-23T00:28:59Z",
-      "updated_at": "2025-04-23T01:58:51Z",
-      "monitoring_at": "2025-04-23T01:58:51Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JSG5X3S41XFZ0MNNE6B476W2",
-          "body": "",
-          "created_at": "2025-04-23T01:58:51Z",
-          "display_at": "2025-04-23T01:58:51Z",
-          "incident_id": "01JSG0RJ5E40TG0PGQTD09WYKB",
-          "status": "monitoring",
-          "updated_at": "2025-04-23T01:58:51Z"
-        },
-        {
-          "id": "01JSG29V0JT926APX7QNR97A9K",
-          "body": "",
-          "created_at": "2025-04-23T00:55:54Z",
-          "display_at": "2025-04-23T00:55:54Z",
-          "incident_id": "01JSG0RJ5E40TG0PGQTD09WYKB",
-          "status": "identified",
-          "updated_at": "2025-04-23T00:55:54Z"
-        },
-        {
-          "id": "01JSG0RJ5EGWX585SBDH2BZYT8",
-          "body": "",
-          "created_at": "2025-04-23T00:28:59Z",
-          "display_at": "2025-04-23T00:28:59Z",
-          "incident_id": "01JSG0RJ5E40TG0PGQTD09WYKB",
-          "status": "investigating",
-          "updated_at": "2025-04-23T00:28:59Z"
-        }
-      ]
-    },
     {
       "id": "01JRB888M6TJVDDKGCA1YZ3ZHT",
       "name": "New users may experience temporary delays in video generation capabilities",
