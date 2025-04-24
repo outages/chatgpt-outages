@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-24T19:52:40Z"
+    "updated_at": "2025-04-24T15:13:29Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -239,36 +239,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01JSMKPQCV91B891VSBPQFS779",
-      "name": "platform.openai.com and ChatGPT are unavailable",
-      "status": "monitoring",
-      "created_at": "2025-04-24T19:17:00Z",
-      "updated_at": "2025-04-24T19:52:40Z",
-      "monitoring_at": "2025-04-24T19:52:40Z",
-      "impact": "critical",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JSMNR0SW1J3FPM1DVEA0XNS9",
-          "body": "",
-          "created_at": "2025-04-24T19:52:40Z",
-          "display_at": "2025-04-24T19:52:40Z",
-          "incident_id": "01JSMKPQCV91B891VSBPQFS779",
-          "status": "monitoring",
-          "updated_at": "2025-04-24T20:01:25Z"
-        },
-        {
-          "id": "01JSMKPQCVS102VHGF258ESRKM",
-          "body": "",
-          "created_at": "2025-04-24T19:17:00Z",
-          "display_at": "2025-04-24T19:17:00Z",
-          "incident_id": "01JSMKPQCV91B891VSBPQFS779",
-          "status": "investigating",
-          "updated_at": "2025-04-24T19:54:11Z"
-        }
-      ]
-    },
     {
       "id": "01JRB888M6TJVDDKGCA1YZ3ZHT",
       "name": "New users may experience temporary delays in video generation capabilities",
