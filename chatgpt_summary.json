@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-28T20:13:33Z"
+    "updated_at": "2025-04-28T22:37:33Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -241,12 +241,22 @@
     {
       "id": "01JSYWENHMXH7BY8H91VB6KE3A",
       "name": "Increased error rates for Deep Research in ChatGPT",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-04-28T19:02:17Z",
-      "updated_at": "2025-04-28T20:13:33Z",
+      "updated_at": "2025-04-28T22:37:33Z",
+      "monitoring_at": "2025-04-28T22:37:33Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JSZ8RT7N5W8CCQRB41VMB4JQ",
+          "body": "",
+          "created_at": "2025-04-28T22:37:33Z",
+          "display_at": "2025-04-28T22:37:33Z",
+          "incident_id": "01JSYWENHMXH7BY8H91VB6KE3A",
+          "status": "monitoring",
+          "updated_at": "2025-04-28T22:37:33Z"
+        },
         {
           "id": "01JSZ0H4FB1C9JATZD37DBR27N",
           "body": "",
