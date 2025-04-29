@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-29T17:26:03Z"
+    "updated_at": "2025-04-28T19:30:45Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,45 +238,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01JT13Q94P1DPS602G6V5KMH4Z",
-      "name": "Increased error rates for Deep Research in ChatGPT",
-      "status": "monitoring",
-      "created_at": "2025-04-29T15:47:49Z",
-      "updated_at": "2025-04-29T17:26:03Z",
-      "monitoring_at": "2025-04-29T17:26:03Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JT19B5K18CGRY0NAM1PA68W0",
-          "body": "",
-          "created_at": "2025-04-29T17:26:03Z",
-          "display_at": "2025-04-29T17:26:03Z",
-          "incident_id": "01JT13Q94P1DPS602G6V5KMH4Z",
-          "status": "monitoring",
-          "updated_at": "2025-04-29T17:26:03Z"
-        },
-        {
-          "id": "01JT14N2PF72GGGKE98EPJBA5N",
-          "body": "",
-          "created_at": "2025-04-29T16:04:05Z",
-          "display_at": "2025-04-29T16:04:05Z",
-          "incident_id": "01JT13Q94P1DPS602G6V5KMH4Z",
-          "status": "identified",
-          "updated_at": "2025-04-29T16:04:05Z"
-        },
-        {
-          "id": "01JT13Q94PPFZRKGX5FZ915J4F",
-          "body": "",
-          "created_at": "2025-04-29T15:47:49Z",
-          "display_at": "2025-04-29T15:47:49Z",
-          "incident_id": "01JT13Q94P1DPS602G6V5KMH4Z",
-          "status": "investigating",
-          "updated_at": "2025-04-29T15:47:49Z"
-        }
-      ]
-    },
     {
       "id": "01JRB888M6TJVDDKGCA1YZ3ZHT",
       "name": "New users may experience temporary delays in video generation capabilities",
