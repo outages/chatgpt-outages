@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-29T02:34:28Z"
+    "updated_at": "2025-04-28T19:30:45Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -23,7 +23,7 @@
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 1,
@@ -167,7 +167,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 17,
@@ -238,26 +238,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01JSZPAKXG4GZFW71VS6TGSF1S",
-      "name": "Increased error rates",
-      "status": "investigating",
-      "created_at": "2025-04-29T02:34:28Z",
-      "updated_at": "2025-04-29T02:34:28Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JSZPAKXGVC8SGATFR2FBVF00",
-          "body": "",
-          "created_at": "2025-04-29T02:34:28Z",
-          "display_at": "2025-04-29T02:34:28Z",
-          "incident_id": "01JSZPAKXG4GZFW71VS6TGSF1S",
-          "status": "investigating",
-          "updated_at": "2025-04-29T02:34:28Z"
-        }
-      ]
-    },
     {
       "id": "01JRB888M6TJVDDKGCA1YZ3ZHT",
       "name": "New users may experience temporary delays in video generation capabilities",
