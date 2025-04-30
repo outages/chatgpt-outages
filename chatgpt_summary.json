@@ -257,36 +257,6 @@
           "updated_at": "2025-04-30T03:55:51Z"
         }
       ]
-    },
-    {
-      "id": "01JT25FY8WDVH38GCTK6BV4PQR",
-      "name": "Some endpoints on Responses API and Files API are degraded",
-      "status": "monitoring",
-      "created_at": "2025-04-30T01:38:00Z",
-      "updated_at": "2025-04-30T02:02:20Z",
-      "monitoring_at": "2025-04-30T02:02:20Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JT26WG17XB27WAVG9DP0JZSX",
-          "body": "",
-          "created_at": "2025-04-30T02:02:20Z",
-          "display_at": "2025-04-30T02:02:20Z",
-          "incident_id": "01JT25FY8WDVH38GCTK6BV4PQR",
-          "status": "monitoring",
-          "updated_at": "2025-04-30T02:02:20Z"
-        },
-        {
-          "id": "01JT25FY8W774FDDEBJFR2MF13",
-          "body": "",
-          "created_at": "2025-04-30T01:38:00Z",
-          "display_at": "2025-04-30T01:38:00Z",
-          "incident_id": "01JT25FY8WDVH38GCTK6BV4PQR",
-          "status": "investigating",
-          "updated_at": "2025-04-30T01:38:00Z"
-        }
-      ]
     }
   ]
 }
