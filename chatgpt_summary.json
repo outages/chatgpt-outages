@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-30T18:51:55Z"
+    "updated_at": "2025-04-30T18:55:52Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -95,7 +95,7 @@
     {
       "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
       "name": "Video generation",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 9,
@@ -122,7 +122,7 @@
     {
       "id": "01JQ7EJWA29C5X2B3QW8P9BEFF",
       "name": "Image Generation",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-25T20:06:00Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 12,
@@ -239,34 +239,24 @@
   ],
   "incidents": [
     {
-      "id": "01JT40N3BVPE71K8K6HFH8TK8E",
-      "name": "Sora is experiencing elevated error rates.",
-      "status": "investigating",
-      "created_at": "2025-04-30T18:51:55Z",
-      "updated_at": "2025-04-30T18:51:55Z",
+      "id": "01JT3YHCPWDFK2NWR7MAYSY9Z7",
+      "name": "Degraded Performance: Increased timeouts on gpt-4.1-nano",
+      "status": "monitoring",
+      "created_at": "2025-04-30T18:14:56Z",
+      "updated_at": "2025-04-30T18:55:52Z",
+      "monitoring_at": "2025-04-30T18:55:52Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01JT40N3BVM3QM2YB2TQMF421Q",
+          "id": "01JT40WBK1NB4GTG1PA9T9GJ46",
           "body": "",
-          "created_at": "2025-04-30T18:51:55Z",
-          "display_at": "2025-04-30T18:51:55Z",
-          "incident_id": "01JT40N3BVPE71K8K6HFH8TK8E",
-          "status": "investigating",
-          "updated_at": "2025-04-30T18:51:55Z"
-        }
-      ]
-    },
-    {
-      "id": "01JT3YHCPWDFK2NWR7MAYSY9Z7",
-      "name": "Degraded Performance: Increased timeouts on gpt-4.1-nano",
-      "status": "investigating",
-      "created_at": "2025-04-30T18:14:56Z",
-      "updated_at": "2025-04-30T18:14:56Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
+          "created_at": "2025-04-30T18:55:52Z",
+          "display_at": "2025-04-30T18:55:52Z",
+          "incident_id": "01JT3YHCPWDFK2NWR7MAYSY9Z7",
+          "status": "monitoring",
+          "updated_at": "2025-04-30T18:55:52Z"
+        },
         {
           "id": "01JT3YHCPWNNZMZW9K9NAZN3YF",
           "body": "",
