@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-30T18:55:52Z"
+    "updated_at": "2025-04-28T18:54:16Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -41,7 +41,7 @@
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 3,
@@ -235,38 +235,6 @@
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JT3YHCPWDFK2NWR7MAYSY9Z7",
-      "name": "Degraded Performance: Increased timeouts on gpt-4.1-nano",
-      "status": "monitoring",
-      "created_at": "2025-04-30T18:14:56Z",
-      "updated_at": "2025-04-30T18:55:52Z",
-      "monitoring_at": "2025-04-30T18:55:52Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JT40WBK1NB4GTG1PA9T9GJ46",
-          "body": "",
-          "created_at": "2025-04-30T18:55:52Z",
-          "display_at": "2025-04-30T18:55:52Z",
-          "incident_id": "01JT3YHCPWDFK2NWR7MAYSY9Z7",
-          "status": "monitoring",
-          "updated_at": "2025-04-30T18:55:52Z"
-        },
-        {
-          "id": "01JT3YHCPWNNZMZW9K9NAZN3YF",
-          "body": "",
-          "created_at": "2025-04-30T18:14:56Z",
-          "display_at": "2025-04-30T18:14:56Z",
-          "incident_id": "01JT3YHCPWDFK2NWR7MAYSY9Z7",
-          "status": "investigating",
-          "updated_at": "2025-04-30T18:14:56Z"
-        }
-      ]
     }
   ]
 }
