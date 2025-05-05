@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-05T17:55:37Z"
+    "updated_at": "2025-04-28T18:54:16Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -235,28 +235,6 @@
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JTGSDKHTY4GZX4ARSMF8R75V",
-      "name": "Degraded Performance with Data Analysis",
-      "status": "investigating",
-      "created_at": "2025-05-05T17:55:37Z",
-      "updated_at": "2025-05-05T17:55:37Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JTGSDKHT7Y4D9FXYZ48BG4ZW",
-          "body": "",
-          "created_at": "2025-05-05T17:55:37Z",
-          "display_at": "2025-05-05T17:55:37Z",
-          "incident_id": "01JTGSDKHTY4GZX4ARSMF8R75V",
-          "status": "investigating",
-          "updated_at": "2025-05-05T17:55:37Z"
-        }
-      ]
     }
   ]
 }
