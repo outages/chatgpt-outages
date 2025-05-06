@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-28T18:54:16Z"
+    "updated_at": "2025-05-06T18:50:48Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -32,7 +32,7 @@
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 2,
@@ -131,37 +131,28 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
-      "name": "Web",
-      "status": "operational",
+      "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
+      "name": "Mobile - iOS",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
-      "name": "Mobile - iOS",
-      "status": "operational",
+      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
+      "name": "WhatsApp",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 15,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
-      "name": "WhatsApp",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -170,7 +161,7 @@
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-04-28T18:54:16Z",
-      "position": 17,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -179,7 +170,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-04-28T18:54:16Z",
-      "position": 18,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -188,7 +179,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-04-28T18:54:16Z",
-      "position": 19,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -197,7 +188,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-04-28T18:54:16Z",
-      "position": 20,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -206,7 +197,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-04-28T18:54:16Z",
-      "position": 21,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -215,7 +206,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-04-28T18:54:16Z",
-      "position": 22,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -224,7 +215,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-04-28T18:54:16Z",
-      "position": 23,
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -233,8 +224,40 @@
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-04-28T18:54:16Z",
-      "position": 24,
+      "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMDK9XYNGWKNFAQ12VC4SPQH",
+      "name": "Playground",
+      "status": "operational",
+      "created_at": "2025-02-18T22:36:51Z",
+      "updated_at": "2025-04-28T18:54:16Z",
+      "position": 24,
+      "description": "The OpenAI Playground at platform.openai.com",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JTKEZC4ACNBDQE59VQRN1ZHA",
+      "name": "Elevated error rates",
+      "status": "identified",
+      "created_at": "2025-05-06T18:50:48Z",
+      "updated_at": "2025-05-06T18:50:48Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JTKEZC4AD23C94VHWNCXA2P3",
+          "body": "",
+          "created_at": "2025-05-06T18:50:48Z",
+          "display_at": "2025-05-06T18:50:48Z",
+          "incident_id": "01JTKEZC4ACNBDQE59VQRN1ZHA",
+          "status": "identified",
+          "updated_at": "2025-05-06T18:50:48Z"
+        }
+      ]
     }
   ]
 }
