@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-28T18:54:16Z"
+    "updated_at": "2025-05-07T01:30:48Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -236,6 +236,28 @@
       "position": 24,
       "description": "The OpenAI Playground at platform.openai.com",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JTM5VT3EPZ275M5YDEN6WER3",
+      "name": "High errors from files and search",
+      "status": "identified",
+      "created_at": "2025-05-07T01:30:48Z",
+      "updated_at": "2025-05-07T01:30:48Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JTM5VT3EQ06SVSZ073QCW619",
+          "body": "",
+          "created_at": "2025-05-07T01:30:48Z",
+          "display_at": "2025-05-07T01:30:48Z",
+          "incident_id": "01JTM5VT3EPZ275M5YDEN6WER3",
+          "status": "identified",
+          "updated_at": "2025-05-07T01:30:48Z"
+        }
+      ]
     }
   ]
 }
