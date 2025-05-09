@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-09T00:23:10Z"
+    "updated_at": "2025-05-09T02:30:53Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -149,7 +149,7 @@
     {
       "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
       "name": "WhatsApp",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 15,
@@ -244,11 +244,20 @@
       "name": "WhatsApp 1-800-CHATGPT partial outage",
       "status": "monitoring",
       "created_at": "2025-05-08T23:34:07Z",
-      "updated_at": "2025-05-09T00:23:10Z",
+      "updated_at": "2025-05-09T02:30:53Z",
       "monitoring_at": "2025-05-09T00:23:10Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JTSE37V57803MEH19AXJVR2V",
+          "body": "",
+          "created_at": "2025-05-09T02:30:53Z",
+          "display_at": "2025-05-09T02:30:53Z",
+          "incident_id": "01JTS3ZKAK8KDEER57AZ0AEE6T",
+          "status": "monitoring",
+          "updated_at": "2025-05-09T02:30:53Z"
+        },
         {
           "id": "01JTS6SDBC8XHDBQ9A0JJKARAA",
           "body": "",
