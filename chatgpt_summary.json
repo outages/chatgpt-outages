@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-13T00:31:47Z"
+    "updated_at": "2025-04-28T18:54:16Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -236,38 +236,6 @@
       "position": 24,
       "description": "The OpenAI Playground at platform.openai.com",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JV3GF2HT3EFV3EDDEPRD2ZVA",
-      "name": "Increased Error Rate Observed in ChatGPT",
-      "status": "monitoring",
-      "created_at": "2025-05-13T00:24:42Z",
-      "updated_at": "2025-05-13T00:31:47Z",
-      "monitoring_at": "2025-05-13T00:31:47Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JV3GW203G51VE77G77K7ZJTD",
-          "body": "",
-          "created_at": "2025-05-13T00:31:47Z",
-          "display_at": "2025-05-13T00:31:47Z",
-          "incident_id": "01JV3GF2HT3EFV3EDDEPRD2ZVA",
-          "status": "monitoring",
-          "updated_at": "2025-05-13T00:31:47Z"
-        },
-        {
-          "id": "01JV3GF2HTA3MR7FKE51RA68BD",
-          "body": "",
-          "created_at": "2025-05-13T00:24:42Z",
-          "display_at": "2025-05-13T00:24:42Z",
-          "incident_id": "01JV3GF2HT3EFV3EDDEPRD2ZVA",
-          "status": "identified",
-          "updated_at": "2025-05-13T00:24:42Z"
-        }
-      ]
     }
   ]
 }
