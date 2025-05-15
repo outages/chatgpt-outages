@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-15T18:56:29Z"
+    "updated_at": "2025-05-15T20:51:01Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -221,7 +221,7 @@
     {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-04-28T18:54:16Z",
       "position": 23,
@@ -242,12 +242,22 @@
     {
       "id": "01JVAMW8NAFPK6KDSBQMAJ03Y7",
       "name": "Users may experience errors when accepting new invites to Platform",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-05-15T18:56:29Z",
-      "updated_at": "2025-05-15T18:56:29Z",
+      "updated_at": "2025-05-15T20:51:01Z",
+      "monitoring_at": "2025-05-15T20:51:01Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JVAVDZ6FRBG3JWZ9ZZZ6QDAG",
+          "body": "",
+          "created_at": "2025-05-15T20:51:01Z",
+          "display_at": "2025-05-15T20:51:01Z",
+          "incident_id": "01JVAMW8NAFPK6KDSBQMAJ03Y7",
+          "status": "monitoring",
+          "updated_at": "2025-05-15T20:51:01Z"
+        },
         {
           "id": "01JVAMW8NA1HF7GNE0812AEBMG",
           "body": "",
