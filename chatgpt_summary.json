@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-04-28T18:54:16Z"
+    "updated_at": "2025-05-16T15:26:46Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -11,12 +11,21 @@
   },
   "components": [
     {
+      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
+      "name": "Codex",
+      "status": "operational",
+      "created_at": "2025-05-16T15:26:46Z",
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 0,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
       "id": "01JMDK9XYN8Z6K633X01G7WFD9",
       "name": "Labs",
       "status": "operational",
       "created_at": "2025-02-18T22:36:51Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 0,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 1,
       "description": "https://labs.openai.com",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -25,8 +34,8 @@
       "name": "Images",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 1,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -34,8 +43,8 @@
       "name": "Mobile - Android",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 2,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -43,8 +52,8 @@
       "name": "Chat",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 3,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -52,8 +61,8 @@
       "name": "Compliance",
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 4,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -61,8 +70,8 @@
       "name": "Fine-tuning",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 5,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,8 +79,8 @@
       "name": "Uploads",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 6,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -79,8 +88,8 @@
       "name": "Embeddings",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 7,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -88,8 +97,8 @@
       "name": "Login",
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 8,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,8 +106,8 @@
       "name": "Video generation",
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 9,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,8 +115,8 @@
       "name": "Video viewing",
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 10,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,8 +124,8 @@
       "name": "Feed",
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 11,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -124,8 +133,8 @@
       "name": "Image Generation",
       "status": "operational",
       "created_at": "2025-03-25T20:06:00Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 12,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -133,8 +142,8 @@
       "name": "Login",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 13,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -142,8 +151,8 @@
       "name": "Mobile - iOS",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 14,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -151,8 +160,8 @@
       "name": "WhatsApp",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 15,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,8 +169,8 @@
       "name": "Responses",
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 16,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,8 +178,8 @@
       "name": "Completions (legacy)",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 17,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,8 +187,8 @@
       "name": "Batch",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 18,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -187,8 +196,8 @@
       "name": "Files",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 19,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -196,8 +205,8 @@
       "name": "Assistants",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 20,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -205,8 +214,8 @@
       "name": "Audio",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 21,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,8 +223,8 @@
       "name": "Realtime",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 22,
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -223,18 +232,8 @@
       "name": "Login",
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
-      "updated_at": "2025-04-28T18:54:16Z",
-      "position": 23,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMDK9XYNGWKNFAQ12VC4SPQH",
-      "name": "Playground",
-      "status": "operational",
-      "created_at": "2025-02-18T22:36:51Z",
-      "updated_at": "2025-04-28T18:54:16Z",
+      "updated_at": "2025-05-16T15:26:46Z",
       "position": 24,
-      "description": "The OpenAI Playground at platform.openai.com",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     }
   ]
