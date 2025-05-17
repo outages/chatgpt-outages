@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-17T13:31:30Z"
+    "updated_at": "2025-05-16T15:26:46Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -235,37 +235,6 @@
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JVF6PJN0JWJYNGS06BVYSH7Z",
-      "name": "Chatgpt search is seeing elevated failures and high latency.",
-      "status": "identified",
-      "created_at": "2025-05-17T13:24:55Z",
-      "updated_at": "2025-05-17T13:31:30Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JVF72MG86WJ9EPECPZBNDB3T",
-          "body": "",
-          "created_at": "2025-05-17T13:31:30Z",
-          "display_at": "2025-05-17T13:31:30Z",
-          "incident_id": "01JVF6PJN0JWJYNGS06BVYSH7Z",
-          "status": "identified",
-          "updated_at": "2025-05-17T13:31:30Z"
-        },
-        {
-          "id": "01JVF6PJN0W5HJ3B7V6WGTAHPM",
-          "body": "",
-          "created_at": "2025-05-17T13:24:55Z",
-          "display_at": "2025-05-17T13:24:55Z",
-          "incident_id": "01JVF6PJN0JWJYNGS06BVYSH7Z",
-          "status": "investigating",
-          "updated_at": "2025-05-17T13:24:55Z"
-        }
-      ]
     }
   ]
 }
