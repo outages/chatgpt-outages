@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-16T15:26:46Z"
+    "updated_at": "2025-05-21T02:41:42Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -140,7 +140,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 14,
@@ -235,6 +235,28 @@
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JVRBFNN23REAQSDMW0CKPW7R",
+      "name": "ChatGPT Login issue is identified",
+      "status": "identified",
+      "created_at": "2025-05-21T02:41:42Z",
+      "updated_at": "2025-05-21T02:41:42Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JVRBFNN2MDK46293NY4227B7",
+          "body": "",
+          "created_at": "2025-05-21T02:41:42Z",
+          "display_at": "2025-05-21T02:41:42Z",
+          "incident_id": "01JVRBFNN23REAQSDMW0CKPW7R",
+          "status": "identified",
+          "updated_at": "2025-05-21T02:41:42Z"
+        }
+      ]
     }
   ]
 }
