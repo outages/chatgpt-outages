@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-26T18:46:21Z"
+    "updated_at": "2025-05-26T19:55:16Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -244,10 +244,19 @@
       "name": "Some ChatGPT Pro and Team customers unable to access subscription",
       "status": "investigating",
       "created_at": "2025-05-26T18:46:21Z",
-      "updated_at": "2025-05-26T18:46:21Z",
+      "updated_at": "2025-05-26T19:55:16Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JW72KS6AR2MXB42FD8TY8NSQ",
+          "body": "",
+          "created_at": "2025-05-26T19:55:16Z",
+          "display_at": "2025-05-26T19:55:16Z",
+          "incident_id": "01JW6YNKXY8KQAMGHF3J8TSYMM",
+          "status": "investigating",
+          "updated_at": "2025-05-26T19:55:16Z"
+        },
         {
           "id": "01JW6YNKXYXWM6X22M28J73G19",
           "body": "",
