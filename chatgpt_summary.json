@@ -3,17 +3,17 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-16T15:26:46Z"
+    "updated_at": "2025-05-26T18:46:21Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 0,
@@ -32,7 +32,7 @@
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 2,
@@ -147,21 +147,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
-      "name": "Login",
-      "status": "operational",
+      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
+      "name": "WhatsApp",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 15,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
-      "name": "WhatsApp",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-05-16T15:26:46Z",
-      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -170,7 +161,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-05-16T15:26:46Z",
-      "position": 17,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -179,7 +170,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-05-16T15:26:46Z",
-      "position": 18,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -188,7 +179,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-05-16T15:26:46Z",
-      "position": 19,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -197,7 +188,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-05-16T15:26:46Z",
-      "position": 20,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -206,7 +197,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-05-16T15:26:46Z",
-      "position": 21,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -215,7 +206,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-05-16T15:26:46Z",
-      "position": 22,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -224,7 +215,7 @@
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-05-16T15:26:46Z",
-      "position": 23,
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -233,9 +224,40 @@
       "status": "operational",
       "created_at": "2025-02-18T22:36:51Z",
       "updated_at": "2025-05-16T15:26:46Z",
-      "position": 24,
+      "position": 23,
       "description": "The OpenAI Playground at platform.openai.com",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
+      "name": "Moderations",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-05-16T15:26:46Z",
+      "position": 24,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JW6YNKXY8KQAMGHF3J8TSYMM",
+      "name": "Some ChatGPT Pro and Team customers unable to access subscription",
+      "status": "investigating",
+      "created_at": "2025-05-26T18:46:21Z",
+      "updated_at": "2025-05-26T18:46:21Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JW6YNKXYXWM6X22M28J73G19",
+          "body": "",
+          "created_at": "2025-05-26T18:46:21Z",
+          "display_at": "2025-05-26T18:46:21Z",
+          "incident_id": "01JW6YNKXY8KQAMGHF3J8TSYMM",
+          "status": "investigating",
+          "updated_at": "2025-05-26T18:46:21Z"
+        }
+      ]
     }
   ]
 }
