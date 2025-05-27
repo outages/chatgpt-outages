@@ -3,17 +3,17 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-16T15:26:46Z"
+    "updated_at": "2025-05-27T21:37:20Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Major System Outage",
+    "indicator": "critical"
   },
   "components": [
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "operational",
+      "status": "full_outage",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 0,
@@ -236,6 +236,28 @@
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JW9TVDFN531DKHFG2GED7XTW",
+      "name": "Codex unavailable",
+      "status": "investigating",
+      "created_at": "2025-05-27T21:37:20Z",
+      "updated_at": "2025-05-27T21:37:20Z",
+      "impact": "critical",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JW9TVDFNJTC8NMDRPHQKBQ2K",
+          "body": "",
+          "created_at": "2025-05-27T21:37:20Z",
+          "display_at": "2025-05-27T21:37:20Z",
+          "incident_id": "01JW9TVDFN531DKHFG2GED7XTW",
+          "status": "investigating",
+          "updated_at": "2025-05-27T21:37:20Z"
+        }
+      ]
     }
   ]
 }
