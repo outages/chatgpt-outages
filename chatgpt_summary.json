@@ -3,17 +3,17 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-27T22:08:15Z"
+    "updated_at": "2025-05-16T15:26:46Z"
   },
   "status": {
-    "description": "Major System Outage",
-    "indicator": "critical"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "full_outage",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 0,
@@ -236,47 +236,6 @@
       "updated_at": "2025-05-16T15:26:46Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JW9TVDFN531DKHFG2GED7XTW",
-      "name": "Codex unavailable",
-      "status": "monitoring",
-      "created_at": "2025-05-27T21:37:20Z",
-      "updated_at": "2025-05-27T22:08:15Z",
-      "monitoring_at": "2025-05-27T22:08:15Z",
-      "impact": "critical",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JW9WM058HX69WYA7HB5VP3RW",
-          "body": "",
-          "created_at": "2025-05-27T22:08:15Z",
-          "display_at": "2025-05-27T22:08:15Z",
-          "incident_id": "01JW9TVDFN531DKHFG2GED7XTW",
-          "status": "monitoring",
-          "updated_at": "2025-05-27T22:08:15Z"
-        },
-        {
-          "id": "01JW9V41YJ094J3XEBRB3G857V",
-          "body": "",
-          "created_at": "2025-05-27T21:42:04Z",
-          "display_at": "2025-05-27T21:42:04Z",
-          "incident_id": "01JW9TVDFN531DKHFG2GED7XTW",
-          "status": "identified",
-          "updated_at": "2025-05-27T21:42:04Z"
-        },
-        {
-          "id": "01JW9TVDFNJTC8NMDRPHQKBQ2K",
-          "body": "",
-          "created_at": "2025-05-27T21:37:20Z",
-          "display_at": "2025-05-27T21:37:20Z",
-          "incident_id": "01JW9TVDFN531DKHFG2GED7XTW",
-          "status": "investigating",
-          "updated_at": "2025-05-27T21:37:20Z"
-        }
-      ]
     }
   ]
 }
