@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-28T17:41:36Z"
+    "updated_at": "2025-05-28T18:29:17Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -244,10 +244,19 @@
       "name": "Increasing error rates in Codex, Deep Research, and ChatGPT Login",
       "status": "identified",
       "created_at": "2025-05-28T15:56:43Z",
-      "updated_at": "2025-05-28T17:42:07Z",
+      "updated_at": "2025-05-28T18:29:17Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JWC2FS2QX8K476QV4JXP7172",
+          "body": "",
+          "created_at": "2025-05-28T18:29:17Z",
+          "display_at": "2025-05-28T18:29:17Z",
+          "incident_id": "01JWBSRE68GFTYHQ34RAVKXF6T",
+          "status": "identified",
+          "updated_at": "2025-05-28T18:29:17Z"
+        },
         {
           "id": "01JWBZRF3TC66AWCSZE01VA907",
           "body": "",
