@@ -241,10 +241,10 @@
   "incidents": [
     {
       "id": "01JWQ33R9D410DX5BBHM9A11N9",
-      "name": "User Analytics Dashboard Export Function Not Working",
+      "name": "Exporting user analytics data for \"last week\" and \"last month\" is currently not working.",
       "status": "identified",
       "created_at": "2025-06-02T01:11:50Z",
-      "updated_at": "2025-06-02T01:11:50Z",
+      "updated_at": "2025-06-02T03:44:51Z",
       "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
