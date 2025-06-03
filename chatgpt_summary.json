@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-05-31T01:29:05Z"
+    "updated_at": "2025-06-02T23:56:29Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -244,11 +244,20 @@
       "name": "Compliance API Data Delays",
       "status": "monitoring",
       "created_at": "2025-05-28T22:30:41Z",
-      "updated_at": "2025-05-31T01:29:05Z",
+      "updated_at": "2025-06-02T23:56:29Z",
       "monitoring_at": "2025-05-30T17:40:40Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JWSH6GJFJ0XWJSVWBAR9ZY39",
+          "body": "",
+          "created_at": "2025-06-02T23:56:29Z",
+          "display_at": "2025-06-02T23:56:29Z",
+          "incident_id": "01JWCG9T5EY24MJ59SQT4Q6MH6",
+          "status": "monitoring",
+          "updated_at": "2025-06-02T23:56:29Z"
+        },
         {
           "id": "01JWHZ9X2DVSRG59C9WGK6N238",
           "body": "",
