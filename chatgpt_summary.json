@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-04T00:11:20Z"
+    "updated_at": "2025-06-04T03:29:04Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -241,12 +241,22 @@
     {
       "id": "01JWVXFBKGVPF5JT7DQZY9QDB8",
       "name": "Deep Research unable to access content from uploaded files",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-06-03T22:09:31Z",
-      "updated_at": "2025-06-04T00:11:20Z",
+      "updated_at": "2025-06-04T03:29:04Z",
+      "monitoring_at": "2025-06-04T03:29:04Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JWWFRF2E5MJ1Z9RCQ60RPQN0",
+          "body": "",
+          "created_at": "2025-06-04T03:29:04Z",
+          "display_at": "2025-06-04T03:29:04Z",
+          "incident_id": "01JWVXFBKGVPF5JT7DQZY9QDB8",
+          "status": "monitoring",
+          "updated_at": "2025-06-04T03:29:04Z"
+        },
         {
           "id": "01JWW4EDZXH191RHNE6HCSWP5E",
           "body": "",
