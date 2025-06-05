@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-05T17:08:54Z"
+    "updated_at": "2025-06-04T16:46:03Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -194,7 +194,7 @@
     {
       "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
       "name": "Files",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 20,
@@ -235,46 +235,6 @@
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JX0EMM177C1SCAWBTWSNCF10",
-      "name": "Elevated error rate for file uploads in ChatGPT and API",
-      "status": "identified",
-      "created_at": "2025-06-05T16:26:27Z",
-      "updated_at": "2025-06-05T17:08:55Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JX0H2C1EDH0Z8EMD7ZDVJJZ1",
-          "body": "",
-          "created_at": "2025-06-05T17:08:54Z",
-          "display_at": "2025-06-05T17:08:54Z",
-          "incident_id": "01JX0EMM177C1SCAWBTWSNCF10",
-          "status": "identified",
-          "updated_at": "2025-06-05T17:08:54Z"
-        },
-        {
-          "id": "01JX0FAR51MVTTGV0EYD73JDR3",
-          "body": "",
-          "created_at": "2025-06-05T16:38:32Z",
-          "display_at": "2025-06-05T16:38:32Z",
-          "incident_id": "01JX0EMM177C1SCAWBTWSNCF10",
-          "status": "investigating",
-          "updated_at": "2025-06-05T16:38:32Z"
-        },
-        {
-          "id": "01JX0EMM17F5C1FYY8BWSM75KW",
-          "body": "",
-          "created_at": "2025-06-05T16:26:27Z",
-          "display_at": "2025-06-05T16:26:27Z",
-          "incident_id": "01JX0EMM177C1SCAWBTWSNCF10",
-          "status": "investigating",
-          "updated_at": "2025-06-05T16:26:27Z"
-        }
-      ]
     }
   ]
 }
