@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-05T16:38:32Z"
+    "updated_at": "2025-06-05T17:08:54Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -241,12 +241,21 @@
     {
       "id": "01JX0EMM177C1SCAWBTWSNCF10",
       "name": "Elevated error rate for file uploads in ChatGPT and API",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2025-06-05T16:26:27Z",
-      "updated_at": "2025-06-05T16:38:32Z",
+      "updated_at": "2025-06-05T17:08:55Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JX0H2C1EDH0Z8EMD7ZDVJJZ1",
+          "body": "",
+          "created_at": "2025-06-05T17:08:54Z",
+          "display_at": "2025-06-05T17:08:54Z",
+          "incident_id": "01JX0EMM177C1SCAWBTWSNCF10",
+          "status": "identified",
+          "updated_at": "2025-06-05T17:08:54Z"
+        },
         {
           "id": "01JX0FAR51MVTTGV0EYD73JDR3",
           "body": "",
