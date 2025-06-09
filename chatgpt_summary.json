@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-09T23:01:20Z"
+    "updated_at": "2025-06-04T16:46:03Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -235,38 +235,6 @@
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JXBB9FTQSXJRZ1EAXEEE6ABN",
-      "name": "ChatGPT search is degraded",
-      "status": "monitoring",
-      "created_at": "2025-06-09T21:59:35Z",
-      "updated_at": "2025-06-09T23:01:20Z",
-      "monitoring_at": "2025-06-09T23:01:20Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JXBETJ2ZWVHP7XQ6W92Q4E4V",
-          "body": "",
-          "created_at": "2025-06-09T23:01:20Z",
-          "display_at": "2025-06-09T23:01:20Z",
-          "incident_id": "01JXBB9FTQSXJRZ1EAXEEE6ABN",
-          "status": "monitoring",
-          "updated_at": "2025-06-09T23:01:20Z"
-        },
-        {
-          "id": "01JXBB9FTQDSAG50EG1P1M1RNA",
-          "body": "",
-          "created_at": "2025-06-09T21:59:35Z",
-          "display_at": "2025-06-09T21:59:35Z",
-          "incident_id": "01JXBB9FTQSXJRZ1EAXEEE6ABN",
-          "status": "investigating",
-          "updated_at": "2025-06-09T21:59:35Z"
-        }
-      ]
     }
   ]
 }
