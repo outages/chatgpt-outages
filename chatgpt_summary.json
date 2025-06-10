@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-10T12:20:32Z"
+    "updated_at": "2025-06-10T12:35:50Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -158,7 +158,7 @@
     {
       "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
       "name": "Login",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-04T16:46:03Z",
       "position": 16,
@@ -239,79 +239,23 @@
   ],
   "incidents": [
     {
-      "id": "01JXCJBVPEZKMPK55TC366AJQN",
-      "name": "Elevated error rates on Sora",
-      "status": "investigating",
-      "created_at": "2025-06-10T09:22:27Z",
-      "updated_at": "2025-06-10T12:20:32Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JXCWHXRXMVHMF3K2WMB2ERM0",
-          "body": "",
-          "created_at": "2025-06-10T12:20:32Z",
-          "display_at": "2025-06-10T12:20:32Z",
-          "incident_id": "01JXCJBVPEZKMPK55TC366AJQN",
-          "status": "investigating",
-          "updated_at": "2025-06-10T12:20:32Z"
-        },
-        {
-          "id": "01JXCTEP6Z8X2WFJ3E2JWFW583",
-          "body": "",
-          "created_at": "2025-06-10T11:43:48Z",
-          "display_at": "2025-06-10T11:43:48Z",
-          "incident_id": "01JXCJBVPEZKMPK55TC366AJQN",
-          "status": "investigating",
-          "updated_at": "2025-06-10T11:43:48Z"
-        },
-        {
-          "id": "01JXCR99R7E9B4F3DB32EZX0MY",
-          "body": "",
-          "created_at": "2025-06-10T11:05:55Z",
-          "display_at": "2025-06-10T11:05:55Z",
-          "incident_id": "01JXCJBVPEZKMPK55TC366AJQN",
-          "status": "investigating",
-          "updated_at": "2025-06-10T11:05:55Z"
-        },
-        {
-          "id": "01JXCPGQ582D0BMXY3QMPRKCM1",
-          "body": "",
-          "created_at": "2025-06-10T10:35:01Z",
-          "display_at": "2025-06-10T10:35:01Z",
-          "incident_id": "01JXCJBVPEZKMPK55TC366AJQN",
-          "status": "investigating",
-          "updated_at": "2025-06-10T10:35:01Z"
-        },
-        {
-          "id": "01JXCMPZBBCWT2BKJZZY34J9ZK",
-          "body": "",
-          "created_at": "2025-06-10T10:03:29Z",
-          "display_at": "2025-06-10T10:03:29Z",
-          "incident_id": "01JXCJBVPEZKMPK55TC366AJQN",
-          "status": "investigating",
-          "updated_at": "2025-06-10T10:03:29Z"
-        },
-        {
-          "id": "01JXCJBVPE28A6WM7Y6DT9DS2M",
-          "body": "",
-          "created_at": "2025-06-10T09:22:27Z",
-          "display_at": "2025-06-10T09:22:27Z",
-          "incident_id": "01JXCJBVPEZKMPK55TC366AJQN",
-          "status": "investigating",
-          "updated_at": "2025-06-10T10:24:39Z"
-        }
-      ]
-    },
-    {
       "id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
       "name": "Elevated error rates",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2025-06-10T07:11:31Z",
-      "updated_at": "2025-06-10T12:03:19Z",
+      "updated_at": "2025-06-10T12:35:50Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JXCXDYD3C5PQH2YHVSD7GM74",
+          "body": "",
+          "created_at": "2025-06-10T12:35:50Z",
+          "display_at": "2025-06-10T12:35:50Z",
+          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
+          "status": "identified",
+          "updated_at": "2025-06-10T12:35:50Z"
+        },
         {
           "id": "01JXCVJD00JNCN0C538NQ8APSY",
           "body": "",
