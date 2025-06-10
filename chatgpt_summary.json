@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-10T14:16:51Z"
+    "updated_at": "2025-06-10T14:54:12Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -243,10 +243,19 @@
       "name": "Elevated error rates",
       "status": "identified",
       "created_at": "2025-06-10T07:11:31Z",
-      "updated_at": "2025-06-10T14:16:51Z",
+      "updated_at": "2025-06-10T14:54:12Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JXD5B9NPD8F7B2MCZCE3KY2G",
+          "body": "",
+          "created_at": "2025-06-10T14:54:12Z",
+          "display_at": "2025-06-10T14:54:12Z",
+          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
+          "status": "identified",
+          "updated_at": "2025-06-10T14:54:12Z"
+        },
         {
           "id": "01JXD36XJZE54KJW77JG4BE9XA",
           "body": "",
