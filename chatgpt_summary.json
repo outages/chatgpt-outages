@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-10T14:54:12Z"
+    "updated_at": "2025-06-10T15:42:56Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -22,7 +22,7 @@
     {
       "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
       "name": "Batch",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 1,
@@ -59,7 +59,7 @@
     {
       "id": "01JMXBRMFEKVBWKK82B44QFMCE",
       "name": "Audio",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 5,
@@ -75,84 +75,102 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
-      "name": "Codex",
-      "status": "partial_outage",
-      "created_at": "2025-05-16T15:26:46Z",
-      "updated_at": "2025-06-04T16:46:03Z",
+      "id": "01JNKS9D9S72PMP1938PVFFQN4",
+      "name": "Compliance",
+      "status": "degraded_performance",
+      "created_at": "2025-03-05T18:32:33Z",
+      "updated_at": "2025-06-04T16:46:02Z",
       "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
-      "name": "Chat",
-      "status": "partial_outage",
+      "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
+      "name": "Files",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
-      "name": "Assistants",
+      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
+      "name": "Codex",
       "status": "partial_outage",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-06-04T16:46:02Z",
+      "created_at": "2025-05-16T15:26:46Z",
+      "updated_at": "2025-06-04T16:46:03Z",
       "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEQW613TFE89F45035",
-      "name": "Realtime",
-      "status": "partial_outage",
+      "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
+      "name": "Chat",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFE796MJ8H81EGWA46P",
-      "name": "Uploads",
-      "status": "partial_outage",
+      "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
+      "name": "Assistants",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
-      "name": "Images",
-      "status": "partial_outage",
+      "id": "01JMXBRMFEQW613TFE89F45035",
+      "name": "Realtime",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
-      "name": "Responses",
-      "status": "partial_outage",
-      "created_at": "2025-03-13T18:31:32Z",
+      "id": "01JMXBRMFE796MJ8H81EGWA46P",
+      "name": "Uploads",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEMZK0HPK19RYET250",
-      "name": "Fine-tuning",
-      "status": "partial_outage",
+      "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
+      "name": "Images",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
-      "name": "Embeddings",
-      "status": "partial_outage",
-      "created_at": "2025-02-25T01:32:55Z",
+      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
+      "name": "Responses",
+      "status": "degraded_performance",
+      "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 15,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEMZK0HPK19RYET250",
+      "name": "Fine-tuning",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-06-04T16:46:02Z",
+      "position": 16,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
+      "name": "Embeddings",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-06-04T16:46:02Z",
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -161,7 +179,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 16,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -170,7 +188,7 @@
       "status": "partial_outage",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 17,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -179,7 +197,7 @@
       "status": "partial_outage",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 18,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -188,16 +206,16 @@
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 19,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBRMFE0V9J9X2HY3SKX399",
       "name": "Completions (legacy)",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 20,
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -206,24 +224,6 @@
       "status": "partial_outage",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 21,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
-      "name": "Files",
-      "status": "partial_outage",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-06-04T16:46:02Z",
-      "position": 22,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JNKS9D9S72PMP1938PVFFQN4",
-      "name": "Compliance",
-      "status": "partial_outage",
-      "created_at": "2025-03-05T18:32:33Z",
-      "updated_at": "2025-06-04T16:46:02Z",
       "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -243,10 +243,19 @@
       "name": "Elevated error rates",
       "status": "identified",
       "created_at": "2025-06-10T07:11:31Z",
-      "updated_at": "2025-06-10T14:54:12Z",
+      "updated_at": "2025-06-10T15:42:56Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JXD84H2GSJNVVBV577WBD2V1",
+          "body": "",
+          "created_at": "2025-06-10T15:42:56Z",
+          "display_at": "2025-06-10T15:42:56Z",
+          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
+          "status": "identified",
+          "updated_at": "2025-06-10T15:42:56Z"
+        },
         {
           "id": "01JXD5B9NPD8F7B2MCZCE3KY2G",
           "body": "",
