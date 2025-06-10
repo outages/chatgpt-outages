@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-10T10:35:01Z"
+    "updated_at": "2025-06-10T11:05:55Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -243,10 +243,19 @@
       "name": "Elevated error rates on Sora",
       "status": "investigating",
       "created_at": "2025-06-10T09:22:27Z",
-      "updated_at": "2025-06-10T10:35:01Z",
+      "updated_at": "2025-06-10T11:05:55Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JXCR99R7E9B4F3DB32EZX0MY",
+          "body": "",
+          "created_at": "2025-06-10T11:05:55Z",
+          "display_at": "2025-06-10T11:05:55Z",
+          "incident_id": "01JXCJBVPEZKMPK55TC366AJQN",
+          "status": "investigating",
+          "updated_at": "2025-06-10T11:05:55Z"
+        },
         {
           "id": "01JXCPGQ582D0BMXY3QMPRKCM1",
           "body": "",
@@ -281,10 +290,19 @@
       "name": "Elevated error rates",
       "status": "investigating",
       "created_at": "2025-06-10T07:11:31Z",
-      "updated_at": "2025-06-10T10:27:28Z",
+      "updated_at": "2025-06-10T10:59:17Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JXCQX5BTM5JTFC8KH7BYES35",
+          "body": "",
+          "created_at": "2025-06-10T10:59:17Z",
+          "display_at": "2025-06-10T10:59:17Z",
+          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
+          "status": "investigating",
+          "updated_at": "2025-06-10T10:59:17Z"
+        },
         {
           "id": "01JXCP2XDK912EYYZWKTTDJSQM",
           "body": "",
