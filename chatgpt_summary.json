@@ -3,20 +3,47 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-04T16:46:03Z"
+    "updated_at": "2025-06-10T07:11:31Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
+    {
+      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
+      "name": "WhatsApp",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-04T16:46:03Z",
+      "position": 0,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JWXXBS3FJVTAT7VH854WCGCB",
+      "name": "Desktop - Windows",
+      "status": "degraded_performance",
+      "created_at": "2025-06-04T16:46:03Z",
+      "updated_at": "2025-06-04T16:46:03Z",
+      "position": 1,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
+      "name": "Image Generation",
+      "status": "degraded_performance",
+      "created_at": "2025-03-25T20:06:33Z",
+      "updated_at": "2025-06-04T16:46:03Z",
+      "position": 2,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
     {
       "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
       "name": "Batch",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 0,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -25,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 1,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -34,34 +61,25 @@
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 2,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 3,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
-      "name": "WhatsApp",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-04T16:46:03Z",
-      "position": 4,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JWXXBS3FFE2A2MESHBVFEKWH",
       "name": "Desktop - macOS",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-06-04T16:46:03Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 5,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,7 +88,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 6,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -79,7 +97,7 @@
       "status": "operational",
       "created_at": "2025-03-25T20:06:00Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 7,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -88,26 +106,17 @@
       "status": "operational",
       "created_at": "2025-02-18T22:36:51Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 8,
+      "position": 10,
       "description": "The OpenAI Playground at platform.openai.com",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JWXXBS3FJVTAT7VH854WCGCB",
-      "name": "Desktop - Windows",
-      "status": "operational",
-      "created_at": "2025-06-04T16:46:03Z",
-      "updated_at": "2025-06-04T16:46:03Z",
-      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 10,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -116,7 +125,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 11,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -125,7 +134,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 12,
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -134,7 +143,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 13,
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -143,7 +152,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 14,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -152,7 +161,7 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 15,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -161,7 +170,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 16,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -170,7 +179,7 @@
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 17,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -179,7 +188,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 18,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -188,7 +197,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 19,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -197,7 +206,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 20,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -206,7 +215,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 21,
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -215,7 +224,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 22,
+      "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -224,17 +233,30 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 23,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFE0V9J9X2HY3SKX399",
-      "name": "Completions (legacy)",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-06-04T16:46:02Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
+      "name": "Elevated error rates",
+      "status": "investigating",
+      "created_at": "2025-06-10T07:11:31Z",
+      "updated_at": "2025-06-10T07:11:31Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JXCAW3K3WCPHM2FVQVJAHDS5",
+          "body": "",
+          "created_at": "2025-06-10T07:11:31Z",
+          "display_at": "2025-06-10T07:11:31Z",
+          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
+          "status": "investigating",
+          "updated_at": "2025-06-10T07:11:31Z"
+        }
+      ]
     }
   ]
 }
