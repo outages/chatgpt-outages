@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-10T10:03:29Z"
+    "updated_at": "2025-06-10T10:35:01Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -158,7 +158,7 @@
     {
       "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-04T16:46:03Z",
       "position": 16,
@@ -243,10 +243,19 @@
       "name": "Elevated error rates on Sora",
       "status": "investigating",
       "created_at": "2025-06-10T09:22:27Z",
-      "updated_at": "2025-06-10T10:03:29Z",
-      "impact": "minor",
+      "updated_at": "2025-06-10T10:35:01Z",
+      "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JXCPGQ582D0BMXY3QMPRKCM1",
+          "body": "",
+          "created_at": "2025-06-10T10:35:01Z",
+          "display_at": "2025-06-10T10:35:01Z",
+          "incident_id": "01JXCJBVPEZKMPK55TC366AJQN",
+          "status": "investigating",
+          "updated_at": "2025-06-10T10:35:01Z"
+        },
         {
           "id": "01JXCMPZBBCWT2BKJZZY34J9ZK",
           "body": "",
@@ -263,7 +272,7 @@
           "display_at": "2025-06-10T09:22:27Z",
           "incident_id": "01JXCJBVPEZKMPK55TC366AJQN",
           "status": "investigating",
-          "updated_at": "2025-06-10T09:22:27Z"
+          "updated_at": "2025-06-10T10:24:39Z"
         }
       ]
     },
@@ -272,10 +281,19 @@
       "name": "Elevated error rates",
       "status": "investigating",
       "created_at": "2025-06-10T07:11:31Z",
-      "updated_at": "2025-06-10T09:56:51Z",
+      "updated_at": "2025-06-10T10:27:28Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JXCP2XDK912EYYZWKTTDJSQM",
+          "body": "",
+          "created_at": "2025-06-10T10:27:28Z",
+          "display_at": "2025-06-10T10:27:28Z",
+          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
+          "status": "investigating",
+          "updated_at": "2025-06-10T10:27:28Z"
+        },
         {
           "id": "01JXCMATY87XZJWXC8A5MPMHC4",
           "body": "",
