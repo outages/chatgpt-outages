@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-10T19:34:14Z"
+    "updated_at": "2025-06-10T20:08:42Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,6 +238,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01JXDQB62D3HYWRSKSC88PTHRX",
+      "name": "Increased errors for Codex tasks",
+      "status": "investigating",
+      "created_at": "2025-06-10T20:08:42Z",
+      "updated_at": "2025-06-10T20:08:42Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JXDQB62DBZBHPFTJMAZZ5FY9",
+          "body": "",
+          "created_at": "2025-06-10T20:08:42Z",
+          "display_at": "2025-06-10T20:08:42Z",
+          "incident_id": "01JXDQB62D3HYWRSKSC88PTHRX",
+          "status": "investigating",
+          "updated_at": "2025-06-10T20:08:42Z"
+        }
+      ]
+    },
     {
       "id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
       "name": "Elevated error rates",
