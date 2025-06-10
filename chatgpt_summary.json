@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-10T07:11:31Z"
+    "updated_at": "2025-06-10T06:36:00Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -11,66 +11,12 @@
   },
   "components": [
     {
-      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
-      "name": "WhatsApp",
-      "status": "degraded_performance",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-04T16:46:03Z",
-      "position": 0,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
-      "name": "Audio",
-      "status": "degraded_performance",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-06-04T16:46:02Z",
-      "position": 1,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JQ7EJWA29C5X2B3QW8P9BEFF",
-      "name": "Image Generation",
-      "status": "degraded_performance",
-      "created_at": "2025-03-25T20:06:00Z",
-      "updated_at": "2025-06-04T16:46:03Z",
-      "position": 2,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
-      "name": "Image Generation",
-      "status": "degraded_performance",
-      "created_at": "2025-03-25T20:06:33Z",
-      "updated_at": "2025-06-04T16:46:03Z",
-      "position": 3,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
-      "name": "Login",
-      "status": "degraded_performance",
-      "created_at": "2025-04-24T15:13:29Z",
-      "updated_at": "2025-06-04T16:46:02Z",
-      "position": 4,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JWXXBS3FFE2A2MESHBVFEKWH",
-      "name": "Desktop - macOS",
-      "status": "degraded_performance",
-      "created_at": "2025-06-04T16:46:03Z",
-      "updated_at": "2025-06-04T16:46:03Z",
-      "position": 5,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JWXXBS3FJVTAT7VH854WCGCB",
       "name": "Desktop - Windows",
       "status": "degraded_performance",
       "created_at": "2025-06-04T16:46:03Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 6,
+      "position": 0,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -79,7 +25,7 @@
       "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
-      "position": 7,
+      "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -88,7 +34,7 @@
       "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 8,
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,7 +43,7 @@
       "status": "degraded_performance",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 9,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,8 +52,62 @@
       "status": "operational",
       "created_at": "2025-02-18T22:36:51Z",
       "updated_at": "2025-06-04T16:46:03Z",
-      "position": 10,
+      "position": 4,
       "description": "The OpenAI Playground at platform.openai.com",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
+      "name": "WhatsApp",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-04T16:46:03Z",
+      "position": 5,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
+      "name": "Audio",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-06-04T16:46:02Z",
+      "position": 6,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JQ7EJWA29C5X2B3QW8P9BEFF",
+      "name": "Image Generation",
+      "status": "degraded_performance",
+      "created_at": "2025-03-25T20:06:00Z",
+      "updated_at": "2025-06-04T16:46:03Z",
+      "position": 7,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
+      "name": "Image Generation",
+      "status": "degraded_performance",
+      "created_at": "2025-03-25T20:06:33Z",
+      "updated_at": "2025-06-04T16:46:03Z",
+      "position": 8,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
+      "name": "Login",
+      "status": "degraded_performance",
+      "created_at": "2025-04-24T15:13:29Z",
+      "updated_at": "2025-06-04T16:46:02Z",
+      "position": 9,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JWXXBS3FFE2A2MESHBVFEKWH",
+      "name": "Desktop - macOS",
+      "status": "degraded_performance",
+      "created_at": "2025-06-04T16:46:03Z",
+      "updated_at": "2025-06-04T16:46:03Z",
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -251,10 +251,10 @@
           "id": "01JXCAW3K3WCPHM2FVQVJAHDS5",
           "body": "",
           "created_at": "2025-06-10T07:11:31Z",
-          "display_at": "2025-06-10T07:11:31Z",
+          "display_at": "2025-06-10T06:36:00Z",
           "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
           "status": "investigating",
-          "updated_at": "2025-06-10T07:11:31Z"
+          "updated_at": "2025-06-10T07:32:37Z"
         }
       ]
     }
