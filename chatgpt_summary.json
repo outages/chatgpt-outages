@@ -131,7 +131,7 @@
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 13,
@@ -240,10 +240,10 @@
   "incidents": [
     {
       "id": "01JXFQD6457ESXWQC8QXAAZJY5",
-      "name": "Increased error rates on image generation in ChatGPT",
+      "name": "Increased error rates on image generation in ChatGPT and API",
       "status": "investigating",
       "created_at": "2025-06-11T14:48:17Z",
-      "updated_at": "2025-06-11T14:48:17Z",
+      "updated_at": "2025-06-11T15:06:47Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
@@ -255,198 +255,6 @@
           "incident_id": "01JXFQD6457ESXWQC8QXAAZJY5",
           "status": "investigating",
           "updated_at": "2025-06-11T14:48:17Z"
-        }
-      ]
-    },
-    {
-      "id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-      "name": "Elevated error rates",
-      "status": "monitoring",
-      "created_at": "2025-06-10T07:11:31Z",
-      "updated_at": "2025-06-10T22:32:12Z",
-      "monitoring_at": "2025-06-10T17:20:01Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JXDZHY5SDJ5YJNVGDMRGYYR8",
-          "body": "",
-          "created_at": "2025-06-10T22:32:12Z",
-          "display_at": "2025-06-10T22:32:12Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "monitoring",
-          "updated_at": "2025-06-10T22:32:12Z"
-        },
-        {
-          "id": "01JXDNC2FA44D0665N6PDWQVEE",
-          "body": "",
-          "created_at": "2025-06-10T19:34:14Z",
-          "display_at": "2025-06-10T19:34:14Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "monitoring",
-          "updated_at": "2025-06-10T19:34:14Z"
-        },
-        {
-          "id": "01JXDJP1G41E3JVF362F6V5ST6",
-          "body": "",
-          "created_at": "2025-06-10T18:47:15Z",
-          "display_at": "2025-06-10T18:47:15Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "monitoring",
-          "updated_at": "2025-06-10T18:47:15Z"
-        },
-        {
-          "id": "01JXDG33ZD08MTDY4Y7464Y8TD",
-          "body": "",
-          "created_at": "2025-06-10T18:01:58Z",
-          "display_at": "2025-06-10T18:01:58Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "monitoring",
-          "updated_at": "2025-06-10T18:01:58Z"
-        },
-        {
-          "id": "01JXDDP9YY4D550J7K4T1FE4NK",
-          "body": "",
-          "created_at": "2025-06-10T17:20:01Z",
-          "display_at": "2025-06-10T17:20:01Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "monitoring",
-          "updated_at": "2025-06-10T17:20:01Z"
-        },
-        {
-          "id": "01JXDAEPR7WKF1D6BTSC52MGZ7",
-          "body": "",
-          "created_at": "2025-06-10T16:23:26Z",
-          "display_at": "2025-06-10T16:23:26Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "identified",
-          "updated_at": "2025-06-10T16:23:26Z"
-        },
-        {
-          "id": "01JXD84H2GSJNVVBV577WBD2V1",
-          "body": "",
-          "created_at": "2025-06-10T15:42:56Z",
-          "display_at": "2025-06-10T15:42:56Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "identified",
-          "updated_at": "2025-06-10T15:42:56Z"
-        },
-        {
-          "id": "01JXD5B9NPD8F7B2MCZCE3KY2G",
-          "body": "",
-          "created_at": "2025-06-10T14:54:12Z",
-          "display_at": "2025-06-10T14:54:12Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "identified",
-          "updated_at": "2025-06-10T14:54:12Z"
-        },
-        {
-          "id": "01JXD36XJZE54KJW77JG4BE9XA",
-          "body": "",
-          "created_at": "2025-06-10T14:16:51Z",
-          "display_at": "2025-06-10T14:16:51Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "identified",
-          "updated_at": "2025-06-10T14:16:51Z"
-        },
-        {
-          "id": "01JXD19A2VDENX2355EG5JH81Y",
-          "body": "",
-          "created_at": "2025-06-10T13:43:12Z",
-          "display_at": "2025-06-10T13:43:12Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "identified",
-          "updated_at": "2025-06-10T13:43:12Z"
-        },
-        {
-          "id": "01JXCZ8S46W7CDCV2GFFZ176Z1",
-          "body": "",
-          "created_at": "2025-06-10T13:07:58Z",
-          "display_at": "2025-06-10T13:07:58Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "identified",
-          "updated_at": "2025-06-10T13:07:58Z"
-        },
-        {
-          "id": "01JXCXDYD3C5PQH2YHVSD7GM74",
-          "body": "",
-          "created_at": "2025-06-10T12:35:50Z",
-          "display_at": "2025-06-10T12:35:50Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "identified",
-          "updated_at": "2025-06-10T12:35:50Z"
-        },
-        {
-          "id": "01JXCVJD00JNCN0C538NQ8APSY",
-          "body": "",
-          "created_at": "2025-06-10T12:03:19Z",
-          "display_at": "2025-06-10T12:03:19Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "investigating",
-          "updated_at": "2025-06-10T12:03:19Z"
-        },
-        {
-          "id": "01JXCSVSCZAR2VGMC6F4KM9HRH",
-          "body": "",
-          "created_at": "2025-06-10T11:33:29Z",
-          "display_at": "2025-06-10T11:33:29Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "investigating",
-          "updated_at": "2025-06-10T11:33:29Z"
-        },
-        {
-          "id": "01JXCQX5BTM5JTFC8KH7BYES35",
-          "body": "",
-          "created_at": "2025-06-10T10:59:17Z",
-          "display_at": "2025-06-10T10:59:17Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "investigating",
-          "updated_at": "2025-06-10T10:59:17Z"
-        },
-        {
-          "id": "01JXCP2XDK912EYYZWKTTDJSQM",
-          "body": "",
-          "created_at": "2025-06-10T10:27:28Z",
-          "display_at": "2025-06-10T10:27:28Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "investigating",
-          "updated_at": "2025-06-10T10:27:28Z"
-        },
-        {
-          "id": "01JXCMATY87XZJWXC8A5MPMHC4",
-          "body": "",
-          "created_at": "2025-06-10T09:56:51Z",
-          "display_at": "2025-06-10T09:56:51Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "investigating",
-          "updated_at": "2025-06-10T09:56:51Z"
-        },
-        {
-          "id": "01JXCJJXJXT0HM8D9NW8APYSN8",
-          "body": "",
-          "created_at": "2025-06-10T09:26:19Z",
-          "display_at": "2025-06-10T09:26:18Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "investigating",
-          "updated_at": "2025-06-10T09:26:19Z"
-        },
-        {
-          "id": "01JXCE3FS0DY1RYRAA4QVN3NFH",
-          "body": "",
-          "created_at": "2025-06-10T08:07:59Z",
-          "display_at": "2025-06-10T08:07:59Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "investigating",
-          "updated_at": "2025-06-10T08:13:38Z"
-        },
-        {
-          "id": "01JXCAW3K3WCPHM2FVQVJAHDS5",
-          "body": "",
-          "created_at": "2025-06-10T07:11:31Z",
-          "display_at": "2025-06-10T06:36:00Z",
-          "incident_id": "01JXCAW3K3JAE0EP56AEZ7CBG3",
-          "status": "investigating",
-          "updated_at": "2025-06-10T07:32:37Z"
         }
       ]
     }
