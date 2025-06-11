@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-11T18:16:32Z"
+    "updated_at": "2025-06-11T18:55:08Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -239,6 +239,45 @@
   ],
   "incidents": [
     {
+      "id": "01JXFTR8EEWJ0EGAT0AZ8BQA1E",
+      "name": "Issues with Sign In with Apple login method",
+      "status": "monitoring",
+      "created_at": "2025-06-11T15:46:45Z",
+      "updated_at": "2025-06-11T18:55:08Z",
+      "monitoring_at": "2025-06-11T18:55:08Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JXG5H5YBZWT9D9TZEJJR5SES",
+          "body": "",
+          "created_at": "2025-06-11T18:55:08Z",
+          "display_at": "2025-06-11T18:55:08Z",
+          "incident_id": "01JXFTR8EEWJ0EGAT0AZ8BQA1E",
+          "status": "monitoring",
+          "updated_at": "2025-06-11T18:55:08Z"
+        },
+        {
+          "id": "01JXFYB69S1FA6V58MQA6K8XY1",
+          "body": "",
+          "created_at": "2025-06-11T16:49:31Z",
+          "display_at": "2025-06-11T16:49:31Z",
+          "incident_id": "01JXFTR8EEWJ0EGAT0AZ8BQA1E",
+          "status": "identified",
+          "updated_at": "2025-06-11T16:49:31Z"
+        },
+        {
+          "id": "01JXFTR8EET40CXWJR4NRRJ9ST",
+          "body": "",
+          "created_at": "2025-06-11T15:46:45Z",
+          "display_at": "2025-06-11T15:46:45Z",
+          "incident_id": "01JXFTR8EEWJ0EGAT0AZ8BQA1E",
+          "status": "identified",
+          "updated_at": "2025-06-11T15:46:45Z"
+        }
+      ]
+    },
+    {
       "id": "01JXFQD6457ESXWQC8QXAAZJY5",
       "name": "Increased error rates on image generation in ChatGPT and API",
       "status": "monitoring",
@@ -274,35 +313,6 @@
           "incident_id": "01JXFQD6457ESXWQC8QXAAZJY5",
           "status": "investigating",
           "updated_at": "2025-06-11T14:48:17Z"
-        }
-      ]
-    },
-    {
-      "id": "01JXFTR8EEWJ0EGAT0AZ8BQA1E",
-      "name": "Issues with Sign In with Apple login method",
-      "status": "identified",
-      "created_at": "2025-06-11T15:46:45Z",
-      "updated_at": "2025-06-11T16:49:31Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JXFYB69S1FA6V58MQA6K8XY1",
-          "body": "",
-          "created_at": "2025-06-11T16:49:31Z",
-          "display_at": "2025-06-11T16:49:31Z",
-          "incident_id": "01JXFTR8EEWJ0EGAT0AZ8BQA1E",
-          "status": "identified",
-          "updated_at": "2025-06-11T16:49:31Z"
-        },
-        {
-          "id": "01JXFTR8EET40CXWJR4NRRJ9ST",
-          "body": "",
-          "created_at": "2025-06-11T15:46:45Z",
-          "display_at": "2025-06-11T15:46:45Z",
-          "incident_id": "01JXFTR8EEWJ0EGAT0AZ8BQA1E",
-          "status": "identified",
-          "updated_at": "2025-06-11T15:46:45Z"
         }
       ]
     }
