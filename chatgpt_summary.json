@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-11T16:49:31Z"
+    "updated_at": "2025-06-11T18:16:32Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -239,6 +239,45 @@
   ],
   "incidents": [
     {
+      "id": "01JXFQD6457ESXWQC8QXAAZJY5",
+      "name": "Increased error rates on image generation in ChatGPT and API",
+      "status": "monitoring",
+      "created_at": "2025-06-11T14:48:17Z",
+      "updated_at": "2025-06-11T18:16:32Z",
+      "monitoring_at": "2025-06-11T15:23:05Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JXG3AG7HX9VN5CWR78ABENAC",
+          "body": "",
+          "created_at": "2025-06-11T18:16:32Z",
+          "display_at": "2025-06-11T18:16:32Z",
+          "incident_id": "01JXFQD6457ESXWQC8QXAAZJY5",
+          "status": "monitoring",
+          "updated_at": "2025-06-11T18:16:32Z"
+        },
+        {
+          "id": "01JXFSCWYMMAS72PQZ2HDRQ7DV",
+          "body": "",
+          "created_at": "2025-06-11T15:23:05Z",
+          "display_at": "2025-06-11T15:23:05Z",
+          "incident_id": "01JXFQD6457ESXWQC8QXAAZJY5",
+          "status": "monitoring",
+          "updated_at": "2025-06-11T15:23:05Z"
+        },
+        {
+          "id": "01JXFQD645A649WFTD8KFCNT8A",
+          "body": "",
+          "created_at": "2025-06-11T14:48:17Z",
+          "display_at": "2025-06-11T14:48:17Z",
+          "incident_id": "01JXFQD6457ESXWQC8QXAAZJY5",
+          "status": "investigating",
+          "updated_at": "2025-06-11T14:48:17Z"
+        }
+      ]
+    },
+    {
       "id": "01JXFTR8EEWJ0EGAT0AZ8BQA1E",
       "name": "Issues with Sign In with Apple login method",
       "status": "identified",
@@ -264,36 +303,6 @@
           "incident_id": "01JXFTR8EEWJ0EGAT0AZ8BQA1E",
           "status": "identified",
           "updated_at": "2025-06-11T15:46:45Z"
-        }
-      ]
-    },
-    {
-      "id": "01JXFQD6457ESXWQC8QXAAZJY5",
-      "name": "Increased error rates on image generation in ChatGPT and API",
-      "status": "monitoring",
-      "created_at": "2025-06-11T14:48:17Z",
-      "updated_at": "2025-06-11T15:23:05Z",
-      "monitoring_at": "2025-06-11T15:23:05Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JXFSCWYMMAS72PQZ2HDRQ7DV",
-          "body": "",
-          "created_at": "2025-06-11T15:23:05Z",
-          "display_at": "2025-06-11T15:23:05Z",
-          "incident_id": "01JXFQD6457ESXWQC8QXAAZJY5",
-          "status": "monitoring",
-          "updated_at": "2025-06-11T15:23:05Z"
-        },
-        {
-          "id": "01JXFQD645A649WFTD8KFCNT8A",
-          "body": "",
-          "created_at": "2025-06-11T14:48:17Z",
-          "display_at": "2025-06-11T14:48:17Z",
-          "incident_id": "01JXFQD6457ESXWQC8QXAAZJY5",
-          "status": "investigating",
-          "updated_at": "2025-06-11T14:48:17Z"
         }
       ]
     }
