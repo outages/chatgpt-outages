@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-04T16:46:03Z"
+    "updated_at": "2025-06-16T14:12:35Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -235,6 +235,38 @@
       "updated_at": "2025-06-04T16:46:03Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JXWH26EDF8QJA0PNZ6VYQ1PB",
+      "name": "Increased Errors in ChatGPT",
+      "status": "monitoring",
+      "created_at": "2025-06-16T14:07:33Z",
+      "updated_at": "2025-06-16T14:12:35Z",
+      "monitoring_at": "2025-06-16T14:12:35Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JXWHBDF95WR8Y2DR1EBYA8MC",
+          "body": "",
+          "created_at": "2025-06-16T14:12:35Z",
+          "display_at": "2025-06-16T14:12:35Z",
+          "incident_id": "01JXWH26EDF8QJA0PNZ6VYQ1PB",
+          "status": "monitoring",
+          "updated_at": "2025-06-16T14:12:35Z"
+        },
+        {
+          "id": "01JXWH26EDXDZK2ZAS4Q1HA9SN",
+          "body": "",
+          "created_at": "2025-06-16T14:07:33Z",
+          "display_at": "2025-06-16T14:07:33Z",
+          "incident_id": "01JXWH26EDF8QJA0PNZ6VYQ1PB",
+          "status": "investigating",
+          "updated_at": "2025-06-16T14:07:33Z"
+        }
+      ]
     }
   ]
 }
