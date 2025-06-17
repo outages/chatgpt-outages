@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-04T16:46:03Z"
+    "updated_at": "2025-06-17T17:11:05Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -77,7 +77,7 @@
     {
       "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
       "name": "Login",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-04T16:46:03Z",
       "position": 7,
@@ -131,7 +131,7 @@
     {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-06-04T16:46:02Z",
       "position": 13,
@@ -235,6 +235,28 @@
       "updated_at": "2025-06-04T16:46:03Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JXZDYZFCWA5AZJGRV1Q9EKZD",
+      "name": "Service Unavailable errors when logging in",
+      "status": "identified",
+      "created_at": "2025-06-17T17:11:05Z",
+      "updated_at": "2025-06-17T17:11:05Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JXZDYZFC1EM00QHGN1Z597VZ",
+          "body": "",
+          "created_at": "2025-06-17T17:11:05Z",
+          "display_at": "2025-06-17T17:11:05Z",
+          "incident_id": "01JXZDYZFCWA5AZJGRV1Q9EKZD",
+          "status": "identified",
+          "updated_at": "2025-06-17T17:11:05Z"
+        }
+      ]
     }
   ]
 }
