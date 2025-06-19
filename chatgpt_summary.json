@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-18T17:24:00Z"
+    "updated_at": "2025-06-04T16:46:03Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -235,37 +235,6 @@
       "updated_at": "2025-06-04T16:46:03Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JY29SFV47HBA63KF7FPSJTAC",
-      "name": "Some users may encounter \"Content failed to load\" error after logging in",
-      "status": "investigating",
-      "created_at": "2025-06-18T19:55:54Z",
-      "updated_at": "2025-06-18T20:01:47Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JY2A487AW8CAPG9NRH06PE3M",
-          "body": "",
-          "created_at": "2025-06-18T20:01:47Z",
-          "display_at": "2025-06-18T17:24:00Z",
-          "incident_id": "01JY29SFV47HBA63KF7FPSJTAC",
-          "status": "investigating",
-          "updated_at": "2025-06-18T21:32:34Z"
-        },
-        {
-          "id": "01JY29SFV4NYH6C5BK3C237ZW7",
-          "body": "",
-          "created_at": "2025-06-18T19:55:54Z",
-          "display_at": "2025-06-18T12:30:00Z",
-          "incident_id": "01JY29SFV47HBA63KF7FPSJTAC",
-          "status": "identified",
-          "updated_at": "2025-06-18T21:31:54Z"
-        }
-      ]
     }
   ]
 }
