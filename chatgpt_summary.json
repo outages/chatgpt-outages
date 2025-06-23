@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-23T19:59:00Z"
+    "updated_at": "2025-06-04T16:46:03Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -235,47 +235,6 @@
       "updated_at": "2025-06-04T16:46:03Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JYF4CXE8W4FRZ1AVV4SZE0YA",
-      "name": "Increased login and signup errors",
-      "status": "monitoring",
-      "created_at": "2025-06-23T19:31:47Z",
-      "updated_at": "2025-06-23T20:18:26Z",
-      "monitoring_at": "2025-06-23T19:59:00Z",
-      "impact": "critical",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JYF72B51XBHX4JQ24DYW2ZG1",
-          "body": "",
-          "created_at": "2025-06-23T20:18:26Z",
-          "display_at": "2025-06-23T19:59:00Z",
-          "incident_id": "01JYF4CXE8W4FRZ1AVV4SZE0YA",
-          "status": "monitoring",
-          "updated_at": "2025-06-23T20:20:14Z"
-        },
-        {
-          "id": "01JYF693350H7YMCDXAEYM5VP9",
-          "body": "",
-          "created_at": "2025-06-23T20:04:39Z",
-          "display_at": "2025-06-23T19:45:00Z",
-          "incident_id": "01JYF4CXE8W4FRZ1AVV4SZE0YA",
-          "status": "investigating",
-          "updated_at": "2025-06-23T20:20:08Z"
-        },
-        {
-          "id": "01JYF4CXE85RTXEGR6BKCVXQK9",
-          "body": "",
-          "created_at": "2025-06-23T19:31:47Z",
-          "display_at": "2025-06-23T19:08:00Z",
-          "incident_id": "01JYF4CXE8W4FRZ1AVV4SZE0YA",
-          "status": "identified",
-          "updated_at": "2025-06-23T20:32:10Z"
-        }
-      ]
     }
   ]
 }
