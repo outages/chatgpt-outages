@@ -239,10 +239,10 @@
   "incidents": [
     {
       "id": "01JYS4X52EAB39YXTGJEYY6YQH",
-      "name": "Elevated latencies in Responses API",
+      "name": "Elevated latency in Responses API",
       "status": "identified",
       "created_at": "2025-06-27T16:53:03Z",
-      "updated_at": "2025-06-27T16:53:03Z",
+      "updated_at": "2025-06-27T17:03:45Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
