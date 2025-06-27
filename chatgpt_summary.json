@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-27T21:44:50Z"
+    "updated_at": "2025-06-27T22:05:09Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,21 @@
     {
       "id": "01JYSNKDKSNZH45E6KD0EQJWS3",
       "name": "Increased errors with file uploads to GPTs",
-      "status": "identified",
+      "status": "investigating",
       "created_at": "2025-06-27T21:44:50Z",
-      "updated_at": "2025-06-27T21:44:50Z",
+      "updated_at": "2025-06-27T22:05:09Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JYSPRMD8RXC8EDCP15FD4G0N",
+          "body": "",
+          "created_at": "2025-06-27T22:05:09Z",
+          "display_at": "2025-06-27T22:05:09Z",
+          "incident_id": "01JYSNKDKSNZH45E6KD0EQJWS3",
+          "status": "investigating",
+          "updated_at": "2025-06-27T22:05:09Z"
+        },
         {
           "id": "01JYSNKDKS8GHSP0ERN2D1MWJJ",
           "body": "",
