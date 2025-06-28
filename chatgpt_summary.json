@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-28T02:59:00Z"
+    "updated_at": "2025-06-28T00:11:18Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -237,45 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01JYSNKDKSNZH45E6KD0EQJWS3",
-      "name": "Increased errors with file uploads to Projects and GPTs",
-      "status": "monitoring",
-      "created_at": "2025-06-27T21:44:50Z",
-      "updated_at": "2025-06-28T02:59:00Z",
-      "monitoring_at": "2025-06-28T02:59:00Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JYT7JNYGAMYS2WZ4QZF3PMWH",
-          "body": "",
-          "created_at": "2025-06-28T02:59:00Z",
-          "display_at": "2025-06-28T02:59:00Z",
-          "incident_id": "01JYSNKDKSNZH45E6KD0EQJWS3",
-          "status": "monitoring",
-          "updated_at": "2025-06-28T02:59:00Z"
-        },
-        {
-          "id": "01JYSPRMD8RXC8EDCP15FD4G0N",
-          "body": "",
-          "created_at": "2025-06-27T22:05:09Z",
-          "display_at": "2025-06-27T22:05:09Z",
-          "incident_id": "01JYSNKDKSNZH45E6KD0EQJWS3",
-          "status": "investigating",
-          "updated_at": "2025-06-27T22:05:09Z"
-        },
-        {
-          "id": "01JYSNKDKS8GHSP0ERN2D1MWJJ",
-          "body": "",
-          "created_at": "2025-06-27T21:44:50Z",
-          "display_at": "2025-06-27T21:44:50Z",
-          "incident_id": "01JYSNKDKSNZH45E6KD0EQJWS3",
-          "status": "identified",
-          "updated_at": "2025-06-27T21:44:50Z"
-        }
-      ]
-    },
     {
       "id": "01JYFCZT19PRNXY3J2ETF30AMY",
       "name": "Compliance API Data Delays",
