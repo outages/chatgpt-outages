@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-28T22:54:10Z"
+    "updated_at": "2025-06-28T23:15:03Z"
   },
   "status": {
-    "description": "Major System Outage",
-    "indicator": "critical"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -22,7 +22,7 @@
     {
       "id": "01JMXCAX0Q6C4KFTHY65EP0ZB2",
       "name": "Feed",
-      "status": "full_outage",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 1,
@@ -67,7 +67,7 @@
     {
       "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
       "name": "Login",
-      "status": "full_outage",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 6,
@@ -76,7 +76,7 @@
     {
       "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
       "name": "Video generation",
-      "status": "full_outage",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 7,
@@ -85,7 +85,7 @@
     {
       "id": "01JMXCAX0QM438N5CDG2RMJ07X",
       "name": "Video viewing",
-      "status": "full_outage",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 8,
@@ -139,7 +139,7 @@
     {
       "id": "01JQ7EJWA29C5X2B3QW8P9BEFF",
       "name": "Image Generation",
-      "status": "full_outage",
+      "status": "partial_outage",
       "created_at": "2025-03-25T20:06:00Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 14,
@@ -237,6 +237,44 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01JYW3VAJ2QEX2DKDWE8ZH0W8F",
+      "name": "Issues with Sora Login and Creation",
+      "status": "identified",
+      "created_at": "2025-06-28T20:32:18Z",
+      "updated_at": "2025-06-28T23:15:04Z",
+      "impact": "critical",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JYWD5B4XYM8MFMPYGVVP2Q2E",
+          "body": "",
+          "created_at": "2025-06-28T23:15:03Z",
+          "display_at": "2025-06-28T23:15:03Z",
+          "incident_id": "01JYW3VAJ2QEX2DKDWE8ZH0W8F",
+          "status": "identified",
+          "updated_at": "2025-06-28T23:15:03Z"
+        },
+        {
+          "id": "01JYWAGWKRXHQX7GTB5RPV7HEN",
+          "body": "",
+          "created_at": "2025-06-28T22:28:56Z",
+          "display_at": "2025-06-28T22:28:56Z",
+          "incident_id": "01JYW3VAJ2QEX2DKDWE8ZH0W8F",
+          "status": "identified",
+          "updated_at": "2025-06-28T22:28:56Z"
+        },
+        {
+          "id": "01JYW3VAJ2JRPDDQJV2MBJCMQJ",
+          "body": "",
+          "created_at": "2025-06-28T20:32:18Z",
+          "display_at": "2025-06-28T20:32:18Z",
+          "incident_id": "01JYW3VAJ2QEX2DKDWE8ZH0W8F",
+          "status": "investigating",
+          "updated_at": "2025-06-28T20:32:18Z"
+        }
+      ]
+    },
     {
       "id": "01JYFCZT19PRNXY3J2ETF30AMY",
       "name": "Compliance API Data Delays",
@@ -345,35 +383,6 @@
           "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
           "status": "identified",
           "updated_at": "2025-06-26T17:58:47Z"
-        }
-      ]
-    },
-    {
-      "id": "01JYW3VAJ2QEX2DKDWE8ZH0W8F",
-      "name": "Issues with Sora Login and Creation",
-      "status": "identified",
-      "created_at": "2025-06-28T20:32:18Z",
-      "updated_at": "2025-06-28T22:28:56Z",
-      "impact": "critical",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JYWAGWKRXHQX7GTB5RPV7HEN",
-          "body": "",
-          "created_at": "2025-06-28T22:28:56Z",
-          "display_at": "2025-06-28T22:28:56Z",
-          "incident_id": "01JYW3VAJ2QEX2DKDWE8ZH0W8F",
-          "status": "identified",
-          "updated_at": "2025-06-28T22:28:56Z"
-        },
-        {
-          "id": "01JYW3VAJ2JRPDDQJV2MBJCMQJ",
-          "body": "",
-          "created_at": "2025-06-28T20:32:18Z",
-          "display_at": "2025-06-28T20:32:18Z",
-          "incident_id": "01JYW3VAJ2QEX2DKDWE8ZH0W8F",
-          "status": "investigating",
-          "updated_at": "2025-06-28T20:32:18Z"
         }
       ]
     }
