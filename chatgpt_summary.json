@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-29T05:34:18Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,128 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JYFCZT19PRNXY3J2ETF30AMY",
-      "name": "Compliance API Data Delays",
-      "status": "monitoring",
-      "created_at": "2025-06-23T22:01:54Z",
-      "updated_at": "2025-06-29T05:34:18Z",
-      "monitoring_at": "2025-06-24T04:50:00Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JYX2VR7C1ZWWPGHXC21VMRKE",
-          "body": "",
-          "created_at": "2025-06-29T05:34:18Z",
-          "display_at": "2025-06-29T05:34:18Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "monitoring",
-          "updated_at": "2025-06-29T05:34:18Z"
-        },
-        {
-          "id": "01JYWBZ2N3XBDGDAVANDQ8V40R",
-          "body": "",
-          "created_at": "2025-06-28T22:54:10Z",
-          "display_at": "2025-06-28T22:54:10Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "monitoring",
-          "updated_at": "2025-06-28T22:54:10Z"
-        },
-        {
-          "id": "01JYVCP8DZSZ3VMHC1K45AH8XS",
-          "body": "",
-          "created_at": "2025-06-28T13:47:35Z",
-          "display_at": "2025-06-28T13:47:35Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "identified",
-          "updated_at": "2025-06-28T13:47:35Z"
-        },
-        {
-          "id": "01JYTRGWB1N6ZF4F918EBCC407",
-          "body": "",
-          "created_at": "2025-06-28T07:55:07Z",
-          "display_at": "2025-06-28T07:55:07Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "identified",
-          "updated_at": "2025-06-28T07:55:07Z"
-        },
-        {
-          "id": "01JYSXZKSWWTNDENCPPXW6WM9H",
-          "body": "",
-          "created_at": "2025-06-28T00:11:18Z",
-          "display_at": "2025-06-28T00:11:18Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "identified",
-          "updated_at": "2025-06-28T00:11:18Z"
-        },
-        {
-          "id": "01JYSQVM2YDPNN79BR8KFPVEQJ",
-          "body": "",
-          "created_at": "2025-06-27T22:24:16Z",
-          "display_at": "2025-06-27T22:24:16Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "identified",
-          "updated_at": "2025-06-27T22:24:16Z"
-        },
-        {
-          "id": "01JYS3803TCV7ZJ1M7W6P87SSB",
-          "body": "",
-          "created_at": "2025-06-27T16:24:01Z",
-          "display_at": "2025-06-27T16:24:01Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "identified",
-          "updated_at": "2025-06-27T16:24:01Z"
-        },
-        {
-          "id": "01JYQCK1GYGM2G76C76KB2PKDV",
-          "body": "",
-          "created_at": "2025-06-27T00:28:52Z",
-          "display_at": "2025-06-27T00:28:52Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "identified",
-          "updated_at": "2025-06-27T00:28:52Z"
-        },
-        {
-          "id": "01JYPP6A4JDN0GVX54P9BQ98CW",
-          "body": "",
-          "created_at": "2025-06-26T17:57:26Z",
-          "display_at": "2025-06-26T17:57:26Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "identified",
-          "updated_at": "2025-06-26T17:57:26Z"
-        },
-        {
-          "id": "01JYGGAZYZG49FQ6SNVV33B8PS",
-          "body": "",
-          "created_at": "2025-06-24T08:19:41Z",
-          "display_at": "2025-06-24T04:50:00Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "monitoring",
-          "updated_at": "2025-06-24T08:20:56Z"
-        },
-        {
-          "id": "01JYFFKN08JSCNKGYVY3JRR2TG",
-          "body": "",
-          "created_at": "2025-06-23T22:47:42Z",
-          "display_at": "2025-06-23T22:47:42Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "investigating",
-          "updated_at": "2025-06-23T22:47:42Z"
-        },
-        {
-          "id": "01JYFCZT19D12DE65KWM6YBH0C",
-          "body": "",
-          "created_at": "2025-06-23T22:01:55Z",
-          "display_at": "2025-06-23T22:01:54Z",
-          "incident_id": "01JYFCZT19PRNXY3J2ETF30AMY",
-          "status": "identified",
-          "updated_at": "2025-06-26T17:58:47Z"
-        }
-      ]
     }
   ]
 }
