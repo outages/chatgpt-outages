@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-01T17:07:57Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,38 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JZ3DXRN9BSHMESB4T2XSCGNG",
-      "name": "Increased Errors for Sora",
-      "status": "monitoring",
-      "created_at": "2025-07-01T16:43:05Z",
-      "updated_at": "2025-07-01T17:07:57Z",
-      "monitoring_at": "2025-07-01T17:07:57Z",
-      "impact": "critical",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JZ3FB9WEX2ZZJVMGW15P1RS3",
-          "body": "",
-          "created_at": "2025-07-01T17:07:57Z",
-          "display_at": "2025-07-01T17:07:57Z",
-          "incident_id": "01JZ3DXRN9BSHMESB4T2XSCGNG",
-          "status": "monitoring",
-          "updated_at": "2025-07-01T17:07:57Z"
-        },
-        {
-          "id": "01JZ3DXRN958XVA359112JFA2Q",
-          "body": "",
-          "created_at": "2025-07-01T16:43:05Z",
-          "display_at": "2025-07-01T16:43:05Z",
-          "incident_id": "01JZ3DXRN9BSHMESB4T2XSCGNG",
-          "status": "investigating",
-          "updated_at": "2025-07-01T16:43:05Z"
-        }
-      ]
     }
   ]
 }
