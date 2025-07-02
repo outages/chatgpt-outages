@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-02T18:31:50Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -22,7 +22,7 @@
     {
       "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
       "name": "Assistants",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 1,
@@ -31,7 +31,7 @@
     {
       "id": "01JMXBRMFE796MJ8H81EGWA46P",
       "name": "Uploads",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 2,
@@ -40,7 +40,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 3,
@@ -49,7 +49,7 @@
     {
       "id": "01JMXBRMFEMZK0HPK19RYET250",
       "name": "Fine-tuning",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 4,
@@ -67,7 +67,7 @@
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 6,
@@ -76,7 +76,7 @@
     {
       "id": "01JMXBRMFEQW613TFE89F45035",
       "name": "Realtime",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 7,
@@ -85,7 +85,7 @@
     {
       "id": "01JMXBRMFE0V9J9X2HY3SKX399",
       "name": "Completions (legacy)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 8,
@@ -103,7 +103,7 @@
     {
       "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
       "name": "Moderations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 10,
@@ -193,7 +193,7 @@
     {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 20,
@@ -234,37 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JZ63SYB0S0HRZ4T9CJE5SRD7",
-      "name": "Negative Balance & 429 Error for Pay-As-You-Go API Accounts",
-      "status": "investigating",
-      "created_at": "2025-07-02T17:43:57Z",
-      "updated_at": "2025-07-02T18:31:50Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JZ66HM9KRAVJQENQ471VMXSD",
-          "body": "",
-          "created_at": "2025-07-02T18:31:50Z",
-          "display_at": "2025-07-02T18:31:50Z",
-          "incident_id": "01JZ63SYB0S0HRZ4T9CJE5SRD7",
-          "status": "investigating",
-          "updated_at": "2025-07-02T18:31:50Z"
-        },
-        {
-          "id": "01JZ63SYB05840X49P5307EWSR",
-          "body": "",
-          "created_at": "2025-07-02T17:43:57Z",
-          "display_at": "2025-07-02T17:43:57Z",
-          "incident_id": "01JZ63SYB0S0HRZ4T9CJE5SRD7",
-          "status": "monitoring",
-          "updated_at": "2025-07-02T17:43:57Z"
-        }
-      ]
     }
   ]
 }
