@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-26T16:49:33Z"
+    "updated_at": "2025-07-02T17:43:57Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,6 +234,29 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01JZ63SYB0S0HRZ4T9CJE5SRD7",
+      "name": "Negative Balance & 429 Error for Pay-As-You-Go API Accounts",
+      "status": "monitoring",
+      "created_at": "2025-07-02T17:43:57Z",
+      "updated_at": "2025-07-02T17:43:57Z",
+      "monitoring_at": "2025-07-02T17:43:57Z",
+      "impact": "none",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01JZ63SYB05840X49P5307EWSR",
+          "body": "",
+          "created_at": "2025-07-02T17:43:57Z",
+          "display_at": "2025-07-02T17:43:57Z",
+          "incident_id": "01JZ63SYB0S0HRZ4T9CJE5SRD7",
+          "status": "monitoring",
+          "updated_at": "2025-07-02T17:43:57Z"
+        }
+      ]
     }
   ]
 }
