@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-07T22:04:01Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,67 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JZKD2BHPN1AKY14AZJYFZ2C8",
-      "name": "Elevated error rates in ChatGPT Codex",
-      "status": "investigating",
-      "created_at": "2025-07-07T21:35:58Z",
-      "updated_at": "2025-07-07T22:04:01Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JZKENQ375496HV3TG3D85Q9P",
-          "body": "",
-          "created_at": "2025-07-07T22:04:01Z",
-          "display_at": "2025-07-07T22:04:01Z",
-          "incident_id": "01JZKD2BHPN1AKY14AZJYFZ2C8",
-          "status": "investigating",
-          "updated_at": "2025-07-07T22:04:01Z"
-        },
-        {
-          "id": "01JZKD2BHPQDJ8C3VZ9GFBFRH8",
-          "body": "",
-          "created_at": "2025-07-07T21:35:58Z",
-          "display_at": "2025-07-07T21:35:58Z",
-          "incident_id": "01JZKD2BHPN1AKY14AZJYFZ2C8",
-          "status": "identified",
-          "updated_at": "2025-07-07T21:35:58Z"
-        }
-      ]
-    },
-    {
-      "id": "01JZK0SN7T7DNEB1PMEM3X5M8C",
-      "name": "Elevated error rates on API Endpoints",
-      "status": "monitoring",
-      "created_at": "2025-07-07T18:01:30Z",
-      "updated_at": "2025-07-07T18:36:43Z",
-      "monitoring_at": "2025-07-07T18:36:43Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JZK2T4M62ECMJD6JPY69TQXQ",
-          "body": "",
-          "created_at": "2025-07-07T18:36:43Z",
-          "display_at": "2025-07-07T18:36:43Z",
-          "incident_id": "01JZK0SN7T7DNEB1PMEM3X5M8C",
-          "status": "monitoring",
-          "updated_at": "2025-07-07T18:36:43Z"
-        },
-        {
-          "id": "01JZK0SN7T6MNS40XZ1AZAAVF8",
-          "body": "",
-          "created_at": "2025-07-07T18:01:30Z",
-          "display_at": "2025-07-07T18:01:30Z",
-          "incident_id": "01JZK0SN7T7DNEB1PMEM3X5M8C",
-          "status": "identified",
-          "updated_at": "2025-07-07T18:01:30Z"
-        }
-      ]
     }
   ]
 }
