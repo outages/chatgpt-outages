@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-08T05:17:57Z"
+    "updated_at": "2025-07-08T01:21:04Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -237,36 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01JZM5R6C5FQM7W3WP796M48YS",
-      "name": "High errors for account creation with password",
-      "status": "monitoring",
-      "created_at": "2025-07-08T04:47:19Z",
-      "updated_at": "2025-07-08T05:17:57Z",
-      "monitoring_at": "2025-07-08T05:17:57Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JZM7G9PJ5YQ092KJ4NSSJFG5",
-          "body": "",
-          "created_at": "2025-07-08T05:17:57Z",
-          "display_at": "2025-07-08T05:17:57Z",
-          "incident_id": "01JZM5R6C5FQM7W3WP796M48YS",
-          "status": "monitoring",
-          "updated_at": "2025-07-08T05:17:57Z"
-        },
-        {
-          "id": "01JZM5R6C5PT9VTHXPZBR8N1T9",
-          "body": "",
-          "created_at": "2025-07-08T04:47:19Z",
-          "display_at": "2025-07-08T04:47:19Z",
-          "incident_id": "01JZM5R6C5FQM7W3WP796M48YS",
-          "status": "investigating",
-          "updated_at": "2025-07-08T04:52:38Z"
-        }
-      ]
-    },
     {
       "id": "01JZKP6GCYYJK43RMW426CF2B2",
       "name": "Outage in creating new finetune jobs via API",
