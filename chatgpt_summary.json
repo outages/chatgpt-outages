@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-09T21:53:04Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,38 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JZRHJ2E5V5PXDBF0HZFV48HV",
-      "name": "High error rates in gpt-4.1-mini API and ChatGPT Search ",
-      "status": "monitoring",
-      "created_at": "2025-07-09T21:30:39Z",
-      "updated_at": "2025-07-09T22:11:22Z",
-      "monitoring_at": "2025-07-09T21:53:04Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JZRJV470B1PDEZYQ14FK219G",
-          "body": "",
-          "created_at": "2025-07-09T21:53:04Z",
-          "display_at": "2025-07-09T21:53:04Z",
-          "incident_id": "01JZRHJ2E5V5PXDBF0HZFV48HV",
-          "status": "monitoring",
-          "updated_at": "2025-07-09T21:53:04Z"
-        },
-        {
-          "id": "01JZRHJ2E542KD64JA39AM5571",
-          "body": "",
-          "created_at": "2025-07-09T21:30:39Z",
-          "display_at": "2025-07-09T21:30:39Z",
-          "incident_id": "01JZRHJ2E5V5PXDBF0HZFV48HV",
-          "status": "identified",
-          "updated_at": "2025-07-09T22:11:35Z"
-        }
-      ]
     }
   ]
 }
