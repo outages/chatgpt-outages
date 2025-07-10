@@ -3,17 +3,17 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-10T17:30:29Z"
+    "updated_at": "2025-07-10T19:45:50Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
       "id": "01JMXBNJXGQ9MXPY3VGHKFDRJ6",
       "name": "Context connectors",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 0,
@@ -22,7 +22,7 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 1,
@@ -31,7 +31,7 @@
     {
       "id": "01JWXXBS3FFE2A2MESHBVFEKWH",
       "name": "Desktop - macOS",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-06-04T16:46:03Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 2,
@@ -40,7 +40,7 @@
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 3,
@@ -49,7 +49,7 @@
     {
       "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
       "name": "WhatsApp",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 4,
@@ -58,7 +58,7 @@
     {
       "id": "01JWXXBS3FJVTAT7VH854WCGCB",
       "name": "Desktop - Windows",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-06-04T16:46:03Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 5,
@@ -67,7 +67,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 6,
@@ -76,7 +76,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 7,
@@ -85,7 +85,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 8,
@@ -94,7 +94,7 @@
     {
       "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
       "name": "Assistants",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 9,
@@ -103,7 +103,7 @@
     {
       "id": "01JMXBRMFE796MJ8H81EGWA46P",
       "name": "Uploads",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 10,
@@ -112,7 +112,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 11,
@@ -130,7 +130,7 @@
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 13,
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBRMFEQW613TFE89F45035",
       "name": "Realtime",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 14,
@@ -148,7 +148,7 @@
     {
       "id": "01JMXBRMFE0V9J9X2HY3SKX399",
       "name": "Completions (legacy)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 15,
@@ -157,7 +157,7 @@
     {
       "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
       "name": "Moderations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 16,
@@ -166,7 +166,7 @@
     {
       "id": "01JMXBNJXG5VWB72T922RQE6NR",
       "name": "Memory",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 17,
@@ -175,7 +175,7 @@
     {
       "id": "01JMXBNJXGJ6C964H647A5DMX0",
       "name": "GPT vision",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 18,
@@ -184,7 +184,7 @@
     {
       "id": "01JMXBNJXG0SGB04EF3FT2KMAC",
       "name": "Single Sign-On",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 19,
@@ -193,7 +193,7 @@
     {
       "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
       "name": "Advanced Data Analysis",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 20,
@@ -202,7 +202,7 @@
     {
       "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
       "name": "1-800-CHAT-GPT",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 21,
@@ -211,7 +211,7 @@
     {
       "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
       "name": "Voice mode",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 22,
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
       "name": "Mobile - iOS",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 23,
@@ -229,7 +229,7 @@
     {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
@@ -240,12 +240,22 @@
     {
       "id": "01JZTMDZ7AF5HN0WFCVGF58ZNN",
       "name": "Elevated error rates on ChatGPT and API",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-07-10T16:59:19Z",
-      "updated_at": "2025-07-10T17:30:30Z",
+      "updated_at": "2025-07-10T19:45:50Z",
+      "monitoring_at": "2025-07-10T19:45:50Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01JZTXYVY0G0WMNN8XZFRA0XSH",
+          "body": "",
+          "created_at": "2025-07-10T19:45:50Z",
+          "display_at": "2025-07-10T19:45:50Z",
+          "incident_id": "01JZTMDZ7AF5HN0WFCVGF58ZNN",
+          "status": "monitoring",
+          "updated_at": "2025-07-10T19:45:50Z"
+        },
         {
           "id": "01JZTP71JCJF3RFET4JHPWPD8K",
           "body": "",
