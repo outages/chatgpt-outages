@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-10T19:45:50Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,47 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01JZTMDZ7AF5HN0WFCVGF58ZNN",
-      "name": "Elevated error rates on ChatGPT and API",
-      "status": "monitoring",
-      "created_at": "2025-07-10T16:59:19Z",
-      "updated_at": "2025-07-10T19:45:50Z",
-      "monitoring_at": "2025-07-10T19:45:50Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01JZTXYVY0G0WMNN8XZFRA0XSH",
-          "body": "",
-          "created_at": "2025-07-10T19:45:50Z",
-          "display_at": "2025-07-10T19:45:50Z",
-          "incident_id": "01JZTMDZ7AF5HN0WFCVGF58ZNN",
-          "status": "monitoring",
-          "updated_at": "2025-07-10T19:45:50Z"
-        },
-        {
-          "id": "01JZTP71JCJF3RFET4JHPWPD8K",
-          "body": "",
-          "created_at": "2025-07-10T17:30:29Z",
-          "display_at": "2025-07-10T17:30:29Z",
-          "incident_id": "01JZTMDZ7AF5HN0WFCVGF58ZNN",
-          "status": "investigating",
-          "updated_at": "2025-07-10T17:30:29Z"
-        },
-        {
-          "id": "01JZTMDZ7AW9V1D72JAMCEA7DK",
-          "body": "",
-          "created_at": "2025-07-10T16:59:19Z",
-          "display_at": "2025-07-10T16:59:19Z",
-          "incident_id": "01JZTMDZ7AF5HN0WFCVGF58ZNN",
-          "status": "identified",
-          "updated_at": "2025-07-10T16:59:19Z"
-        }
-      ]
     }
   ]
 }
