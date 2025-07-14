@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-14T15:45:36Z"
+    "updated_at": "2025-07-14T17:30:52Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -240,12 +240,22 @@
     {
       "id": "01K04RA78RV0ZR9CVF4SDMBD8G",
       "name": "Increased errors on gpt-4.1-mini for EU data residency organizations",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-07-14T15:19:35Z",
-      "updated_at": "2025-07-14T15:45:36Z",
+      "updated_at": "2025-07-14T17:30:52Z",
+      "monitoring_at": "2025-07-14T17:30:52Z",
       "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K04ZTKJY3BEXP80C1WY21RRS",
+          "body": "",
+          "created_at": "2025-07-14T17:30:52Z",
+          "display_at": "2025-07-14T17:30:52Z",
+          "incident_id": "01K04RA78RV0ZR9CVF4SDMBD8G",
+          "status": "monitoring",
+          "updated_at": "2025-07-14T17:30:52Z"
+        },
         {
           "id": "01K04SSVDYV86CP30SG92CAS93",
           "body": "",
