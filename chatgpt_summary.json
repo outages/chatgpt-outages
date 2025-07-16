@@ -3,92 +3,29 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-26T16:49:33Z"
+    "updated_at": "2025-07-16T02:56:16Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
-      "id": "01JMXBNJXGQ9MXPY3VGHKFDRJ6",
-      "name": "Context connectors",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
+      "id": "01JWXXBS3FFE2A2MESHBVFEKWH",
+      "name": "Desktop - macOS",
+      "status": "degraded_performance",
+      "created_at": "2025-06-04T16:46:03Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 0,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
-      "name": "Search",
-      "status": "operational",
+      "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
+      "name": "File uploads",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 1,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JWXXBS3FFE2A2MESHBVFEKWH",
-      "name": "Desktop - macOS",
-      "status": "operational",
-      "created_at": "2025-06-04T16:46:03Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 2,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGQ7D3666XG5F9CA23",
-      "name": "Mobile - Android",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 3,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
-      "name": "WhatsApp",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 4,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JWXXBS3FJVTAT7VH854WCGCB",
-      "name": "Desktop - Windows",
-      "status": "operational",
-      "created_at": "2025-06-04T16:46:03Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 5,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 6,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
-      "name": "Codex",
-      "status": "operational",
-      "created_at": "2025-05-16T15:26:46Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 7,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
-      "name": "File uploads",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,7 +34,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 9,
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,7 +43,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 10,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 11,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -124,7 +61,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 12,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -133,7 +70,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 13,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -142,7 +79,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 14,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -151,7 +88,106 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
+      "position": 8,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
+      "name": "Codex",
+      "status": "degraded_performance",
+      "created_at": "2025-05-16T15:26:46Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 9,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGQ9MXPY3VGHKFDRJ6",
+      "name": "Context connectors",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 10,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
+      "name": "Search",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 11,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
+      "name": "Login",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 12,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
+      "name": "Advanced Data Analysis",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 13,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JWXXBS3FJVTAT7VH854WCGCB",
+      "name": "Desktop - Windows",
+      "status": "degraded_performance",
+      "created_at": "2025-06-04T16:46:03Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 14,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
+      "name": "1-800-CHAT-GPT",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-26T16:49:33Z",
       "position": 15,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGJ6C964H647A5DMX0",
+      "name": "GPT vision",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 16,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGRGNZZYDTSW4W0RP6",
+      "name": "WhatsApp",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 17,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGQ7D3666XG5F9CA23",
+      "name": "Mobile - Android",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 18,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
+      "name": "Voice mode",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,58 +196,22 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 16,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBNJXG5VWB72T922RQE6NR",
       "name": "Memory",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 17,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGJ6C964H647A5DMX0",
-      "name": "GPT vision",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 18,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG0SGB04EF3FT2KMAC",
-      "name": "Single Sign-On",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 19,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
-      "name": "Advanced Data Analysis",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 20,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
-      "name": "1-800-CHAT-GPT",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
-      "name": "Voice mode",
-      "status": "operational",
+      "id": "01JMXBNJXG0SGB04EF3FT2KMAC",
+      "name": "Single Sign-On",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 22,
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
       "name": "Mobile - iOS",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 23,
@@ -234,6 +234,48 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K08JJK77JF5D2NN636SDY9WD",
+      "name": "Elevated Error Rate on ChatGPT",
+      "status": "identified",
+      "created_at": "2025-07-16T02:56:16Z",
+      "updated_at": "2025-07-16T02:56:16Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K08JJK77CD24GM42A8XPV7PG",
+          "body": "",
+          "created_at": "2025-07-16T02:56:16Z",
+          "display_at": "2025-07-16T02:56:16Z",
+          "incident_id": "01K08JJK77JF5D2NN636SDY9WD",
+          "status": "identified",
+          "updated_at": "2025-07-16T02:56:16Z"
+        }
+      ]
+    },
+    {
+      "id": "01K08GVX4ZQGVQ2KJS8ZR64YZJ",
+      "name": "Connectors are automatically enabled in ChatGPT",
+      "status": "investigating",
+      "created_at": "2025-07-16T02:26:24Z",
+      "updated_at": "2025-07-16T02:26:24Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K08GVX4ZAQ3TBCMP77Q7F0AZ",
+          "body": "",
+          "created_at": "2025-07-16T02:26:24Z",
+          "display_at": "2025-07-16T02:26:24Z",
+          "incident_id": "01K08GVX4ZQGVQ2KJS8ZR64YZJ",
+          "status": "investigating",
+          "updated_at": "2025-07-16T02:26:24Z"
+        }
+      ]
     }
   ]
 }
