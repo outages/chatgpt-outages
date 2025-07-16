@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-16T21:11:52Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,38 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K0AH0GS81068B0DEY22VHSF4",
-      "name": "SSO login issues with ChatGPT & Platform",
-      "status": "monitoring",
-      "created_at": "2025-07-16T21:07:24Z",
-      "updated_at": "2025-07-16T21:11:52Z",
-      "monitoring_at": "2025-07-16T21:11:52Z",
-      "impact": "critical",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K0AH8QACCQDZWEPT4S8VRFHQ",
-          "body": "",
-          "created_at": "2025-07-16T21:11:52Z",
-          "display_at": "2025-07-16T21:11:52Z",
-          "incident_id": "01K0AH0GS81068B0DEY22VHSF4",
-          "status": "monitoring",
-          "updated_at": "2025-07-16T21:11:52Z"
-        },
-        {
-          "id": "01K0AH0GS8B7H3PB2DMKN6CEF5",
-          "body": "",
-          "created_at": "2025-07-16T21:07:24Z",
-          "display_at": "2025-07-16T21:07:24Z",
-          "incident_id": "01K0AH0GS81068B0DEY22VHSF4",
-          "status": "identified",
-          "updated_at": "2025-07-16T21:07:24Z"
-        }
-      ]
     }
   ]
 }
