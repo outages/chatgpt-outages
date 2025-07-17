@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-17T14:32:09Z"
+    "updated_at": "2025-07-17T14:42:41Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -220,7 +220,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 23,
@@ -242,10 +242,19 @@
       "name": "Elevated Error Rates Across APIs",
       "status": "investigating",
       "created_at": "2025-07-17T14:16:55Z",
-      "updated_at": "2025-07-17T14:32:09Z",
+      "updated_at": "2025-07-17T14:42:41Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K0CDCSS3FM2CXK69ZRMRBXJZ",
+          "body": "",
+          "created_at": "2025-07-17T14:42:41Z",
+          "display_at": "2025-07-17T14:42:41Z",
+          "incident_id": "01K0CBXMSHJZP46SKR1FFM7XM1",
+          "status": "investigating",
+          "updated_at": "2025-07-17T14:42:41Z"
+        },
         {
           "id": "01K0CCSHDK9DRVGEV5SCZV2878",
           "body": "",
