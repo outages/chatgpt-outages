@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-17T10:39:57Z"
+    "updated_at": "2025-07-17T14:32:09Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -38,57 +38,21 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEMZK0HPK19RYET250",
-      "name": "Fine-tuning",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 3,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEQW613TFE89F45035",
-      "name": "Realtime",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 4,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
-      "name": "Moderations",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 5,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JNKS9D9S72PMP1938PVFFQN4",
-      "name": "Compliance",
-      "status": "operational",
-      "created_at": "2025-03-05T18:32:33Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 6,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
       "status": "degraded_performance",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 7,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBRMFE796MJ8H81EGWA46P",
       "name": "Uploads",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 8,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,16 +61,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 9,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
-      "name": "Images",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-06-26T16:49:33Z",
-      "position": 10,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,7 +70,7 @@
       "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 11,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -124,7 +79,7 @@
       "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 12,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -133,7 +88,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 13,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -142,7 +97,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 14,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -151,7 +106,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 15,
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,7 +115,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 16,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,7 +124,7 @@
       "status": "operational",
       "created_at": "2025-06-04T16:46:03Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 17,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,7 +133,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 18,
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -187,7 +142,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 19,
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -196,7 +151,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 20,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -205,7 +160,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
-      "position": 21,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,21 +169,66 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
+      "position": 17,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0QM438N5CDG2RMJ07X",
+      "name": "Video viewing",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:54Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 18,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
+      "name": "Images",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 19,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEMZK0HPK19RYET250",
+      "name": "Fine-tuning",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 20,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEQW613TFE89F45035",
+      "name": "Realtime",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-06-26T16:49:33Z",
+      "position": 21,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
+      "name": "Moderations",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-06-26T16:49:33Z",
       "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXG5VWB72T922RQE6NR",
-      "name": "Memory",
+      "id": "01JNKS9D9S72PMP1938PVFFQN4",
+      "name": "Compliance",
       "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
+      "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXG0SGB04EF3FT2KMAC",
-      "name": "Single Sign-On",
+      "id": "01JMXBNJXG5VWB72T922RQE6NR",
+      "name": "Memory",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
@@ -238,41 +238,31 @@
   ],
   "incidents": [
     {
-      "id": "01K0BT4QC01922B99KPW8GRQ5Q",
-      "name": "gpt-4.1 High Error Rate And Latency",
-      "status": "monitoring",
-      "created_at": "2025-07-17T09:06:13Z",
-      "updated_at": "2025-07-17T10:39:57Z",
-      "monitoring_at": "2025-07-17T09:32:46Z",
+      "id": "01K0CBXMSHJZP46SKR1FFM7XM1",
+      "name": "Elevated Error Rates Across APIs",
+      "status": "investigating",
+      "created_at": "2025-07-17T14:16:55Z",
+      "updated_at": "2025-07-17T14:32:09Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01K0BZGBY0Z5Z1YRGDBDG3WTPV",
+          "id": "01K0CCSHDK9DRVGEV5SCZV2878",
           "body": "",
-          "created_at": "2025-07-17T10:39:57Z",
-          "display_at": "2025-07-17T10:39:57Z",
-          "incident_id": "01K0BT4QC01922B99KPW8GRQ5Q",
-          "status": "monitoring",
-          "updated_at": "2025-07-17T10:39:57Z"
+          "created_at": "2025-07-17T14:32:09Z",
+          "display_at": "2025-07-17T14:32:09Z",
+          "incident_id": "01K0CBXMSHJZP46SKR1FFM7XM1",
+          "status": "investigating",
+          "updated_at": "2025-07-17T14:32:09Z"
         },
         {
-          "id": "01K0BVNB0P4N8GVTJG91TK06ZZ",
+          "id": "01K0CBXMSHD7X0VDTH3MPYV5TK",
           "body": "",
-          "created_at": "2025-07-17T09:32:46Z",
-          "display_at": "2025-07-17T09:32:46Z",
-          "incident_id": "01K0BT4QC01922B99KPW8GRQ5Q",
-          "status": "monitoring",
-          "updated_at": "2025-07-17T09:32:46Z"
-        },
-        {
-          "id": "01K0BT4QC0JKS5M1XRWSRPHF5F",
-          "body": "",
-          "created_at": "2025-07-17T09:06:13Z",
-          "display_at": "2025-07-17T09:06:13Z",
-          "incident_id": "01K0BT4QC01922B99KPW8GRQ5Q",
-          "status": "identified",
-          "updated_at": "2025-07-17T09:06:13Z"
+          "created_at": "2025-07-17T14:16:55Z",
+          "display_at": "2025-07-17T14:16:55Z",
+          "incident_id": "01K0CBXMSHJZP46SKR1FFM7XM1",
+          "status": "investigating",
+          "updated_at": "2025-07-17T14:16:55Z"
         }
       ]
     }
