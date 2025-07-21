@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-26T16:49:33Z"
+    "updated_at": "2025-07-21T16:20:00Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -29,19 +29,19 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
-      "name": "Responses",
+      "id": "01JMXBRMFE796MJ8H81EGWA46P",
+      "name": "Uploads",
       "status": "operational",
-      "created_at": "2025-03-13T18:31:32Z",
+      "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFE796MJ8H81EGWA46P",
-      "name": "Uploads",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
+      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
+      "name": "Responses",
+      "status": "degraded_performance",
+      "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -234,6 +234,29 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K0QEJPDMTB5G6EFWJQ4X4Z3Q",
+      "name": "Elevated errors when accessing gpt-4.1-mini",
+      "status": "monitoring",
+      "created_at": "2025-07-21T21:35:01Z",
+      "updated_at": "2025-07-21T21:35:01Z",
+      "monitoring_at": "2025-07-21T16:20:00Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K0QEJPDM94ZP3553SDJ8WDZW",
+          "body": "",
+          "created_at": "2025-07-21T21:35:01Z",
+          "display_at": "2025-07-21T16:20:00Z",
+          "incident_id": "01K0QEJPDMTB5G6EFWJQ4X4Z3Q",
+          "status": "monitoring",
+          "updated_at": "2025-07-21T21:44:33Z"
+        }
+      ]
     }
   ]
 }
