@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-21T13:41:37Z"
+    "updated_at": "2025-07-21T14:16:10Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -240,12 +240,22 @@
     {
       "id": "01K0PFWSKZTABNCB9M8CRTEZSB",
       "name": "Elevated errors on ChatGPT for all paid users",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-07-21T12:38:46Z",
-      "updated_at": "2025-07-21T13:41:37Z",
+      "updated_at": "2025-07-21T14:16:10Z",
+      "monitoring_at": "2025-07-21T14:16:10Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K0PNF46G1EBKH8BF34R5KMC5",
+          "body": "",
+          "created_at": "2025-07-21T14:16:10Z",
+          "display_at": "2025-07-21T14:16:10Z",
+          "incident_id": "01K0PFWSKZTABNCB9M8CRTEZSB",
+          "status": "monitoring",
+          "updated_at": "2025-07-21T14:16:10Z"
+        },
         {
           "id": "01K0PKFVMCMKWPNTP1WCH7WSVK",
           "body": "",
