@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-24T11:06:53Z"
+    "updated_at": "2025-07-24T12:09:11Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -240,12 +240,21 @@
     {
       "id": "01K0Y1TPE65WNVTMXJX67D7F7G",
       "name": "Issue with ChatGPT subscriptions",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2025-07-24T11:06:53Z",
-      "updated_at": "2025-07-24T11:06:53Z",
+      "updated_at": "2025-07-24T12:09:11Z",
       "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K0Y5CRWVBGZ9JDN08Y4H9BA1",
+          "body": "",
+          "created_at": "2025-07-24T12:09:11Z",
+          "display_at": "2025-07-24T12:09:11Z",
+          "incident_id": "01K0Y1TPE65WNVTMXJX67D7F7G",
+          "status": "identified",
+          "updated_at": "2025-07-24T12:09:11Z"
+        },
         {
           "id": "01K0Y1TPE6BE2WD0GRWA0DFPJ3",
           "body": "",
