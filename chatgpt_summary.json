@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-28T14:15:18Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -85,7 +85,7 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 8,
@@ -234,38 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K18N3YR8868ZJGAT135V6F6F",
-      "name": "Elevated error rates for ChatGPT Search for free users",
-      "status": "monitoring",
-      "created_at": "2025-07-28T13:56:23Z",
-      "updated_at": "2025-07-28T14:15:18Z",
-      "monitoring_at": "2025-07-28T14:15:18Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K18P6JR5Y5S6T39F4G5NY428",
-          "body": "",
-          "created_at": "2025-07-28T14:15:18Z",
-          "display_at": "2025-07-28T14:15:18Z",
-          "incident_id": "01K18N3YR8868ZJGAT135V6F6F",
-          "status": "monitoring",
-          "updated_at": "2025-07-28T14:15:18Z"
-        },
-        {
-          "id": "01K18N3YR8XB5GHZWT50SMKYA4",
-          "body": "",
-          "created_at": "2025-07-28T13:56:24Z",
-          "display_at": "2025-07-28T13:56:23Z",
-          "incident_id": "01K18N3YR8868ZJGAT135V6F6F",
-          "status": "identified",
-          "updated_at": "2025-07-28T13:58:20Z"
-        }
-      ]
     }
   ]
 }
