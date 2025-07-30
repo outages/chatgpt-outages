@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-07-30T19:24:57Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,65 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K1E1RM74ZDPAEXF7KVRB9DFT",
-      "name": "ChatGPT Conversations History missing on the Web in the sidebar for some users",
-      "status": "monitoring",
-      "created_at": "2025-07-30T16:13:36Z",
-      "updated_at": "2025-07-30T19:24:57Z",
-      "monitoring_at": "2025-07-30T19:24:57Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K1ECQ0268T32G6F76NAJQCXM",
-          "body": "",
-          "created_at": "2025-07-30T19:24:57Z",
-          "display_at": "2025-07-30T19:24:57Z",
-          "incident_id": "01K1E1RM74ZDPAEXF7KVRB9DFT",
-          "status": "monitoring",
-          "updated_at": "2025-07-30T19:24:57Z"
-        },
-        {
-          "id": "01K1EAVVFAS40C3Z0VR50D7KW1",
-          "body": "",
-          "created_at": "2025-07-30T18:52:39Z",
-          "display_at": "2025-07-30T18:52:39Z",
-          "incident_id": "01K1E1RM74ZDPAEXF7KVRB9DFT",
-          "status": "investigating",
-          "updated_at": "2025-07-30T18:52:39Z"
-        },
-        {
-          "id": "01K1E70G14XV43F3ENVKQ1W77Q",
-          "body": "",
-          "created_at": "2025-07-30T17:45:17Z",
-          "display_at": "2025-07-30T17:45:17Z",
-          "incident_id": "01K1E1RM74ZDPAEXF7KVRB9DFT",
-          "status": "identified",
-          "updated_at": "2025-07-30T17:45:17Z"
-        },
-        {
-          "id": "01K1E3XNADDAQ7XSKHTSMB5A7B",
-          "body": "",
-          "created_at": "2025-07-30T16:51:18Z",
-          "display_at": "2025-07-30T16:51:18Z",
-          "incident_id": "01K1E1RM74ZDPAEXF7KVRB9DFT",
-          "status": "identified",
-          "updated_at": "2025-07-30T16:51:18Z"
-        },
-        {
-          "id": "01K1E1RM741NK0RJC51R9SAHD8",
-          "body": "",
-          "created_at": "2025-07-30T16:13:36Z",
-          "display_at": "2025-07-30T16:13:36Z",
-          "incident_id": "01K1E1RM74ZDPAEXF7KVRB9DFT",
-          "status": "investigating",
-          "updated_at": "2025-07-30T16:13:36Z"
-        }
-      ]
     }
   ]
 }
