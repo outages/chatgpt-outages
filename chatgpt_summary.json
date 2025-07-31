@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-26T16:49:33Z"
+    "updated_at": "2025-07-31T20:46:24Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Major System Outage",
+    "indicator": "critical"
   },
   "components": [
     {
@@ -65,19 +65,19 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
-      "name": "Codex",
+      "id": "01JMXBNJXGQ9MXPY3VGHKFDRJ6",
+      "name": "Context connectors",
       "status": "operational",
-      "created_at": "2025-05-16T15:26:46Z",
+      "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXGQ9MXPY3VGHKFDRJ6",
-      "name": "Context connectors",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
+      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
+      "name": "Codex",
+      "status": "full_outage",
+      "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -234,6 +234,38 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K1H3JSZVYJVXM2JE618K9Z2N",
+      "name": "Codex Tasks Not Succeeding",
+      "status": "monitoring",
+      "created_at": "2025-07-31T20:43:06Z",
+      "updated_at": "2025-07-31T20:46:24Z",
+      "monitoring_at": "2025-07-31T20:46:24Z",
+      "impact": "critical",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K1H3RVYR611RF30CMK240GYT",
+          "body": "",
+          "created_at": "2025-07-31T20:46:24Z",
+          "display_at": "2025-07-31T20:46:24Z",
+          "incident_id": "01K1H3JSZVYJVXM2JE618K9Z2N",
+          "status": "monitoring",
+          "updated_at": "2025-07-31T20:46:24Z"
+        },
+        {
+          "id": "01K1H3JSZV212NCW02PZB5FX62",
+          "body": "",
+          "created_at": "2025-07-31T20:43:06Z",
+          "display_at": "2025-07-31T20:43:06Z",
+          "incident_id": "01K1H3JSZVYJVXM2JE618K9Z2N",
+          "status": "identified",
+          "updated_at": "2025-07-31T20:43:06Z"
+        }
+      ]
     }
   ]
 }
