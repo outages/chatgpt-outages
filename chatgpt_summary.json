@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-04T23:50:30Z"
+    "updated_at": "2025-06-26T16:49:33Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -20,9 +20,9 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
-      "name": "Assistants",
-      "status": "degraded_performance",
+      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
+      "name": "Moderations",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 1,
@@ -31,7 +31,7 @@
     {
       "id": "01JMXBRMFE0V9J9X2HY3SKX399",
       "name": "Completions (legacy)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 2,
@@ -40,43 +40,43 @@
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEQW613TFE89F45035",
-      "name": "Realtime",
-      "status": "degraded_performance",
+      "id": "01JMXBRMFE796MJ8H81EGWA46P",
+      "name": "Uploads",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFE796MJ8H81EGWA46P",
-      "name": "Uploads",
-      "status": "degraded_performance",
+      "id": "01JMXBRMFEMZK0HPK19RYET250",
+      "name": "Fine-tuning",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEMZK0HPK19RYET250",
-      "name": "Fine-tuning",
-      "status": "degraded_performance",
+      "id": "01JMXBRMFEPDPH0F2A94WGEZP4",
+      "name": "Assistants",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
-      "name": "Moderations",
-      "status": "degraded_performance",
+      "id": "01JMXBRMFEQW613TFE89F45035",
+      "name": "Realtime",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 7,
@@ -85,7 +85,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 8,
@@ -211,7 +211,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 22,
@@ -234,28 +234,6 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K1VQWTVRA1CMX2Y24GEXSNKJ",
-      "name": "Hi API Error Rates for o3",
-      "status": "investigating",
-      "created_at": "2025-08-04T23:50:30Z",
-      "updated_at": "2025-08-04T23:50:30Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K1VQWTVRPW77DQC4C5MYREA4",
-          "body": "",
-          "created_at": "2025-08-04T23:50:30Z",
-          "display_at": "2025-08-04T23:50:30Z",
-          "incident_id": "01K1VQWTVRA1CMX2Y24GEXSNKJ",
-          "status": "investigating",
-          "updated_at": "2025-08-04T23:50:30Z"
-        }
-      ]
     }
   ]
 }
