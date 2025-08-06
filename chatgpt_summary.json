@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-06T13:55:54Z"
+    "updated_at": "2025-08-06T19:09:51Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -237,6 +237,35 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01K20C5E7V7DMAGVEYRQ3H941Y",
+      "name": "Elevated errors on ChatGPT conversations with images",
+      "status": "identified",
+      "created_at": "2025-08-06T19:01:41Z",
+      "updated_at": "2025-08-06T19:09:51Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K20CMC8TX2GFJBQPCKZ34T7J",
+          "body": "",
+          "created_at": "2025-08-06T19:09:51Z",
+          "display_at": "2025-08-06T19:09:51Z",
+          "incident_id": "01K20C5E7V7DMAGVEYRQ3H941Y",
+          "status": "identified",
+          "updated_at": "2025-08-06T19:09:51Z"
+        },
+        {
+          "id": "01K20C5E7VQFFZDHHQFCSD9BQQ",
+          "body": "",
+          "created_at": "2025-08-06T19:01:41Z",
+          "display_at": "2025-08-06T19:01:41Z",
+          "incident_id": "01K20C5E7V7DMAGVEYRQ3H941Y",
+          "status": "investigating",
+          "updated_at": "2025-08-06T19:01:41Z"
+        }
+      ]
+    },
     {
       "id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
       "name": "502 Gateway Errors",
