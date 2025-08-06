@@ -3,17 +3,17 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-06T19:18:14Z"
+    "updated_at": "2025-08-06T19:48:30Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 0,
@@ -103,7 +103,7 @@
     {
       "id": "01JMXBNJXGQ9MXPY3VGHKFDRJ6",
       "name": "Context connectors",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 10,
@@ -112,7 +112,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 11,
@@ -121,7 +121,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 12,
@@ -130,7 +130,7 @@
     {
       "id": "01JMXBNJXG5HHAKA2FAFS7BXSM",
       "name": "1-800-CHAT-GPT",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 13,
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBNJXGJ6C964H647A5DMX0",
       "name": "GPT vision",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 14,
@@ -148,7 +148,7 @@
     {
       "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
       "name": "Voice mode",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 15,
@@ -175,7 +175,7 @@
     {
       "id": "01JMXBNJXG5VWB72T922RQE6NR",
       "name": "Memory",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 18,
@@ -184,7 +184,7 @@
     {
       "id": "01JMXBNJXG0SGB04EF3FT2KMAC",
       "name": "Single Sign-On",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 19,
@@ -220,7 +220,7 @@
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Operator",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 23,
@@ -237,6 +237,63 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
+      "name": "502 Gateway Errors",
+      "status": "monitoring",
+      "created_at": "2025-08-06T10:35:39Z",
+      "updated_at": "2025-08-06T19:48:30Z",
+      "monitoring_at": "2025-08-06T13:55:54Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K20EV57HJ3NGY0R4R0QB8CJY",
+          "body": "",
+          "created_at": "2025-08-06T19:48:30Z",
+          "display_at": "2025-08-06T19:48:30Z",
+          "incident_id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
+          "status": "monitoring",
+          "updated_at": "2025-08-06T19:48:30Z"
+        },
+        {
+          "id": "01K1ZTNHBYWTZ2KSA94K8X5NKW",
+          "body": "",
+          "created_at": "2025-08-06T13:55:54Z",
+          "display_at": "2025-08-06T13:55:54Z",
+          "incident_id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
+          "status": "monitoring",
+          "updated_at": "2025-08-06T13:55:54Z"
+        },
+        {
+          "id": "01K1ZNKWNA1B9CYZBSVSD6H3AZ",
+          "body": "",
+          "created_at": "2025-08-06T12:27:38Z",
+          "display_at": "2025-08-06T12:27:38Z",
+          "incident_id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
+          "status": "identified",
+          "updated_at": "2025-08-06T12:27:38Z"
+        },
+        {
+          "id": "01K1ZKR463AYSD4W377ZRYZG0Y",
+          "body": "",
+          "created_at": "2025-08-06T11:54:59Z",
+          "display_at": "2025-08-06T11:54:59Z",
+          "incident_id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
+          "status": "identified",
+          "updated_at": "2025-08-06T11:54:59Z"
+        },
+        {
+          "id": "01K1ZF6W0M3XQ01W3G68G3JAEF",
+          "body": "",
+          "created_at": "2025-08-06T10:35:39Z",
+          "display_at": "2025-08-06T10:35:39Z",
+          "incident_id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
+          "status": "identified",
+          "updated_at": "2025-08-06T10:35:39Z"
+        }
+      ]
+    },
     {
       "id": "01K20C5E7V7DMAGVEYRQ3H941Y",
       "name": "Elevated errors on ChatGPT conversations with images",
@@ -273,54 +330,6 @@
           "incident_id": "01K20C5E7V7DMAGVEYRQ3H941Y",
           "status": "investigating",
           "updated_at": "2025-08-06T19:01:41Z"
-        }
-      ]
-    },
-    {
-      "id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
-      "name": "502 Gateway Errors",
-      "status": "monitoring",
-      "created_at": "2025-08-06T10:35:39Z",
-      "updated_at": "2025-08-06T13:55:54Z",
-      "monitoring_at": "2025-08-06T13:55:54Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K1ZTNHBYWTZ2KSA94K8X5NKW",
-          "body": "",
-          "created_at": "2025-08-06T13:55:54Z",
-          "display_at": "2025-08-06T13:55:54Z",
-          "incident_id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
-          "status": "monitoring",
-          "updated_at": "2025-08-06T13:55:54Z"
-        },
-        {
-          "id": "01K1ZNKWNA1B9CYZBSVSD6H3AZ",
-          "body": "",
-          "created_at": "2025-08-06T12:27:38Z",
-          "display_at": "2025-08-06T12:27:38Z",
-          "incident_id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
-          "status": "identified",
-          "updated_at": "2025-08-06T12:27:38Z"
-        },
-        {
-          "id": "01K1ZKR463AYSD4W377ZRYZG0Y",
-          "body": "",
-          "created_at": "2025-08-06T11:54:59Z",
-          "display_at": "2025-08-06T11:54:59Z",
-          "incident_id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
-          "status": "identified",
-          "updated_at": "2025-08-06T11:54:59Z"
-        },
-        {
-          "id": "01K1ZF6W0M3XQ01W3G68G3JAEF",
-          "body": "",
-          "created_at": "2025-08-06T10:35:39Z",
-          "display_at": "2025-08-06T10:35:39Z",
-          "incident_id": "01K1ZF6W0MH8KNBGFQZ8ZDV3P1",
-          "status": "identified",
-          "updated_at": "2025-08-06T10:35:39Z"
         }
       ]
     }
