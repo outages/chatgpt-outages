@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T21:39:06Z"
+    "updated_at": "2025-08-07T21:47:48Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -166,7 +166,7 @@
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Agent",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 17,
@@ -238,32 +238,61 @@
   ],
   "incidents": [
     {
-      "id": "01K237H58KGPDNVAB347G343CG",
-      "name": "Some users may encounter credit card failures for new API sign ups",
+      "id": "01K233Q21JB7227VF64P3J2F57",
+      "name": "Plus/Pro users may have issues using ChatGPT Agent",
       "status": "monitoring",
-      "created_at": "2025-08-07T21:38:26Z",
-      "updated_at": "2025-08-07T21:39:06Z",
-      "monitoring_at": "2025-08-07T21:39:06Z",
+      "created_at": "2025-08-07T20:31:45Z",
+      "updated_at": "2025-08-07T21:47:48Z",
+      "monitoring_at": "2025-08-07T21:47:48Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01K237JCAQYV0W42QMPHJPTVB3",
+          "id": "01K2382APXMKKK1E8DB2JF1YGF",
           "body": "",
-          "created_at": "2025-08-07T21:39:06Z",
-          "display_at": "2025-08-07T21:39:06Z",
-          "incident_id": "01K237H58KGPDNVAB347G343CG",
+          "created_at": "2025-08-07T21:47:48Z",
+          "display_at": "2025-08-07T21:47:48Z",
+          "incident_id": "01K233Q21JB7227VF64P3J2F57",
           "status": "monitoring",
-          "updated_at": "2025-08-07T21:39:06Z"
+          "updated_at": "2025-08-07T21:47:48Z"
         },
         {
-          "id": "01K237H58KKWQ89BGPJENSG9Z2",
+          "id": "01K233Q21JFKN0ANAJCAJV9ESN",
           "body": "",
-          "created_at": "2025-08-07T21:38:26Z",
-          "display_at": "2025-08-07T21:38:26Z",
-          "incident_id": "01K237H58KGPDNVAB347G343CG",
+          "created_at": "2025-08-07T20:31:45Z",
+          "display_at": "2025-08-07T20:31:45Z",
+          "incident_id": "01K233Q21JB7227VF64P3J2F57",
           "status": "identified",
-          "updated_at": "2025-08-07T21:38:26Z"
+          "updated_at": "2025-08-07T20:31:45Z"
+        }
+      ]
+    },
+    {
+      "id": "01K232T2BGGKVZN2C19F4D4YMA",
+      "name": "Elevated latency and error rates for file uploads to vector stores",
+      "status": "identified",
+      "created_at": "2025-08-07T20:15:55Z",
+      "updated_at": "2025-08-07T21:45:57Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K237YXSQM2Y9A485DHWF9ZQR",
+          "body": "",
+          "created_at": "2025-08-07T21:45:57Z",
+          "display_at": "2025-08-07T21:45:57Z",
+          "incident_id": "01K232T2BGGKVZN2C19F4D4YMA",
+          "status": "identified",
+          "updated_at": "2025-08-07T21:45:57Z"
+        },
+        {
+          "id": "01K232T2BGJJBSACZHTBNY346Q",
+          "body": "",
+          "created_at": "2025-08-07T20:15:55Z",
+          "display_at": "2025-08-07T20:15:55Z",
+          "incident_id": "01K232T2BGGKVZN2C19F4D4YMA",
+          "status": "identified",
+          "updated_at": "2025-08-07T20:15:55Z"
         }
       ]
     },
@@ -311,46 +340,6 @@
           "incident_id": "01K2283RP5N25694YFVP24SHBD",
           "status": "identified",
           "updated_at": "2025-08-07T12:29:21Z"
-        }
-      ]
-    },
-    {
-      "id": "01K233Q21JB7227VF64P3J2F57",
-      "name": "Plus/Pro users may have issues using ChatGPT Agent",
-      "status": "identified",
-      "created_at": "2025-08-07T20:31:45Z",
-      "updated_at": "2025-08-07T20:31:45Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K233Q21JFKN0ANAJCAJV9ESN",
-          "body": "",
-          "created_at": "2025-08-07T20:31:45Z",
-          "display_at": "2025-08-07T20:31:45Z",
-          "incident_id": "01K233Q21JB7227VF64P3J2F57",
-          "status": "identified",
-          "updated_at": "2025-08-07T20:31:45Z"
-        }
-      ]
-    },
-    {
-      "id": "01K232T2BGGKVZN2C19F4D4YMA",
-      "name": "Elevated latency and error rates for file uploads to vector stores",
-      "status": "identified",
-      "created_at": "2025-08-07T20:15:55Z",
-      "updated_at": "2025-08-07T20:15:55Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K232T2BGJJBSACZHTBNY346Q",
-          "body": "",
-          "created_at": "2025-08-07T20:15:55Z",
-          "display_at": "2025-08-07T20:15:55Z",
-          "incident_id": "01K232T2BGGKVZN2C19F4D4YMA",
-          "status": "identified",
-          "updated_at": "2025-08-07T20:15:55Z"
         }
       ]
     }
