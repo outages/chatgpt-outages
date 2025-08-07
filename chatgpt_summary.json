@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T20:31:45Z"
+    "updated_at": "2025-08-07T21:23:10Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,6 +238,53 @@
   ],
   "incidents": [
     {
+      "id": "01K2283RP5N25694YFVP24SHBD",
+      "name": "Elevated errors on the ChatGPT 4.5 model",
+      "status": "identified",
+      "created_at": "2025-08-07T12:29:21Z",
+      "updated_at": "2025-08-07T21:23:10Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K236N75M3P53VV7F3NH285ZJ",
+          "body": "",
+          "created_at": "2025-08-07T21:23:10Z",
+          "display_at": "2025-08-07T21:23:10Z",
+          "incident_id": "01K2283RP5N25694YFVP24SHBD",
+          "status": "identified",
+          "updated_at": "2025-08-07T21:23:10Z"
+        },
+        {
+          "id": "01K22T3WCG47051RSK1EWDD28R",
+          "body": "",
+          "created_at": "2025-08-07T17:43:59Z",
+          "display_at": "2025-08-07T17:43:59Z",
+          "incident_id": "01K2283RP5N25694YFVP24SHBD",
+          "status": "identified",
+          "updated_at": "2025-08-07T17:43:59Z"
+        },
+        {
+          "id": "01K22DW74HNZ9WS80GG9SKPCNM",
+          "body": "",
+          "created_at": "2025-08-07T14:10:05Z",
+          "display_at": "2025-08-07T14:10:05Z",
+          "incident_id": "01K2283RP5N25694YFVP24SHBD",
+          "status": "identified",
+          "updated_at": "2025-08-07T14:10:05Z"
+        },
+        {
+          "id": "01K2283RP5Q1YHGNJ3HQW9QKPV",
+          "body": "",
+          "created_at": "2025-08-07T12:29:21Z",
+          "display_at": "2025-08-07T12:29:21Z",
+          "incident_id": "01K2283RP5N25694YFVP24SHBD",
+          "status": "identified",
+          "updated_at": "2025-08-07T12:29:21Z"
+        }
+      ]
+    },
+    {
       "id": "01K233Q21JB7227VF64P3J2F57",
       "name": "Plus/Pro users may have issues using ChatGPT Agent",
       "status": "identified",
@@ -274,44 +321,6 @@
           "incident_id": "01K232T2BGGKVZN2C19F4D4YMA",
           "status": "identified",
           "updated_at": "2025-08-07T20:15:55Z"
-        }
-      ]
-    },
-    {
-      "id": "01K2283RP5N25694YFVP24SHBD",
-      "name": "Elevated errors on the ChatGPT 4.5 model",
-      "status": "identified",
-      "created_at": "2025-08-07T12:29:21Z",
-      "updated_at": "2025-08-07T17:43:59Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K22T3WCG47051RSK1EWDD28R",
-          "body": "",
-          "created_at": "2025-08-07T17:43:59Z",
-          "display_at": "2025-08-07T17:43:59Z",
-          "incident_id": "01K2283RP5N25694YFVP24SHBD",
-          "status": "identified",
-          "updated_at": "2025-08-07T17:43:59Z"
-        },
-        {
-          "id": "01K22DW74HNZ9WS80GG9SKPCNM",
-          "body": "",
-          "created_at": "2025-08-07T14:10:05Z",
-          "display_at": "2025-08-07T14:10:05Z",
-          "incident_id": "01K2283RP5N25694YFVP24SHBD",
-          "status": "identified",
-          "updated_at": "2025-08-07T14:10:05Z"
-        },
-        {
-          "id": "01K2283RP5Q1YHGNJ3HQW9QKPV",
-          "body": "",
-          "created_at": "2025-08-07T12:29:21Z",
-          "display_at": "2025-08-07T12:29:21Z",
-          "incident_id": "01K2283RP5N25694YFVP24SHBD",
-          "status": "identified",
-          "updated_at": "2025-08-07T12:29:21Z"
         }
       ]
     }
