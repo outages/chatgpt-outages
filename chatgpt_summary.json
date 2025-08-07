@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T21:47:48Z"
+    "updated_at": "2025-08-07T21:45:57Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -237,36 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01K233Q21JB7227VF64P3J2F57",
-      "name": "Plus/Pro users may have issues using ChatGPT Agent",
-      "status": "monitoring",
-      "created_at": "2025-08-07T20:31:45Z",
-      "updated_at": "2025-08-07T21:47:48Z",
-      "monitoring_at": "2025-08-07T21:47:48Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K2382APXMKKK1E8DB2JF1YGF",
-          "body": "",
-          "created_at": "2025-08-07T21:47:48Z",
-          "display_at": "2025-08-07T21:47:48Z",
-          "incident_id": "01K233Q21JB7227VF64P3J2F57",
-          "status": "monitoring",
-          "updated_at": "2025-08-07T21:47:48Z"
-        },
-        {
-          "id": "01K233Q21JFKN0ANAJCAJV9ESN",
-          "body": "",
-          "created_at": "2025-08-07T20:31:45Z",
-          "display_at": "2025-08-07T20:31:45Z",
-          "incident_id": "01K233Q21JB7227VF64P3J2F57",
-          "status": "identified",
-          "updated_at": "2025-08-07T20:31:45Z"
-        }
-      ]
-    },
     {
       "id": "01K232T2BGGKVZN2C19F4D4YMA",
       "name": "Elevated latency and error rates for file uploads to vector stores",
