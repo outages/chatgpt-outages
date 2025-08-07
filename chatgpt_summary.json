@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T21:45:57Z"
+    "updated_at": "2025-08-07T23:11:12Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,10 +242,19 @@
       "name": "Elevated latency and error rates for file uploads to vector stores",
       "status": "identified",
       "created_at": "2025-08-07T20:15:55Z",
-      "updated_at": "2025-08-07T21:45:57Z",
+      "updated_at": "2025-08-07T23:11:12Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K23CV0VZY4R3A8HAZE0BC91Q",
+          "body": "",
+          "created_at": "2025-08-07T23:11:12Z",
+          "display_at": "2025-08-07T23:11:12Z",
+          "incident_id": "01K232T2BGGKVZN2C19F4D4YMA",
+          "status": "identified",
+          "updated_at": "2025-08-07T23:11:12Z"
+        },
         {
           "id": "01K237YXSQM2Y9A485DHWF9ZQR",
           "body": "",
