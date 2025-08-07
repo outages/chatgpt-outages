@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-06-26T16:49:33Z"
+    "updated_at": "2025-08-07T12:29:21Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -234,6 +234,28 @@
       "updated_at": "2025-06-26T16:49:33Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K2283RP5N25694YFVP24SHBD",
+      "name": "Elevated errors on the ChatGPT 4.5 model",
+      "status": "identified",
+      "created_at": "2025-08-07T12:29:21Z",
+      "updated_at": "2025-08-07T12:29:21Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K2283RP5Q1YHGNJ3HQW9QKPV",
+          "body": "",
+          "created_at": "2025-08-07T12:29:21Z",
+          "display_at": "2025-08-07T12:29:21Z",
+          "incident_id": "01K2283RP5N25694YFVP24SHBD",
+          "status": "identified",
+          "updated_at": "2025-08-07T12:29:21Z"
+        }
+      ]
     }
   ]
 }
