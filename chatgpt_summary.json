@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-08T18:10:00Z"
+    "updated_at": "2025-08-07T20:31:25Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,47 +234,6 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K25HEHCTHTSTQZANFB07JV75",
-      "name": "Users encountering rate limit or model not found errors in GPT 5",
-      "status": "monitoring",
-      "created_at": "2025-08-08T19:10:14Z",
-      "updated_at": "2025-08-08T19:16:46Z",
-      "monitoring_at": "2025-08-08T18:10:00Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K25HTG0Z9RHEZQY2MA861502",
-          "body": "",
-          "created_at": "2025-08-08T19:16:46Z",
-          "display_at": "2025-08-08T18:10:00Z",
-          "incident_id": "01K25HEHCTHTSTQZANFB07JV75",
-          "status": "monitoring",
-          "updated_at": "2025-08-08T19:18:29Z"
-        },
-        {
-          "id": "01K25HSV4PHS6XW2W4T4DZ1R3F",
-          "body": "",
-          "created_at": "2025-08-08T19:16:25Z",
-          "display_at": "2025-08-08T17:30:00Z",
-          "incident_id": "01K25HEHCTHTSTQZANFB07JV75",
-          "status": "identified",
-          "updated_at": "2025-08-08T19:17:42Z"
-        },
-        {
-          "id": "01K25HRJVN3ERZ2KVBFMT6CRZQ",
-          "body": "",
-          "created_at": "2025-08-08T19:15:44Z",
-          "display_at": "2025-08-08T16:52:00Z",
-          "incident_id": "01K25HEHCTHTSTQZANFB07JV75",
-          "status": "investigating",
-          "updated_at": "2025-08-08T19:16:58Z"
-        }
-      ]
     }
   ]
 }
