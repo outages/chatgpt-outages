@@ -286,54 +286,6 @@
       ]
     },
     {
-      "id": "01K232T2BGGKVZN2C19F4D4YMA",
-      "name": "Elevated latency and error rates for file uploads to vector stores",
-      "status": "monitoring",
-      "created_at": "2025-08-07T20:15:55Z",
-      "updated_at": "2025-08-08T00:44:36Z",
-      "monitoring_at": "2025-08-08T00:44:36Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K23J61VKP27TRP9Y82VE45X6",
-          "body": "",
-          "created_at": "2025-08-08T00:44:36Z",
-          "display_at": "2025-08-08T00:44:36Z",
-          "incident_id": "01K232T2BGGKVZN2C19F4D4YMA",
-          "status": "monitoring",
-          "updated_at": "2025-08-08T00:44:36Z"
-        },
-        {
-          "id": "01K23CV0VZY4R3A8HAZE0BC91Q",
-          "body": "",
-          "created_at": "2025-08-07T23:11:12Z",
-          "display_at": "2025-08-07T23:11:12Z",
-          "incident_id": "01K232T2BGGKVZN2C19F4D4YMA",
-          "status": "identified",
-          "updated_at": "2025-08-07T23:11:12Z"
-        },
-        {
-          "id": "01K237YXSQM2Y9A485DHWF9ZQR",
-          "body": "",
-          "created_at": "2025-08-07T21:45:57Z",
-          "display_at": "2025-08-07T21:45:57Z",
-          "incident_id": "01K232T2BGGKVZN2C19F4D4YMA",
-          "status": "identified",
-          "updated_at": "2025-08-07T21:45:57Z"
-        },
-        {
-          "id": "01K232T2BGJJBSACZHTBNY346Q",
-          "body": "",
-          "created_at": "2025-08-07T20:15:55Z",
-          "display_at": "2025-08-07T20:15:55Z",
-          "incident_id": "01K232T2BGGKVZN2C19F4D4YMA",
-          "status": "identified",
-          "updated_at": "2025-08-07T20:15:55Z"
-        }
-      ]
-    },
-    {
       "id": "01K2283RP5N25694YFVP24SHBD",
       "name": "Elevated errors on the ChatGPT 4.5 model",
       "status": "identified",
