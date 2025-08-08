@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-08T19:10:14Z"
+    "updated_at": "2025-08-08T18:10:00Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -184,7 +184,7 @@
     {
       "id": "01JRT9QMW22Y11ZBVK0T5ZT1P2",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-14T14:02:29Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 19,
@@ -242,67 +242,37 @@
       "name": "Users encountering rate limit or model not found errors in GPT 5",
       "status": "monitoring",
       "created_at": "2025-08-08T19:10:14Z",
-      "updated_at": "2025-08-08T19:10:14Z",
-      "monitoring_at": "2025-08-08T19:10:14Z",
+      "updated_at": "2025-08-08T19:16:46Z",
+      "monitoring_at": "2025-08-08T18:10:00Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01K25HEHCT7MCSR008HRMAFNXE",
+          "id": "01K25HTG0Z9RHEZQY2MA861502",
           "body": "",
-          "created_at": "2025-08-08T19:10:14Z",
-          "display_at": "2025-08-08T19:10:14Z",
+          "created_at": "2025-08-08T19:16:46Z",
+          "display_at": "2025-08-08T18:10:00Z",
           "incident_id": "01K25HEHCTHTSTQZANFB07JV75",
           "status": "monitoring",
-          "updated_at": "2025-08-08T19:10:14Z"
-        }
-      ]
-    },
-    {
-      "id": "01K24MDPAESPN2YKVB9HX8ZCTN",
-      "name": "Search is Partially Down for ChatGPT Users",
-      "status": "monitoring",
-      "created_at": "2025-08-08T10:42:58Z",
-      "updated_at": "2025-08-08T18:10:16Z",
-      "monitoring_at": "2025-08-08T17:54:00Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K25E0Q1G4J41RQCSRQA91BY4",
-          "body": "",
-          "created_at": "2025-08-08T18:10:16Z",
-          "display_at": "2025-08-08T17:54:00Z",
-          "incident_id": "01K24MDPAESPN2YKVB9HX8ZCTN",
-          "status": "monitoring",
-          "updated_at": "2025-08-08T18:10:31Z"
+          "updated_at": "2025-08-08T19:18:29Z"
         },
         {
-          "id": "01K259XRTKZG9EYP7VEJMFE3ZX",
+          "id": "01K25HSV4PHS6XW2W4T4DZ1R3F",
           "body": "",
-          "created_at": "2025-08-08T16:58:45Z",
-          "display_at": "2025-08-08T16:58:45Z",
-          "incident_id": "01K24MDPAESPN2YKVB9HX8ZCTN",
+          "created_at": "2025-08-08T19:16:25Z",
+          "display_at": "2025-08-08T17:30:00Z",
+          "incident_id": "01K25HEHCTHTSTQZANFB07JV75",
           "status": "identified",
-          "updated_at": "2025-08-08T16:58:45Z"
+          "updated_at": "2025-08-08T19:17:42Z"
         },
         {
-          "id": "01K24SEXGZZE2568E7FJESX4SX",
+          "id": "01K25HRJVN3ERZ2KVBFMT6CRZQ",
           "body": "",
-          "created_at": "2025-08-08T12:11:01Z",
-          "display_at": "2025-08-08T12:11:01Z",
-          "incident_id": "01K24MDPAESPN2YKVB9HX8ZCTN",
-          "status": "identified",
-          "updated_at": "2025-08-08T12:11:01Z"
-        },
-        {
-          "id": "01K24MDPAE4QZ4C3BDVYS5FGXW",
-          "body": "",
-          "created_at": "2025-08-08T10:42:58Z",
-          "display_at": "2025-08-08T10:42:58Z",
-          "incident_id": "01K24MDPAESPN2YKVB9HX8ZCTN",
+          "created_at": "2025-08-08T19:15:44Z",
+          "display_at": "2025-08-08T16:52:00Z",
+          "incident_id": "01K25HEHCTHTSTQZANFB07JV75",
           "status": "investigating",
-          "updated_at": "2025-08-08T10:42:58Z"
+          "updated_at": "2025-08-08T19:16:58Z"
         }
       ]
     }
