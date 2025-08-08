@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-08T17:54:00Z"
+    "updated_at": "2025-08-08T19:10:14Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -184,7 +184,7 @@
     {
       "id": "01JRT9QMW22Y11ZBVK0T5ZT1P2",
       "name": "Conversations",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-04-14T14:02:29Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 19,
@@ -237,6 +237,27 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01K25HEHCTHTSTQZANFB07JV75",
+      "name": "Users encountering rate limit or model not found errors in GPT 5",
+      "status": "monitoring",
+      "created_at": "2025-08-08T19:10:14Z",
+      "updated_at": "2025-08-08T19:10:14Z",
+      "monitoring_at": "2025-08-08T19:10:14Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K25HEHCT7MCSR008HRMAFNXE",
+          "body": "",
+          "created_at": "2025-08-08T19:10:14Z",
+          "display_at": "2025-08-08T19:10:14Z",
+          "incident_id": "01K25HEHCTHTSTQZANFB07JV75",
+          "status": "monitoring",
+          "updated_at": "2025-08-08T19:10:14Z"
+        }
+      ]
+    },
     {
       "id": "01K24MDPAESPN2YKVB9HX8ZCTN",
       "name": "Search is Partially Down for ChatGPT Users",
