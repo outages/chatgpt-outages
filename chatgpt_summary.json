@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-11T20:02:40Z"
+    "updated_at": "2025-08-11T21:25:57Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -238,44 +238,24 @@
   ],
   "incidents": [
     {
-      "id": "01K2DBA1G47XEGSEKQ8HBWC9KC",
-      "name": "Increased failure rate for Codex tasks",
-      "status": "monitoring",
-      "created_at": "2025-08-11T19:56:51Z",
-      "updated_at": "2025-08-11T20:02:40Z",
-      "monitoring_at": "2025-08-11T20:02:40Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K2DBMPBRP373PPGE0KJWDMMZ",
-          "body": "",
-          "created_at": "2025-08-11T20:02:40Z",
-          "display_at": "2025-08-11T20:02:40Z",
-          "incident_id": "01K2DBA1G47XEGSEKQ8HBWC9KC",
-          "status": "monitoring",
-          "updated_at": "2025-08-11T20:02:40Z"
-        },
-        {
-          "id": "01K2DBA1G41P0TR8PFNAWB725T",
-          "body": "",
-          "created_at": "2025-08-11T19:56:51Z",
-          "display_at": "2025-08-11T19:56:51Z",
-          "incident_id": "01K2DBA1G47XEGSEKQ8HBWC9KC",
-          "status": "investigating",
-          "updated_at": "2025-08-11T19:56:51Z"
-        }
-      ]
-    },
-    {
       "id": "01K2CXE1VB4N67FG5C50FMTNH3",
       "name": "Partial Search Outage for ChatGPT Users",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-08-11T15:54:22Z",
-      "updated_at": "2025-08-11T19:13:55Z",
+      "updated_at": "2025-08-11T21:25:57Z",
+      "monitoring_at": "2025-08-11T21:25:57Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K2DGD6717RSAKVTSG267ANPC",
+          "body": "",
+          "created_at": "2025-08-11T21:25:57Z",
+          "display_at": "2025-08-11T21:25:57Z",
+          "incident_id": "01K2CXE1VB4N67FG5C50FMTNH3",
+          "status": "monitoring",
+          "updated_at": "2025-08-11T21:25:57Z"
+        },
         {
           "id": "01K2D8VE25RW3YQBCNZTC7NNVF",
           "body": "",
@@ -329,6 +309,36 @@
           "incident_id": "01K2CXE1VB4N67FG5C50FMTNH3",
           "status": "identified",
           "updated_at": "2025-08-11T15:54:22Z"
+        }
+      ]
+    },
+    {
+      "id": "01K2DBA1G47XEGSEKQ8HBWC9KC",
+      "name": "Increased failure rate for Codex tasks",
+      "status": "monitoring",
+      "created_at": "2025-08-11T19:56:51Z",
+      "updated_at": "2025-08-11T20:02:40Z",
+      "monitoring_at": "2025-08-11T20:02:40Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K2DBMPBRP373PPGE0KJWDMMZ",
+          "body": "",
+          "created_at": "2025-08-11T20:02:40Z",
+          "display_at": "2025-08-11T20:02:40Z",
+          "incident_id": "01K2DBA1G47XEGSEKQ8HBWC9KC",
+          "status": "monitoring",
+          "updated_at": "2025-08-11T20:02:40Z"
+        },
+        {
+          "id": "01K2DBA1G41P0TR8PFNAWB725T",
+          "body": "",
+          "created_at": "2025-08-11T19:56:51Z",
+          "display_at": "2025-08-11T19:56:51Z",
+          "incident_id": "01K2DBA1G47XEGSEKQ8HBWC9KC",
+          "status": "investigating",
+          "updated_at": "2025-08-11T19:56:51Z"
         }
       ]
     }
