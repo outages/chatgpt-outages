@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-13T07:04:15Z"
+    "updated_at": "2025-08-07T20:31:25Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,38 +234,6 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K2H2GPEH9DYW77F11KMYC6PH",
-      "name": "Increased Errors in Image Generation",
-      "status": "monitoring",
-      "created_at": "2025-08-13T06:40:10Z",
-      "updated_at": "2025-08-13T07:04:15Z",
-      "monitoring_at": "2025-08-13T07:04:15Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K2H3WT5F5DTRKSQWNVPTN100",
-          "body": "",
-          "created_at": "2025-08-13T07:04:15Z",
-          "display_at": "2025-08-13T07:04:15Z",
-          "incident_id": "01K2H2GPEH9DYW77F11KMYC6PH",
-          "status": "monitoring",
-          "updated_at": "2025-08-13T07:04:15Z"
-        },
-        {
-          "id": "01K2H2GPEHVNYJTC4R9FKH6PS4",
-          "body": "",
-          "created_at": "2025-08-13T06:40:10Z",
-          "display_at": "2025-08-13T06:40:10Z",
-          "incident_id": "01K2H2GPEH9DYW77F11KMYC6PH",
-          "status": "investigating",
-          "updated_at": "2025-08-13T06:40:10Z"
-        }
-      ]
     }
   ]
 }
