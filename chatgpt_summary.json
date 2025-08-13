@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T20:31:25Z"
+    "updated_at": "2025-08-13T18:40:57Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -103,7 +103,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 10,
@@ -234,6 +234,28 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K2JBRFV5VAHVA9KP2FNRB0EX",
+      "name": "Increased Errors on Compliance API",
+      "status": "investigating",
+      "created_at": "2025-08-13T18:40:57Z",
+      "updated_at": "2025-08-13T18:40:57Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K2JBRFV5SQ3HQN56NSG2H3K0",
+          "body": "",
+          "created_at": "2025-08-13T18:40:57Z",
+          "display_at": "2025-08-13T18:40:57Z",
+          "incident_id": "01K2JBRFV5VAHVA9KP2FNRB0EX",
+          "status": "investigating",
+          "updated_at": "2025-08-13T18:40:57Z"
+        }
+      ]
     }
   ]
 }
