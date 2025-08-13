@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T20:31:25Z"
+    "updated_at": "2025-08-13T06:40:10Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -234,6 +234,28 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K2H2GPEH9DYW77F11KMYC6PH",
+      "name": "Increased Errors in Image Generation",
+      "status": "investigating",
+      "created_at": "2025-08-13T06:40:10Z",
+      "updated_at": "2025-08-13T06:40:10Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K2H2GPEHVNYJTC4R9FKH6PS4",
+          "body": "",
+          "created_at": "2025-08-13T06:40:10Z",
+          "display_at": "2025-08-13T06:40:10Z",
+          "incident_id": "01K2H2GPEH9DYW77F11KMYC6PH",
+          "status": "investigating",
+          "updated_at": "2025-08-13T06:40:10Z"
+        }
+      ]
     }
   ]
 }
