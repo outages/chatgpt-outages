@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-15T20:44:07Z"
+    "updated_at": "2025-08-15T21:42:57Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01K2QQKF33AGNNNKK84RT9VJ06",
       "name": "Elevated Error Rates on ChatGPT Agent",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-08-15T20:44:07Z",
-      "updated_at": "2025-08-15T20:44:07Z",
+      "updated_at": "2025-08-15T21:42:57Z",
+      "monitoring_at": "2025-08-15T21:42:57Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K2QTZ5Z2MDN2NYFK389WRWSP",
+          "body": "",
+          "created_at": "2025-08-15T21:42:57Z",
+          "display_at": "2025-08-15T21:42:57Z",
+          "incident_id": "01K2QQKF33AGNNNKK84RT9VJ06",
+          "status": "monitoring",
+          "updated_at": "2025-08-15T21:42:57Z"
+        },
         {
           "id": "01K2QQKF33FEAFCG4MWBVW5PXX",
           "body": "",
