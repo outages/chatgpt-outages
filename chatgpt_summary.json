@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-17T18:01:48Z"
+    "updated_at": "2025-08-07T20:31:25Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,56 +234,6 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K2W8X5QEJKR4A4CB8Y54R7PB",
-      "name": "Images not loading on the iOS, Android and macOS apps",
-      "status": "monitoring",
-      "created_at": "2025-08-17T15:03:29Z",
-      "updated_at": "2025-08-17T18:01:48Z",
-      "monitoring_at": "2025-08-17T18:01:48Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K2WK3NVP95M36QD6XVEFVTX9",
-          "body": "",
-          "created_at": "2025-08-17T18:01:48Z",
-          "display_at": "2025-08-17T18:01:48Z",
-          "incident_id": "01K2W8X5QEJKR4A4CB8Y54R7PB",
-          "status": "monitoring",
-          "updated_at": "2025-08-17T18:01:48Z"
-        },
-        {
-          "id": "01K2WB05FBN6783ETTQMXV1H75",
-          "body": "",
-          "created_at": "2025-08-17T15:40:04Z",
-          "display_at": "2025-08-17T15:40:04Z",
-          "incident_id": "01K2W8X5QEJKR4A4CB8Y54R7PB",
-          "status": "investigating",
-          "updated_at": "2025-08-17T15:40:04Z"
-        },
-        {
-          "id": "01K2W9XXQJ542TAX4QT2Y7QKR2",
-          "body": "",
-          "created_at": "2025-08-17T15:21:22Z",
-          "display_at": "2025-08-17T15:21:22Z",
-          "incident_id": "01K2W8X5QEJKR4A4CB8Y54R7PB",
-          "status": "investigating",
-          "updated_at": "2025-08-17T15:21:22Z"
-        },
-        {
-          "id": "01K2W8X5QEVAAZQH49XG0JNCHB",
-          "body": "",
-          "created_at": "2025-08-17T15:03:29Z",
-          "display_at": "2025-08-17T15:03:29Z",
-          "incident_id": "01K2W8X5QEJKR4A4CB8Y54R7PB",
-          "status": "identified",
-          "updated_at": "2025-08-17T15:03:29Z"
-        }
-      ]
     }
   ]
 }
