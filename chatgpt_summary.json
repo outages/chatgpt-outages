@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T20:31:25Z"
+    "updated_at": "2025-08-17T15:03:29Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -184,7 +184,7 @@
     {
       "id": "01JMXBNJXGEJAHFSH95JQJ7HYH",
       "name": "Mobile - iOS",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 19,
@@ -193,7 +193,7 @@
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 20,
@@ -234,6 +234,28 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K2W8X5QEJKR4A4CB8Y54R7PB",
+      "name": "Images not loading on iOS and Android mobile devices",
+      "status": "identified",
+      "created_at": "2025-08-17T15:03:29Z",
+      "updated_at": "2025-08-17T15:03:29Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K2W8X5QEVAAZQH49XG0JNCHB",
+          "body": "",
+          "created_at": "2025-08-17T15:03:29Z",
+          "display_at": "2025-08-17T15:03:29Z",
+          "incident_id": "01K2W8X5QEJKR4A4CB8Y54R7PB",
+          "status": "identified",
+          "updated_at": "2025-08-17T15:03:29Z"
+        }
+      ]
     }
   ]
 }
