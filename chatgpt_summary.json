@@ -239,10 +239,10 @@
   "incidents": [
     {
       "id": "01K2W8X5QEJKR4A4CB8Y54R7PB",
-      "name": "Images not loading on desktop and mobile devices",
+      "name": "Images not loading on the iOS, Android and macOS apps",
       "status": "investigating",
       "created_at": "2025-08-17T15:03:29Z",
-      "updated_at": "2025-08-17T15:40:04Z",
+      "updated_at": "2025-08-17T15:43:13Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
