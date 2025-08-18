@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-18T18:34:40Z"
+    "updated_at": "2025-08-18T20:12:14Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,31 @@
     {
       "id": "01K2Z3WTYEM0WN3EPJMY25VD13",
       "name": "GPTs with custom actions stuck processing",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-08-18T17:33:38Z",
-      "updated_at": "2025-08-18T18:34:40Z",
+      "updated_at": "2025-08-18T20:12:14Z",
+      "monitoring_at": "2025-08-18T20:12:14Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K2ZCZ85ZB2BVN1643BW4A80E",
+          "body": "",
+          "created_at": "2025-08-18T20:12:14Z",
+          "display_at": "2025-08-18T20:12:14Z",
+          "incident_id": "01K2Z3WTYEM0WN3EPJMY25VD13",
+          "status": "monitoring",
+          "updated_at": "2025-08-18T20:12:14Z"
+        },
+        {
+          "id": "01K2ZBTER5H7V10ED1KTP5P172",
+          "body": "",
+          "created_at": "2025-08-18T19:52:09Z",
+          "display_at": "2025-08-18T19:52:09Z",
+          "incident_id": "01K2Z3WTYEM0WN3EPJMY25VD13",
+          "status": "identified",
+          "updated_at": "2025-08-18T19:52:09Z"
+        },
         {
           "id": "01K2Z7CJX0BVBMYVF3E8F2CR0H",
           "body": "",
