@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-19T18:57:25Z"
+    "updated_at": "2025-08-19T20:15:43Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -166,7 +166,7 @@
     {
       "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
       "name": "Files",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 17,
@@ -240,12 +240,22 @@
     {
       "id": "01K31KECPNDYEKYWWGZAY4TYSH",
       "name": "Elevated Errors for File Uploads to Vector Stores",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-08-19T16:43:51Z",
-      "updated_at": "2025-08-19T18:57:25Z",
+      "updated_at": "2025-08-19T20:15:43Z",
+      "monitoring_at": "2025-08-19T20:15:43Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K31ZJAQZV2RXBHD7FM42J1MH",
+          "body": "",
+          "created_at": "2025-08-19T20:15:43Z",
+          "display_at": "2025-08-19T20:15:43Z",
+          "incident_id": "01K31KECPNDYEKYWWGZAY4TYSH",
+          "status": "monitoring",
+          "updated_at": "2025-08-19T20:15:43Z"
+        },
         {
           "id": "01K31V2YSTRF5VYF4E47SK5FEX",
           "body": "",
