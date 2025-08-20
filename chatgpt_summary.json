@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-20T18:19:25Z"
+    "updated_at": "2025-08-07T20:31:25Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -58,7 +58,7 @@
     {
       "id": "01JMXCAX0QM438N5CDG2RMJ07X",
       "name": "Video viewing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 5,
@@ -94,7 +94,7 @@
     {
       "id": "01JMXCAX0Q6C4KFTHY65EP0ZB2",
       "name": "Feed",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 9,
@@ -103,7 +103,7 @@
     {
       "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
       "name": "Video generation",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 10,
@@ -234,28 +234,6 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K34BA35K6TRXF2SYWZGN4P07",
-      "name": "Sora experiencing elevated error rates and increased latency",
-      "status": "identified",
-      "created_at": "2025-08-20T18:19:25Z",
-      "updated_at": "2025-08-20T18:19:25Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K34BA35K9S64ZDTR1D9C9W81",
-          "body": "",
-          "created_at": "2025-08-20T18:19:25Z",
-          "display_at": "2025-08-20T18:19:25Z",
-          "incident_id": "01K34BA35K6TRXF2SYWZGN4P07",
-          "status": "identified",
-          "updated_at": "2025-08-20T18:19:25Z"
-        }
-      ]
     }
   ]
 }
