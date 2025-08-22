@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-22T18:43:33Z"
+    "updated_at": "2025-08-07T20:31:25Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,38 +234,6 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K39H0SBZ3GDWCK3MGKE6QR3G",
-      "name": "Elevated API errors and latencies",
-      "status": "monitoring",
-      "created_at": "2025-08-22T18:35:23Z",
-      "updated_at": "2025-08-22T18:43:33Z",
-      "monitoring_at": "2025-08-22T18:43:33Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K39HFQ0H4MAYNG3H5FT00WEG",
-          "body": "",
-          "created_at": "2025-08-22T18:43:33Z",
-          "display_at": "2025-08-22T18:43:33Z",
-          "incident_id": "01K39H0SBZ3GDWCK3MGKE6QR3G",
-          "status": "monitoring",
-          "updated_at": "2025-08-22T18:43:33Z"
-        },
-        {
-          "id": "01K39H0SBZH8PBCZHFR47Y1GYT",
-          "body": "",
-          "created_at": "2025-08-22T18:35:23Z",
-          "display_at": "2025-08-22T17:35:00Z",
-          "incident_id": "01K39H0SBZ3GDWCK3MGKE6QR3G",
-          "status": "identified",
-          "updated_at": "2025-08-22T19:00:52Z"
-        }
-      ]
     }
   ]
 }
