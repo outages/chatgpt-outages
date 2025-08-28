@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-28T15:02:45Z"
+    "updated_at": "2025-08-07T20:31:25Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 2,
@@ -234,56 +234,6 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K3RGEP39D9E2BSBZBBDQYVPT",
-      "name": "Increased login and signup errors",
-      "status": "monitoring",
-      "created_at": "2025-08-28T14:14:07Z",
-      "updated_at": "2025-08-28T15:02:45Z",
-      "monitoring_at": "2025-08-28T15:02:45Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K3RK7R2X3A15A3DJ4XK30JWS",
-          "body": "",
-          "created_at": "2025-08-28T15:02:45Z",
-          "display_at": "2025-08-28T15:02:45Z",
-          "incident_id": "01K3RGEP39D9E2BSBZBBDQYVPT",
-          "status": "monitoring",
-          "updated_at": "2025-08-28T15:02:45Z"
-        },
-        {
-          "id": "01K3RJWVG8ERVFT1D29WXMXR8R",
-          "body": "",
-          "created_at": "2025-08-28T14:56:48Z",
-          "display_at": "2025-08-28T14:56:48Z",
-          "incident_id": "01K3RGEP39D9E2BSBZBBDQYVPT",
-          "status": "identified",
-          "updated_at": "2025-08-28T14:56:48Z"
-        },
-        {
-          "id": "01K3RJGE560MFCF615VRY9TA3J",
-          "body": "",
-          "created_at": "2025-08-28T14:50:01Z",
-          "display_at": "2025-08-28T14:50:01Z",
-          "incident_id": "01K3RGEP39D9E2BSBZBBDQYVPT",
-          "status": "investigating",
-          "updated_at": "2025-08-28T14:50:01Z"
-        },
-        {
-          "id": "01K3RGEP39ASHTB1036705D3SZ",
-          "body": "",
-          "created_at": "2025-08-28T14:14:07Z",
-          "display_at": "2025-08-28T14:14:07Z",
-          "incident_id": "01K3RGEP39D9E2BSBZBBDQYVPT",
-          "status": "investigating",
-          "updated_at": "2025-08-28T14:24:24Z"
-        }
-      ]
     }
   ]
 }
