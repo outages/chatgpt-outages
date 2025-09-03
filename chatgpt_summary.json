@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-03T08:50:12Z"
+    "updated_at": "2025-09-03T09:13:05Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -240,12 +240,21 @@
     {
       "id": "01K47A0QGE7KMK2AHJZVYSTHXW",
       "name": "ChatGPT Not Displaying Responses",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2025-09-03T08:10:14Z",
-      "updated_at": "2025-09-03T08:50:12Z",
+      "updated_at": "2025-09-03T09:13:05Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K47DKSYR32PXJJ7PZCGA3562",
+          "body": "",
+          "created_at": "2025-09-03T09:13:05Z",
+          "display_at": "2025-09-03T09:13:05Z",
+          "incident_id": "01K47A0QGE7KMK2AHJZVYSTHXW",
+          "status": "identified",
+          "updated_at": "2025-09-03T09:13:05Z"
+        },
         {
           "id": "01K47C9WYEFDNVH9BAND6Z34FC",
           "body": "",
