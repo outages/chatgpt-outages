@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T20:31:25Z"
+    "updated_at": "2025-09-04T21:33:16Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -211,7 +211,7 @@
     {
       "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
       "name": "Files",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 22,
@@ -234,6 +234,28 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K4BABTGC9MW3ZVETSSNX6JGC",
+      "name": "File API Errors",
+      "status": "identified",
+      "created_at": "2025-09-04T21:33:16Z",
+      "updated_at": "2025-09-04T21:33:16Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K4BABTGCDM9HKD8N33JG0TAP",
+          "body": "",
+          "created_at": "2025-09-04T21:33:16Z",
+          "display_at": "2025-09-04T21:33:16Z",
+          "incident_id": "01K4BABTGC9MW3ZVETSSNX6JGC",
+          "status": "identified",
+          "updated_at": "2025-09-04T21:33:16Z"
+        }
+      ]
     }
   ]
 }
