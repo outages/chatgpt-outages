@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T20:31:25Z"
+    "updated_at": "2025-09-05T09:32:22Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -121,7 +121,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 12,
@@ -234,6 +234,28 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K4CKGHAK8DCR2PS24G564BKD",
+      "name": "Increased error rates in Web Search tools in Responses API",
+      "status": "identified",
+      "created_at": "2025-09-05T09:32:22Z",
+      "updated_at": "2025-09-05T09:32:22Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K4CKGHAK0T724EGAJ95T5PT5",
+          "body": "",
+          "created_at": "2025-09-05T09:32:22Z",
+          "display_at": "2025-09-05T09:32:22Z",
+          "incident_id": "01K4CKGHAK8DCR2PS24G564BKD",
+          "status": "identified",
+          "updated_at": "2025-09-05T09:32:22Z"
+        }
+      ]
     }
   ]
 }
