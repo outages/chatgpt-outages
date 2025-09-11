@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T20:31:25Z"
+    "updated_at": "2025-09-11T01:13:30Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -119,21 +119,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
-      "name": "Responses",
-      "status": "operational",
-      "created_at": "2025-03-13T18:31:32Z",
-      "updated_at": "2025-08-07T20:31:25Z",
-      "position": 12,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 13,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -142,7 +133,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 14,
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -151,7 +142,7 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 15,
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,7 +151,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 16,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -168,6 +159,15 @@
       "name": "Single Sign-On",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-08-07T20:31:25Z",
+      "position": 16,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
+      "name": "Responses",
+      "status": "degraded_performance",
+      "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -234,6 +234,37 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K4V50KXFRFE3DGMZH4GK3QM0",
+      "name": "Impact in retrieval quality on file_search",
+      "status": "investigating",
+      "created_at": "2025-09-11T01:07:37Z",
+      "updated_at": "2025-09-11T01:13:30Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K4V5BD2MK55W3KJ79F6WFKMZ",
+          "body": "",
+          "created_at": "2025-09-11T01:13:30Z",
+          "display_at": "2025-09-11T01:13:30Z",
+          "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
+          "status": "investigating",
+          "updated_at": "2025-09-11T01:13:30Z"
+        },
+        {
+          "id": "01K4V50KXFPEH31N4BZYHEHA1N",
+          "body": "",
+          "created_at": "2025-09-11T01:07:37Z",
+          "display_at": "2025-09-10T09:17:00Z",
+          "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
+          "status": "identified",
+          "updated_at": "2025-09-11T01:09:20Z"
+        }
+      ]
     }
   ]
 }
