@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-11T07:45:39Z"
+    "updated_at": "2025-09-11T18:06:41Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -13,7 +13,7 @@
     {
       "id": "01JMXBRMFEMZK0HPK19RYET250",
       "name": "Fine-tuning",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 0,
@@ -237,6 +237,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01K4WZAKMB5QP8NVK3A1QWZ1ZY",
+      "name": "Fine-tuning jobs experiencing delays",
+      "status": "identified",
+      "created_at": "2025-09-11T18:06:41Z",
+      "updated_at": "2025-09-11T18:06:41Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K4WZAKMBFJWSPFQZVP7VQFHF",
+          "body": "",
+          "created_at": "2025-09-11T18:06:41Z",
+          "display_at": "2025-09-11T18:06:41Z",
+          "incident_id": "01K4WZAKMB5QP8NVK3A1QWZ1ZY",
+          "status": "identified",
+          "updated_at": "2025-09-11T18:06:41Z"
+        }
+      ]
+    },
     {
       "id": "01K4V50KXFRFE3DGMZH4GK3QM0",
       "name": "Impact in retrieval quality on file_search",
