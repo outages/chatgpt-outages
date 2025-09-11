@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-11T20:19:01Z"
+    "updated_at": "2025-09-11T20:57:36Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,6 +238,54 @@
   ],
   "incidents": [
     {
+      "id": "01K4V50KXFRFE3DGMZH4GK3QM0",
+      "name": "Impact in retrieval quality on file_search",
+      "status": "monitoring",
+      "created_at": "2025-09-11T01:07:37Z",
+      "updated_at": "2025-09-11T20:57:36Z",
+      "monitoring_at": "2025-09-11T07:45:39Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K4X93JCEDZTQZWKJ9SEW6182",
+          "body": "",
+          "created_at": "2025-09-11T20:57:36Z",
+          "display_at": "2025-09-11T20:57:36Z",
+          "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
+          "status": "monitoring",
+          "updated_at": "2025-09-11T20:57:36Z"
+        },
+        {
+          "id": "01K4VVSEXCBMHQ2PC8NA6WQNX4",
+          "body": "",
+          "created_at": "2025-09-11T07:45:39Z",
+          "display_at": "2025-09-11T07:45:39Z",
+          "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
+          "status": "monitoring",
+          "updated_at": "2025-09-11T07:45:39Z"
+        },
+        {
+          "id": "01K4V5BD2MK55W3KJ79F6WFKMZ",
+          "body": "",
+          "created_at": "2025-09-11T01:13:30Z",
+          "display_at": "2025-09-11T01:13:30Z",
+          "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
+          "status": "investigating",
+          "updated_at": "2025-09-11T01:13:30Z"
+        },
+        {
+          "id": "01K4V50KXFPEH31N4BZYHEHA1N",
+          "body": "",
+          "created_at": "2025-09-11T01:07:37Z",
+          "display_at": "2025-09-10T09:17:00Z",
+          "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
+          "status": "identified",
+          "updated_at": "2025-09-11T01:09:20Z"
+        }
+      ]
+    },
+    {
       "id": "01K4WZAKMB5QP8NVK3A1QWZ1ZY",
       "name": "Fine-tuning jobs experiencing delays",
       "status": "monitoring",
@@ -273,45 +321,6 @@
           "incident_id": "01K4WZAKMB5QP8NVK3A1QWZ1ZY",
           "status": "identified",
           "updated_at": "2025-09-11T18:06:41Z"
-        }
-      ]
-    },
-    {
-      "id": "01K4V50KXFRFE3DGMZH4GK3QM0",
-      "name": "Impact in retrieval quality on file_search",
-      "status": "monitoring",
-      "created_at": "2025-09-11T01:07:37Z",
-      "updated_at": "2025-09-11T07:45:39Z",
-      "monitoring_at": "2025-09-11T07:45:39Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K4VVSEXCBMHQ2PC8NA6WQNX4",
-          "body": "",
-          "created_at": "2025-09-11T07:45:39Z",
-          "display_at": "2025-09-11T07:45:39Z",
-          "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
-          "status": "monitoring",
-          "updated_at": "2025-09-11T07:45:39Z"
-        },
-        {
-          "id": "01K4V5BD2MK55W3KJ79F6WFKMZ",
-          "body": "",
-          "created_at": "2025-09-11T01:13:30Z",
-          "display_at": "2025-09-11T01:13:30Z",
-          "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
-          "status": "investigating",
-          "updated_at": "2025-09-11T01:13:30Z"
-        },
-        {
-          "id": "01K4V50KXFPEH31N4BZYHEHA1N",
-          "body": "",
-          "created_at": "2025-09-11T01:07:37Z",
-          "display_at": "2025-09-10T09:17:00Z",
-          "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
-          "status": "identified",
-          "updated_at": "2025-09-11T01:09:20Z"
         }
       ]
     }
