@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-11T23:38:25Z"
+    "updated_at": "2025-09-12T18:43:11Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -193,7 +193,7 @@
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Agent",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 20,
@@ -237,6 +237,36 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01K4ZKFSEZVER0M9B4W12PSDTN",
+      "name": "Users may see both a GPT-5 response and an agent response when running agent tasks",
+      "status": "monitoring",
+      "created_at": "2025-09-12T18:37:31Z",
+      "updated_at": "2025-09-12T18:43:11Z",
+      "monitoring_at": "2025-09-12T18:43:11Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K4ZKT4H4752QRZ36196ZZ7ZJ",
+          "body": "",
+          "created_at": "2025-09-12T18:43:11Z",
+          "display_at": "2025-09-12T18:43:11Z",
+          "incident_id": "01K4ZKFSEZVER0M9B4W12PSDTN",
+          "status": "monitoring",
+          "updated_at": "2025-09-12T18:43:11Z"
+        },
+        {
+          "id": "01K4ZKFSEZ4RMQPK67Z4RKWFB8",
+          "body": "",
+          "created_at": "2025-09-12T18:37:32Z",
+          "display_at": "2025-09-12T18:37:31Z",
+          "incident_id": "01K4ZKFSEZVER0M9B4W12PSDTN",
+          "status": "investigating",
+          "updated_at": "2025-09-12T18:37:32Z"
+        }
+      ]
+    },
     {
       "id": "01K4V50KXFRFE3DGMZH4GK3QM0",
       "name": "Impact in retrieval quality on file_search",
