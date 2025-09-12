@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-11T23:38:25Z"
+    "updated_at": "2025-09-12T00:34:06Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -20,12 +20,21 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
+      "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
+      "name": "Deep Research",
+      "status": "degraded_performance",
+      "created_at": "2025-04-28T18:53:36Z",
+      "updated_at": "2025-08-07T20:31:25Z",
+      "position": 1,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 1,
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -34,7 +43,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 2,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -43,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 3,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -51,15 +60,6 @@
       "name": "Image Generation",
       "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
-      "updated_at": "2025-08-07T20:31:25Z",
-      "position": 4,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
-      "name": "Deep Research",
-      "status": "operational",
-      "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -237,6 +237,36 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01K4XMX0K2K6D7T55MYST55TES",
+      "name": "Deep Research elevated errors",
+      "status": "monitoring",
+      "created_at": "2025-09-12T00:23:44Z",
+      "updated_at": "2025-09-12T00:34:06Z",
+      "monitoring_at": "2025-09-12T00:34:06Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K4XNFZ6XRH5E4ZZ4B9NQRMYT",
+          "body": "",
+          "created_at": "2025-09-12T00:34:06Z",
+          "display_at": "2025-09-12T00:34:06Z",
+          "incident_id": "01K4XMX0K2K6D7T55MYST55TES",
+          "status": "monitoring",
+          "updated_at": "2025-09-12T00:34:06Z"
+        },
+        {
+          "id": "01K4XMX0K2N4SHG6ARFQGSGJZ6",
+          "body": "",
+          "created_at": "2025-09-12T00:23:45Z",
+          "display_at": "2025-09-12T00:23:44Z",
+          "incident_id": "01K4XMX0K2K6D7T55MYST55TES",
+          "status": "identified",
+          "updated_at": "2025-09-12T00:23:45Z"
+        }
+      ]
+    },
     {
       "id": "01K4V50KXFRFE3DGMZH4GK3QM0",
       "name": "Impact in retrieval quality on file_search",
