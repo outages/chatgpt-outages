@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-12T00:34:06Z"
+    "updated_at": "2025-09-11T23:38:25Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -13,7 +13,7 @@
     {
       "id": "01JMXBRMFEMZK0HPK19RYET250",
       "name": "Fine-tuning",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 0,
@@ -22,7 +22,7 @@
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 1,
@@ -238,36 +238,6 @@
   ],
   "incidents": [
     {
-      "id": "01K4XMX0K2K6D7T55MYST55TES",
-      "name": "Deep Research elevated errors",
-      "status": "monitoring",
-      "created_at": "2025-09-12T00:23:44Z",
-      "updated_at": "2025-09-12T00:34:06Z",
-      "monitoring_at": "2025-09-12T00:34:06Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K4XNFZ6XRH5E4ZZ4B9NQRMYT",
-          "body": "",
-          "created_at": "2025-09-12T00:34:06Z",
-          "display_at": "2025-09-12T00:34:06Z",
-          "incident_id": "01K4XMX0K2K6D7T55MYST55TES",
-          "status": "monitoring",
-          "updated_at": "2025-09-12T00:34:06Z"
-        },
-        {
-          "id": "01K4XMX0K2N4SHG6ARFQGSGJZ6",
-          "body": "",
-          "created_at": "2025-09-12T00:23:45Z",
-          "display_at": "2025-09-12T00:23:44Z",
-          "incident_id": "01K4XMX0K2K6D7T55MYST55TES",
-          "status": "identified",
-          "updated_at": "2025-09-12T00:23:45Z"
-        }
-      ]
-    },
-    {
       "id": "01K4V50KXFRFE3DGMZH4GK3QM0",
       "name": "Impact in retrieval quality on file_search",
       "status": "monitoring",
@@ -321,53 +291,6 @@
           "incident_id": "01K4V50KXFRFE3DGMZH4GK3QM0",
           "status": "identified",
           "updated_at": "2025-09-11T01:09:20Z"
-        }
-      ]
-    },
-    {
-      "id": "01K4WZAKMB5QP8NVK3A1QWZ1ZY",
-      "name": "Fine-tuning jobs experiencing delays",
-      "status": "investigating",
-      "created_at": "2025-09-11T18:06:41Z",
-      "updated_at": "2025-09-11T22:16:34Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K4XDM4K84WG26WV1RMZEWEBN",
-          "body": "",
-          "created_at": "2025-09-11T22:16:34Z",
-          "display_at": "2025-09-11T22:16:34Z",
-          "incident_id": "01K4WZAKMB5QP8NVK3A1QWZ1ZY",
-          "status": "investigating",
-          "updated_at": "2025-09-11T22:16:34Z"
-        },
-        {
-          "id": "01K4X6WX97VTWZCR8M3323YN38",
-          "body": "",
-          "created_at": "2025-09-11T20:19:01Z",
-          "display_at": "2025-09-11T20:19:01Z",
-          "incident_id": "01K4WZAKMB5QP8NVK3A1QWZ1ZY",
-          "status": "monitoring",
-          "updated_at": "2025-09-11T20:19:01Z"
-        },
-        {
-          "id": "01K4X0DMGB7WG3GPYKSWMPTGE7",
-          "body": "",
-          "created_at": "2025-09-11T18:25:49Z",
-          "display_at": "2025-09-11T18:25:49Z",
-          "incident_id": "01K4WZAKMB5QP8NVK3A1QWZ1ZY",
-          "status": "identified",
-          "updated_at": "2025-09-11T18:25:49Z"
-        },
-        {
-          "id": "01K4WZAKMBFJWSPFQZVP7VQFHF",
-          "body": "",
-          "created_at": "2025-09-11T18:06:41Z",
-          "display_at": "2025-09-11T18:06:41Z",
-          "incident_id": "01K4WZAKMB5QP8NVK3A1QWZ1ZY",
-          "status": "identified",
-          "updated_at": "2025-09-11T18:06:41Z"
         }
       ]
     }
