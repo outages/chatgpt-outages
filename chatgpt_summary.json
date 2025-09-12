@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-11T23:38:25Z"
+    "updated_at": "2025-09-12T15:35:00Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -237,6 +237,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01K4Z91K37SB056633BENWJAT5",
+      "name": "Increased Number of Users Reporting Rate Limit Errors with GPT-4o Model",
+      "status": "investigating",
+      "created_at": "2025-09-12T15:35:00Z",
+      "updated_at": "2025-09-12T15:35:00Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K4Z91K37YMHB5K6ZRQ35VJNH",
+          "body": "",
+          "created_at": "2025-09-12T15:35:01Z",
+          "display_at": "2025-09-12T15:35:00Z",
+          "incident_id": "01K4Z91K37SB056633BENWJAT5",
+          "status": "investigating",
+          "updated_at": "2025-09-12T15:35:01Z"
+        }
+      ]
+    },
     {
       "id": "01K4V50KXFRFE3DGMZH4GK3QM0",
       "name": "Impact in retrieval quality on file_search",
