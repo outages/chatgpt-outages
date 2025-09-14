@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-14T17:30:23Z"
+    "updated_at": "2025-09-14T17:16:00Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -243,7 +243,7 @@
       "status": "monitoring",
       "created_at": "2025-09-14T11:46:35Z",
       "updated_at": "2025-09-14T17:30:23Z",
-      "monitoring_at": "2025-09-14T17:30:23Z",
+      "monitoring_at": "2025-09-14T17:16:00Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
@@ -251,19 +251,19 @@
           "id": "01K54ME8XK58YKMPZS7WW0WTDD",
           "body": "",
           "created_at": "2025-09-14T17:30:23Z",
-          "display_at": "2025-09-14T17:30:23Z",
+          "display_at": "2025-09-14T17:16:00Z",
           "incident_id": "01K540RRY42JADPGYEEGG8TSGV",
           "status": "monitoring",
-          "updated_at": "2025-09-14T17:30:23Z"
+          "updated_at": "2025-09-14T18:40:52Z"
         },
         {
           "id": "01K540RRY4ZCP2FW0A9T78SGM9",
           "body": "",
           "created_at": "2025-09-14T11:46:35Z",
-          "display_at": "2025-09-14T11:46:35Z",
+          "display_at": "2025-09-14T08:40:00Z",
           "incident_id": "01K540RRY42JADPGYEEGG8TSGV",
           "status": "identified",
-          "updated_at": "2025-09-14T11:46:35Z"
+          "updated_at": "2025-09-14T18:40:34Z"
         }
       ]
     },
