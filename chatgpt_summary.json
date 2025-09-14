@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-14T17:16:00Z"
+    "updated_at": "2025-09-12T19:51:35Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -130,7 +130,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 13,
@@ -193,7 +193,7 @@
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 20,
@@ -202,7 +202,7 @@
     {
       "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
       "name": "Files",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 21,
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBRMFEQW613TFE89F45035",
       "name": "Realtime",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 23,
@@ -237,36 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01K540RRY42JADPGYEEGG8TSGV",
-      "name": "Elevated error rates on API Platform",
-      "status": "monitoring",
-      "created_at": "2025-09-14T11:46:35Z",
-      "updated_at": "2025-09-14T17:30:23Z",
-      "monitoring_at": "2025-09-14T17:16:00Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K54ME8XK58YKMPZS7WW0WTDD",
-          "body": "",
-          "created_at": "2025-09-14T17:30:23Z",
-          "display_at": "2025-09-14T17:16:00Z",
-          "incident_id": "01K540RRY42JADPGYEEGG8TSGV",
-          "status": "monitoring",
-          "updated_at": "2025-09-14T18:40:52Z"
-        },
-        {
-          "id": "01K540RRY4ZCP2FW0A9T78SGM9",
-          "body": "",
-          "created_at": "2025-09-14T11:46:35Z",
-          "display_at": "2025-09-14T08:40:00Z",
-          "incident_id": "01K540RRY42JADPGYEEGG8TSGV",
-          "status": "identified",
-          "updated_at": "2025-09-14T18:40:34Z"
-        }
-      ]
-    },
     {
       "id": "01K4V50KXFRFE3DGMZH4GK3QM0",
       "name": "Impact in retrieval quality on file_search",
