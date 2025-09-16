@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-16T17:06:00Z"
+    "updated_at": "2025-09-16T16:11:50Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -237,36 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01K59Q8ATY9GRAGHKXCR7TAPY7",
-      "name": "Elevated errors with SSO login",
-      "status": "monitoring",
-      "created_at": "2025-09-16T16:55:46Z",
-      "updated_at": "2025-09-16T17:15:46Z",
-      "monitoring_at": "2025-09-16T17:06:00Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K59RCYXFZBE7Q8AEDJ2XF5BT",
-          "body": "",
-          "created_at": "2025-09-16T17:15:46Z",
-          "display_at": "2025-09-16T17:06:00Z",
-          "incident_id": "01K59Q8ATY9GRAGHKXCR7TAPY7",
-          "status": "monitoring",
-          "updated_at": "2025-09-16T17:18:53Z"
-        },
-        {
-          "id": "01K59Q8ATYA63QR7748BE4Y0P5",
-          "body": "",
-          "created_at": "2025-09-16T16:55:46Z",
-          "display_at": "2025-09-16T16:47:00Z",
-          "incident_id": "01K59Q8ATY9GRAGHKXCR7TAPY7",
-          "status": "investigating",
-          "updated_at": "2025-09-16T17:18:40Z"
-        }
-      ]
-    },
     {
       "id": "01K59K46RSQ5QPMFV9EA06KPJ4",
       "name": "Elevated errors in GPT Store",
