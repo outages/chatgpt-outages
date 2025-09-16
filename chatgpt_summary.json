@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-16T16:11:50Z"
+    "updated_at": "2025-09-16T16:55:46Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -110,21 +110,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-08-07T20:31:25Z",
-      "position": 11,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JMXCAX0QM438N5CDG2RMJ07X",
       "name": "Video viewing",
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 12,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -133,7 +124,7 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 13,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -142,7 +133,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 14,
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -151,7 +142,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 15,
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,7 +151,7 @@
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 16,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,7 +160,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 17,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,7 +169,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 18,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -187,7 +178,7 @@
       "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 19,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -196,7 +187,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 20,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -205,7 +196,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 21,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,7 +205,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
-      "position": 22,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -222,6 +213,15 @@
       "name": "Realtime",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-08-07T20:31:25Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
+      "name": "Login",
+      "status": "partial_outage",
+      "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -237,6 +237,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01K59Q8ATY9GRAGHKXCR7TAPY7",
+      "name": "Elevated errors with SSO login",
+      "status": "investigating",
+      "created_at": "2025-09-16T16:55:46Z",
+      "updated_at": "2025-09-16T16:55:46Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K59Q8ATYA63QR7748BE4Y0P5",
+          "body": "",
+          "created_at": "2025-09-16T16:55:46Z",
+          "display_at": "2025-09-16T16:55:46Z",
+          "incident_id": "01K59Q8ATY9GRAGHKXCR7TAPY7",
+          "status": "investigating",
+          "updated_at": "2025-09-16T16:55:46Z"
+        }
+      ]
+    },
     {
       "id": "01K59K46RSQ5QPMFV9EA06KPJ4",
       "name": "Elevated errors in GPT Store",
