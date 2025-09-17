@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-08-07T20:31:25Z"
+    "updated_at": "2025-09-17T22:05:02Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -234,6 +234,28 @@
       "updated_at": "2025-08-07T20:31:25Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K5CVBBDZQ66XA6G0JR5T7EWS",
+      "name": "Errors for Conversations with Images for Free Users",
+      "status": "identified",
+      "created_at": "2025-09-17T22:05:02Z",
+      "updated_at": "2025-09-17T22:05:02Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K5CVBBDZ38QS9EYKK7BWYS7H",
+          "body": "",
+          "created_at": "2025-09-17T22:05:02Z",
+          "display_at": "2025-09-17T22:05:02Z",
+          "incident_id": "01K5CVBBDZQ66XA6G0JR5T7EWS",
+          "status": "identified",
+          "updated_at": "2025-09-17T22:05:02Z"
+        }
+      ]
     }
   ]
 }
