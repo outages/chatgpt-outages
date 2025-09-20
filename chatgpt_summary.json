@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-20T19:53:00Z"
+    "updated_at": "2025-09-20T21:13:47Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -241,12 +241,21 @@
     {
       "id": "01K5MAZQQCZGCHS5Z4030WFDXT",
       "name": "Users Unable to Create Projects",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2025-09-20T19:53:00Z",
-      "updated_at": "2025-09-20T19:53:00Z",
+      "updated_at": "2025-09-20T21:13:47Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K5MFKN9ZD7QFZTAZYC9Q09JY",
+          "body": "",
+          "created_at": "2025-09-20T21:13:47Z",
+          "display_at": "2025-09-20T21:13:47Z",
+          "incident_id": "01K5MAZQQCZGCHS5Z4030WFDXT",
+          "status": "identified",
+          "updated_at": "2025-09-20T21:13:47Z"
+        },
         {
           "id": "01K5MAZQQC4WTQ3GBQBR6R1KCF",
           "body": "",
