@@ -239,10 +239,10 @@
   "incidents": [
     {
       "id": "01K5JCH8MDDAF8RXQJR2FE8YFA",
-      "name": "ChatGPT file upload issue identified",
+      "name": "ChatGPT file upload and project creation issue identified",
       "status": "identified",
       "created_at": "2025-09-20T01:41:34Z",
-      "updated_at": "2025-09-20T01:41:34Z",
+      "updated_at": "2025-09-20T02:42:02Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
@@ -253,7 +253,7 @@
           "display_at": "2025-09-20T01:41:34Z",
           "incident_id": "01K5JCH8MDDAF8RXQJR2FE8YFA",
           "status": "identified",
-          "updated_at": "2025-09-20T01:41:34Z"
+          "updated_at": "2025-09-20T02:41:50Z"
         }
       ]
     }
