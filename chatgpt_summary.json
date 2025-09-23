@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-23T02:16:47Z"
+    "updated_at": "2025-09-23T03:25:13Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -241,12 +241,22 @@
     {
       "id": "01K5T5QWWBNAZXKN831DQK1NAS",
       "name": "Increased errors while using Connectors in ChatGPT",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-09-23T02:16:47Z",
-      "updated_at": "2025-09-23T02:16:47Z",
+      "updated_at": "2025-09-23T03:25:13Z",
+      "monitoring_at": "2025-09-23T03:25:13Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K5T9N6DHPGQ7K3HGAHGDBQGF",
+          "body": "",
+          "created_at": "2025-09-23T03:25:13Z",
+          "display_at": "2025-09-23T03:25:13Z",
+          "incident_id": "01K5T5QWWBNAZXKN831DQK1NAS",
+          "status": "monitoring",
+          "updated_at": "2025-09-23T03:25:13Z"
+        },
         {
           "id": "01K5T5QWWBFGZNHZV9TP7NPW4G",
           "body": "",
