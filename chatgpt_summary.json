@@ -13,7 +13,7 @@
     {
       "id": "01JMXBNJXGQ7D3666XG5F9CA23",
       "name": "Mobile - Android",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-09-19T15:16:44Z",
       "position": 0,
@@ -264,26 +264,6 @@
           "incident_id": "01K5WWD0BYE06PNVKQY3YTZECS",
           "status": "investigating",
           "updated_at": "2025-09-24T03:31:35Z"
-        }
-      ]
-    },
-    {
-      "id": "01K5WZD2QQARVS4G1YD652VPQ4",
-      "name": "ChatGPT Login Degradation",
-      "status": "identified",
-      "created_at": "2025-09-24T04:23:44Z",
-      "updated_at": "2025-09-24T04:23:44Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K5WZD2QQNWQB2QN8SQ25JB2W",
-          "body": "",
-          "created_at": "2025-09-24T04:23:44Z",
-          "display_at": "2025-09-24T04:23:44Z",
-          "incident_id": "01K5WZD2QQARVS4G1YD652VPQ4",
-          "status": "identified",
-          "updated_at": "2025-09-24T04:23:44Z"
         }
       ]
     }
