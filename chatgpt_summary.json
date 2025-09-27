@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-26T23:55:55Z"
+    "updated_at": "2025-09-27T04:10:36Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -241,12 +241,21 @@
     {
       "id": "01K6478V94R3A062JY1GMJX5ZR",
       "name": "Increased latency on fine-tuning jobs",
-      "status": "identified",
+      "status": "investigating",
       "created_at": "2025-09-26T23:55:55Z",
-      "updated_at": "2025-09-26T23:55:55Z",
+      "updated_at": "2025-09-27T04:10:36Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K64NV6GCGMNAYTCM2VAMSPXP",
+          "body": "",
+          "created_at": "2025-09-27T04:10:36Z",
+          "display_at": "2025-09-27T04:10:36Z",
+          "incident_id": "01K6478V94R3A062JY1GMJX5ZR",
+          "status": "investigating",
+          "updated_at": "2025-09-27T04:10:36Z"
+        },
         {
           "id": "01K6478V94D12NPRFZ5YN1HEK9",
           "body": "",
