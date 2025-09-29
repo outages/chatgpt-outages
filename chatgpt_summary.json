@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-09-19T15:16:44Z"
+    "updated_at": "2025-09-29T17:02:30Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -221,7 +221,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-09-19T15:16:44Z",
       "position": 23,
@@ -235,6 +235,28 @@
       "updated_at": "2025-09-19T15:16:44Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K6B6T0GVFX2JHJ0ZKDTYNP9R",
+      "name": "Compliance API ingestion delays",
+      "status": "investigating",
+      "created_at": "2025-09-29T17:02:30Z",
+      "updated_at": "2025-09-29T17:02:30Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K6B6T0GVMVE9HT7AYY6JK4TB",
+          "body": "",
+          "created_at": "2025-09-29T17:02:30Z",
+          "display_at": "2025-09-29T17:02:30Z",
+          "incident_id": "01K6B6T0GVFX2JHJ0ZKDTYNP9R",
+          "status": "investigating",
+          "updated_at": "2025-09-29T17:02:30Z"
+        }
+      ]
     }
   ]
 }
