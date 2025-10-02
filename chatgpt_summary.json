@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-02T08:22:24Z"
+    "updated_at": "2025-09-19T15:16:44Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -235,38 +235,6 @@
       "updated_at": "2025-09-19T15:16:44Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K6HDWYVNGGQQW632C1JV72R8",
-      "name": "Increased errors on Google signup for Android users",
-      "status": "monitoring",
-      "created_at": "2025-10-02T03:01:53Z",
-      "updated_at": "2025-10-02T08:22:24Z",
-      "monitoring_at": "2025-10-02T08:22:24Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K6J07V46DPTYWT3BN23SRS0X",
-          "body": "",
-          "created_at": "2025-10-02T08:22:24Z",
-          "display_at": "2025-10-02T08:22:24Z",
-          "incident_id": "01K6HDWYVNGGQQW632C1JV72R8",
-          "status": "monitoring",
-          "updated_at": "2025-10-02T08:22:24Z"
-        },
-        {
-          "id": "01K6HDWYVNX204QBMH5XN761HK",
-          "body": "",
-          "created_at": "2025-10-02T03:01:53Z",
-          "display_at": "2025-10-02T03:01:53Z",
-          "incident_id": "01K6HDWYVNGGQQW632C1JV72R8",
-          "status": "investigating",
-          "updated_at": "2025-10-02T03:01:53Z"
-        }
-      ]
     }
   ]
 }
