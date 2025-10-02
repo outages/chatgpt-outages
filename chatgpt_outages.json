@@ -1,0 +1,12 @@
+{
+  "page": {
+    "id": "01JMDK9XYNY6RXSED6SDWW50WY",
+    "name": "OpenAI",
+    "url": "https://status.openai.com/",
+    "updated_at": "2025-10-02T20:21:00Z"
+  },
+  "status": {
+    "description": "Major System Outage",
+    "indicator": "critical"
+  }
+}
