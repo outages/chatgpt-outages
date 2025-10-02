@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-02T21:25:29Z"
+    "updated_at": "2025-10-02T22:49:38Z"
   },
   "status": {
     "description": "Major System Outage",
@@ -243,10 +243,19 @@
       "name": "Codex, Search, Agent, Deep Research, and custom GPTs appear disabled or missing for Enterprise and Edu workspaces",
       "status": "investigating",
       "created_at": "2025-10-02T20:37:57Z",
-      "updated_at": "2025-10-02T21:25:29Z",
+      "updated_at": "2025-10-02T22:49:38Z",
       "impact": "critical",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K6KHVSEGKEB41M1J9V69HETG",
+          "body": "",
+          "created_at": "2025-10-02T22:49:38Z",
+          "display_at": "2025-10-02T22:49:38Z",
+          "incident_id": "01K6KAAN7WXN69E8JET8PYB0D5",
+          "status": "investigating",
+          "updated_at": "2025-10-02T22:49:38Z"
+        },
         {
           "id": "01K6KD1Q5M03W3RCFV624R359V",
           "body": "",
