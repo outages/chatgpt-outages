@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-03T01:42:44Z"
+    "updated_at": "2025-09-19T15:16:44Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -235,65 +235,6 @@
       "updated_at": "2025-09-19T15:16:44Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K6KAAN7WXN69E8JET8PYB0D5",
-      "name": "Codex, Connectors, Search, Agent, Deep Research, Custom GPTs, Project Sharing, ChatGPT Record, Memory and other features related to RBAC are missing, unavailable, or unexpectedly enabled even when toggled off for Enterprise and Edu workspaces",
-      "status": "monitoring",
-      "created_at": "2025-10-02T20:37:57Z",
-      "updated_at": "2025-10-03T01:42:44Z",
-      "monitoring_at": "2025-10-03T01:42:44Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K6KVRR3SHA04MYEKEM9VB580",
-          "body": "",
-          "created_at": "2025-10-03T01:42:44Z",
-          "display_at": "2025-10-03T01:42:44Z",
-          "incident_id": "01K6KAAN7WXN69E8JET8PYB0D5",
-          "status": "monitoring",
-          "updated_at": "2025-10-03T01:42:44Z"
-        },
-        {
-          "id": "01K6KHVSEGKEB41M1J9V69HETG",
-          "body": "",
-          "created_at": "2025-10-02T22:49:38Z",
-          "display_at": "2025-10-02T22:49:38Z",
-          "incident_id": "01K6KAAN7WXN69E8JET8PYB0D5",
-          "status": "investigating",
-          "updated_at": "2025-10-02T22:49:38Z"
-        },
-        {
-          "id": "01K6KD1Q5M03W3RCFV624R359V",
-          "body": "",
-          "created_at": "2025-10-02T21:25:29Z",
-          "display_at": "2025-10-02T21:25:29Z",
-          "incident_id": "01K6KAAN7WXN69E8JET8PYB0D5",
-          "status": "investigating",
-          "updated_at": "2025-10-02T21:25:29Z"
-        },
-        {
-          "id": "01K6KC405WB806R29HSF25ARVZ",
-          "body": "",
-          "created_at": "2025-10-02T21:09:16Z",
-          "display_at": "2025-10-02T20:21:00Z",
-          "incident_id": "01K6KAAN7WXN69E8JET8PYB0D5",
-          "status": "investigating",
-          "updated_at": "2025-10-02T21:09:56Z"
-        },
-        {
-          "id": "01K6KAAN7WWJHFTKDS6GQ4XDYA",
-          "body": "",
-          "created_at": "2025-10-02T20:37:57Z",
-          "display_at": "2025-10-02T19:32:00Z",
-          "incident_id": "01K6KAAN7WXN69E8JET8PYB0D5",
-          "status": "identified",
-          "updated_at": "2025-10-02T21:09:50Z"
-        }
-      ]
     }
   ]
 }
