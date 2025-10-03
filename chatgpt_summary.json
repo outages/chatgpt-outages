@@ -38,21 +38,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
-      "name": "Advanced Data Analysis",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-10-03T20:51:20Z",
-      "position": 3,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JMXBNJXGRPKRQDYMKVYXDYHX",
       "name": "Dall-E",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-10-03T20:51:20Z",
-      "position": 4,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -61,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-10-03T20:51:20Z",
-      "position": 5,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,7 +61,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-10-03T20:51:20Z",
-      "position": 6,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -79,7 +70,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-10-03T20:51:20Z",
-      "position": 7,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -88,7 +79,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-10-03T20:51:20Z",
-      "position": 8,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,7 +88,7 @@
       "status": "operational",
       "created_at": "2025-02-18T22:36:51Z",
       "updated_at": "2025-10-03T20:51:20Z",
-      "position": 9,
+      "position": 8,
       "description": "The OpenAI Playground at platform.openai.com",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -107,16 +98,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-10-03T20:51:19Z",
-      "position": 10,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGJ6C964H647A5DMX0",
-      "name": "GPT vision",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-10-03T20:51:20Z",
-      "position": 11,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -125,12 +107,30 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-10-03T20:51:19Z",
-      "position": 12,
+      "position": 10,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG2C7G96DHRZ6P2MWD",
+      "name": "Advanced Data Analysis",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-10-03T20:51:20Z",
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBNJXG0SGB04EF3FT2KMAC",
       "name": "Single Sign-On",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-10-03T20:51:20Z",
+      "position": 12,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGJ6C964H647A5DMX0",
+      "name": "GPT vision",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-10-03T20:51:20Z",
