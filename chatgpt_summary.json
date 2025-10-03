@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-02T22:49:38Z"
+    "updated_at": "2025-10-03T01:42:44Z"
   },
   "status": {
-    "description": "Major System Outage",
-    "indicator": "critical"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -47,21 +47,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-04-24T15:13:29Z",
-      "updated_at": "2025-09-19T15:16:44Z",
-      "position": 4,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JMXBRMFE0V9J9X2HY3SKX399",
       "name": "Completions (legacy)",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 5,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,7 +61,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 6,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -79,7 +70,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 7,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -88,7 +79,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 8,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,7 +88,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 9,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,7 +97,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 10,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,16 +106,16 @@
       "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 11,
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "full_outage",
+      "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 12,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -133,16 +124,7 @@
       "status": "operational",
       "created_at": "2025-06-04T16:46:03Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 13,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JWXXBS3FFE2A2MESHBVFEKWH",
-      "name": "Desktop - macOS",
-      "status": "operational",
-      "created_at": "2025-06-04T16:46:03Z",
-      "updated_at": "2025-09-19T15:16:44Z",
-      "position": 14,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -151,7 +133,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 15,
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,7 +142,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 16,
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,7 +151,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 17,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,7 +160,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 18,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -187,7 +169,7 @@
       "status": "operational",
       "created_at": "2025-03-25T20:06:00Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 19,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -196,7 +178,7 @@
       "status": "operational",
       "created_at": "2025-02-18T22:36:51Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 20,
+      "position": 18,
       "description": "The OpenAI Playground at platform.openai.com",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -206,7 +188,7 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 21,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -215,16 +197,16 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 22,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Agent",
-      "status": "full_outage",
+      "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2025-09-19T15:16:44Z",
-      "position": 23,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -233,6 +215,24 @@
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-09-19T15:16:43Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
+      "name": "Files",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-09-19T15:16:44Z",
+      "position": 23,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEQW613TFE89F45035",
+      "name": "Realtime",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-09-19T15:16:44Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     }
@@ -240,13 +240,23 @@
   "incidents": [
     {
       "id": "01K6KAAN7WXN69E8JET8PYB0D5",
-      "name": "Codex, Search, Agent, Deep Research, and custom GPTs appear disabled or missing for Enterprise and Edu workspaces",
-      "status": "investigating",
+      "name": "Codex, Connectors, Search, Agent, Deep Research, Custom GPTs, Project Sharing, ChatGPT Record, Memory and other features related to RBAC are missing, unavailable, or unexpectedly enabled even when toggled off for Enterprise and Edu workspaces",
+      "status": "monitoring",
       "created_at": "2025-10-02T20:37:57Z",
-      "updated_at": "2025-10-02T22:49:38Z",
-      "impact": "critical",
+      "updated_at": "2025-10-03T01:42:44Z",
+      "monitoring_at": "2025-10-03T01:42:44Z",
+      "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K6KVRR3SHA04MYEKEM9VB580",
+          "body": "",
+          "created_at": "2025-10-03T01:42:44Z",
+          "display_at": "2025-10-03T01:42:44Z",
+          "incident_id": "01K6KAAN7WXN69E8JET8PYB0D5",
+          "status": "monitoring",
+          "updated_at": "2025-10-03T01:42:44Z"
+        },
         {
           "id": "01K6KHVSEGKEB41M1J9V69HETG",
           "body": "",
