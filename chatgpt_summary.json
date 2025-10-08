@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-08T16:57:00Z"
+    "updated_at": "2025-10-08T17:46:32Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -240,12 +240,21 @@
     {
       "id": "01K72C2CYFJ5GDBAXDQMHT3E90",
       "name": "Service degradation",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2025-10-08T16:57:00Z",
-      "updated_at": "2025-10-08T16:57:00Z",
+      "updated_at": "2025-10-08T17:46:32Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K72EX3QJ1DG36GMT5WMKTVXA",
+          "body": "",
+          "created_at": "2025-10-08T17:46:32Z",
+          "display_at": "2025-10-08T17:46:32Z",
+          "incident_id": "01K72C2CYFJ5GDBAXDQMHT3E90",
+          "status": "identified",
+          "updated_at": "2025-10-08T17:46:32Z"
+        },
         {
           "id": "01K72C2CYF9Q7WHZN0YZNP96A9",
           "body": "",
