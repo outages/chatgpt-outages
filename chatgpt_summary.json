@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-07T16:31:43Z"
+    "updated_at": "2025-10-08T05:48:52Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,10 +242,19 @@
       "name": "Elevated error rates for Gmail and Google Calendar connectors",
       "status": "investigating",
       "created_at": "2025-10-06T15:47:56Z",
-      "updated_at": "2025-10-07T16:31:43Z",
+      "updated_at": "2025-10-08T05:48:52Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K715V11PF9SZM2K28X726HCR",
+          "body": "",
+          "created_at": "2025-10-08T05:48:52Z",
+          "display_at": "2025-10-08T05:48:52Z",
+          "incident_id": "01K6X3AG0M3XVN3B2610GFXB10",
+          "status": "investigating",
+          "updated_at": "2025-10-08T05:48:52Z"
+        },
         {
           "id": "01K6ZR7D4KWRXZRJWCPEGX96V1",
           "body": "",
