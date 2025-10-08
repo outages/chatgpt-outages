@@ -112,7 +112,7 @@
     {
       "id": "01JMXBRMFEQW613TFE89F45035",
       "name": "Realtime",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-10-05T18:52:55Z",
       "position": 11,
@@ -121,7 +121,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-10-05T18:52:55Z",
       "position": 12,
