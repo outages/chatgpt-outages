@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-08T05:48:52Z"
+    "updated_at": "2025-10-05T18:52:55Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -184,7 +184,7 @@
     {
       "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
       "name": "Connectors",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2025-10-05T18:52:55Z",
       "position": 19,
@@ -234,64 +234,6 @@
       "updated_at": "2025-10-05T18:52:55Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K6X3AG0M3XVN3B2610GFXB10",
-      "name": "Elevated error rates for Gmail and Google Calendar connectors",
-      "status": "investigating",
-      "created_at": "2025-10-06T15:47:56Z",
-      "updated_at": "2025-10-08T05:48:52Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K715V11PF9SZM2K28X726HCR",
-          "body": "",
-          "created_at": "2025-10-08T05:48:52Z",
-          "display_at": "2025-10-08T05:48:52Z",
-          "incident_id": "01K6X3AG0M3XVN3B2610GFXB10",
-          "status": "investigating",
-          "updated_at": "2025-10-08T05:48:52Z"
-        },
-        {
-          "id": "01K6ZR7D4KWRXZRJWCPEGX96V1",
-          "body": "",
-          "created_at": "2025-10-07T16:31:43Z",
-          "display_at": "2025-10-07T16:31:43Z",
-          "incident_id": "01K6X3AG0M3XVN3B2610GFXB10",
-          "status": "investigating",
-          "updated_at": "2025-10-07T16:31:43Z"
-        },
-        {
-          "id": "01K6Z5W2SWP7QGZPVQWCHQCEVK",
-          "body": "",
-          "created_at": "2025-10-07T11:10:58Z",
-          "display_at": "2025-10-07T11:10:58Z",
-          "incident_id": "01K6X3AG0M3XVN3B2610GFXB10",
-          "status": "investigating",
-          "updated_at": "2025-10-07T11:10:58Z"
-        },
-        {
-          "id": "01K6YPY73AT4M5Y9TZQEQ2AX0A",
-          "body": "",
-          "created_at": "2025-10-07T06:49:59Z",
-          "display_at": "2025-10-07T06:49:59Z",
-          "incident_id": "01K6X3AG0M3XVN3B2610GFXB10",
-          "status": "investigating",
-          "updated_at": "2025-10-07T06:49:59Z"
-        },
-        {
-          "id": "01K6X3AG0MEM3257BJV4G079GV",
-          "body": "",
-          "created_at": "2025-10-06T15:47:56Z",
-          "display_at": "2025-10-06T15:47:56Z",
-          "incident_id": "01K6X3AG0M3XVN3B2610GFXB10",
-          "status": "investigating",
-          "updated_at": "2025-10-06T15:47:56Z"
-        }
-      ]
     }
   ]
 }
