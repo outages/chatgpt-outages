@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-05T18:52:55Z"
+    "updated_at": "2025-10-20T08:39:13Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -121,7 +121,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-10-05T18:52:55Z",
       "position": 12,
@@ -229,11 +229,33 @@
     {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-10-05T18:52:55Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K80CBJD5Z64DF82KGT3K3QE0",
+      "name": "Single Sign On (SSO) login issues",
+      "status": "identified",
+      "created_at": "2025-10-20T08:39:13Z",
+      "updated_at": "2025-10-20T08:39:13Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K80CBJD5N2QBPZR1PXC5TTJE",
+          "body": "",
+          "created_at": "2025-10-20T08:39:13Z",
+          "display_at": "2025-10-20T08:39:13Z",
+          "incident_id": "01K80CBJD5Z64DF82KGT3K3QE0",
+          "status": "identified",
+          "updated_at": "2025-10-20T08:39:13Z"
+        }
+      ]
     }
   ]
 }
