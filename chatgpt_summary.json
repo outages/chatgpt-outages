@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-20T18:42:32Z"
+    "updated_at": "2025-10-05T18:52:55Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,65 +234,6 @@
       "updated_at": "2025-10-05T18:52:55Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K8154RY7GA4J1TGP71N3EYXT",
-      "name": "Issue with purchasing new subscriptions and updating/cancelling existing subscriptions for ChatGPT on Android/iOS",
-      "status": "monitoring",
-      "created_at": "2025-10-20T15:52:25Z",
-      "updated_at": "2025-10-20T18:42:32Z",
-      "monitoring_at": "2025-10-20T18:42:32Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K81EW8TNF4SHA38Y6A0JY1HY",
-          "body": "",
-          "created_at": "2025-10-20T18:42:32Z",
-          "display_at": "2025-10-20T18:42:32Z",
-          "incident_id": "01K8154RY7GA4J1TGP71N3EYXT",
-          "status": "monitoring",
-          "updated_at": "2025-10-20T18:42:32Z"
-        },
-        {
-          "id": "01K81D748R895V6RMQKRHRTV5P",
-          "body": "",
-          "created_at": "2025-10-20T18:13:31Z",
-          "display_at": "2025-10-20T18:13:31Z",
-          "incident_id": "01K8154RY7GA4J1TGP71N3EYXT",
-          "status": "investigating",
-          "updated_at": "2025-10-20T18:13:31Z"
-        },
-        {
-          "id": "01K81AGDRECHDEK2XGXARKDQ6Y",
-          "body": "",
-          "created_at": "2025-10-20T17:26:09Z",
-          "display_at": "2025-10-20T17:26:09Z",
-          "incident_id": "01K8154RY7GA4J1TGP71N3EYXT",
-          "status": "investigating",
-          "updated_at": "2025-10-20T17:27:38Z"
-        },
-        {
-          "id": "01K818MFBQX50068XWA20A0P7K",
-          "body": "",
-          "created_at": "2025-10-20T16:53:25Z",
-          "display_at": "2025-10-20T16:53:25Z",
-          "incident_id": "01K8154RY7GA4J1TGP71N3EYXT",
-          "status": "investigating",
-          "updated_at": "2025-10-20T16:53:25Z"
-        },
-        {
-          "id": "01K8154RY7MQXZM9KZFN6CYDWR",
-          "body": "",
-          "created_at": "2025-10-20T15:52:25Z",
-          "display_at": "2025-10-20T15:52:25Z",
-          "incident_id": "01K8154RY7GA4J1TGP71N3EYXT",
-          "status": "investigating",
-          "updated_at": "2025-10-20T15:52:25Z"
-        }
-      ]
     }
   ]
 }
