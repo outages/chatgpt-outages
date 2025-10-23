@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-23T15:09:12Z"
+    "updated_at": "2025-10-23T15:39:04Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,21 @@
     {
       "id": "01K88SVSPCZDGHM8TA68RN6AQ5",
       "name": "Increased errors on ChatGPT conversations",
-      "status": "identified",
+      "status": "investigating",
       "created_at": "2025-10-23T15:09:12Z",
-      "updated_at": "2025-10-23T15:09:12Z",
+      "updated_at": "2025-10-23T15:39:04Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K88VJG8H1YX6ZQJHC9A7H18Y",
+          "body": "",
+          "created_at": "2025-10-23T15:39:04Z",
+          "display_at": "2025-10-23T15:39:04Z",
+          "incident_id": "01K88SVSPCZDGHM8TA68RN6AQ5",
+          "status": "investigating",
+          "updated_at": "2025-10-23T15:39:04Z"
+        },
         {
           "id": "01K88SVSPCMCV2ZDRM624FC75V",
           "body": "",
