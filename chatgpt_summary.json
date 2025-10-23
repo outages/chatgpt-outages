@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-23T19:31:39Z"
+    "updated_at": "2025-10-05T18:52:55Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -184,7 +184,7 @@
     {
       "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
       "name": "Connectors",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2025-10-05T18:52:55Z",
       "position": 19,
@@ -234,28 +234,6 @@
       "updated_at": "2025-10-05T18:52:55Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K898WBF018G7EYDCE0K232HT",
-      "name": "Issues with Company knowledge",
-      "status": "investigating",
-      "created_at": "2025-10-23T19:31:39Z",
-      "updated_at": "2025-10-23T19:31:39Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K898WBF0XNCGFZM680NDSXEX",
-          "body": "",
-          "created_at": "2025-10-23T19:31:39Z",
-          "display_at": "2025-10-23T19:31:39Z",
-          "incident_id": "01K898WBF018G7EYDCE0K232HT",
-          "status": "investigating",
-          "updated_at": "2025-10-23T19:31:39Z"
-        }
-      ]
     }
   ]
 }
