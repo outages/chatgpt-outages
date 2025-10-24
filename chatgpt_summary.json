@@ -112,7 +112,7 @@
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 11,
