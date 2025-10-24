@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-24T22:08:24Z"
+    "updated_at": "2025-10-24T20:54:13Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -67,7 +67,7 @@
     {
       "id": "01K8C008QVXHA6JX98PAS42VPD",
       "name": "ChatGPT Atlas",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 6,
@@ -112,7 +112,7 @@
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 11,
@@ -229,52 +229,11 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K8BZX6RTS058MTVX5EQ5H19Y",
-      "name": "Elevated error rates for web search",
-      "status": "monitoring",
-      "created_at": "2025-10-24T20:52:33Z",
-      "updated_at": "2025-10-24T22:08:24Z",
-      "monitoring_at": "2025-10-24T22:08:24Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K8C482YN0CS0Z6NRVZHGCHW5",
-          "body": "",
-          "created_at": "2025-10-24T22:08:24Z",
-          "display_at": "2025-10-24T22:08:24Z",
-          "incident_id": "01K8BZX6RTS058MTVX5EQ5H19Y",
-          "status": "monitoring",
-          "updated_at": "2025-10-24T22:08:24Z"
-        },
-        {
-          "id": "01K8C42RCYXWDNWQ0JBY6QZMCT",
-          "body": "",
-          "created_at": "2025-10-24T22:05:29Z",
-          "display_at": "2025-10-24T22:05:29Z",
-          "incident_id": "01K8BZX6RTS058MTVX5EQ5H19Y",
-          "status": "investigating",
-          "updated_at": "2025-10-24T22:05:29Z"
-        },
-        {
-          "id": "01K8BZX6RT28AANZSH8PFHAFXK",
-          "body": "",
-          "created_at": "2025-10-24T20:52:33Z",
-          "display_at": "2025-10-24T20:52:33Z",
-          "incident_id": "01K8BZX6RTS058MTVX5EQ5H19Y",
-          "status": "identified",
-          "updated_at": "2025-10-24T20:58:34Z"
-        }
-      ]
     }
   ]
 }
