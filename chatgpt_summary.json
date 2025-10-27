@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-27T15:30:11Z"
+    "updated_at": "2025-10-24T20:54:13Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -211,7 +211,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 22,
@@ -234,28 +234,6 @@
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K8K4N3JDDCKZGHD4RMDP5X0X",
-      "name": "Increased errors on ChatGPT conversations for paid users",
-      "status": "investigating",
-      "created_at": "2025-10-27T15:30:11Z",
-      "updated_at": "2025-10-27T15:30:11Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K8K4N3JDW9V612GGRY6N4EYE",
-          "body": "",
-          "created_at": "2025-10-27T15:30:11Z",
-          "display_at": "2025-10-27T15:30:11Z",
-          "incident_id": "01K8K4N3JDDCKZGHD4RMDP5X0X",
-          "status": "investigating",
-          "updated_at": "2025-10-27T15:30:11Z"
-        }
-      ]
     }
   ]
 }
