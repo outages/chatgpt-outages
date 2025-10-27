@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-27T03:40:05Z"
+    "updated_at": "2025-10-27T01:30:00Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -250,10 +250,10 @@
           "id": "01K8HW0WA3K2RYCEEXERTN58H3",
           "body": "",
           "created_at": "2025-10-27T03:40:05Z",
-          "display_at": "2025-10-27T03:40:05Z",
+          "display_at": "2025-10-27T01:30:00Z",
           "incident_id": "01K8HW0WA3T6GCZSEVQHP5XXPG",
           "status": "identified",
-          "updated_at": "2025-10-27T03:40:05Z"
+          "updated_at": "2025-10-27T03:47:42Z"
         }
       ]
     }
