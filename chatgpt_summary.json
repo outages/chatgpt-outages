@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-28T17:59:28Z"
+    "updated_at": "2025-10-24T20:54:13Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,28 +234,6 @@
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K8NZK5W1B6C0F6PP5PTV70AW",
-      "name": "Members Page in Admin Settings of ChatGPT not loading",
-      "status": "identified",
-      "created_at": "2025-10-28T17:59:28Z",
-      "updated_at": "2025-10-28T17:59:28Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K8NZK5W1QSPH635SYGXFWEDY",
-          "body": "",
-          "created_at": "2025-10-28T17:59:28Z",
-          "display_at": "2025-10-28T17:59:28Z",
-          "incident_id": "01K8NZK5W1B6C0F6PP5PTV70AW",
-          "status": "identified",
-          "updated_at": "2025-10-28T17:59:28Z"
-        }
-      ]
     }
   ]
 }
