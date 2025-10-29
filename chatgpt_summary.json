@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-29T11:04:46Z"
+    "updated_at": "2025-10-24T20:54:13Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,37 +234,6 @@
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K8QS3ZPTFF6G4KNP2NJFM87D",
-      "name": "Some users cannot activate connectors that are enabled for their workspace",
-      "status": "identified",
-      "created_at": "2025-10-29T10:44:48Z",
-      "updated_at": "2025-10-29T11:04:46Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K8QT8HMGPS9AQMMSYGC1WXYS",
-          "body": "",
-          "created_at": "2025-10-29T11:04:46Z",
-          "display_at": "2025-10-29T11:04:46Z",
-          "incident_id": "01K8QS3ZPTFF6G4KNP2NJFM87D",
-          "status": "identified",
-          "updated_at": "2025-10-29T11:04:46Z"
-        },
-        {
-          "id": "01K8QS3ZPT3B8A7VRRF2EYC6TQ",
-          "body": "",
-          "created_at": "2025-10-29T10:44:48Z",
-          "display_at": "2025-10-29T10:44:48Z",
-          "incident_id": "01K8QS3ZPTFF6G4KNP2NJFM87D",
-          "status": "investigating",
-          "updated_at": "2025-10-29T10:44:48Z"
-        }
-      ]
     }
   ]
 }
