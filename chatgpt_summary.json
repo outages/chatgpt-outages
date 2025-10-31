@@ -275,36 +275,6 @@
           "updated_at": "2025-10-31T13:05:26Z"
         }
       ]
-    },
-    {
-      "id": "01K8WH5NC214S6RQ0RVK04BPQ7",
-      "name": "High error rate on AssistantsAPI 4o-mini",
-      "status": "monitoring",
-      "created_at": "2025-10-31T07:02:06Z",
-      "updated_at": "2025-10-31T07:46:09Z",
-      "monitoring_at": "2025-10-31T07:46:09Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K8WKPA3QN87GD7WGVZ3YXAG1",
-          "body": "",
-          "created_at": "2025-10-31T07:46:09Z",
-          "display_at": "2025-10-31T07:46:09Z",
-          "incident_id": "01K8WH5NC214S6RQ0RVK04BPQ7",
-          "status": "monitoring",
-          "updated_at": "2025-10-31T07:46:09Z"
-        },
-        {
-          "id": "01K8WH5NC2P5GPR2VJ22AET2T4",
-          "body": "",
-          "created_at": "2025-10-31T07:02:07Z",
-          "display_at": "2025-10-29T18:00:00Z",
-          "incident_id": "01K8WH5NC214S6RQ0RVK04BPQ7",
-          "status": "investigating",
-          "updated_at": "2025-10-31T07:04:24Z"
-        }
-      ]
     }
   ]
 }
