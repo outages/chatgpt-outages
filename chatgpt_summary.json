@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-04T04:26:37Z"
+    "updated_at": "2025-10-24T20:54:13Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 2,
@@ -234,29 +234,6 @@
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01K96HVTZ8JZRGWPCADHQ9N061",
-      "name": "Degraded Availability of Codex on the Web",
-      "status": "monitoring",
-      "created_at": "2025-11-04T04:26:37Z",
-      "updated_at": "2025-11-04T04:26:37Z",
-      "monitoring_at": "2025-11-04T04:26:37Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K96HVTZ8709WAJJ6NRYQD0F9",
-          "body": "",
-          "created_at": "2025-11-04T04:26:37Z",
-          "display_at": "2025-11-04T04:26:37Z",
-          "incident_id": "01K96HVTZ8JZRGWPCADHQ9N061",
-          "status": "monitoring",
-          "updated_at": "2025-11-04T04:26:37Z"
-        }
-      ]
     }
   ]
 }
