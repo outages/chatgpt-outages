@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-10-24T20:54:13Z"
+    "updated_at": "2025-11-07T18:23:12Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -202,7 +202,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 21,
@@ -234,6 +234,28 @@
       "updated_at": "2025-10-24T20:54:13Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01K9FRXSQ2RJ75S5KE4D9T8637",
+      "name": "ChatGPT availability degraded for Free users",
+      "status": "identified",
+      "created_at": "2025-11-07T18:23:12Z",
+      "updated_at": "2025-11-07T18:23:12Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K9FRXSQ26CAFZCAQ719HH5BX",
+          "body": "",
+          "created_at": "2025-11-07T18:23:12Z",
+          "display_at": "2025-11-07T18:23:12Z",
+          "incident_id": "01K9FRXSQ2RJ75S5KE4D9T8637",
+          "status": "identified",
+          "updated_at": "2025-11-07T18:23:12Z"
+        }
+      ]
     }
   ]
 }
