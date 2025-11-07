@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-07T21:19:15Z"
+    "updated_at": "2025-11-07T22:03:29Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -11,38 +11,38 @@
   },
   "components": [
     {
-      "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
-      "name": "Video generation",
-      "status": "degraded_performance",
-      "created_at": "2025-02-25T01:42:53Z",
-      "updated_at": "2025-10-24T20:54:13Z",
+      "id": "01JMXCAX0QM438N5CDG2RMJ07X",
+      "name": "Video viewing",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:54Z",
+      "updated_at": "2025-11-07T21:55:20Z",
       "position": 0,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXCAX0QM438N5CDG2RMJ07X",
-      "name": "Video viewing",
-      "status": "degraded_performance",
-      "created_at": "2025-02-25T01:42:54Z",
-      "updated_at": "2025-10-24T20:54:13Z",
+      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
+      "name": "Embeddings",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-11-07T21:55:20Z",
       "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
-      "name": "GPTs",
+      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
+      "name": "Login",
       "status": "operational",
-      "created_at": "2025-04-22T20:31:32Z",
-      "updated_at": "2025-10-24T20:54:13Z",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-11-07T21:55:20Z",
       "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
-      "name": "Login",
+      "id": "01JNKS9D9S72PMP1938PVFFQN4",
+      "name": "Compliance API",
       "status": "operational",
-      "created_at": "2025-02-25T01:42:53Z",
-      "updated_at": "2025-10-24T20:54:13Z",
+      "created_at": "2025-03-05T18:32:33Z",
+      "updated_at": "2025-11-07T21:55:20Z",
       "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -51,8 +51,62 @@
       "name": "ChatGPT Atlas",
       "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
-      "updated_at": "2025-10-24T20:54:13Z",
+      "updated_at": "2025-11-07T21:55:20Z",
       "position": 4,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
+      "name": "Connectors",
+      "status": "operational",
+      "created_at": "2025-10-05T18:52:55Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 5,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
+      "name": "GPTs",
+      "status": "operational",
+      "created_at": "2025-04-22T20:31:32Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 6,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
+      "name": "Video generation",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:53Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 7,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
+      "name": "Login",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:53Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 8,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JQ7EJWA29C5X2B3QW8P9BEFF",
+      "name": "Image Generation",
+      "status": "operational",
+      "created_at": "2025-03-25T20:06:00Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 9,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01K9G527YRPY1EFRMHTKB5BKT5",
+      "name": "Sora",
+      "status": "degraded_performance",
+      "created_at": "2025-11-07T21:55:20Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -60,17 +114,8 @@
       "name": "Login",
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 5,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 6,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -78,8 +123,8 @@
       "name": "Voice mode",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 7,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -87,8 +132,8 @@
       "name": "Realtime",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 8,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -96,8 +141,8 @@
       "name": "Audio",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 9,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -105,8 +150,8 @@
       "name": "Chat Completions",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 10,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -114,8 +159,8 @@
       "name": "Images",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 11,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -123,8 +168,8 @@
       "name": "Deep Research",
       "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 12,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -132,17 +177,8 @@
       "name": "Feed",
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 13,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JNKS9D9S72PMP1938PVFFQN4",
-      "name": "Compliance API",
-      "status": "operational",
-      "created_at": "2025-03-05T18:32:33Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 14,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -150,8 +186,8 @@
       "name": "Agent",
       "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 15,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -159,8 +195,8 @@
       "name": "Responses",
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 16,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -168,8 +204,8 @@
       "name": "Files",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 17,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -177,8 +213,8 @@
       "name": "Batch",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 18,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -186,8 +222,8 @@
       "name": "Fine-tuning",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 19,
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -195,48 +231,32 @@
       "name": "File uploads",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 20,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
-      "name": "Conversations",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 21,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
-      "name": "Search",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 22,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
-      "name": "Embeddings",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-10-24T20:54:13Z",
-      "position": 23,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
-      "name": "Moderations",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-10-24T20:54:13Z",
+      "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     }
   ],
   "incidents": [
+    {
+      "id": "01K9G5H5NM4Y19XW4JJM3SK323",
+      "name": "Elevated error rates on Codex",
+      "status": "identified",
+      "created_at": "2025-11-07T22:03:29Z",
+      "updated_at": "2025-11-07T22:03:29Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01K9G5H5NMDD6TMKFTJXAAP26E",
+          "body": "",
+          "created_at": "2025-11-07T22:03:29Z",
+          "display_at": "2025-11-07T22:03:29Z",
+          "incident_id": "01K9G5H5NM4Y19XW4JJM3SK323",
+          "status": "identified",
+          "updated_at": "2025-11-07T22:03:29Z"
+        }
+      ]
+    },
     {
       "id": "01K9G305CAB3CW9DZC1AMJFQ9X",
       "name": "Elevated error rates for Sora API",
