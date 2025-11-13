@@ -6,7 +6,7 @@
     "updated_at": "2025-11-12T23:46:44Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   }
 }

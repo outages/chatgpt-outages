@@ -6,8 +6,8 @@
     "updated_at": "2025-11-12T23:46:44Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -254,35 +254,6 @@
           "incident_id": "01K9X7DTG5YTW15NKZD367AGAS",
           "status": "investigating",
           "updated_at": "2025-11-12T23:46:44Z"
-        }
-      ]
-    },
-    {
-      "id": "01K9X6EHF2RBEJS7VEFKTWXDTB",
-      "name": "Enterprise users seeing \"Access Denied\" error",
-      "status": "investigating",
-      "created_at": "2025-11-12T23:29:39Z",
-      "updated_at": "2025-11-12T23:38:20Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01K9X6YDQVZHGWXJSFFFPPP6RW",
-          "body": "",
-          "created_at": "2025-11-12T23:38:20Z",
-          "display_at": "2025-11-12T23:38:20Z",
-          "incident_id": "01K9X6EHF2RBEJS7VEFKTWXDTB",
-          "status": "investigating",
-          "updated_at": "2025-11-12T23:38:20Z"
-        },
-        {
-          "id": "01K9X6EHF2FKCVXKEVHPC4KV56",
-          "body": "",
-          "created_at": "2025-11-12T23:29:39Z",
-          "display_at": "2025-11-12T23:29:39Z",
-          "incident_id": "01K9X6EHF2RBEJS7VEFKTWXDTB",
-          "status": "investigating",
-          "updated_at": "2025-11-12T23:29:39Z"
         }
       ]
     }
