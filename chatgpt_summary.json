@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-12T23:46:44Z"
+    "updated_at": "2025-11-13T01:22:29Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01K9X7DTG5YTW15NKZD367AGAS",
       "name": "Image generation failing for Android users",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-11-12T23:46:44Z",
-      "updated_at": "2025-11-12T23:46:44Z",
+      "updated_at": "2025-11-13T01:22:29Z",
+      "monitoring_at": "2025-11-13T01:22:29Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01K9XCX45YGH7E8VZ3AR918REC",
+          "body": "",
+          "created_at": "2025-11-13T01:22:29Z",
+          "display_at": "2025-11-13T01:22:29Z",
+          "incident_id": "01K9X7DTG5YTW15NKZD367AGAS",
+          "status": "monitoring",
+          "updated_at": "2025-11-13T01:22:29Z"
+        },
         {
           "id": "01K9X7DTG5CGXEKDPZ6JN317PK",
           "body": "",
