@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-14T21:27:23Z"
+    "updated_at": "2025-11-14T22:40:06Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -242,10 +242,19 @@
       "name": "ChatGPT File Uploads Failing",
       "status": "identified",
       "created_at": "2025-11-14T20:53:41Z",
-      "updated_at": "2025-11-14T21:27:23Z",
+      "updated_at": "2025-11-14T22:40:06Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KA28D7F6R2E3KJVHDF0C9WC8",
+          "body": "",
+          "created_at": "2025-11-14T22:40:06Z",
+          "display_at": "2025-11-14T22:40:06Z",
+          "incident_id": "01KA22ACNT50TDGYE1B9TJ86D2",
+          "status": "identified",
+          "updated_at": "2025-11-14T22:40:06Z"
+        },
         {
           "id": "01KA2482X8QYJPJT3TZPFAJZ04",
           "body": "",
