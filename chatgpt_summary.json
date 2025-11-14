@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-14T20:54:42Z"
+    "updated_at": "2025-11-14T21:27:23Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -238,6 +238,35 @@
   ],
   "incidents": [
     {
+      "id": "01KA22ACNT50TDGYE1B9TJ86D2",
+      "name": "ChatGPT File Uploads Failing",
+      "status": "identified",
+      "created_at": "2025-11-14T20:53:41Z",
+      "updated_at": "2025-11-14T21:27:23Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KA2482X8QYJPJT3TZPFAJZ04",
+          "body": "",
+          "created_at": "2025-11-14T21:27:23Z",
+          "display_at": "2025-11-14T21:27:23Z",
+          "incident_id": "01KA22ACNT50TDGYE1B9TJ86D2",
+          "status": "identified",
+          "updated_at": "2025-11-14T21:27:23Z"
+        },
+        {
+          "id": "01KA22ACNT83SXAH84YEWZGYCV",
+          "body": "",
+          "created_at": "2025-11-14T20:53:41Z",
+          "display_at": "2025-11-14T20:53:41Z",
+          "incident_id": "01KA22ACNT50TDGYE1B9TJ86D2",
+          "status": "investigating",
+          "updated_at": "2025-11-14T20:53:41Z"
+        }
+      ]
+    },
+    {
       "id": "01KA22C8G0G4EZG5YEJ4FRTWRA",
       "name": "Subset of Batch API jobs stuck in finalizing state",
       "status": "investigating",
@@ -254,26 +283,6 @@
           "incident_id": "01KA22C8G0G4EZG5YEJ4FRTWRA",
           "status": "investigating",
           "updated_at": "2025-11-14T20:54:43Z"
-        }
-      ]
-    },
-    {
-      "id": "01KA22ACNT50TDGYE1B9TJ86D2",
-      "name": "ChatGPT File Uploads Failing",
-      "status": "investigating",
-      "created_at": "2025-11-14T20:53:41Z",
-      "updated_at": "2025-11-14T20:53:41Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KA22ACNT83SXAH84YEWZGYCV",
-          "body": "",
-          "created_at": "2025-11-14T20:53:41Z",
-          "display_at": "2025-11-14T20:53:41Z",
-          "incident_id": "01KA22ACNT50TDGYE1B9TJ86D2",
-          "status": "investigating",
-          "updated_at": "2025-11-14T20:53:41Z"
         }
       ]
     }
