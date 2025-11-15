@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-14T20:54:42Z"
+    "updated_at": "2025-11-15T07:01:57Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KA22C8G0G4EZG5YEJ4FRTWRA",
       "name": "Subset of Batch API jobs stuck in finalizing state",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-11-14T20:54:42Z",
-      "updated_at": "2025-11-14T20:54:42Z",
+      "updated_at": "2025-11-15T07:01:57Z",
+      "monitoring_at": "2025-11-15T07:01:57Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KA35458QS116DKZJEEBJD9AY",
+          "body": "",
+          "created_at": "2025-11-15T07:01:57Z",
+          "display_at": "2025-11-15T07:01:57Z",
+          "incident_id": "01KA22C8G0G4EZG5YEJ4FRTWRA",
+          "status": "monitoring",
+          "updated_at": "2025-11-15T07:01:57Z"
+        },
         {
           "id": "01KA22C8G05TDM8NNEXZ0K1DC7",
           "body": "",
