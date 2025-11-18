@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-18T12:12:03Z"
+    "updated_at": "2025-11-18T12:43:04Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -85,7 +85,7 @@
     {
       "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
       "name": "Login",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 8,
@@ -242,10 +242,19 @@
       "name": "ChatGPT and Platform websites are down for some users",
       "status": "investigating",
       "created_at": "2025-11-18T12:12:03Z",
-      "updated_at": "2025-11-18T12:12:03Z",
+      "updated_at": "2025-11-18T12:43:04Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KABFTXTC5T7FFXRKVN60D0GP",
+          "body": "",
+          "created_at": "2025-11-18T12:43:04Z",
+          "display_at": "2025-11-18T12:43:04Z",
+          "incident_id": "01KABE2437NJYKBFHT22SD3H92",
+          "status": "investigating",
+          "updated_at": "2025-11-18T12:43:04Z"
+        },
         {
           "id": "01KABE24373MY8EAHHSVTW9RN8",
           "body": "",
