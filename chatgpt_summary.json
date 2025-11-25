@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-07T21:55:20Z"
+    "updated_at": "2025-11-25T19:41:10Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -234,6 +234,28 @@
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KAY8HGFQN126T83Q8ES0F4HN",
+      "name": "ImageGen issues for some ChatGPT Workspaces with EU Data Residency",
+      "status": "investigating",
+      "created_at": "2025-11-25T19:41:10Z",
+      "updated_at": "2025-11-25T19:41:10Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KAY8HGFQ64T263M0ZQWJG3GH",
+          "body": "",
+          "created_at": "2025-11-25T19:41:10Z",
+          "display_at": "2025-11-25T19:41:10Z",
+          "incident_id": "01KAY8HGFQN126T83Q8ES0F4HN",
+          "status": "investigating",
+          "updated_at": "2025-11-25T19:41:10Z"
+        }
+      ]
     }
   ]
 }
