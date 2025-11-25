@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-25T19:41:10Z"
+    "updated_at": "2025-11-25T20:08:29Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -31,46 +31,28 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JNKS9D9S72PMP1938PVFFQN4",
-      "name": "Compliance API",
-      "status": "operational",
-      "created_at": "2025-03-05T18:32:33Z",
+      "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
+      "name": "Connectors",
+      "status": "degraded_performance",
+      "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01K8C008QVXHA6JX98PAS42VPD",
-      "name": "ChatGPT Atlas",
-      "status": "operational",
-      "created_at": "2025-10-24T20:54:13Z",
-      "updated_at": "2025-11-07T21:55:20Z",
-      "position": 4,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
-      "name": "Connectors",
-      "status": "operational",
-      "created_at": "2025-10-05T18:52:55Z",
-      "updated_at": "2025-11-07T21:55:20Z",
-      "position": 5,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
       "name": "GPTs",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 6,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -79,7 +61,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 7,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -88,7 +70,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 8,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,7 +79,7 @@
       "status": "operational",
       "created_at": "2025-03-25T20:06:00Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 9,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,7 +88,7 @@
       "status": "operational",
       "created_at": "2025-11-07T21:55:20Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 10,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,16 +97,52 @@
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 11,
+      "position": 9,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
+      "name": "File uploads",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
       "name": "Voice mode",
-      "status": "operational",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 11,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
+      "name": "Conversations",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 12,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JNKS9D9S72PMP1938PVFFQN4",
+      "name": "Compliance API",
+      "status": "degraded_performance",
+      "created_at": "2025-03-05T18:32:33Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 13,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01K8C008QVXHA6JX98PAS42VPD",
+      "name": "ChatGPT Atlas",
+      "status": "degraded_performance",
+      "created_at": "2025-10-24T20:54:13Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -133,7 +151,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 13,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -142,7 +160,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 14,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -151,16 +169,16 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 15,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 16,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,7 +187,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:54Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 17,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,16 +196,16 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 18,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Agent",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 19,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -196,7 +214,7 @@
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 20,
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -205,7 +223,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 21,
+      "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,35 +232,37 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 22,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEMZK0HPK19RYET250",
-      "name": "Fine-tuning",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2025-11-07T21:55:20Z",
-      "position": 23,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
-      "name": "File uploads",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     }
   ],
   "incidents": [
     {
+      "id": "01KAYA3GKDBP7FES5BB7ANZDV7",
+      "name": "Increased ChatGPT errors for EU, South America, and East US regions",
+      "status": "investigating",
+      "created_at": "2025-11-25T20:08:29Z",
+      "updated_at": "2025-11-25T20:08:29Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KAYA3GKDJBSXJX24407BEKZT",
+          "body": "",
+          "created_at": "2025-11-25T20:08:29Z",
+          "display_at": "2025-11-25T20:08:29Z",
+          "incident_id": "01KAYA3GKDBP7FES5BB7ANZDV7",
+          "status": "investigating",
+          "updated_at": "2025-11-25T20:08:29Z"
+        }
+      ]
+    },
+    {
       "id": "01KAY8HGFQN126T83Q8ES0F4HN",
-      "name": "ImageGen issues for some ChatGPT Workspaces with EU Data Residency",
+      "name": "ImageGen issues for some ChatGPT Workspaces with Non-US Data Residency",
       "status": "investigating",
       "created_at": "2025-11-25T19:41:10Z",
-      "updated_at": "2025-11-25T19:41:10Z",
+      "updated_at": "2025-11-25T19:47:35Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
@@ -253,7 +273,7 @@
           "display_at": "2025-11-25T19:41:10Z",
           "incident_id": "01KAY8HGFQN126T83Q8ES0F4HN",
           "status": "investigating",
-          "updated_at": "2025-11-25T19:41:10Z"
+          "updated_at": "2025-11-25T20:11:52Z"
         }
       ]
     }
