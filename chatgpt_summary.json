@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-25T22:19:21Z"
+    "updated_at": "2025-11-07T21:55:20Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,65 +234,6 @@
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KAY8HGFQN126T83Q8ES0F4HN",
-      "name": "ImageGen issues for some ChatGPT Workspaces with Non-US Data Residency",
-      "status": "monitoring",
-      "created_at": "2025-11-25T19:41:10Z",
-      "updated_at": "2025-11-25T22:19:21Z",
-      "monitoring_at": "2025-11-25T22:19:21Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KAYHK5C90W1617DSNQ21T50B",
-          "body": "",
-          "created_at": "2025-11-25T22:19:21Z",
-          "display_at": "2025-11-25T22:19:21Z",
-          "incident_id": "01KAY8HGFQN126T83Q8ES0F4HN",
-          "status": "monitoring",
-          "updated_at": "2025-11-25T22:19:21Z"
-        },
-        {
-          "id": "01KAYEEWAXYPBA8KRGK8A8NDPK",
-          "body": "",
-          "created_at": "2025-11-25T21:24:35Z",
-          "display_at": "2025-11-25T21:24:35Z",
-          "incident_id": "01KAY8HGFQN126T83Q8ES0F4HN",
-          "status": "identified",
-          "updated_at": "2025-11-25T21:24:35Z"
-        },
-        {
-          "id": "01KAYCBHE0J6XXSPXFV1YE0E46",
-          "body": "",
-          "created_at": "2025-11-25T20:47:49Z",
-          "display_at": "2025-11-25T20:47:49Z",
-          "incident_id": "01KAY8HGFQN126T83Q8ES0F4HN",
-          "status": "identified",
-          "updated_at": "2025-11-25T20:47:49Z"
-        },
-        {
-          "id": "01KAYAG25Q0KAAGYA7H0V8ZBKN",
-          "body": "",
-          "created_at": "2025-11-25T20:15:20Z",
-          "display_at": "2025-11-25T20:15:20Z",
-          "incident_id": "01KAY8HGFQN126T83Q8ES0F4HN",
-          "status": "investigating",
-          "updated_at": "2025-11-25T20:15:20Z"
-        },
-        {
-          "id": "01KAY8HGFQ64T263M0ZQWJG3GH",
-          "body": "",
-          "created_at": "2025-11-25T19:41:10Z",
-          "display_at": "2025-11-25T19:41:10Z",
-          "incident_id": "01KAY8HGFQN126T83Q8ES0F4HN",
-          "status": "investigating",
-          "updated_at": "2025-11-25T20:11:52Z"
-        }
-      ]
     }
   ]
 }
