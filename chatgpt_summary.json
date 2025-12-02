@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-02T19:42:53Z"
+    "updated_at": "2025-12-02T20:12:01Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -229,7 +229,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
@@ -240,12 +240,31 @@
     {
       "id": "01KBG9DPEC7H4AP2ZGEFA16D6N",
       "name": "Increased ChatGPT error rates",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-12-02T19:42:53Z",
-      "updated_at": "2025-12-02T19:43:55Z",
+      "updated_at": "2025-12-02T20:12:02Z",
+      "monitoring_at": "2025-12-02T20:12:01Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KBGB31EHV4GEJ8NRRXYBY38K",
+          "body": "",
+          "created_at": "2025-12-02T20:12:01Z",
+          "display_at": "2025-12-02T20:12:01Z",
+          "incident_id": "01KBG9DPEC7H4AP2ZGEFA16D6N",
+          "status": "monitoring",
+          "updated_at": "2025-12-02T20:12:01Z"
+        },
+        {
+          "id": "01KBGA7YZVFN0SY86MQN3YZRPE",
+          "body": "",
+          "created_at": "2025-12-02T19:57:14Z",
+          "display_at": "2025-12-02T19:57:14Z",
+          "incident_id": "01KBG9DPEC7H4AP2ZGEFA16D6N",
+          "status": "investigating",
+          "updated_at": "2025-12-02T19:57:14Z"
+        },
         {
           "id": "01KBG9DPEC8RVAFDK76YWK9NPZ",
           "body": "",
