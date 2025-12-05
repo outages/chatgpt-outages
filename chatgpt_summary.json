@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-05T03:01:40Z"
+    "updated_at": "2025-11-07T21:55:20Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
       "name": "Connectors",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 3,
@@ -49,7 +49,7 @@
     {
       "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
       "name": "GPTs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 4,
@@ -234,75 +234,6 @@
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KBP4P84R3ZVWYDG6DNY7MHYA",
-      "name": "CustomGPT Allow/Deny button not appeared",
-      "status": "identified",
-      "created_at": "2025-12-05T02:15:37Z",
-      "updated_at": "2025-12-05T03:01:40Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KBP7AHY7FBKNDAW325J50TSM",
-          "body": "",
-          "created_at": "2025-12-05T03:01:40Z",
-          "display_at": "2025-12-05T03:01:40Z",
-          "incident_id": "01KBP4P84R3ZVWYDG6DNY7MHYA",
-          "status": "identified",
-          "updated_at": "2025-12-05T03:01:40Z"
-        },
-        {
-          "id": "01KBP67FTS8ZT83M502ASHD54J",
-          "body": "",
-          "created_at": "2025-12-05T02:42:31Z",
-          "display_at": "2025-12-05T02:42:31Z",
-          "incident_id": "01KBP4P84R3ZVWYDG6DNY7MHYA",
-          "status": "investigating",
-          "updated_at": "2025-12-05T02:42:31Z"
-        },
-        {
-          "id": "01KBP4P84RRJZ3YMW9A5D670WX",
-          "body": "",
-          "created_at": "2025-12-05T02:15:37Z",
-          "display_at": "2025-12-05T02:15:37Z",
-          "incident_id": "01KBP4P84R3ZVWYDG6DNY7MHYA",
-          "status": "investigating",
-          "updated_at": "2025-12-05T02:15:37Z"
-        }
-      ]
-    },
-    {
-      "id": "01KBP2P87WZ8SS9KWJ8YBWYZAG",
-      "name": "ChatGPT Slack Connector cannot be installed",
-      "status": "investigating",
-      "created_at": "2025-12-05T01:40:40Z",
-      "updated_at": "2025-12-05T02:43:29Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KBP69865189SH8TKAMS62SWZ",
-          "body": "",
-          "created_at": "2025-12-05T02:43:29Z",
-          "display_at": "2025-12-05T02:43:29Z",
-          "incident_id": "01KBP2P87WZ8SS9KWJ8YBWYZAG",
-          "status": "investigating",
-          "updated_at": "2025-12-05T02:43:29Z"
-        },
-        {
-          "id": "01KBP2P87WB7MR3RVM136S0G2F",
-          "body": "",
-          "created_at": "2025-12-05T01:40:40Z",
-          "display_at": "2025-12-05T01:40:40Z",
-          "incident_id": "01KBP2P87WZ8SS9KWJ8YBWYZAG",
-          "status": "identified",
-          "updated_at": "2025-12-05T01:40:40Z"
-        }
-      ]
     }
   ]
 }
