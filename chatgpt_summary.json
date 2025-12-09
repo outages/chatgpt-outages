@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-08T23:13:00Z"
+    "updated_at": "2025-12-09T02:42:45Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -240,12 +240,22 @@
     {
       "id": "01KBZQFTJVFKP90HA3QJ7Q3WBY",
       "name": "Github Authentication errors with Codex Web",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-12-08T19:37:20Z",
-      "updated_at": "2025-12-08T23:29:38Z",
+      "updated_at": "2025-12-09T02:42:45Z",
+      "monitoring_at": "2025-12-08T22:00:00Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KC0FTSHYD5CNR8YTEZ16ZMAG",
+          "body": "",
+          "created_at": "2025-12-09T02:42:45Z",
+          "display_at": "2025-12-09T02:42:45Z",
+          "incident_id": "01KBZQFTJVFKP90HA3QJ7Q3WBY",
+          "status": "monitoring",
+          "updated_at": "2025-12-09T02:42:45Z"
+        },
         {
           "id": "01KC04S5MEX82K2J0JX7NX009A",
           "body": "",
