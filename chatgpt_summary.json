@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-09T22:48:49Z"
+    "updated_at": "2025-12-10T03:50:40Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,11 +242,20 @@
       "name": "ChatGPT connectors have disconnected unexpectedly",
       "status": "monitoring",
       "created_at": "2025-12-09T22:48:49Z",
-      "updated_at": "2025-12-09T22:48:49Z",
+      "updated_at": "2025-12-10T03:50:40Z",
       "monitoring_at": "2025-12-09T22:48:49Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KC363VYH456KV9TQGY14JRSF",
+          "body": "",
+          "created_at": "2025-12-10T03:50:40Z",
+          "display_at": "2025-12-10T03:50:40Z",
+          "incident_id": "01KC2MV5CHD4DX8A76FT4QEZEV",
+          "status": "monitoring",
+          "updated_at": "2025-12-10T03:50:40Z"
+        },
         {
           "id": "01KC2MV5CHT8QPQBBSM2GJ65JF",
           "body": "",
