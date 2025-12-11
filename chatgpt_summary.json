@@ -285,36 +285,6 @@
       ]
     },
     {
-      "id": "01KC7JXZX3G02HQVS9AHYT86J8",
-      "name": "Elevated error rate for 5.2 Auto and 5.2 Instant",
-      "status": "monitoring",
-      "created_at": "2025-12-11T20:51:36Z",
-      "updated_at": "2025-12-11T21:07:01Z",
-      "monitoring_at": "2025-12-11T21:07:01Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KC7KT6EWSNX28P28TY5HN20A",
-          "body": "",
-          "created_at": "2025-12-11T21:07:01Z",
-          "display_at": "2025-12-11T21:07:01Z",
-          "incident_id": "01KC7JXZX3G02HQVS9AHYT86J8",
-          "status": "monitoring",
-          "updated_at": "2025-12-11T21:07:01Z"
-        },
-        {
-          "id": "01KC7JXZX3DME1CQH4XV5M0D2N",
-          "body": "",
-          "created_at": "2025-12-11T20:51:37Z",
-          "display_at": "2025-12-11T20:51:36Z",
-          "incident_id": "01KC7JXZX3G02HQVS9AHYT86J8",
-          "status": "investigating",
-          "updated_at": "2025-12-11T20:51:37Z"
-        }
-      ]
-    },
-    {
       "id": "01KC2MV5CHD4DX8A76FT4QEZEV",
       "name": "ChatGPT connectors have disconnected unexpectedly",
       "status": "monitoring",
