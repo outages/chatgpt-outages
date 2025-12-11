@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-11T13:48:10Z"
+    "updated_at": "2025-12-11T14:24:40Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -229,7 +229,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
@@ -237,6 +237,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
+      "name": "Codex Elevated Errors on Github Authentication",
+      "status": "investigating",
+      "created_at": "2025-12-11T14:24:40Z",
+      "updated_at": "2025-12-11T14:24:40Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KC6WSFM4YA9XJ5DZEE3JJ0AH",
+          "body": "",
+          "created_at": "2025-12-11T14:24:40Z",
+          "display_at": "2025-12-11T14:24:40Z",
+          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
+          "status": "investigating",
+          "updated_at": "2025-12-11T14:24:40Z"
+        }
+      ]
+    },
     {
       "id": "01KC2MV5CHD4DX8A76FT4QEZEV",
       "name": "ChatGPT connectors have disconnected unexpectedly",
