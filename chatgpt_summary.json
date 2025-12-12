@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-12T14:50:43Z"
+    "updated_at": "2025-12-12T17:01:30Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,15 +238,90 @@
   ],
   "incidents": [
     {
+      "id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
+      "name": "Github Connector Errors for ChatGPT Web and Codex",
+      "status": "monitoring",
+      "created_at": "2025-12-11T14:24:40Z",
+      "updated_at": "2025-12-12T17:01:30Z",
+      "monitoring_at": "2025-12-12T02:19:39Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KC9R5BQ6K1YGMB4HRWZXVTCH",
+          "body": "",
+          "created_at": "2025-12-12T17:01:30Z",
+          "display_at": "2025-12-12T17:01:30Z",
+          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
+          "status": "monitoring",
+          "updated_at": "2025-12-12T17:01:30Z"
+        },
+        {
+          "id": "01KC85PMTGGCRNQHB85HYA2EK8",
+          "body": "",
+          "created_at": "2025-12-12T02:19:39Z",
+          "display_at": "2025-12-12T02:19:39Z",
+          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
+          "status": "monitoring",
+          "updated_at": "2025-12-12T02:19:39Z"
+        },
+        {
+          "id": "01KC7SGNEAPA124PG69VGSX1MT",
+          "body": "",
+          "created_at": "2025-12-11T22:46:40Z",
+          "display_at": "2025-12-11T22:46:40Z",
+          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
+          "status": "identified",
+          "updated_at": "2025-12-11T22:46:40Z"
+        },
+        {
+          "id": "01KC7ESN6F7ZP031224MWHWXXH",
+          "body": "",
+          "created_at": "2025-12-11T19:39:20Z",
+          "display_at": "2025-12-11T19:39:20Z",
+          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
+          "status": "identified",
+          "updated_at": "2025-12-11T19:39:20Z"
+        },
+        {
+          "id": "01KC73YGWJJDAC7VAEG81C8XM5",
+          "body": "",
+          "created_at": "2025-12-11T16:29:45Z",
+          "display_at": "2025-12-11T16:29:45Z",
+          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
+          "status": "identified",
+          "updated_at": "2025-12-11T16:29:45Z"
+        },
+        {
+          "id": "01KC6WSFM4YA9XJ5DZEE3JJ0AH",
+          "body": "",
+          "created_at": "2025-12-11T14:24:40Z",
+          "display_at": "2025-12-11T14:24:40Z",
+          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
+          "status": "investigating",
+          "updated_at": "2025-12-11T14:24:40Z"
+        }
+      ]
+    },
+    {
       "id": "01KC2MV5CHD4DX8A76FT4QEZEV",
       "name": "ChatGPT connectors have disconnected unexpectedly",
       "status": "monitoring",
       "created_at": "2025-12-09T22:48:49Z",
-      "updated_at": "2025-12-12T14:50:43Z",
+      "updated_at": "2025-12-12T17:01:17Z",
       "monitoring_at": "2025-12-09T22:48:49Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KC9R4YZYKFDPZJ116H2RGGTT",
+          "body": "",
+          "created_at": "2025-12-12T17:01:17Z",
+          "display_at": "2025-12-12T17:01:17Z",
+          "incident_id": "01KC2MV5CHD4DX8A76FT4QEZEV",
+          "status": "monitoring",
+          "updated_at": "2025-12-12T17:01:17Z"
+        },
         {
           "id": "01KC9GNWF83AJ4C54XWBRXDKKF",
           "body": "",
@@ -381,63 +456,6 @@
           "incident_id": "01KC2MV5CHD4DX8A76FT4QEZEV",
           "status": "monitoring",
           "updated_at": "2025-12-09T22:48:49Z"
-        }
-      ]
-    },
-    {
-      "id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
-      "name": "Github Connector Errors for ChatGPT Web and Codex",
-      "status": "monitoring",
-      "created_at": "2025-12-11T14:24:40Z",
-      "updated_at": "2025-12-12T02:19:39Z",
-      "monitoring_at": "2025-12-12T02:19:39Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KC85PMTGGCRNQHB85HYA2EK8",
-          "body": "",
-          "created_at": "2025-12-12T02:19:39Z",
-          "display_at": "2025-12-12T02:19:39Z",
-          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
-          "status": "monitoring",
-          "updated_at": "2025-12-12T02:19:39Z"
-        },
-        {
-          "id": "01KC7SGNEAPA124PG69VGSX1MT",
-          "body": "",
-          "created_at": "2025-12-11T22:46:40Z",
-          "display_at": "2025-12-11T22:46:40Z",
-          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
-          "status": "identified",
-          "updated_at": "2025-12-11T22:46:40Z"
-        },
-        {
-          "id": "01KC7ESN6F7ZP031224MWHWXXH",
-          "body": "",
-          "created_at": "2025-12-11T19:39:20Z",
-          "display_at": "2025-12-11T19:39:20Z",
-          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
-          "status": "identified",
-          "updated_at": "2025-12-11T19:39:20Z"
-        },
-        {
-          "id": "01KC73YGWJJDAC7VAEG81C8XM5",
-          "body": "",
-          "created_at": "2025-12-11T16:29:45Z",
-          "display_at": "2025-12-11T16:29:45Z",
-          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
-          "status": "identified",
-          "updated_at": "2025-12-11T16:29:45Z"
-        },
-        {
-          "id": "01KC6WSFM4YA9XJ5DZEE3JJ0AH",
-          "body": "",
-          "created_at": "2025-12-11T14:24:40Z",
-          "display_at": "2025-12-11T14:24:40Z",
-          "incident_id": "01KC6WSFM4ECT1Y5XBPF2AMXV9",
-          "status": "investigating",
-          "updated_at": "2025-12-11T14:24:40Z"
         }
       ]
     }
