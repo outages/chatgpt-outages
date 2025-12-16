@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-16T18:45:19Z"
+    "updated_at": "2025-12-16T20:30:34Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,10 +242,19 @@
       "name": "Codex Experiencing Elevated Errors",
       "status": "identified",
       "created_at": "2025-12-16T18:45:19Z",
-      "updated_at": "2025-12-16T18:52:48Z",
+      "updated_at": "2025-12-16T20:30:34Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KCMDQ1RTENEHCN7PKKBAM8CB",
+          "body": "",
+          "created_at": "2025-12-16T20:30:34Z",
+          "display_at": "2025-12-16T20:30:34Z",
+          "incident_id": "01KCM7PAMQMCM8KAB6ZCWPKNK1",
+          "status": "identified",
+          "updated_at": "2025-12-16T20:30:34Z"
+        },
         {
           "id": "01KCM7PAMQ6TKDNYKHJEDPEFCJ",
           "body": "",
