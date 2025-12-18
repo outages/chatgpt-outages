@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-18T22:03:46Z"
+    "updated_at": "2025-11-07T21:55:20Z"
   },
   "status": {
-    "description": "Major System Outage",
-    "indicator": "critical"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -112,7 +112,7 @@
     {
       "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
       "name": "Login",
-      "status": "full_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 11,
@@ -229,72 +229,11 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KCSQV59E8XZETJ89JTXME2AZ",
-      "name": "Unable to Login on Sora Web",
-      "status": "identified",
-      "created_at": "2025-12-18T22:03:46Z",
-      "updated_at": "2025-12-18T22:03:46Z",
-      "impact": "critical",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KCSQV59E3CVK4T6ZNF5SG8HW",
-          "body": "",
-          "created_at": "2025-12-18T22:03:46Z",
-          "display_at": "2025-12-18T22:03:46Z",
-          "incident_id": "01KCSQV59E8XZETJ89JTXME2AZ",
-          "status": "identified",
-          "updated_at": "2025-12-18T22:03:46Z"
-        }
-      ]
-    },
-    {
-      "id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
-      "name": "ChatGPT intermittently not loading successfully after SSO authentication",
-      "status": "monitoring",
-      "created_at": "2025-12-17T21:45:39Z",
-      "updated_at": "2025-12-18T09:02:43Z",
-      "monitoring_at": "2025-12-18T09:02:43Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KCRB4ZYHFZ6D1YKYZ6VK5R4B",
-          "body": "",
-          "created_at": "2025-12-18T09:02:43Z",
-          "display_at": "2025-12-18T09:02:43Z",
-          "incident_id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
-          "status": "monitoring",
-          "updated_at": "2025-12-18T09:02:43Z"
-        },
-        {
-          "id": "01KCQ4ETMDDCQJDRDKSSWAAY8G",
-          "body": "",
-          "created_at": "2025-12-17T21:46:30Z",
-          "display_at": "2025-12-16T18:42:00Z",
-          "incident_id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
-          "status": "investigating",
-          "updated_at": "2025-12-17T21:47:07Z"
-        },
-        {
-          "id": "01KCQ4D84MZ50D835VCEEMXN39",
-          "body": "",
-          "created_at": "2025-12-17T21:45:39Z",
-          "display_at": "2025-12-16T08:02:00Z",
-          "incident_id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
-          "status": "identified",
-          "updated_at": "2025-12-17T21:46:53Z"
-        }
-      ]
     }
   ]
 }
