@@ -275,45 +275,6 @@
           "updated_at": "2025-12-17T21:46:53Z"
         }
       ]
-    },
-    {
-      "id": "01KCQ5FA8SEDPNZSZEH27V2H5X",
-      "name": "Finetuning jobs are intermittently failing",
-      "status": "monitoring",
-      "created_at": "2025-12-17T22:04:15Z",
-      "updated_at": "2025-12-17T22:09:08Z",
-      "monitoring_at": "2025-12-17T22:00:00Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KCQ5R8NCZ2217CRFQF7RAEWR",
-          "body": "",
-          "created_at": "2025-12-17T22:09:08Z",
-          "display_at": "2025-12-17T22:00:00Z",
-          "incident_id": "01KCQ5FA8SEDPNZSZEH27V2H5X",
-          "status": "monitoring",
-          "updated_at": "2025-12-17T22:10:24Z"
-        },
-        {
-          "id": "01KCQ5QKZ55MVQD50C8R07DYG7",
-          "body": "",
-          "created_at": "2025-12-17T22:08:47Z",
-          "display_at": "2025-12-17T20:17:00Z",
-          "incident_id": "01KCQ5FA8SEDPNZSZEH27V2H5X",
-          "status": "investigating",
-          "updated_at": "2025-12-17T22:09:53Z"
-        },
-        {
-          "id": "01KCQ5FA8SWXTYF63N9982PQP2",
-          "body": "",
-          "created_at": "2025-12-17T22:04:15Z",
-          "display_at": "2025-12-17T04:35:00Z",
-          "incident_id": "01KCQ5FA8SEDPNZSZEH27V2H5X",
-          "status": "identified",
-          "updated_at": "2025-12-17T22:09:43Z"
-        }
-      ]
     }
   ]
 }
