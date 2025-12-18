@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-17T22:00:00Z"
+    "updated_at": "2025-12-18T09:02:43Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -238,6 +238,45 @@
   ],
   "incidents": [
     {
+      "id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
+      "name": "ChatGPT intermittently not loading successfully after SSO authentication",
+      "status": "monitoring",
+      "created_at": "2025-12-17T21:45:39Z",
+      "updated_at": "2025-12-18T09:02:43Z",
+      "monitoring_at": "2025-12-18T09:02:43Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KCRB4ZYHFZ6D1YKYZ6VK5R4B",
+          "body": "",
+          "created_at": "2025-12-18T09:02:43Z",
+          "display_at": "2025-12-18T09:02:43Z",
+          "incident_id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
+          "status": "monitoring",
+          "updated_at": "2025-12-18T09:02:43Z"
+        },
+        {
+          "id": "01KCQ4ETMDDCQJDRDKSSWAAY8G",
+          "body": "",
+          "created_at": "2025-12-17T21:46:30Z",
+          "display_at": "2025-12-16T18:42:00Z",
+          "incident_id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
+          "status": "investigating",
+          "updated_at": "2025-12-17T21:47:07Z"
+        },
+        {
+          "id": "01KCQ4D84MZ50D835VCEEMXN39",
+          "body": "",
+          "created_at": "2025-12-17T21:45:39Z",
+          "display_at": "2025-12-16T08:02:00Z",
+          "incident_id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
+          "status": "identified",
+          "updated_at": "2025-12-17T21:46:53Z"
+        }
+      ]
+    },
+    {
       "id": "01KCQ5FA8SEDPNZSZEH27V2H5X",
       "name": "Finetuning jobs are intermittently failing",
       "status": "monitoring",
@@ -273,35 +312,6 @@
           "incident_id": "01KCQ5FA8SEDPNZSZEH27V2H5X",
           "status": "identified",
           "updated_at": "2025-12-17T22:09:43Z"
-        }
-      ]
-    },
-    {
-      "id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
-      "name": "ChatGPT intermittently not loading successfully after SSO authentication",
-      "status": "investigating",
-      "created_at": "2025-12-17T21:45:39Z",
-      "updated_at": "2025-12-17T21:46:30Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KCQ4ETMDDCQJDRDKSSWAAY8G",
-          "body": "",
-          "created_at": "2025-12-17T21:46:30Z",
-          "display_at": "2025-12-16T18:42:00Z",
-          "incident_id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
-          "status": "investigating",
-          "updated_at": "2025-12-17T21:47:07Z"
-        },
-        {
-          "id": "01KCQ4D84MZ50D835VCEEMXN39",
-          "body": "",
-          "created_at": "2025-12-17T21:45:39Z",
-          "display_at": "2025-12-16T08:02:00Z",
-          "incident_id": "01KCQ4D84M0KCBPNCENAV6B8GZ",
-          "status": "identified",
-          "updated_at": "2025-12-17T21:46:53Z"
         }
       ]
     }
