@@ -74,21 +74,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01K9G527YRPY1EFRMHTKB5BKT5",
-      "name": "Sora",
-      "status": "operational",
-      "created_at": "2025-11-07T21:55:20Z",
-      "updated_at": "2025-11-07T21:55:20Z",
-      "position": 7,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 8,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,7 +88,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 9,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,7 +97,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 10,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,7 +106,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 11,
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -123,6 +114,15 @@
       "name": "Audio",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2025-11-07T21:55:20Z",
+      "position": 11,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01K9G527YRPY1EFRMHTKB5BKT5",
+      "name": "Sora",
+      "status": "operational",
+      "created_at": "2025-11-07T21:55:20Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
