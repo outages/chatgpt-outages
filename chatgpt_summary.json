@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-12-25T03:54:53Z"
+    "updated_at": "2025-12-25T07:23:24Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -239,13 +239,22 @@
   "incidents": [
     {
       "id": "01KD9TAC2AVM41E7FSGE3X0B9J",
-      "name": "Issue with loading conversation history",
-      "status": "investigating",
+      "name": "Issue with loading conversation history for some users",
+      "status": "identified",
       "created_at": "2025-12-25T03:54:53Z",
-      "updated_at": "2025-12-25T03:54:53Z",
+      "updated_at": "2025-12-25T07:31:46Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KDA685VEN3VVG9TGJX11XSGS",
+          "body": "",
+          "created_at": "2025-12-25T07:23:24Z",
+          "display_at": "2025-12-25T07:23:24Z",
+          "incident_id": "01KD9TAC2AVM41E7FSGE3X0B9J",
+          "status": "identified",
+          "updated_at": "2025-12-25T07:23:24Z"
+        },
         {
           "id": "01KD9TAC2A71HT5BGN9TD8GCXJ",
           "body": "",
