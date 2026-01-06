@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-07T21:55:20Z"
+    "updated_at": "2026-01-06T09:05:07Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -110,21 +110,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
-      "name": "Responses",
-      "status": "operational",
-      "created_at": "2025-03-13T18:31:32Z",
-      "updated_at": "2025-11-07T21:55:20Z",
-      "position": 11,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01K9G527YRPY1EFRMHTKB5BKT5",
       "name": "Sora",
       "status": "operational",
       "created_at": "2025-11-07T21:55:20Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 12,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -133,7 +124,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 13,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -142,7 +133,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 14,
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -151,7 +142,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 15,
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,7 +151,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 16,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,7 +160,7 @@
       "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 17,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,7 +169,7 @@
       "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 18,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -187,7 +178,7 @@
       "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 19,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -196,7 +187,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 20,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -205,7 +196,7 @@
       "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 21,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,7 +205,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 22,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -223,7 +214,7 @@
       "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2025-11-07T21:55:20Z",
-      "position": 23,
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -232,8 +223,40 @@
       "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2025-11-07T21:55:20Z",
+      "position": 23,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
+      "name": "Login",
+      "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KE98V1TQRRQC8T1VAHH18NDC",
+      "name": "GPT-5.1 Codex Max Elevated Error Rate",
+      "status": "monitoring",
+      "created_at": "2026-01-06T09:05:07Z",
+      "updated_at": "2026-01-06T09:05:07Z",
+      "monitoring_at": "2026-01-06T09:05:07Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KE98V1TQBN0QKMZ2BEB57WES",
+          "body": "",
+          "created_at": "2026-01-06T09:05:07Z",
+          "display_at": "2026-01-06T09:05:07Z",
+          "incident_id": "01KE98V1TQRRQC8T1VAHH18NDC",
+          "status": "monitoring",
+          "updated_at": "2026-01-06T09:05:07Z"
+        }
+      ]
     }
   ]
 }
