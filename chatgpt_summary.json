@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-01-06T19:36:32Z"
+    "updated_at": "2026-01-06T20:54:22Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KEACZ6R02744RQKCMSK1ZG54",
       "name": "ChatGPT issues while retrieving workspace members",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-01-06T19:36:32Z",
-      "updated_at": "2026-01-06T19:36:32Z",
+      "updated_at": "2026-01-06T20:54:22Z",
+      "monitoring_at": "2026-01-06T20:54:22Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KEAHDQKDZAJ39NBWZ31DYRCD",
+          "body": "",
+          "created_at": "2026-01-06T20:54:22Z",
+          "display_at": "2026-01-06T20:54:22Z",
+          "incident_id": "01KEACZ6R02744RQKCMSK1ZG54",
+          "status": "monitoring",
+          "updated_at": "2026-01-06T20:54:22Z"
+        },
         {
           "id": "01KEACZ6R0NVA2B4AWWJ807RQ7",
           "body": "",
