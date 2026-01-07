@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-01-07T23:05:08Z"
+    "updated_at": "2026-01-07T23:24:47Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,21 @@
     {
       "id": "01KEDB9WGPMX6HK8X629AFM907",
       "name": "Elevated error rates for Responses API",
-      "status": "identified",
+      "status": "investigating",
       "created_at": "2026-01-07T23:05:08Z",
-      "updated_at": "2026-01-07T23:05:08Z",
+      "updated_at": "2026-01-07T23:24:47Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KEDCDW1F251ZGKRGXSQ6946B",
+          "body": "",
+          "created_at": "2026-01-07T23:24:47Z",
+          "display_at": "2026-01-07T23:24:47Z",
+          "incident_id": "01KEDB9WGPMX6HK8X629AFM907",
+          "status": "investigating",
+          "updated_at": "2026-01-07T23:24:47Z"
+        },
         {
           "id": "01KEDB9WGPG3DJ4GQ6BDBTMK4E",
           "body": "",
