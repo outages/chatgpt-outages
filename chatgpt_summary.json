@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2025-11-07T21:55:20Z"
+    "updated_at": "2026-01-22T14:43:08Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -193,7 +193,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 20,
@@ -234,6 +234,47 @@
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KFK1A9AAJ246K5G966PSQQJK",
+      "name": "Codex Github Issues",
+      "status": "monitoring",
+      "created_at": "2026-01-22T14:21:44Z",
+      "updated_at": "2026-01-22T14:43:08Z",
+      "monitoring_at": "2026-01-22T14:43:08Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KFK2HFYY7V1GK2W6JQ4CM06T",
+          "body": "",
+          "created_at": "2026-01-22T14:43:08Z",
+          "display_at": "2026-01-22T14:43:08Z",
+          "incident_id": "01KFK1A9AAJ246K5G966PSQQJK",
+          "status": "monitoring",
+          "updated_at": "2026-01-22T14:43:08Z"
+        },
+        {
+          "id": "01KFK22B9TJTD8QJMS6NGHSNS0",
+          "body": "",
+          "created_at": "2026-01-22T14:34:52Z",
+          "display_at": "2026-01-22T14:34:52Z",
+          "incident_id": "01KFK1A9AAJ246K5G966PSQQJK",
+          "status": "identified",
+          "updated_at": "2026-01-22T14:34:52Z"
+        },
+        {
+          "id": "01KFK1A9AAGDN5BXDJP9EXAWED",
+          "body": "",
+          "created_at": "2026-01-22T14:21:44Z",
+          "display_at": "2026-01-22T14:21:44Z",
+          "incident_id": "01KFK1A9AAJ246K5G966PSQQJK",
+          "status": "investigating",
+          "updated_at": "2026-01-22T14:21:44Z"
+        }
+      ]
     }
   ]
 }
