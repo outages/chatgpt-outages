@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-01-26T16:46:02Z"
+    "updated_at": "2025-11-07T21:55:20Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -49,7 +49,7 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 4,
@@ -58,7 +58,7 @@
     {
       "id": "01K8C008QVXHA6JX98PAS42VPD",
       "name": "ChatGPT Atlas",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 5,
@@ -103,7 +103,7 @@
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Agent",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 10,
@@ -112,7 +112,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 11,
@@ -121,7 +121,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 12,
@@ -130,7 +130,7 @@
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 13,
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 14,
@@ -148,7 +148,7 @@
     {
       "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
       "name": "Voice mode",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 15,
@@ -229,42 +229,11 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KFXHMCMQE0EWA7R8RM5F9YW2",
-      "name": "ChatGPT availability degraded for free and logged out users ",
-      "status": "investigating",
-      "created_at": "2026-01-26T16:19:16Z",
-      "updated_at": "2026-01-26T16:46:02Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KFXK5CJNH5NEKVJPM4W2KNP2",
-          "body": "",
-          "created_at": "2026-01-26T16:46:02Z",
-          "display_at": "2026-01-26T16:46:02Z",
-          "incident_id": "01KFXHMCMQE0EWA7R8RM5F9YW2",
-          "status": "investigating",
-          "updated_at": "2026-01-26T16:46:02Z"
-        },
-        {
-          "id": "01KFXHMCMQCBXWJ52HF5F5AS3N",
-          "body": "",
-          "created_at": "2026-01-26T16:19:16Z",
-          "display_at": "2026-01-26T16:19:16Z",
-          "incident_id": "01KFXHMCMQE0EWA7R8RM5F9YW2",
-          "status": "identified",
-          "updated_at": "2026-01-26T16:22:23Z"
-        }
-      ]
     }
   ]
 }
