@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-01-27T10:44:15Z"
+    "updated_at": "2025-11-07T21:55:20Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -229,43 +229,11 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2025-11-07T21:55:20Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KFZB0A5C1D3TQED136VXFT9W",
-      "name": "Elevated Codex Error Rate",
-      "status": "monitoring",
-      "created_at": "2026-01-27T09:01:56Z",
-      "updated_at": "2026-01-27T10:44:15Z",
-      "monitoring_at": "2026-01-27T10:44:15Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KFZGVNCT7TJHYXDB6Z7XFFWT",
-          "body": "",
-          "created_at": "2026-01-27T10:44:15Z",
-          "display_at": "2026-01-27T10:44:15Z",
-          "incident_id": "01KFZB0A5C1D3TQED136VXFT9W",
-          "status": "monitoring",
-          "updated_at": "2026-01-27T10:44:15Z"
-        },
-        {
-          "id": "01KFZB0A5C5Q9WDZKP5CMNTB03",
-          "body": "",
-          "created_at": "2026-01-27T09:01:56Z",
-          "display_at": "2026-01-27T09:01:56Z",
-          "incident_id": "01KFZB0A5C1D3TQED136VXFT9W",
-          "status": "investigating",
-          "updated_at": "2026-01-27T09:01:56Z"
-        }
-      ]
     }
   ]
 }
