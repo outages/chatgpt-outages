@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-01-27T09:01:56Z"
+    "updated_at": "2026-01-27T10:44:15Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KFZB0A5C1D3TQED136VXFT9W",
       "name": "Elevated Codex Error Rate",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-01-27T09:01:56Z",
-      "updated_at": "2026-01-27T09:01:56Z",
+      "updated_at": "2026-01-27T10:44:15Z",
+      "monitoring_at": "2026-01-27T10:44:15Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KFZGVNCT7TJHYXDB6Z7XFFWT",
+          "body": "",
+          "created_at": "2026-01-27T10:44:15Z",
+          "display_at": "2026-01-27T10:44:15Z",
+          "incident_id": "01KFZB0A5C1D3TQED136VXFT9W",
+          "status": "monitoring",
+          "updated_at": "2026-01-27T10:44:15Z"
+        },
         {
           "id": "01KFZB0A5C5Q9WDZKP5CMNTB03",
           "body": "",
