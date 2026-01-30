@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-01-30T20:38:37Z"
+    "updated_at": "2026-01-30T21:14:21Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 2,
@@ -240,12 +240,22 @@
     {
       "id": "01KG8A252RVEHGC7EMP11JY9M8",
       "name": "Some Android users may be experiencing errors when signing up for ChatGPT with Google Authentication",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-01-30T20:38:37Z",
-      "updated_at": "2026-01-30T20:38:37Z",
+      "updated_at": "2026-01-30T21:14:21Z",
+      "monitoring_at": "2026-01-30T21:14:21Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KG8C3JG8M8ZBC9PWGFVP4QV2",
+          "body": "",
+          "created_at": "2026-01-30T21:14:21Z",
+          "display_at": "2026-01-30T21:14:21Z",
+          "incident_id": "01KG8A252RVEHGC7EMP11JY9M8",
+          "status": "monitoring",
+          "updated_at": "2026-01-30T21:14:21Z"
+        },
         {
           "id": "01KG8A252RRPPH72M8WYC90C9E",
           "body": "",
