@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-01-30T20:03:49Z"
+    "updated_at": "2026-01-30T20:38:37Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 2,
@@ -238,23 +238,43 @@
   ],
   "incidents": [
     {
+      "id": "01KG8A252RVEHGC7EMP11JY9M8",
+      "name": "Some Android users may be experiencing errors when signing up for ChatGPT with Google Authentication",
+      "status": "identified",
+      "created_at": "2026-01-30T20:38:37Z",
+      "updated_at": "2026-01-30T20:38:37Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KG8A252RRPPH72M8WYC90C9E",
+          "body": "",
+          "created_at": "2026-01-30T20:38:37Z",
+          "display_at": "2026-01-30T20:38:37Z",
+          "incident_id": "01KG8A252RVEHGC7EMP11JY9M8",
+          "status": "identified",
+          "updated_at": "2026-01-30T20:38:37Z"
+        }
+      ]
+    },
+    {
       "id": "01KG80XW6H509B6MVRE05W99SF",
       "name": "Some ChatGPT users may be experiencing issues with their subscription renewals",
       "status": "monitoring",
       "created_at": "2026-01-30T17:59:00Z",
-      "updated_at": "2026-01-30T20:03:49Z",
-      "monitoring_at": "2026-01-30T20:03:49Z",
+      "updated_at": "2026-01-30T20:34:43Z",
+      "monitoring_at": "2026-01-30T20:03:00Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01KG882D3V6R2XABWG534RVW7X",
+          "id": "01KG89TZVX340XG616R4WHV97H",
           "body": "",
-          "created_at": "2026-01-30T20:03:49Z",
-          "display_at": "2026-01-30T20:03:49Z",
+          "created_at": "2026-01-30T20:34:43Z",
+          "display_at": "2026-01-30T20:03:00Z",
           "incident_id": "01KG80XW6H509B6MVRE05W99SF",
           "status": "monitoring",
-          "updated_at": "2026-01-30T20:03:49Z"
+          "updated_at": "2026-01-30T20:34:57Z"
         },
         {
           "id": "01KG869GKA8W6T4RZPKK94JCT5",
