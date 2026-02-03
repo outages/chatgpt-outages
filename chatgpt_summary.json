@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-02-03T20:44:34Z"
+    "updated_at": "2026-02-03T21:21:35Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -49,7 +49,7 @@
     {
       "id": "01JMXBRMFEMZK0HPK19RYET250",
       "name": "Fine-tuning",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-01-30T19:04:38Z",
       "position": 4,
@@ -240,12 +240,22 @@
     {
       "id": "01KGJK9Q6PDB3C3VX6MPCY6106",
       "name": "Elevated error rates for ChatGPT and Platform users",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-02-03T20:32:27Z",
-      "updated_at": "2026-02-03T20:44:34Z",
+      "updated_at": "2026-02-03T21:21:35Z",
+      "monitoring_at": "2026-02-03T21:21:35Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KGJP3P4K670E32AY9CS6EFD9",
+          "body": "",
+          "created_at": "2026-02-03T21:21:35Z",
+          "display_at": "2026-02-03T21:21:35Z",
+          "incident_id": "01KGJK9Q6PDB3C3VX6MPCY6106",
+          "status": "monitoring",
+          "updated_at": "2026-02-03T21:21:35Z"
+        },
         {
           "id": "01KGJKZX6TGY5B713SW68DV4CT",
           "body": "",
@@ -263,6 +273,26 @@
           "incident_id": "01KGJK9Q6PDB3C3VX6MPCY6106",
           "status": "identified",
           "updated_at": "2026-02-03T20:32:27Z"
+        }
+      ]
+    },
+    {
+      "id": "01KGJMMMDDYD8RYNEVFNVYG99F",
+      "name": "Elevated error rates for finetuning jobs",
+      "status": "identified",
+      "created_at": "2026-02-03T20:55:53Z",
+      "updated_at": "2026-02-03T20:55:53Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KGJMMMDDG4GEFZRKTVS2XFEC",
+          "body": "",
+          "created_at": "2026-02-03T20:55:53Z",
+          "display_at": "2026-02-03T20:55:53Z",
+          "incident_id": "01KGJMMMDDYD8RYNEVFNVYG99F",
+          "status": "identified",
+          "updated_at": "2026-02-03T20:55:53Z"
         }
       ]
     }
