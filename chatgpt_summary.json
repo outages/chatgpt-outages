@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-02-03T21:21:35Z"
+    "updated_at": "2026-02-03T22:19:56Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -22,7 +22,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 1,
@@ -31,7 +31,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 2,
@@ -67,7 +67,7 @@
     {
       "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
       "name": "Voice mode",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 6,
@@ -76,7 +76,7 @@
     {
       "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
       "name": "GPTs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 7,
@@ -121,7 +121,7 @@
     {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 12,
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 14,
@@ -148,7 +148,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 15,
@@ -157,7 +157,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 16,
@@ -166,7 +166,7 @@
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 17,
@@ -175,7 +175,7 @@
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Agent",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 18,
@@ -184,7 +184,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 19,
@@ -193,7 +193,7 @@
     {
       "id": "01K8C008QVXHA6JX98PAS42VPD",
       "name": "ChatGPT Atlas",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 20,
@@ -238,53 +238,24 @@
   ],
   "incidents": [
     {
-      "id": "01KGJK9Q6PDB3C3VX6MPCY6106",
-      "name": "Elevated error rates for ChatGPT and Platform users",
-      "status": "monitoring",
-      "created_at": "2026-02-03T20:32:27Z",
-      "updated_at": "2026-02-03T21:21:35Z",
-      "monitoring_at": "2026-02-03T21:21:35Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KGJP3P4K670E32AY9CS6EFD9",
-          "body": "",
-          "created_at": "2026-02-03T21:21:35Z",
-          "display_at": "2026-02-03T21:21:35Z",
-          "incident_id": "01KGJK9Q6PDB3C3VX6MPCY6106",
-          "status": "monitoring",
-          "updated_at": "2026-02-03T21:21:35Z"
-        },
-        {
-          "id": "01KGJKZX6TGY5B713SW68DV4CT",
-          "body": "",
-          "created_at": "2026-02-03T20:44:34Z",
-          "display_at": "2026-02-03T20:44:34Z",
-          "incident_id": "01KGJK9Q6PDB3C3VX6MPCY6106",
-          "status": "identified",
-          "updated_at": "2026-02-03T20:44:34Z"
-        },
-        {
-          "id": "01KGJK9Q6PV1P5SW7QKVEXFYYW",
-          "body": "",
-          "created_at": "2026-02-03T20:32:27Z",
-          "display_at": "2026-02-03T20:32:27Z",
-          "incident_id": "01KGJK9Q6PDB3C3VX6MPCY6106",
-          "status": "identified",
-          "updated_at": "2026-02-03T20:32:27Z"
-        }
-      ]
-    },
-    {
       "id": "01KGJMMMDDYD8RYNEVFNVYG99F",
       "name": "Elevated error rates for finetuning jobs",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-02-03T20:55:53Z",
-      "updated_at": "2026-02-03T20:55:53Z",
+      "updated_at": "2026-02-03T22:19:56Z",
+      "monitoring_at": "2026-02-03T22:19:56Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KGJSEGZX5VJYW9HRNX2VE0R4",
+          "body": "",
+          "created_at": "2026-02-03T22:19:56Z",
+          "display_at": "2026-02-03T22:19:56Z",
+          "incident_id": "01KGJMMMDDYD8RYNEVFNVYG99F",
+          "status": "monitoring",
+          "updated_at": "2026-02-03T22:19:56Z"
+        },
         {
           "id": "01KGJMMMDDG4GEFZRKTVS2XFEC",
           "body": "",
