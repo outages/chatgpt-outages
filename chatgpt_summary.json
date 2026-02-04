@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-02-04T17:43:00Z"
+    "updated_at": "2026-01-30T19:04:39Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,47 +234,6 @@
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KGMVV926ZSCD1MSDBS07AWYA",
-      "name": "ChatGPT Availability Impacted",
-      "status": "monitoring",
-      "created_at": "2026-02-04T17:40:20Z",
-      "updated_at": "2026-02-04T18:01:13Z",
-      "monitoring_at": "2026-02-04T17:43:00Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KGMX1GVAK0BCDZY6SMDYM6MQ",
-          "body": "",
-          "created_at": "2026-02-04T18:01:13Z",
-          "display_at": "2026-02-04T17:43:00Z",
-          "incident_id": "01KGMVV926ZSCD1MSDBS07AWYA",
-          "status": "monitoring",
-          "updated_at": "2026-02-04T18:07:27Z"
-        },
-        {
-          "id": "01KGMWDGESCDPGRKADFCSDTHQC",
-          "body": "",
-          "created_at": "2026-02-04T17:50:17Z",
-          "display_at": "2026-02-04T17:35:00Z",
-          "incident_id": "01KGMVV926ZSCD1MSDBS07AWYA",
-          "status": "investigating",
-          "updated_at": "2026-02-04T18:07:11Z"
-        },
-        {
-          "id": "01KGMVV926YVRXN7E79QYJZK8F",
-          "body": "",
-          "created_at": "2026-02-04T17:40:20Z",
-          "display_at": "2026-02-04T17:05:00Z",
-          "incident_id": "01KGMVV926ZSCD1MSDBS07AWYA",
-          "status": "identified",
-          "updated_at": "2026-02-04T18:07:01Z"
-        }
-      ]
     }
   ]
 }
