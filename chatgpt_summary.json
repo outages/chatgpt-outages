@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-02-10T18:12:40Z"
+    "updated_at": "2026-01-30T19:04:39Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,65 +234,6 @@
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KH472QRYMZASAAXB8CE74QBY",
-      "name": "GPT 5.2 Elevated Error Rates",
-      "status": "monitoring",
-      "created_at": "2026-02-10T16:45:15Z",
-      "updated_at": "2026-02-10T18:12:40Z",
-      "monitoring_at": "2026-02-10T17:44:14Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KH4C2T92PCY8CV1SV63EF8F8",
-          "body": "",
-          "created_at": "2026-02-10T18:12:40Z",
-          "display_at": "2026-02-10T18:12:40Z",
-          "incident_id": "01KH472QRYMZASAAXB8CE74QBY",
-          "status": "monitoring",
-          "updated_at": "2026-02-10T18:12:40Z"
-        },
-        {
-          "id": "01KH4AEQWWM2A79JE6ZN1YZ8F3",
-          "body": "",
-          "created_at": "2026-02-10T17:44:14Z",
-          "display_at": "2026-02-10T17:44:14Z",
-          "incident_id": "01KH472QRYMZASAAXB8CE74QBY",
-          "status": "monitoring",
-          "updated_at": "2026-02-10T17:44:14Z"
-        },
-        {
-          "id": "01KH490G7041QVNC1F4BQT68MK",
-          "body": "",
-          "created_at": "2026-02-10T17:18:59Z",
-          "display_at": "2026-02-10T17:18:59Z",
-          "incident_id": "01KH472QRYMZASAAXB8CE74QBY",
-          "status": "investigating",
-          "updated_at": "2026-02-10T17:18:59Z"
-        },
-        {
-          "id": "01KH474SD9X12VGGWA5Y8KG8V2",
-          "body": "",
-          "created_at": "2026-02-10T16:46:22Z",
-          "display_at": "2026-02-10T16:46:22Z",
-          "incident_id": "01KH472QRYMZASAAXB8CE74QBY",
-          "status": "investigating",
-          "updated_at": "2026-02-10T16:46:22Z"
-        },
-        {
-          "id": "01KH472QRYWTPRYJW6XV0MNXSJ",
-          "body": "",
-          "created_at": "2026-02-10T16:45:15Z",
-          "display_at": "2026-02-10T16:45:15Z",
-          "incident_id": "01KH472QRYMZASAAXB8CE74QBY",
-          "status": "investigating",
-          "updated_at": "2026-02-10T16:45:15Z"
-        }
-      ]
     }
   ]
 }
