@@ -6,8 +6,8 @@
     "updated_at": "2026-02-12T16:10:15Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -264,45 +264,6 @@
           "incident_id": "01KH94NGSXNH9H4WBPXB3RFZWX",
           "status": "identified",
           "updated_at": "2026-02-12T14:39:17Z"
-        }
-      ]
-    },
-    {
-      "id": "01KH6RJWMT97BTHSBKA6M8Q0RY",
-      "name": "Some users may experience issues starting conversations in ChatGPT",
-      "status": "monitoring",
-      "created_at": "2026-02-11T16:29:39Z",
-      "updated_at": "2026-02-12T07:23:52Z",
-      "monitoring_at": "2026-02-12T07:23:52Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KH8BR82FFXS0WYPPKRS9JA2A",
-          "body": "",
-          "created_at": "2026-02-12T07:23:52Z",
-          "display_at": "2026-02-12T07:23:52Z",
-          "incident_id": "01KH6RJWMT97BTHSBKA6M8Q0RY",
-          "status": "monitoring",
-          "updated_at": "2026-02-12T07:23:52Z"
-        },
-        {
-          "id": "01KH7QT292X5B94GRDH40X0X76",
-          "body": "",
-          "created_at": "2026-02-12T01:35:20Z",
-          "display_at": "2026-02-12T01:35:20Z",
-          "incident_id": "01KH6RJWMT97BTHSBKA6M8Q0RY",
-          "status": "investigating",
-          "updated_at": "2026-02-12T01:35:20Z"
-        },
-        {
-          "id": "01KH6RJWMTF8MBSG52RWZW6NNK",
-          "body": "",
-          "created_at": "2026-02-11T16:29:39Z",
-          "display_at": "2026-02-11T16:29:39Z",
-          "incident_id": "01KH6RJWMT97BTHSBKA6M8Q0RY",
-          "status": "investigating",
-          "updated_at": "2026-02-11T16:29:39Z"
         }
       ]
     }
