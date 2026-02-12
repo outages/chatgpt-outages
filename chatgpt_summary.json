@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-02-12T21:44:04Z"
+    "updated_at": "2026-01-30T19:04:39Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,38 +234,6 @@
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KH9WCWZ41K9ST9FGB1V15DFC",
-      "name": "ChatGPT Conversation Issues",
-      "status": "monitoring",
-      "created_at": "2026-02-12T21:34:00Z",
-      "updated_at": "2026-02-12T21:44:04Z",
-      "monitoring_at": "2026-02-12T21:44:04Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KH9WZAG9414YYA7BYQA1KV85",
-          "body": "",
-          "created_at": "2026-02-12T21:44:04Z",
-          "display_at": "2026-02-12T21:44:04Z",
-          "incident_id": "01KH9WCWZ41K9ST9FGB1V15DFC",
-          "status": "monitoring",
-          "updated_at": "2026-02-12T21:44:04Z"
-        },
-        {
-          "id": "01KH9WCWZ4FG1537M9DSJC1KYZ",
-          "body": "",
-          "created_at": "2026-02-12T21:34:00Z",
-          "display_at": "2026-02-12T21:34:00Z",
-          "incident_id": "01KH9WCWZ41K9ST9FGB1V15DFC",
-          "status": "investigating",
-          "updated_at": "2026-02-12T21:34:00Z"
-        }
-      ]
     }
   ]
 }
