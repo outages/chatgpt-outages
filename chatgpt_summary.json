@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-01-30T19:04:39Z"
+    "updated_at": "2026-02-14T01:35:55Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -157,7 +157,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 16,
@@ -234,6 +234,55 @@
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KHB0X2GYKJEW6WV3G1SFYPCE",
+      "name": "High errors with image generation",
+      "status": "investigating",
+      "created_at": "2026-02-13T08:11:59Z",
+      "updated_at": "2026-02-14T01:35:55Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KHCWMJ61HZS9RVJSR831SRX1",
+          "body": "",
+          "created_at": "2026-02-14T01:35:55Z",
+          "display_at": "2026-02-14T01:35:55Z",
+          "incident_id": "01KHB0X2GYKJEW6WV3G1SFYPCE",
+          "status": "investigating",
+          "updated_at": "2026-02-14T01:35:55Z"
+        },
+        {
+          "id": "01KHB3KP71VYN91DWFRQWX0WS7",
+          "body": "",
+          "created_at": "2026-02-13T08:59:17Z",
+          "display_at": "2026-02-13T08:59:17Z",
+          "incident_id": "01KHB0X2GYKJEW6WV3G1SFYPCE",
+          "status": "resolved",
+          "updated_at": "2026-02-13T08:59:17Z"
+        },
+        {
+          "id": "01KHB1H5G272CQVG9XK7CB4XVA",
+          "body": "",
+          "created_at": "2026-02-13T08:22:57Z",
+          "display_at": "2026-02-13T08:22:57Z",
+          "incident_id": "01KHB0X2GYKJEW6WV3G1SFYPCE",
+          "status": "monitoring",
+          "updated_at": "2026-02-13T08:22:57Z"
+        },
+        {
+          "id": "01KHB0X2GY3KGH38ZNH39XQ85H",
+          "body": "",
+          "created_at": "2026-02-13T08:11:59Z",
+          "display_at": "2026-02-13T08:11:59Z",
+          "incident_id": "01KHB0X2GYKJEW6WV3G1SFYPCE",
+          "status": "identified",
+          "updated_at": "2026-02-13T08:11:59Z"
+        }
+      ]
     }
   ]
 }
