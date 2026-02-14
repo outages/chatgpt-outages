@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-02-14T18:07:00Z"
+    "updated_at": "2026-02-14T18:30:04Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -240,12 +240,22 @@
     {
       "id": "01KHENBA61A9PJHE092HXW60RA",
       "name": "Delays in Support Email Processing",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-02-14T18:07:00Z",
-      "updated_at": "2026-02-14T18:07:00Z",
+      "updated_at": "2026-02-14T18:30:04Z",
+      "monitoring_at": "2026-02-14T18:30:04Z",
       "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KHEPNHA334VVZ3N6QP8MCE0E",
+          "body": "",
+          "created_at": "2026-02-14T18:30:04Z",
+          "display_at": "2026-02-14T18:30:04Z",
+          "incident_id": "01KHENBA61A9PJHE092HXW60RA",
+          "status": "monitoring",
+          "updated_at": "2026-02-14T18:30:04Z"
+        },
         {
           "id": "01KHENBA61VVBTNZ1T6TES67TQ",
           "body": "",
