@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-02-16T17:27:35Z"
+    "updated_at": "2026-01-30T19:04:39Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -184,7 +184,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 19,
@@ -234,28 +234,6 @@
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KHKQWHXEF4WJY8WGX24RA07R",
-      "name": "Increased error rates on Codex Cloud",
-      "status": "identified",
-      "created_at": "2026-02-16T17:27:35Z",
-      "updated_at": "2026-02-16T17:27:35Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KHKQWHXEBAXH4XP78KPESGW4",
-          "body": "",
-          "created_at": "2026-02-16T17:27:35Z",
-          "display_at": "2026-02-16T17:27:35Z",
-          "incident_id": "01KHKQWHXEF4WJY8WGX24RA07R",
-          "status": "identified",
-          "updated_at": "2026-02-16T17:27:35Z"
-        }
-      ]
     }
   ]
 }
