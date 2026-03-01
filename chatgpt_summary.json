@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-01T06:10:57Z"
+    "updated_at": "2026-03-01T07:29:22Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KJM0AYG5PAY9EYRFH4T6JHP6",
       "name": "Increased Authentication Failures Affecting Some Users",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-03-01T06:10:57Z",
-      "updated_at": "2026-03-01T06:10:57Z",
+      "updated_at": "2026-03-01T07:29:22Z",
+      "monitoring_at": "2026-03-01T07:29:22Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KJM4THJWBMKZT627XWP2G6P7",
+          "body": "",
+          "created_at": "2026-03-01T07:29:22Z",
+          "display_at": "2026-03-01T07:29:22Z",
+          "incident_id": "01KJM0AYG5PAY9EYRFH4T6JHP6",
+          "status": "monitoring",
+          "updated_at": "2026-03-01T07:29:22Z"
+        },
         {
           "id": "01KJM0AYG56WK9KQGZKQFTY0Q1",
           "body": "",
