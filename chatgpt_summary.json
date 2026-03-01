@@ -3,20 +3,29 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-01-30T19:04:39Z"
+    "updated_at": "2026-03-01T06:10:57Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
+    {
+      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
+      "name": "Login",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2026-01-30T19:04:39Z",
+      "position": 0,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
     {
       "id": "01JMXBRMFEKVBWKK82B44QFMCE",
       "name": "Audio",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-01-30T19:04:39Z",
-      "position": 0,
+      "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -25,7 +34,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-01-30T19:04:39Z",
-      "position": 1,
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -34,7 +43,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-01-30T19:04:38Z",
-      "position": 2,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -43,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-01-30T19:04:39Z",
-      "position": 3,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -51,15 +60,6 @@
       "name": "Compliance API",
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 4,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -234,6 +234,28 @@
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KJM0AYG5PAY9EYRFH4T6JHP6",
+      "name": "Increased Authentication Failures Affecting Some Users",
+      "status": "investigating",
+      "created_at": "2026-03-01T06:10:57Z",
+      "updated_at": "2026-03-01T06:10:57Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KJM0AYG56WK9KQGZKQFTY0Q1",
+          "body": "",
+          "created_at": "2026-03-01T06:10:57Z",
+          "display_at": "2026-03-01T06:10:57Z",
+          "incident_id": "01KJM0AYG5PAY9EYRFH4T6JHP6",
+          "status": "investigating",
+          "updated_at": "2026-03-01T06:10:57Z"
+        }
+      ]
     }
   ]
 }
