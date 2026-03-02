@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-02T15:30:37Z"
+    "updated_at": "2026-03-02T15:59:31Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -130,7 +130,7 @@
     {
       "id": "01K9G527YRPY1EFRMHTKB5BKT5",
       "name": "Sora",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-11-07T21:55:20Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 13,
@@ -237,6 +237,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01KJQMDBTHS18NGB9Q5M0NH7A1",
+      "name": "Errors in Sora API",
+      "status": "investigating",
+      "created_at": "2026-03-02T15:59:31Z",
+      "updated_at": "2026-03-02T15:59:31Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KJQMDBTHYTFB6GFXA69TMW6D",
+          "body": "",
+          "created_at": "2026-03-02T15:59:31Z",
+          "display_at": "2026-03-02T15:59:31Z",
+          "incident_id": "01KJQMDBTHS18NGB9Q5M0NH7A1",
+          "status": "investigating",
+          "updated_at": "2026-03-02T15:59:31Z"
+        }
+      ]
+    },
     {
       "id": "01KJQJRF7J0CKT82SHDZ85YG4Y",
       "name": "File uploads and file processing failing",
