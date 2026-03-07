@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-06T23:43:26Z"
+    "updated_at": "2026-01-30T19:04:39Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -49,7 +49,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 4,
@@ -234,76 +234,6 @@
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KK2R1TEV8VBRPZA1829N6MDJ",
-      "name": "Errors with Compliance API",
-      "status": "monitoring",
-      "created_at": "2026-03-06T23:34:45Z",
-      "updated_at": "2026-03-06T23:43:26Z",
-      "monitoring_at": "2026-03-06T23:43:26Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KK2RHPX8HAAZDXEE7AWXTMF1",
-          "body": "",
-          "created_at": "2026-03-06T23:43:26Z",
-          "display_at": "2026-03-06T23:43:26Z",
-          "incident_id": "01KK2R1TEV8VBRPZA1829N6MDJ",
-          "status": "monitoring",
-          "updated_at": "2026-03-06T23:43:26Z"
-        },
-        {
-          "id": "01KK2R1TEV2G91C8GA4XVM6PSH",
-          "body": "",
-          "created_at": "2026-03-06T23:34:46Z",
-          "display_at": "2026-03-06T23:34:45Z",
-          "incident_id": "01KK2R1TEV8VBRPZA1829N6MDJ",
-          "status": "identified",
-          "updated_at": "2026-03-06T23:34:46Z"
-        }
-      ]
-    },
-    {
-      "id": "01KK26XE1W536H7DQV2EXM3GHE",
-      "name": "Issues with Increased Codex Usage Rate",
-      "status": "identified",
-      "created_at": "2026-03-06T18:35:16Z",
-      "updated_at": "2026-03-06T22:08:52Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KK2K4HFW4EFC4TYD7SVC65BC",
-          "body": "",
-          "created_at": "2026-03-06T22:08:52Z",
-          "display_at": "2026-03-06T22:08:52Z",
-          "incident_id": "01KK26XE1W536H7DQV2EXM3GHE",
-          "status": "identified",
-          "updated_at": "2026-03-06T22:08:52Z"
-        },
-        {
-          "id": "01KK29GJGD95988A75GPNV4HXC",
-          "body": "",
-          "created_at": "2026-03-06T19:20:40Z",
-          "display_at": "2026-03-06T19:20:40Z",
-          "incident_id": "01KK26XE1W536H7DQV2EXM3GHE",
-          "status": "identified",
-          "updated_at": "2026-03-06T19:20:40Z"
-        },
-        {
-          "id": "01KK26XE1WKPWMNGYEP06VHDV3",
-          "body": "",
-          "created_at": "2026-03-06T18:35:16Z",
-          "display_at": "2026-03-06T18:35:16Z",
-          "incident_id": "01KK26XE1W536H7DQV2EXM3GHE",
-          "status": "identified",
-          "updated_at": "2026-03-06T18:35:16Z"
-        }
-      ]
     }
   ]
 }
