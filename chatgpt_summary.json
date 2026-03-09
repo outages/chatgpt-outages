@@ -238,45 +238,6 @@
   ],
   "incidents": [
     {
-      "id": "01KK9JA8JKQKDW1W24T09NHBYH",
-      "name": "Codex unresponsive",
-      "status": "monitoring",
-      "created_at": "2026-03-09T15:09:12Z",
-      "updated_at": "2026-03-09T21:36:54Z",
-      "monitoring_at": "2026-03-09T20:45:00Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KKA83Q6EYAVZ2D9ZJQG6Y9B2",
-          "body": "",
-          "created_at": "2026-03-09T21:30:06Z",
-          "display_at": "2026-03-09T20:45:00Z",
-          "incident_id": "01KK9JA8JKQKDW1W24T09NHBYH",
-          "status": "monitoring",
-          "updated_at": "2026-03-09T21:31:29Z"
-        },
-        {
-          "id": "01KKA82GSYEQ6CDY34CAJW72XV",
-          "body": "",
-          "created_at": "2026-03-09T21:29:27Z",
-          "display_at": "2026-03-09T17:44:00Z",
-          "incident_id": "01KK9JA8JKQKDW1W24T09NHBYH",
-          "status": "identified",
-          "updated_at": "2026-03-09T21:31:20Z"
-        },
-        {
-          "id": "01KK9JA8JKM9NR4P1F4PRS1F1B",
-          "body": "",
-          "created_at": "2026-03-09T15:09:12Z",
-          "display_at": "2026-03-09T15:09:12Z",
-          "incident_id": "01KK9JA8JKQKDW1W24T09NHBYH",
-          "status": "investigating",
-          "updated_at": "2026-03-09T15:09:12Z"
-        }
-      ]
-    },
-    {
       "id": "01KKAD2PHFBC0DP0X6ZQTJJ4D4",
       "name": "Deep Research requests are erroring for LATAM users",
       "status": "identified",
