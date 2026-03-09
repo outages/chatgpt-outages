@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-09T15:38:57Z"
+    "updated_at": "2026-03-09T15:09:12Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -211,7 +211,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-01-30T19:04:39Z",
       "position": 22,
@@ -237,26 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01KK9M0QQJ2WAX76WCHY7M9KQJ",
-      "name": "Elevated conversation errors for Enterprise and Edu users",
-      "status": "identified",
-      "created_at": "2026-03-09T15:38:57Z",
-      "updated_at": "2026-03-09T15:38:57Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KK9M0QQJH00FTCNC5NJ74VXS",
-          "body": "",
-          "created_at": "2026-03-09T15:38:57Z",
-          "display_at": "2026-03-09T15:38:57Z",
-          "incident_id": "01KK9M0QQJ2WAX76WCHY7M9KQJ",
-          "status": "identified",
-          "updated_at": "2026-03-09T15:38:57Z"
-        }
-      ]
-    },
     {
       "id": "01KK9JA8JKQKDW1W24T09NHBYH",
       "name": "Codex CLI unresponsive",
