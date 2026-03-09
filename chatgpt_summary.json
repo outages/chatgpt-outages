@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-09T20:45:00Z"
+    "updated_at": "2026-03-09T22:59:29Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -15,7 +15,7 @@
       "name": "Batch",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-01-30T19:04:39Z",
+      "updated_at": "2026-03-09T22:59:29Z",
       "position": 0,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -24,7 +24,7 @@
       "name": "File uploads",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2026-01-30T19:04:39Z",
+      "updated_at": "2026-03-09T22:59:29Z",
       "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
@@ -33,107 +33,8 @@
       "name": "Search",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2026-01-30T19:04:39Z",
+      "updated_at": "2026-03-09T22:59:29Z",
       "position": 2,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
-      "name": "Agent",
-      "status": "operational",
-      "created_at": "2025-04-23T00:49:15Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 3,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
-      "name": "Chat Completions",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-01-30T19:04:38Z",
-      "position": 4,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEQW613TFE89F45035",
-      "name": "Realtime",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 5,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
-      "name": "Files",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 6,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-04-24T15:13:29Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 7,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01K9G527YRPY1EFRMHTKB5BKT5",
-      "name": "Sora",
-      "status": "operational",
-      "created_at": "2025-11-07T21:55:20Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 8,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
-      "name": "Image Generation",
-      "status": "operational",
-      "created_at": "2025-03-25T20:06:33Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 9,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-02-25T01:42:53Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 10,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
-      "name": "Video generation",
-      "status": "operational",
-      "created_at": "2025-02-25T01:42:53Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 11,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXCAX0QM438N5CDG2RMJ07X",
-      "name": "Video viewing",
-      "status": "operational",
-      "created_at": "2025-02-25T01:42:54Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 12,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXCAX0Q6C4KFTHY65EP0ZB2",
-      "name": "Feed",
-      "status": "operational",
-      "created_at": "2025-02-25T01:42:54Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -141,8 +42,8 @@
       "name": "Responses",
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
-      "updated_at": "2026-01-30T19:04:38Z",
-      "position": 14,
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -150,44 +51,107 @@
       "name": "Codex",
       "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
-      "updated_at": "2026-01-30T19:04:39Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 4,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
+      "name": "Chat Completions",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 5,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEQW613TFE89F45035",
+      "name": "Realtime",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 6,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
+      "name": "Files",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 7,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
+      "name": "Login",
+      "status": "operational",
+      "created_at": "2025-04-24T15:13:29Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 8,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01K9G527YRPY1EFRMHTKB5BKT5",
+      "name": "Sora",
+      "status": "operational",
+      "created_at": "2025-11-07T21:55:20Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 9,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
+      "name": "Image Generation",
+      "status": "operational",
+      "created_at": "2025-03-25T20:06:33Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 10,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
+      "name": "Agent",
+      "status": "operational",
+      "created_at": "2025-04-23T00:49:15Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 11,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
+      "name": "Login",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:53Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 12,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
+      "name": "Video generation",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:53Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 13,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0QM438N5CDG2RMJ07X",
+      "name": "Video viewing",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:54Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 14,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXCAX0Q6C4KFTHY65EP0ZB2",
+      "name": "Feed",
+      "status": "operational",
+      "created_at": "2025-02-25T01:42:54Z",
+      "updated_at": "2026-03-09T22:59:29Z",
       "position": 15,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
-      "name": "Audio",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 16,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
-      "name": "Embeddings",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-01-30T19:04:38Z",
-      "position": 17,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEMZK0HPK19RYET250",
-      "name": "Fine-tuning",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-01-30T19:04:38Z",
-      "position": 18,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
-      "name": "Moderations",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -195,8 +159,53 @@
       "name": "Image Generation",
       "status": "operational",
       "created_at": "2025-03-25T20:06:00Z",
-      "updated_at": "2026-01-30T19:04:39Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 16,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01KKAD7C71MCCH3FTREMJH4AAS",
+      "name": "FedRAMP",
+      "status": "operational",
+      "created_at": "2026-03-09T22:59:29Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 17,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
+      "name": "Audio",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 18,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
+      "name": "Embeddings",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 19,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEMZK0HPK19RYET250",
+      "name": "Fine-tuning",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-03-09T22:59:29Z",
       "position": 20,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
+      "name": "Moderations",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -204,8 +213,8 @@
       "name": "Images",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 21,
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -213,8 +222,8 @@
       "name": "Conversations",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 22,
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 23,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -222,16 +231,7 @@
       "name": "GPTs",
       "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
-      "updated_at": "2026-01-30T19:04:39Z",
-      "position": 23,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
-      "name": "Connectors/Apps",
-      "status": "operational",
-      "created_at": "2025-10-05T18:52:55Z",
-      "updated_at": "2026-01-30T19:04:39Z",
+      "updated_at": "2026-03-09T22:59:29Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     }
@@ -273,6 +273,35 @@
           "incident_id": "01KK9JA8JKQKDW1W24T09NHBYH",
           "status": "investigating",
           "updated_at": "2026-03-09T15:09:12Z"
+        }
+      ]
+    },
+    {
+      "id": "01KKAD2PHFBC0DP0X6ZQTJJ4D4",
+      "name": "Deep Research requests are erroring for LATAM users",
+      "status": "identified",
+      "created_at": "2026-03-09T22:56:55Z",
+      "updated_at": "2026-03-09T23:00:26Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KKAD93T68DS7HG495EWYR9XG",
+          "body": "",
+          "created_at": "2026-03-09T23:00:26Z",
+          "display_at": "2026-03-09T18:58:00Z",
+          "incident_id": "01KKAD2PHFBC0DP0X6ZQTJJ4D4",
+          "status": "identified",
+          "updated_at": "2026-03-09T23:04:27Z"
+        },
+        {
+          "id": "01KKAD7K991GK3T5EWZV3WBCDW",
+          "body": "",
+          "created_at": "2026-03-09T22:59:36Z",
+          "display_at": "2026-03-01T08:00:00Z",
+          "incident_id": "01KKAD2PHFBC0DP0X6ZQTJJ4D4",
+          "status": "investigating",
+          "updated_at": "2026-03-09T23:03:04Z"
         }
       ]
     }
