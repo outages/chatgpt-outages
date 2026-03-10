@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-10T21:38:06Z"
+    "updated_at": "2026-03-10T21:52:11Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,6 +238,36 @@
   ],
   "incidents": [
     {
+      "id": "01KKCT34VDK552CSMP286DS9HE",
+      "name": "Increased errors on ChatGPT File Uploads",
+      "status": "monitoring",
+      "created_at": "2026-03-10T21:22:50Z",
+      "updated_at": "2026-03-10T21:52:11Z",
+      "monitoring_at": "2026-03-10T21:52:11Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KKCVRVZKNBZSSK4S3WRYY36Y",
+          "body": "",
+          "created_at": "2026-03-10T21:52:11Z",
+          "display_at": "2026-03-10T21:52:11Z",
+          "incident_id": "01KKCT34VDK552CSMP286DS9HE",
+          "status": "monitoring",
+          "updated_at": "2026-03-10T21:52:11Z"
+        },
+        {
+          "id": "01KKCT34VDKRNT9GKVD2NJX59Z",
+          "body": "",
+          "created_at": "2026-03-10T21:22:50Z",
+          "display_at": "2026-03-10T21:22:50Z",
+          "incident_id": "01KKCT34VDK552CSMP286DS9HE",
+          "status": "investigating",
+          "updated_at": "2026-03-10T21:22:50Z"
+        }
+      ]
+    },
+    {
       "id": "01KKCBMVXANKXVCPE2760437BR",
       "name": "Degraded performance with the Support chat",
       "status": "identified",
@@ -391,26 +421,6 @@
           "incident_id": "01KK9JA8JKQKDW1W24T09NHBYH",
           "status": "investigating",
           "updated_at": "2026-03-09T15:09:12Z"
-        }
-      ]
-    },
-    {
-      "id": "01KKCT34VDK552CSMP286DS9HE",
-      "name": "Increased errors on ChatGPT File Uploads",
-      "status": "investigating",
-      "created_at": "2026-03-10T21:22:50Z",
-      "updated_at": "2026-03-10T21:24:06Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KKCT34VDKRNT9GKVD2NJX59Z",
-          "body": "",
-          "created_at": "2026-03-10T21:22:50Z",
-          "display_at": "2026-03-10T21:22:50Z",
-          "incident_id": "01KKCT34VDK552CSMP286DS9HE",
-          "status": "investigating",
-          "updated_at": "2026-03-10T21:22:50Z"
         }
       ]
     }
