@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-10T21:22:50Z"
+    "updated_at": "2026-03-10T21:38:06Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,34 +238,23 @@
   ],
   "incidents": [
     {
-      "id": "01KKCT34VDK552CSMP286DS9HE",
-      "name": "ChatGPT: Increased errors on File Upload limits",
-      "status": "investigating",
-      "created_at": "2026-03-10T21:22:50Z",
-      "updated_at": "2026-03-10T21:22:50Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KKCT34VDKRNT9GKVD2NJX59Z",
-          "body": "",
-          "created_at": "2026-03-10T21:22:50Z",
-          "display_at": "2026-03-10T21:22:50Z",
-          "incident_id": "01KKCT34VDK552CSMP286DS9HE",
-          "status": "investigating",
-          "updated_at": "2026-03-10T21:22:50Z"
-        }
-      ]
-    },
-    {
       "id": "01KKCBMVXANKXVCPE2760437BR",
       "name": "Degraded performance with the Support chat",
       "status": "identified",
       "created_at": "2026-03-10T17:10:22Z",
-      "updated_at": "2026-03-10T19:05:11Z",
+      "updated_at": "2026-03-10T21:38:06Z",
       "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KKCTZ3656KHFMFP326WHJW8B",
+          "body": "",
+          "created_at": "2026-03-10T21:38:06Z",
+          "display_at": "2026-03-10T21:38:06Z",
+          "incident_id": "01KKCBMVXANKXVCPE2760437BR",
+          "status": "identified",
+          "updated_at": "2026-03-10T21:38:06Z"
+        },
         {
           "id": "01KKCJ72ZDK8198630Z0HK99JK",
           "body": "",
@@ -300,10 +289,19 @@
       "name": "Codex unresponsive",
       "status": "identified",
       "created_at": "2026-03-09T15:09:12Z",
-      "updated_at": "2026-03-10T18:41:13Z",
+      "updated_at": "2026-03-10T21:37:16Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KKCTXJJDP94W8KDZVJA8XH0Q",
+          "body": "",
+          "created_at": "2026-03-10T21:37:16Z",
+          "display_at": "2026-03-10T21:37:16Z",
+          "incident_id": "01KK9JA8JKQKDW1W24T09NHBYH",
+          "status": "identified",
+          "updated_at": "2026-03-10T21:37:16Z"
+        },
         {
           "id": "01KKCGV6D1A6XG58RWNKNW7DE2",
           "body": "",
@@ -393,6 +391,26 @@
           "incident_id": "01KK9JA8JKQKDW1W24T09NHBYH",
           "status": "investigating",
           "updated_at": "2026-03-09T15:09:12Z"
+        }
+      ]
+    },
+    {
+      "id": "01KKCT34VDK552CSMP286DS9HE",
+      "name": "Increased errors on ChatGPT File Uploads",
+      "status": "investigating",
+      "created_at": "2026-03-10T21:22:50Z",
+      "updated_at": "2026-03-10T21:24:06Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KKCT34VDKRNT9GKVD2NJX59Z",
+          "body": "",
+          "created_at": "2026-03-10T21:22:50Z",
+          "display_at": "2026-03-10T21:22:50Z",
+          "incident_id": "01KKCT34VDK552CSMP286DS9HE",
+          "status": "investigating",
+          "updated_at": "2026-03-10T21:22:50Z"
         }
       ]
     }
