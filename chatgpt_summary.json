@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-10T17:29:52Z"
+    "updated_at": "2026-03-10T18:41:13Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,43 +238,23 @@
   ],
   "incidents": [
     {
-      "id": "01KKCBMVXANKXVCPE2760437BR",
-      "name": "Degraded performance with the Support chat",
-      "status": "identified",
-      "created_at": "2026-03-10T17:10:22Z",
-      "updated_at": "2026-03-10T17:56:05Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KKCCRHT4XCP72DM2CF5BEAD3",
-          "body": "",
-          "created_at": "2026-03-10T17:29:52Z",
-          "display_at": "2026-03-10T17:29:52Z",
-          "incident_id": "01KKCBMVXANKXVCPE2760437BR",
-          "status": "identified",
-          "updated_at": "2026-03-10T17:29:52Z"
-        },
-        {
-          "id": "01KKCBMVXAG4DS772DGDJ1YM7Q",
-          "body": "",
-          "created_at": "2026-03-10T17:10:22Z",
-          "display_at": "2026-03-10T17:10:22Z",
-          "incident_id": "01KKCBMVXANKXVCPE2760437BR",
-          "status": "investigating",
-          "updated_at": "2026-03-10T17:18:48Z"
-        }
-      ]
-    },
-    {
       "id": "01KK9JA8JKQKDW1W24T09NHBYH",
       "name": "Codex unresponsive",
       "status": "identified",
       "created_at": "2026-03-09T15:09:12Z",
-      "updated_at": "2026-03-10T16:04:06Z",
+      "updated_at": "2026-03-10T18:41:13Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KKCGV6D1A6XG58RWNKNW7DE2",
+          "body": "",
+          "created_at": "2026-03-10T18:41:13Z",
+          "display_at": "2026-03-10T18:41:13Z",
+          "incident_id": "01KK9JA8JKQKDW1W24T09NHBYH",
+          "status": "identified",
+          "updated_at": "2026-03-10T18:41:13Z"
+        },
         {
           "id": "01KKC7VGE4S4XAR8NJJJA18WNA",
           "body": "",
@@ -355,6 +335,35 @@
           "incident_id": "01KK9JA8JKQKDW1W24T09NHBYH",
           "status": "investigating",
           "updated_at": "2026-03-09T15:09:12Z"
+        }
+      ]
+    },
+    {
+      "id": "01KKCBMVXANKXVCPE2760437BR",
+      "name": "Degraded performance with the Support chat",
+      "status": "identified",
+      "created_at": "2026-03-10T17:10:22Z",
+      "updated_at": "2026-03-10T17:56:05Z",
+      "impact": "none",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KKCCRHT4XCP72DM2CF5BEAD3",
+          "body": "",
+          "created_at": "2026-03-10T17:29:52Z",
+          "display_at": "2026-03-10T17:29:52Z",
+          "incident_id": "01KKCBMVXANKXVCPE2760437BR",
+          "status": "identified",
+          "updated_at": "2026-03-10T17:29:52Z"
+        },
+        {
+          "id": "01KKCBMVXAG4DS772DGDJ1YM7Q",
+          "body": "",
+          "created_at": "2026-03-10T17:10:22Z",
+          "display_at": "2026-03-10T17:10:22Z",
+          "incident_id": "01KKCBMVXANKXVCPE2760437BR",
+          "status": "investigating",
+          "updated_at": "2026-03-10T17:18:48Z"
         }
       ]
     }
