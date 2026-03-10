@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-10T01:13:48Z"
+    "updated_at": "2026-03-09T22:59:29Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,47 +234,6 @@
       "updated_at": "2026-03-09T22:59:29Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KKAD2PHFBC0DP0X6ZQTJJ4D4",
-      "name": "Deep Research requests are erroring for LATAM users",
-      "status": "monitoring",
-      "created_at": "2026-03-09T22:56:55Z",
-      "updated_at": "2026-03-10T01:13:48Z",
-      "monitoring_at": "2026-03-10T01:13:48Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KKAMXAE8G6EGB0DXDZKN2D3Y",
-          "body": "",
-          "created_at": "2026-03-10T01:13:48Z",
-          "display_at": "2026-03-10T01:13:48Z",
-          "incident_id": "01KKAD2PHFBC0DP0X6ZQTJJ4D4",
-          "status": "monitoring",
-          "updated_at": "2026-03-10T01:13:48Z"
-        },
-        {
-          "id": "01KKAGPV4EBV6KT8MG6Z96NSDB",
-          "body": "",
-          "created_at": "2026-03-10T00:00:21Z",
-          "display_at": "2026-03-09T18:58:00Z",
-          "incident_id": "01KKAD2PHFBC0DP0X6ZQTJJ4D4",
-          "status": "identified",
-          "updated_at": "2026-03-10T00:00:58Z"
-        },
-        {
-          "id": "01KKAGP7MZ666QXR9Q7X99RD5T",
-          "body": "",
-          "created_at": "2026-03-10T00:00:01Z",
-          "display_at": "2026-03-01T08:00:00Z",
-          "incident_id": "01KKAD2PHFBC0DP0X6ZQTJJ4D4",
-          "status": "investigating",
-          "updated_at": "2026-03-10T00:00:48Z"
-        }
-      ]
     }
   ]
 }
