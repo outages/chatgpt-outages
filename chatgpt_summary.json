@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-11T20:48:07Z"
+    "updated_at": "2026-03-11T21:08:25Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,44 +238,24 @@
   ],
   "incidents": [
     {
-      "id": "01KKF8E0FPME7NBS95Q8Q0N6AH",
-      "name": "Elevated conversation errors for ChatGPT",
-      "status": "monitoring",
-      "created_at": "2026-03-11T20:11:55Z",
-      "updated_at": "2026-03-11T20:48:07Z",
-      "monitoring_at": "2026-03-11T20:48:07Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KKFAG9DG3RH2DBTYHPFAPK46",
-          "body": "",
-          "created_at": "2026-03-11T20:48:07Z",
-          "display_at": "2026-03-11T20:48:07Z",
-          "incident_id": "01KKF8E0FPME7NBS95Q8Q0N6AH",
-          "status": "monitoring",
-          "updated_at": "2026-03-11T20:48:07Z"
-        },
-        {
-          "id": "01KKF8E0FP9J2031B8RTR14PZ3",
-          "body": "",
-          "created_at": "2026-03-11T20:11:55Z",
-          "display_at": "2026-03-11T20:11:55Z",
-          "incident_id": "01KKF8E0FPME7NBS95Q8Q0N6AH",
-          "status": "identified",
-          "updated_at": "2026-03-11T20:11:55Z"
-        }
-      ]
-    },
-    {
       "id": "01KKF5RQTSB25839GBZ33S7MWX",
       "name": "Elevated error rates for Deep Research in Enterprise Workspaces",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-03-11T19:25:21Z",
-      "updated_at": "2026-03-11T20:42:22Z",
+      "updated_at": "2026-03-11T21:08:25Z",
+      "monitoring_at": "2026-03-11T21:08:25Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KKFBNEJHMQ0CHRP2H02JVFFX",
+          "body": "",
+          "created_at": "2026-03-11T21:08:25Z",
+          "display_at": "2026-03-11T21:08:25Z",
+          "incident_id": "01KKF5RQTSB25839GBZ33S7MWX",
+          "status": "monitoring",
+          "updated_at": "2026-03-11T21:08:25Z"
+        },
         {
           "id": "01KKFA5RQ0AQSA60E7W6DMT205",
           "body": "",
@@ -302,6 +282,36 @@
           "incident_id": "01KKF5RQTSB25839GBZ33S7MWX",
           "status": "identified",
           "updated_at": "2026-03-11T19:25:21Z"
+        }
+      ]
+    },
+    {
+      "id": "01KKF8E0FPME7NBS95Q8Q0N6AH",
+      "name": "Elevated conversation errors for ChatGPT",
+      "status": "monitoring",
+      "created_at": "2026-03-11T20:11:55Z",
+      "updated_at": "2026-03-11T20:48:07Z",
+      "monitoring_at": "2026-03-11T20:48:07Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KKFAG9DG3RH2DBTYHPFAPK46",
+          "body": "",
+          "created_at": "2026-03-11T20:48:07Z",
+          "display_at": "2026-03-11T20:48:07Z",
+          "incident_id": "01KKF8E0FPME7NBS95Q8Q0N6AH",
+          "status": "monitoring",
+          "updated_at": "2026-03-11T20:48:07Z"
+        },
+        {
+          "id": "01KKF8E0FP9J2031B8RTR14PZ3",
+          "body": "",
+          "created_at": "2026-03-11T20:11:55Z",
+          "display_at": "2026-03-11T20:11:55Z",
+          "incident_id": "01KKF8E0FPME7NBS95Q8Q0N6AH",
+          "status": "identified",
+          "updated_at": "2026-03-11T20:11:55Z"
         }
       ]
     },
