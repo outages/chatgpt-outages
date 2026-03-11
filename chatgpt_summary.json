@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-11T19:25:21Z"
+    "updated_at": "2026-03-11T20:11:55Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-03-09T22:59:29Z",
       "position": 23,
@@ -238,14 +238,43 @@
   ],
   "incidents": [
     {
+      "id": "01KKF8E0FPME7NBS95Q8Q0N6AH",
+      "name": "Elevated conversation errors for ChatGPT",
+      "status": "identified",
+      "created_at": "2026-03-11T20:11:55Z",
+      "updated_at": "2026-03-11T20:11:55Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KKF8E0FP9J2031B8RTR14PZ3",
+          "body": "",
+          "created_at": "2026-03-11T20:11:55Z",
+          "display_at": "2026-03-11T20:11:55Z",
+          "incident_id": "01KKF8E0FPME7NBS95Q8Q0N6AH",
+          "status": "identified",
+          "updated_at": "2026-03-11T20:11:55Z"
+        }
+      ]
+    },
+    {
       "id": "01KKF5RQTSB25839GBZ33S7MWX",
       "name": "Elevated error rates for Deep Research in Enterprise Workspaces",
       "status": "identified",
       "created_at": "2026-03-11T19:25:21Z",
-      "updated_at": "2026-03-11T19:25:21Z",
+      "updated_at": "2026-03-11T20:07:13Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KKF85D3M39SGYGFAT746705E",
+          "body": "",
+          "created_at": "2026-03-11T20:07:13Z",
+          "display_at": "2026-03-11T20:07:13Z",
+          "incident_id": "01KKF5RQTSB25839GBZ33S7MWX",
+          "status": "identified",
+          "updated_at": "2026-03-11T20:07:13Z"
+        },
         {
           "id": "01KKF5RQTSBHP7KYHJDMS7GXX7",
           "body": "",
@@ -262,10 +291,19 @@
       "name": "Increased errors on ChatGPT File Uploads",
       "status": "identified",
       "created_at": "2026-03-10T21:22:50Z",
-      "updated_at": "2026-03-11T17:14:09Z",
+      "updated_at": "2026-03-11T19:56:43Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KKF7J5EACVDPTEN0D691RN1P",
+          "body": "",
+          "created_at": "2026-03-11T19:56:43Z",
+          "display_at": "2026-03-11T19:56:43Z",
+          "incident_id": "01KKCT34VDK552CSMP286DS9HE",
+          "status": "identified",
+          "updated_at": "2026-03-11T19:56:43Z"
+        },
         {
           "id": "01KKEY8GAYQ2C70SXZ59MX737R",
           "body": "",
