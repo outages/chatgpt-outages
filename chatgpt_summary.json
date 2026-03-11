@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-11T22:05:02Z"
+    "updated_at": "2026-03-11T23:12:26Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -11,12 +11,21 @@
   },
   "components": [
     {
+      "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
+      "name": "Login",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:42:53Z",
+      "updated_at": "2026-03-09T22:59:29Z",
+      "position": 0,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
       "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
       "name": "Batch",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 0,
+      "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -25,7 +34,7 @@
       "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 1,
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -34,7 +43,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 2,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -43,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 3,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -52,7 +61,7 @@
       "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 4,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -61,7 +70,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 5,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,7 +79,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 6,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -79,16 +88,16 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 7,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 8,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,7 +106,7 @@
       "status": "operational",
       "created_at": "2025-11-07T21:55:20Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 9,
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,7 +115,7 @@
       "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-03-09T22:59:29Z",
-      "position": 10,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -114,15 +123,6 @@
       "name": "Agent",
       "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
-      "updated_at": "2026-03-09T22:59:29Z",
-      "position": 11,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXCAX0Q10KMN6TADJHQNBSJ",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2026-03-09T22:59:29Z",
       "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -237,6 +237,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01KKFJRH4WP8X9YCX0W57ZXT9D",
+      "name": "Elevated login errors",
+      "status": "investigating",
+      "created_at": "2026-03-11T23:12:26Z",
+      "updated_at": "2026-03-11T23:12:26Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KKFJRH4WVZ8XXTP6J1XMS7GC",
+          "body": "",
+          "created_at": "2026-03-11T23:12:26Z",
+          "display_at": "2026-03-11T23:12:26Z",
+          "incident_id": "01KKFJRH4WP8X9YCX0W57ZXT9D",
+          "status": "investigating",
+          "updated_at": "2026-03-11T23:12:26Z"
+        }
+      ]
+    },
     {
       "id": "01KKD07DNHFKAWK5JCAMAASYGZ",
       "name": "Increased errors with ChatGPT file downloads",
