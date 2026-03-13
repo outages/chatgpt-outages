@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-13T13:48:11Z"
+    "updated_at": "2026-03-13T14:42:21Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KKKQ8SNFFW363KA3HZQFQNA9",
       "name": "Conversation Errors for Logged out Users",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-03-13T13:48:11Z",
-      "updated_at": "2026-03-13T13:48:11Z",
+      "updated_at": "2026-03-13T14:42:21Z",
+      "monitoring_at": "2026-03-13T14:42:21Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KKKTBZBRJF092X2QDVQRV84J",
+          "body": "",
+          "created_at": "2026-03-13T14:42:21Z",
+          "display_at": "2026-03-13T14:42:21Z",
+          "incident_id": "01KKKQ8SNFFW363KA3HZQFQNA9",
+          "status": "monitoring",
+          "updated_at": "2026-03-13T14:42:21Z"
+        },
         {
           "id": "01KKKQ8SNFP7V4FHPW0AR16HV0",
           "body": "",
