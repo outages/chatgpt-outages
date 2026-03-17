@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-17T05:21:16Z"
+    "updated_at": "2026-03-17T17:26:24Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -238,59 +238,22 @@
   ],
   "incidents": [
     {
-      "id": "01KKWW47249GJZZP9ZGR1PTHV5",
-      "name": "Elevated errors for sign-in and account creation",
-      "status": "monitoring",
-      "created_at": "2026-03-17T03:06:13Z",
-      "updated_at": "2026-03-17T05:21:16Z",
-      "monitoring_at": "2026-03-17T03:17:00Z",
+      "id": "01KKYDB848BK4162KR5XFYFZCV",
+      "name": "Excel Plugin is inaccessible for some users",
+      "status": "investigating",
+      "created_at": "2026-03-17T17:26:24Z",
+      "updated_at": "2026-03-17T17:26:24Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01KKX3VF71EDY20WZB4GQRGAVN",
+          "id": "01KKYDB8487J0ZDHC2BEAW1MV2",
           "body": "",
-          "created_at": "2026-03-17T05:21:16Z",
-          "display_at": "2026-03-17T05:21:16Z",
-          "incident_id": "01KKWW47249GJZZP9ZGR1PTHV5",
-          "status": "monitoring",
-          "updated_at": "2026-03-17T05:21:16Z"
-        },
-        {
-          "id": "01KKX20VJK4B0D5RS9TDA9PNKN",
-          "body": "",
-          "created_at": "2026-03-17T04:49:15Z",
-          "display_at": "2026-03-17T04:49:15Z",
-          "incident_id": "01KKWW47249GJZZP9ZGR1PTHV5",
-          "status": "identified",
-          "updated_at": "2026-03-17T04:49:15Z"
-        },
-        {
-          "id": "01KKWZRS1HM1YGDR47GYFGBY0M",
-          "body": "",
-          "created_at": "2026-03-17T04:09:53Z",
-          "display_at": "2026-03-17T04:09:53Z",
-          "incident_id": "01KKWW47249GJZZP9ZGR1PTHV5",
-          "status": "resolved",
-          "updated_at": "2026-03-17T04:09:53Z"
-        },
-        {
-          "id": "01KKWWCPBZX8PF61920107KEEK",
-          "body": "",
-          "created_at": "2026-03-17T03:10:51Z",
-          "display_at": "2026-03-17T03:17:00Z",
-          "incident_id": "01KKWW47249GJZZP9ZGR1PTHV5",
-          "status": "monitoring",
-          "updated_at": "2026-03-17T03:19:51Z"
-        },
-        {
-          "id": "01KKWW47246MWB77P407EV1CBJ",
-          "body": "",
-          "created_at": "2026-03-17T03:06:13Z",
-          "display_at": "2026-03-17T02:42:00Z",
-          "incident_id": "01KKWW47249GJZZP9ZGR1PTHV5",
-          "status": "identified",
-          "updated_at": "2026-03-17T03:11:56Z"
+          "created_at": "2026-03-17T17:26:24Z",
+          "display_at": "2026-03-17T17:26:24Z",
+          "incident_id": "01KKYDB848BK4162KR5XFYFZCV",
+          "status": "investigating",
+          "updated_at": "2026-03-17T17:26:24Z"
         }
       ]
     }
