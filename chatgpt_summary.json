@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-17T04:49:15Z"
+    "updated_at": "2026-03-17T05:21:16Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-03-09T22:59:29Z",
       "position": 23,
@@ -240,12 +240,22 @@
     {
       "id": "01KKWW47249GJZZP9ZGR1PTHV5",
       "name": "Elevated errors for sign-in and account creation",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-03-17T03:06:13Z",
-      "updated_at": "2026-03-17T04:49:15Z",
+      "updated_at": "2026-03-17T05:21:16Z",
+      "monitoring_at": "2026-03-17T03:17:00Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KKX3VF71EDY20WZB4GQRGAVN",
+          "body": "",
+          "created_at": "2026-03-17T05:21:16Z",
+          "display_at": "2026-03-17T05:21:16Z",
+          "incident_id": "01KKWW47249GJZZP9ZGR1PTHV5",
+          "status": "monitoring",
+          "updated_at": "2026-03-17T05:21:16Z"
+        },
         {
           "id": "01KKX20VJK4B0D5RS9TDA9PNKN",
           "body": "",
@@ -281,36 +291,6 @@
           "incident_id": "01KKWW47249GJZZP9ZGR1PTHV5",
           "status": "identified",
           "updated_at": "2026-03-17T03:11:56Z"
-        }
-      ]
-    },
-    {
-      "id": "01KKWVN6G352TSSB6XFQCA8H7D",
-      "name": "Elevated Errors Affecting ChatGPT Free and Guest Plan Users",
-      "status": "monitoring",
-      "created_at": "2026-03-17T02:58:01Z",
-      "updated_at": "2026-03-17T03:55:27Z",
-      "monitoring_at": "2026-03-17T03:55:27Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KKWYYBGBANX1NR8YQ8MGGH0Y",
-          "body": "",
-          "created_at": "2026-03-17T03:55:27Z",
-          "display_at": "2026-03-17T03:55:27Z",
-          "incident_id": "01KKWVN6G352TSSB6XFQCA8H7D",
-          "status": "monitoring",
-          "updated_at": "2026-03-17T03:55:27Z"
-        },
-        {
-          "id": "01KKWVN6G3G637AQHCSDD89WAD",
-          "body": "",
-          "created_at": "2026-03-17T02:58:01Z",
-          "display_at": "2026-03-17T02:58:01Z",
-          "incident_id": "01KKWVN6G352TSSB6XFQCA8H7D",
-          "status": "identified",
-          "updated_at": "2026-03-17T02:58:01Z"
         }
       ]
     }
