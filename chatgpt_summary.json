@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-18T18:32:53Z"
+    "updated_at": "2026-03-09T22:59:29Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -130,7 +130,7 @@
     {
       "id": "01JMXCAX0QN2ZHVMS54EEN1HXB",
       "name": "Video generation",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:42:53Z",
       "updated_at": "2026-03-09T22:59:29Z",
       "position": 13,
@@ -234,64 +234,6 @@
       "updated_at": "2026-03-09T22:59:29Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KM0T1EX1951XDWA8CN82PEHA",
-      "name": "Sora video generation failing",
-      "status": "identified",
-      "created_at": "2026-03-18T15:46:44Z",
-      "updated_at": "2026-03-18T18:32:53Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KM13HP3N2ZTFW10WSCN9NHSS",
-          "body": "",
-          "created_at": "2026-03-18T18:32:53Z",
-          "display_at": "2026-03-18T18:32:53Z",
-          "incident_id": "01KM0T1EX1951XDWA8CN82PEHA",
-          "status": "identified",
-          "updated_at": "2026-03-18T18:32:53Z"
-        },
-        {
-          "id": "01KM11E54H3G7W4M7KTY1H68M7",
-          "body": "",
-          "created_at": "2026-03-18T17:56:00Z",
-          "display_at": "2026-03-18T17:56:00Z",
-          "incident_id": "01KM0T1EX1951XDWA8CN82PEHA",
-          "status": "investigating",
-          "updated_at": "2026-03-18T17:56:00Z"
-        },
-        {
-          "id": "01KM101SFZ5CGC0K7E0AYEB8DH",
-          "body": "",
-          "created_at": "2026-03-18T17:31:46Z",
-          "display_at": "2026-03-18T17:31:46Z",
-          "incident_id": "01KM0T1EX1951XDWA8CN82PEHA",
-          "status": "investigating",
-          "updated_at": "2026-03-18T17:31:46Z"
-        },
-        {
-          "id": "01KM0X4X7JP0AJBHH4PJ52GF1V",
-          "body": "",
-          "created_at": "2026-03-18T16:41:02Z",
-          "display_at": "2026-03-18T16:41:02Z",
-          "incident_id": "01KM0T1EX1951XDWA8CN82PEHA",
-          "status": "investigating",
-          "updated_at": "2026-03-18T16:41:02Z"
-        },
-        {
-          "id": "01KM0T1EX1X7TXEN20VGYMEM6D",
-          "body": "",
-          "created_at": "2026-03-18T15:46:44Z",
-          "display_at": "2026-03-18T15:46:44Z",
-          "incident_id": "01KM0T1EX1951XDWA8CN82PEHA",
-          "status": "identified",
-          "updated_at": "2026-03-18T15:46:44Z"
-        }
-      ]
     }
   ]
 }
