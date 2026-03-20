@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-09T22:59:29Z"
+    "updated_at": "2026-03-20T15:00:21Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-03-09T22:59:29Z",
       "position": 23,
@@ -234,6 +234,28 @@
       "updated_at": "2026-03-09T22:59:29Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KM5W5ZPAFRXPRGXDEARXFHJZ",
+      "name": "Pinned chats are not loading on web browsers for ChatGPT",
+      "status": "investigating",
+      "created_at": "2026-03-20T15:00:21Z",
+      "updated_at": "2026-03-20T15:00:21Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KM5W5ZPABWDEA17YHPZBX6XP",
+          "body": "",
+          "created_at": "2026-03-20T15:00:21Z",
+          "display_at": "2026-03-20T15:00:21Z",
+          "incident_id": "01KM5W5ZPAFRXPRGXDEARXFHJZ",
+          "status": "investigating",
+          "updated_at": "2026-03-20T15:00:21Z"
+        }
+      ]
     }
   ]
 }
