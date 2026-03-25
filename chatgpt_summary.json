@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-25T07:39:54Z"
+    "updated_at": "2026-03-25T10:24:28Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,10 +242,19 @@
       "name": "Unable to download or preview project files",
       "status": "identified",
       "created_at": "2026-03-25T00:12:41Z",
-      "updated_at": "2026-03-25T07:39:54Z",
+      "updated_at": "2026-03-25T10:24:28Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KMJ8CDD1SJ8EJWP4WJH53ZAX",
+          "body": "",
+          "created_at": "2026-03-25T10:24:28Z",
+          "display_at": "2026-03-25T10:24:28Z",
+          "incident_id": "01KMH5C6HVAYJ9SS3REEAWXB6R",
+          "status": "identified",
+          "updated_at": "2026-03-25T10:24:28Z"
+        },
         {
           "id": "01KMHYZ2HHT2NTBSEA214P8TJR",
           "body": "",
