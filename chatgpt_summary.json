@@ -3,27 +3,27 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-25T21:45:05Z"
+    "updated_at": "2026-03-26T21:21:38Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
-      "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
-      "name": "Batch",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
+      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
+      "name": "Responses",
+      "status": "partial_outage",
+      "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-03-25T21:45:05Z",
       "position": 0,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
-      "name": "Responses",
+      "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
+      "name": "Batch",
       "status": "operational",
-      "created_at": "2025-03-13T18:31:32Z",
+      "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-03-25T21:45:05Z",
       "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -234,6 +234,28 @@
       "updated_at": "2026-03-25T21:45:05Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KMP0CDV3T8QX1YPXHQMRN2EP",
+      "name": "Responses API Increased Error Rates",
+      "status": "investigating",
+      "created_at": "2026-03-26T21:21:38Z",
+      "updated_at": "2026-03-26T21:21:38Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KMP0CDV34JCH7T72VPK6EMK8",
+          "body": "",
+          "created_at": "2026-03-26T21:21:38Z",
+          "display_at": "2026-03-26T21:21:38Z",
+          "incident_id": "01KMP0CDV3T8QX1YPXHQMRN2EP",
+          "status": "investigating",
+          "updated_at": "2026-03-26T21:21:38Z"
+        }
+      ]
     }
   ]
 }
