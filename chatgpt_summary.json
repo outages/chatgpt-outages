@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-02T16:00:12Z"
+    "updated_at": "2026-04-02T17:21:53Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -240,12 +240,31 @@
     {
       "id": "01KN78XN18M5VB6DSRTCWMJRYN",
       "name": "ChatGPT Dictation Elevated Error Rate",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-04-02T14:17:56Z",
-      "updated_at": "2026-04-02T16:00:12Z",
+      "updated_at": "2026-04-02T17:21:53Z",
+      "monitoring_at": "2026-04-02T17:21:53Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KN7KEF0YZ32CWXEC4720EKJ1",
+          "body": "",
+          "created_at": "2026-04-02T17:21:53Z",
+          "display_at": "2026-04-02T17:21:53Z",
+          "incident_id": "01KN78XN18M5VB6DSRTCWMJRYN",
+          "status": "monitoring",
+          "updated_at": "2026-04-02T17:21:53Z"
+        },
+        {
+          "id": "01KN7GZ6V127D2A4R54XS2S5SG",
+          "body": "",
+          "created_at": "2026-04-02T16:38:36Z",
+          "display_at": "2026-04-02T16:38:36Z",
+          "incident_id": "01KN78XN18M5VB6DSRTCWMJRYN",
+          "status": "investigating",
+          "updated_at": "2026-04-02T16:38:36Z"
+        },
         {
           "id": "01KN7ERXHAZWQ6K5NB40P4AZCM",
           "body": "",
