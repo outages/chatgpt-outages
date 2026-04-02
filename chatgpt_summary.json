@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-02T08:03:58Z"
+    "updated_at": "2026-03-26T22:18:02Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,38 +234,6 @@
       "updated_at": "2026-03-26T22:18:02Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KN6HYER5GRV8WVNZXCAC5FA3",
-      "name": "High error rate for completionsapi-gpt-5-nano",
-      "status": "monitoring",
-      "created_at": "2026-04-02T07:36:25Z",
-      "updated_at": "2026-04-02T08:03:59Z",
-      "monitoring_at": "2026-04-02T08:03:58Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KN6KGXBPC7P0DECZT7P053FS",
-          "body": "",
-          "created_at": "2026-04-02T08:03:58Z",
-          "display_at": "2026-04-02T08:03:58Z",
-          "incident_id": "01KN6HYER5GRV8WVNZXCAC5FA3",
-          "status": "monitoring",
-          "updated_at": "2026-04-02T08:03:58Z"
-        },
-        {
-          "id": "01KN6HYER5YKWEXKFTX5DHGBAF",
-          "body": "",
-          "created_at": "2026-04-02T07:36:25Z",
-          "display_at": "2026-04-02T07:36:25Z",
-          "incident_id": "01KN6HYER5GRV8WVNZXCAC5FA3",
-          "status": "identified",
-          "updated_at": "2026-04-02T07:36:25Z"
-        }
-      ]
     }
   ]
 }
