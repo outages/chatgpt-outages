@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-06T07:58:02Z"
+    "updated_at": "2026-03-26T22:18:02Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -85,7 +85,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 8,
@@ -234,38 +234,6 @@
       "updated_at": "2026-03-26T22:18:02Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KNGPM84F5G72B8Y7ASYNB11H",
-      "name": "Some users may experience empty response from ChatGPT in web",
-      "status": "monitoring",
-      "created_at": "2026-04-06T06:10:38Z",
-      "updated_at": "2026-04-06T07:58:02Z",
-      "monitoring_at": "2026-04-06T07:58:02Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KNGWRWV51727V32AXPQQDFDY",
-          "body": "",
-          "created_at": "2026-04-06T07:58:02Z",
-          "display_at": "2026-04-06T07:58:02Z",
-          "incident_id": "01KNGPM84F5G72B8Y7ASYNB11H",
-          "status": "monitoring",
-          "updated_at": "2026-04-06T07:58:02Z"
-        },
-        {
-          "id": "01KNGPM84FYDBRMHTDMD052GZJ",
-          "body": "",
-          "created_at": "2026-04-06T06:10:38Z",
-          "display_at": "2026-04-06T06:10:38Z",
-          "incident_id": "01KNGPM84F5G72B8Y7ASYNB11H",
-          "status": "investigating",
-          "updated_at": "2026-04-06T06:10:38Z"
-        }
-      ]
     }
   ]
 }
