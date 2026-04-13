@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-13T06:34:30Z"
+    "updated_at": "2026-04-13T12:57:32Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -240,13 +240,21 @@
     {
       "id": "01KP1PS4WFSH4CVJT0DJBKQ3FT",
       "name": "Elevated 401 errors for API endpoints",
-      "status": "monitoring",
+      "status": "identified",
       "created_at": "2026-04-12T20:40:24Z",
-      "updated_at": "2026-04-13T06:34:30Z",
-      "monitoring_at": "2026-04-12T22:28:22Z",
+      "updated_at": "2026-04-13T12:57:32Z",
       "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KP3EPBEPE5885YBNW19R6PC1",
+          "body": "",
+          "created_at": "2026-04-13T12:57:32Z",
+          "display_at": "2026-04-13T12:57:32Z",
+          "incident_id": "01KP1PS4WFSH4CVJT0DJBKQ3FT",
+          "status": "identified",
+          "updated_at": "2026-04-13T12:57:32Z"
+        },
         {
           "id": "01KP2RS05B4QFDSPQBKC82F2DK",
           "body": "",
