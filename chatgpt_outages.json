@@ -6,7 +6,7 @@
     "updated_at": "2026-04-16T19:40:52Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   }
 }
