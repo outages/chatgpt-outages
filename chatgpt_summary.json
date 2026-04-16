@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-16T19:40:52Z"
+    "updated_at": "2026-04-16T20:31:31Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KPBWZ18HR2G685X2XMZD78EP",
       "name": "Responses API Streaming Error",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-04-16T19:40:52Z",
-      "updated_at": "2026-04-16T19:40:52Z",
+      "updated_at": "2026-04-16T20:31:32Z",
+      "monitoring_at": "2026-04-16T20:31:31Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KPBZVRVENCFFT380A4JKFR4K",
+          "body": "",
+          "created_at": "2026-04-16T20:31:31Z",
+          "display_at": "2026-04-16T20:31:31Z",
+          "incident_id": "01KPBWZ18HR2G685X2XMZD78EP",
+          "status": "monitoring",
+          "updated_at": "2026-04-16T20:31:31Z"
+        },
         {
           "id": "01KPBWZ18HSPPS2WQB29MRZEJ7",
           "body": "",
