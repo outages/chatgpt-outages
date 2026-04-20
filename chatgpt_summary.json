@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-20T15:29:45Z"
+    "updated_at": "2026-04-20T16:03:14Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -242,10 +242,19 @@
       "name": "Users unable to load ChatGPT, Codex and API Platform",
       "status": "investigating",
       "created_at": "2026-04-20T14:35:33Z",
-      "updated_at": "2026-04-20T15:29:45Z",
+      "updated_at": "2026-04-20T16:03:14Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KPNT3CSQNCPH7CZD307BRQB3",
+          "body": "",
+          "created_at": "2026-04-20T16:03:14Z",
+          "display_at": "2026-04-20T16:03:14Z",
+          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
+          "status": "investigating",
+          "updated_at": "2026-04-20T16:03:14Z"
+        },
         {
           "id": "01KPNR62WV4P81BQ4DJ92H8DRW",
           "body": "",
