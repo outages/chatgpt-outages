@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-26T22:18:02Z"
+    "updated_at": "2026-04-20T22:57:00Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,6 +234,29 @@
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KPPJX4KHFAWS8YQE3KW235X7",
+      "name": "Some users will see higher error rates on Codex",
+      "status": "monitoring",
+      "created_at": "2026-04-20T23:16:43Z",
+      "updated_at": "2026-04-20T23:28:42Z",
+      "monitoring_at": "2026-04-20T22:57:00Z",
+      "impact": "none",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KPPJX4KH7M2S4GMK5YRCHTZA",
+          "body": "",
+          "created_at": "2026-04-20T23:16:43Z",
+          "display_at": "2026-04-20T22:57:00Z",
+          "incident_id": "01KPPJX4KHFAWS8YQE3KW235X7",
+          "status": "monitoring",
+          "updated_at": "2026-04-20T23:28:07Z"
+        }
+      ]
     }
   ]
 }
