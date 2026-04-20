@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-20T18:17:22Z"
+    "updated_at": "2026-03-26T22:18:02Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,134 +234,6 @@
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KPNN2V2SMP3TAN3MCJK87W50",
-      "name": "Users unable to load ChatGPT, Codex and API Platform",
-      "status": "monitoring",
-      "created_at": "2026-04-20T14:35:33Z",
-      "updated_at": "2026-04-20T18:17:22Z",
-      "monitoring_at": "2026-04-20T16:48:49Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KPP1S00VVVFMZWVSYQY0RD3E",
-          "body": "",
-          "created_at": "2026-04-20T18:17:22Z",
-          "display_at": "2026-04-20T18:17:22Z",
-          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
-          "status": "monitoring",
-          "updated_at": "2026-04-20T18:17:22Z"
-        },
-        {
-          "id": "01KPNZVWDDGDSHW47CBY7XXD7B",
-          "body": "",
-          "created_at": "2026-04-20T17:43:59Z",
-          "display_at": "2026-04-20T17:43:59Z",
-          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
-          "status": "monitoring",
-          "updated_at": "2026-04-20T17:43:59Z"
-        },
-        {
-          "id": "01KPNWPVXF0B3RFJD29B58WVEF",
-          "body": "",
-          "created_at": "2026-04-20T16:48:49Z",
-          "display_at": "2026-04-20T16:48:49Z",
-          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
-          "status": "monitoring",
-          "updated_at": "2026-04-20T16:48:49Z"
-        },
-        {
-          "id": "01KPNT3CSQNCPH7CZD307BRQB3",
-          "body": "",
-          "created_at": "2026-04-20T16:03:14Z",
-          "display_at": "2026-04-20T16:03:14Z",
-          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
-          "status": "investigating",
-          "updated_at": "2026-04-20T16:03:14Z"
-        },
-        {
-          "id": "01KPNR62WV4P81BQ4DJ92H8DRW",
-          "body": "",
-          "created_at": "2026-04-20T15:29:45Z",
-          "display_at": "2026-04-20T15:29:45Z",
-          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
-          "status": "investigating",
-          "updated_at": "2026-04-20T15:29:45Z"
-        },
-        {
-          "id": "01KPNQ81X732F1191FDYP1WP39",
-          "body": "",
-          "created_at": "2026-04-20T15:13:21Z",
-          "display_at": "2026-04-20T15:13:21Z",
-          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
-          "status": "investigating",
-          "updated_at": "2026-04-20T15:13:21Z"
-        },
-        {
-          "id": "01KPNN2V2SZN5C2WKHQB2HV010",
-          "body": "",
-          "created_at": "2026-04-20T14:35:33Z",
-          "display_at": "2026-04-20T14:35:33Z",
-          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
-          "status": "investigating",
-          "updated_at": "2026-04-20T14:35:33Z"
-        }
-      ]
-    },
-    {
-      "id": "01KPNZ1BW91D4S3V5PWWEVQ5F1",
-      "name": "Elevated errors for ChatGPT conversations in Europe",
-      "status": "monitoring",
-      "created_at": "2026-04-20T17:29:30Z",
-      "updated_at": "2026-04-20T17:29:30Z",
-      "monitoring_at": "2026-04-20T17:29:30Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KPNZ1BW9Z4679KHV5SHH1B4P",
-          "body": "",
-          "created_at": "2026-04-20T17:29:30Z",
-          "display_at": "2026-04-20T17:29:30Z",
-          "incident_id": "01KPNZ1BW91D4S3V5PWWEVQ5F1",
-          "status": "monitoring",
-          "updated_at": "2026-04-20T17:29:30Z"
-        }
-      ]
-    },
-    {
-      "id": "01KPMVSSRWY55RX257730KS2FA",
-      "name": "Users may encounter issue with ChatGPT Business after upgrade or adding new seats for up to an hour",
-      "status": "monitoring",
-      "created_at": "2026-04-20T07:13:42Z",
-      "updated_at": "2026-04-20T09:43:35Z",
-      "monitoring_at": "2026-04-20T09:43:35Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KPN4C8043DXPPF74T98KKKC6",
-          "body": "",
-          "created_at": "2026-04-20T09:43:35Z",
-          "display_at": "2026-04-20T09:43:35Z",
-          "incident_id": "01KPMVSSRWY55RX257730KS2FA",
-          "status": "monitoring",
-          "updated_at": "2026-04-20T09:43:35Z"
-        },
-        {
-          "id": "01KPMVSSRWGP4J3WHKNPC73K5A",
-          "body": "",
-          "created_at": "2026-04-20T07:13:42Z",
-          "display_at": "2026-04-20T07:13:42Z",
-          "incident_id": "01KPMVSSRWY55RX257730KS2FA",
-          "status": "investigating",
-          "updated_at": "2026-04-20T07:13:42Z"
-        }
-      ]
     }
   ]
 }
