@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-20T16:03:14Z"
+    "updated_at": "2026-04-20T17:29:30Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -139,7 +139,7 @@
     {
       "id": "01K8C008QVXHA6JX98PAS42VPD",
       "name": "ChatGPT Atlas",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 14,
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 23,
@@ -229,7 +229,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 24,
@@ -238,14 +238,45 @@
   ],
   "incidents": [
     {
+      "id": "01KPNZ1BW91D4S3V5PWWEVQ5F1",
+      "name": "Elevated errors for ChatGPT conversations in Europe",
+      "status": "monitoring",
+      "created_at": "2026-04-20T17:29:30Z",
+      "updated_at": "2026-04-20T17:29:30Z",
+      "monitoring_at": "2026-04-20T17:29:30Z",
+      "impact": "none",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KPNZ1BW9Z4679KHV5SHH1B4P",
+          "body": "",
+          "created_at": "2026-04-20T17:29:30Z",
+          "display_at": "2026-04-20T17:29:30Z",
+          "incident_id": "01KPNZ1BW91D4S3V5PWWEVQ5F1",
+          "status": "monitoring",
+          "updated_at": "2026-04-20T17:29:30Z"
+        }
+      ]
+    },
+    {
       "id": "01KPNN2V2SMP3TAN3MCJK87W50",
       "name": "Users unable to load ChatGPT, Codex and API Platform",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-04-20T14:35:33Z",
-      "updated_at": "2026-04-20T16:03:14Z",
+      "updated_at": "2026-04-20T16:48:49Z",
+      "monitoring_at": "2026-04-20T16:48:49Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KPNWPVXF0B3RFJD29B58WVEF",
+          "body": "",
+          "created_at": "2026-04-20T16:48:49Z",
+          "display_at": "2026-04-20T16:48:49Z",
+          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
+          "status": "monitoring",
+          "updated_at": "2026-04-20T16:48:49Z"
+        },
         {
           "id": "01KPNT3CSQNCPH7CZD307BRQB3",
           "body": "",
