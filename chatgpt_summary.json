@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-20T17:29:30Z"
+    "updated_at": "2026-04-20T18:17:22Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -238,36 +238,33 @@
   ],
   "incidents": [
     {
-      "id": "01KPNZ1BW91D4S3V5PWWEVQ5F1",
-      "name": "Elevated errors for ChatGPT conversations in Europe",
-      "status": "monitoring",
-      "created_at": "2026-04-20T17:29:30Z",
-      "updated_at": "2026-04-20T17:29:30Z",
-      "monitoring_at": "2026-04-20T17:29:30Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KPNZ1BW9Z4679KHV5SHH1B4P",
-          "body": "",
-          "created_at": "2026-04-20T17:29:30Z",
-          "display_at": "2026-04-20T17:29:30Z",
-          "incident_id": "01KPNZ1BW91D4S3V5PWWEVQ5F1",
-          "status": "monitoring",
-          "updated_at": "2026-04-20T17:29:30Z"
-        }
-      ]
-    },
-    {
       "id": "01KPNN2V2SMP3TAN3MCJK87W50",
       "name": "Users unable to load ChatGPT, Codex and API Platform",
       "status": "monitoring",
       "created_at": "2026-04-20T14:35:33Z",
-      "updated_at": "2026-04-20T16:48:49Z",
+      "updated_at": "2026-04-20T18:17:22Z",
       "monitoring_at": "2026-04-20T16:48:49Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KPP1S00VVVFMZWVSYQY0RD3E",
+          "body": "",
+          "created_at": "2026-04-20T18:17:22Z",
+          "display_at": "2026-04-20T18:17:22Z",
+          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
+          "status": "monitoring",
+          "updated_at": "2026-04-20T18:17:22Z"
+        },
+        {
+          "id": "01KPNZVWDDGDSHW47CBY7XXD7B",
+          "body": "",
+          "created_at": "2026-04-20T17:43:59Z",
+          "display_at": "2026-04-20T17:43:59Z",
+          "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
+          "status": "monitoring",
+          "updated_at": "2026-04-20T17:43:59Z"
+        },
         {
           "id": "01KPNWPVXF0B3RFJD29B58WVEF",
           "body": "",
@@ -312,6 +309,27 @@
           "incident_id": "01KPNN2V2SMP3TAN3MCJK87W50",
           "status": "investigating",
           "updated_at": "2026-04-20T14:35:33Z"
+        }
+      ]
+    },
+    {
+      "id": "01KPNZ1BW91D4S3V5PWWEVQ5F1",
+      "name": "Elevated errors for ChatGPT conversations in Europe",
+      "status": "monitoring",
+      "created_at": "2026-04-20T17:29:30Z",
+      "updated_at": "2026-04-20T17:29:30Z",
+      "monitoring_at": "2026-04-20T17:29:30Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KPNZ1BW9Z4679KHV5SHH1B4P",
+          "body": "",
+          "created_at": "2026-04-20T17:29:30Z",
+          "display_at": "2026-04-20T17:29:30Z",
+          "incident_id": "01KPNZ1BW91D4S3V5PWWEVQ5F1",
+          "status": "monitoring",
+          "updated_at": "2026-04-20T17:29:30Z"
         }
       ]
     },
