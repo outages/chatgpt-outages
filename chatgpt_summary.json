@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-26T22:18:02Z"
+    "updated_at": "2026-04-21T02:34:32Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -38,19 +38,19 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
-      "name": "Codex Web",
-      "status": "operational",
-      "created_at": "2025-05-16T15:26:46Z",
+      "id": "01KMP3KP5M8X0EBTVW6KN327EE",
+      "name": "VS Code extension",
+      "status": "degraded_performance",
+      "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01KMP3KP5M8X0EBTVW6KN327EE",
-      "name": "VS Code extension",
-      "status": "operational",
-      "created_at": "2026-03-26T22:18:01Z",
+      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
+      "name": "Codex Web",
+      "status": "degraded_performance",
+      "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -58,7 +58,7 @@
     {
       "id": "01KMP3KP5MGE23B80K1EK4S8PV",
       "name": "Codex API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 5,
@@ -121,7 +121,7 @@
     {
       "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
       "name": "CLI",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 12,
@@ -234,6 +234,29 @@
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KPPY7B8PMYHJWDNFY9TMJX33",
+      "name": "Some users may encounter issues with GPT-5.4-C model in Codex",
+      "status": "monitoring",
+      "created_at": "2026-04-21T02:34:32Z",
+      "updated_at": "2026-04-21T02:34:32Z",
+      "monitoring_at": "2026-04-21T02:34:32Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KPPY7B8P6ZXE33849QE7ZT0Z",
+          "body": "",
+          "created_at": "2026-04-21T02:34:32Z",
+          "display_at": "2026-04-21T02:34:32Z",
+          "incident_id": "01KPPY7B8PMYHJWDNFY9TMJX33",
+          "status": "monitoring",
+          "updated_at": "2026-04-21T02:34:32Z"
+        }
+      ]
     }
   ]
 }
