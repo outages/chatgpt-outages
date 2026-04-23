@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-26T22:18:02Z"
+    "updated_at": "2026-04-23T17:41:58Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -103,7 +103,7 @@
     {
       "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
       "name": "Moderations",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 10,
@@ -234,6 +234,38 @@
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KPXKMRJ72KA5SYTEH509CQA5",
+      "name": "Elevated error rates and latency for Moderation API",
+      "status": "monitoring",
+      "created_at": "2026-04-23T16:44:18Z",
+      "updated_at": "2026-04-23T17:41:58Z",
+      "monitoring_at": "2026-04-23T17:41:58Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KPXPYAZ1HM7R4TCSTJ8D1VH5",
+          "body": "",
+          "created_at": "2026-04-23T17:41:58Z",
+          "display_at": "2026-04-23T17:41:58Z",
+          "incident_id": "01KPXKMRJ72KA5SYTEH509CQA5",
+          "status": "monitoring",
+          "updated_at": "2026-04-23T17:41:58Z"
+        },
+        {
+          "id": "01KPXKMRJ7KH4HGQR8PR33J7G1",
+          "body": "",
+          "created_at": "2026-04-23T16:44:18Z",
+          "display_at": "2026-04-23T16:44:18Z",
+          "incident_id": "01KPXKMRJ72KA5SYTEH509CQA5",
+          "status": "investigating",
+          "updated_at": "2026-04-23T16:44:18Z"
+        }
+      ]
     }
   ]
 }
