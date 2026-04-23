@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-23T18:23:01Z"
+    "updated_at": "2026-03-26T22:18:02Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "01KMP3KP5M8X0EBTVW6KN327EE",
       "name": "VS Code extension",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 3,
@@ -103,7 +103,7 @@
     {
       "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
       "name": "CLI",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 10,
@@ -166,7 +166,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 17,
@@ -175,7 +175,7 @@
     {
       "id": "01KMP3KP5MGE23B80K1EK4S8PV",
       "name": "Codex API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 18,
@@ -234,28 +234,6 @@
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KPXS9FY1X6WHYM2K3BQHJZQW",
-      "name": "Elevated errors in Codex",
-      "status": "investigating",
-      "created_at": "2026-04-23T18:23:01Z",
-      "updated_at": "2026-04-23T18:23:01Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KPXS9FY12CB7BHPZ3EGNEWS0",
-          "body": "",
-          "created_at": "2026-04-23T18:23:01Z",
-          "display_at": "2026-04-23T18:23:01Z",
-          "incident_id": "01KPXS9FY1X6WHYM2K3BQHJZQW",
-          "status": "investigating",
-          "updated_at": "2026-04-23T18:23:01Z"
-        }
-      ]
     }
   ]
 }
