@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-03-26T22:18:02Z"
+    "updated_at": "2026-04-24T21:24:59Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -175,7 +175,7 @@
     {
       "id": "01KMP3KP5MGE23B80K1EK4S8PV",
       "name": "Codex API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 18,
@@ -234,6 +234,28 @@
       "updated_at": "2026-03-26T22:18:01Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KQ0P3DXVK7YQYB4NJBKSQCZC",
+      "name": "Elevated errors on model gpt-5.5 in codex",
+      "status": "investigating",
+      "created_at": "2026-04-24T21:24:59Z",
+      "updated_at": "2026-04-24T21:24:59Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KQ0P3DXVN9M9E66X0ZMCNAGH",
+          "body": "",
+          "created_at": "2026-04-24T21:25:00Z",
+          "display_at": "2026-04-24T21:24:59Z",
+          "incident_id": "01KQ0P3DXVK7YQYB4NJBKSQCZC",
+          "status": "investigating",
+          "updated_at": "2026-04-24T21:25:00Z"
+        }
+      ]
     }
   ]
 }
