@@ -137,21 +137,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01KMKFAMWKQ81YWSE1Z18R6VHR",
-      "name": "App",
-      "status": "operational",
-      "created_at": "2026-03-25T21:45:05Z",
-      "updated_at": "2026-04-27T15:52:49Z",
-      "position": 14,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
       "name": "CLI",
       "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 15,
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,16 +151,7 @@
       "status": "operational",
       "created_at": "2026-03-09T22:59:29Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 16,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01KMP3KP5MGE23B80K1EK4S8PV",
-      "name": "Codex API",
-      "status": "operational",
-      "created_at": "2026-03-26T22:18:01Z",
-      "updated_at": "2026-04-27T15:52:49Z",
-      "position": 17,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,7 +160,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 18,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -187,7 +169,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 19,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -196,7 +178,7 @@
       "status": "operational",
       "created_at": "2025-11-07T21:55:20Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 20,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -205,7 +187,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 21,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,7 +196,7 @@
       "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 22,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -223,7 +205,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 23,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -231,6 +213,24 @@
       "name": "Connectors/Apps",
       "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
+      "updated_at": "2026-04-27T15:52:49Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01KMKFAMWKQ81YWSE1Z18R6VHR",
+      "name": "App",
+      "status": "operational",
+      "created_at": "2026-03-25T21:45:05Z",
+      "updated_at": "2026-04-27T15:52:49Z",
+      "position": 23,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01KMP3KP5MGE23B80K1EK4S8PV",
+      "name": "Codex API",
+      "status": "operational",
+      "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
