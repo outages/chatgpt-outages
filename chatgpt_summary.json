@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-05-08T13:57:35Z"
+    "updated_at": "2026-05-08T15:07:16Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -13,7 +13,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 0,
@@ -94,7 +94,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex Web",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 9,
@@ -238,50 +238,22 @@
   ],
   "incidents": [
     {
-      "id": "01KR3S3Q2RE54PVJ7GZPQNEY8Y",
-      "name": "Increased Error Rate for gpt-5.5 model in the API",
-      "status": "monitoring",
-      "created_at": "2026-05-08T12:31:00Z",
-      "updated_at": "2026-05-08T13:57:35Z",
-      "monitoring_at": "2026-05-08T13:57:35Z",
+      "id": "01KR421V8PCTFKA8EJJC2VCGA3",
+      "name": "Degraded Performance with Codex Cloud Tasks",
+      "status": "investigating",
+      "created_at": "2026-05-08T15:07:16Z",
+      "updated_at": "2026-05-08T15:07:16Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01KR3Y28B437Y0NDF58Z50NKER",
+          "id": "01KR421V8PZZ1ZE5EP42Y6RBVF",
           "body": "",
-          "created_at": "2026-05-08T13:57:35Z",
-          "display_at": "2026-05-08T13:57:35Z",
-          "incident_id": "01KR3S3Q2RE54PVJ7GZPQNEY8Y",
-          "status": "monitoring",
-          "updated_at": "2026-05-08T13:57:35Z"
-        },
-        {
-          "id": "01KR3X7F5CGW6EJ0D0JF9V0H20",
-          "body": "",
-          "created_at": "2026-05-08T13:42:57Z",
-          "display_at": "2026-05-08T13:42:57Z",
-          "incident_id": "01KR3S3Q2RE54PVJ7GZPQNEY8Y",
-          "status": "identified",
-          "updated_at": "2026-05-08T13:42:57Z"
-        },
-        {
-          "id": "01KR3W8W5GNNQ5TV681B1DNAZA",
-          "body": "",
-          "created_at": "2026-05-08T13:26:14Z",
-          "display_at": "2026-05-08T13:26:14Z",
-          "incident_id": "01KR3S3Q2RE54PVJ7GZPQNEY8Y",
+          "created_at": "2026-05-08T15:07:16Z",
+          "display_at": "2026-05-08T15:07:16Z",
+          "incident_id": "01KR421V8PCTFKA8EJJC2VCGA3",
           "status": "investigating",
-          "updated_at": "2026-05-08T13:26:14Z"
-        },
-        {
-          "id": "01KR3S3Q2RSV22XY3SG836TQD9",
-          "body": "",
-          "created_at": "2026-05-08T12:31:00Z",
-          "display_at": "2026-05-08T12:31:00Z",
-          "incident_id": "01KR3S3Q2RE54PVJ7GZPQNEY8Y",
-          "status": "investigating",
-          "updated_at": "2026-05-08T12:31:00Z"
+          "updated_at": "2026-05-08T15:07:16Z"
         }
       ]
     }
