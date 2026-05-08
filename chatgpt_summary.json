@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-05-08T06:15:48Z"
+    "updated_at": "2026-04-27T15:52:49Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -103,7 +103,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 10,
@@ -112,7 +112,7 @@
     {
       "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
       "name": "CLI",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 11,
@@ -202,7 +202,7 @@
     {
       "id": "01KMKFAMWKQ81YWSE1Z18R6VHR",
       "name": "App",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 21,
@@ -211,7 +211,7 @@
     {
       "id": "01KMP3KP5MGE23B80K1EK4S8PV",
       "name": "Codex API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 22,
@@ -234,65 +234,6 @@
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KR1Q0SWZESWXQVWQRKRDJCHK",
-      "name": "Elevated transcription failures affecting ChatGPT & Codex",
-      "status": "monitoring",
-      "created_at": "2026-05-07T17:15:58Z",
-      "updated_at": "2026-05-08T06:15:48Z",
-      "monitoring_at": "2026-05-08T06:15:48Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KR33MQB4B9ET28WJ9F8ZBV95",
-          "body": "",
-          "created_at": "2026-05-08T06:15:48Z",
-          "display_at": "2026-05-08T06:15:48Z",
-          "incident_id": "01KR1Q0SWZESWXQVWQRKRDJCHK",
-          "status": "monitoring",
-          "updated_at": "2026-05-08T06:15:48Z"
-        },
-        {
-          "id": "01KR2DD12NE4SR7GFCT7T11BPS",
-          "body": "",
-          "created_at": "2026-05-07T23:47:08Z",
-          "display_at": "2026-05-07T23:47:08Z",
-          "incident_id": "01KR1Q0SWZESWXQVWQRKRDJCHK",
-          "status": "investigating",
-          "updated_at": "2026-05-07T23:47:08Z"
-        },
-        {
-          "id": "01KR21DSHJA827X0W0KF8TVEAP",
-          "body": "",
-          "created_at": "2026-05-07T20:17:50Z",
-          "display_at": "2026-05-07T20:17:50Z",
-          "incident_id": "01KR1Q0SWZESWXQVWQRKRDJCHK",
-          "status": "investigating",
-          "updated_at": "2026-05-07T20:17:50Z"
-        },
-        {
-          "id": "01KR1W2MPERG1FEVA42K52XQ76",
-          "body": "",
-          "created_at": "2026-05-07T18:44:21Z",
-          "display_at": "2026-05-07T18:44:21Z",
-          "incident_id": "01KR1Q0SWZESWXQVWQRKRDJCHK",
-          "status": "investigating",
-          "updated_at": "2026-05-07T18:44:21Z"
-        },
-        {
-          "id": "01KR1Q0SWZ6DNGE3YAAWP5JEQW",
-          "body": "",
-          "created_at": "2026-05-07T17:15:58Z",
-          "display_at": "2026-05-07T17:15:58Z",
-          "incident_id": "01KR1Q0SWZESWXQVWQRKRDJCHK",
-          "status": "identified",
-          "updated_at": "2026-05-07T17:15:58Z"
-        }
-      ]
     }
   ]
 }
