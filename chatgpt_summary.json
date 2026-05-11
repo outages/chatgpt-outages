@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-27T15:52:49Z"
+    "updated_at": "2026-05-11T03:23:58Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -101,12 +101,21 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
+      "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
+      "name": "File uploads",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2026-04-27T15:52:49Z",
+      "position": 10,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
       "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
       "name": "CLI",
       "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 10,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,7 +124,7 @@
       "status": "operational",
       "created_at": "2026-03-09T22:59:29Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 11,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -124,7 +133,7 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 12,
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -132,15 +141,6 @@
       "name": "ChatGPT Atlas",
       "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
-      "updated_at": "2026-04-27T15:52:49Z",
-      "position": 13,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
-      "name": "File uploads",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -234,6 +234,38 @@
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KRAA341YK58M05V2DFGDRMFB",
+      "name": "Users may experience elevated errors in ChatGPT uploading files and Codex Cloud creating tasks",
+      "status": "monitoring",
+      "created_at": "2026-05-11T01:23:13Z",
+      "updated_at": "2026-05-11T03:23:58Z",
+      "monitoring_at": "2026-05-11T03:23:58Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KRAH08178MQB5FKZB9AC480B",
+          "body": "",
+          "created_at": "2026-05-11T03:23:58Z",
+          "display_at": "2026-05-11T03:23:58Z",
+          "incident_id": "01KRAA341YK58M05V2DFGDRMFB",
+          "status": "monitoring",
+          "updated_at": "2026-05-11T03:23:58Z"
+        },
+        {
+          "id": "01KRAA341YTCTFZ0BGQKCGX29Q",
+          "body": "",
+          "created_at": "2026-05-11T01:23:13Z",
+          "display_at": "2026-05-11T01:23:13Z",
+          "incident_id": "01KRAA341YK58M05V2DFGDRMFB",
+          "status": "investigating",
+          "updated_at": "2026-05-11T01:23:13Z"
+        }
+      ]
     }
   ]
 }
