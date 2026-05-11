@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-27T15:52:49Z"
+    "updated_at": "2026-05-11T16:54:00Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,6 +234,47 @@
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KRBZTV511HR7SWVFZJ0438D6",
+      "name": "Elevated error rates with GPT 5.5",
+      "status": "monitoring",
+      "created_at": "2026-05-11T17:02:24Z",
+      "updated_at": "2026-05-11T17:04:02Z",
+      "monitoring_at": "2026-05-11T16:54:00Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KRBZXTVVZ6YAYC6QGX4X54BP",
+          "body": "",
+          "created_at": "2026-05-11T17:04:02Z",
+          "display_at": "2026-05-11T16:54:00Z",
+          "incident_id": "01KRBZTV511HR7SWVFZJ0438D6",
+          "status": "monitoring",
+          "updated_at": "2026-05-11T17:06:09Z"
+        },
+        {
+          "id": "01KRBZWSGB4ZZBY7XKVGZ410TA",
+          "body": "",
+          "created_at": "2026-05-11T17:03:28Z",
+          "display_at": "2026-05-11T16:35:00Z",
+          "incident_id": "01KRBZTV511HR7SWVFZJ0438D6",
+          "status": "identified",
+          "updated_at": "2026-05-11T17:05:44Z"
+        },
+        {
+          "id": "01KRBZTV51H52H7B48N69GWJCH",
+          "body": "",
+          "created_at": "2026-05-11T17:02:24Z",
+          "display_at": "2026-05-11T16:11:00Z",
+          "incident_id": "01KRBZTV511HR7SWVFZJ0438D6",
+          "status": "investigating",
+          "updated_at": "2026-05-11T17:04:56Z"
+        }
+      ]
     }
   ]
 }
