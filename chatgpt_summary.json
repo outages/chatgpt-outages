@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-05-13T06:37:18Z"
+    "updated_at": "2026-04-27T15:52:49Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -83,21 +83,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
-      "name": "Codex Web",
-      "status": "operational",
-      "created_at": "2025-05-16T15:26:46Z",
-      "updated_at": "2026-04-27T15:52:49Z",
-      "position": 8,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 9,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,7 +97,7 @@
       "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 10,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,7 +106,7 @@
       "status": "operational",
       "created_at": "2026-03-09T22:59:29Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 11,
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -124,7 +115,7 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 12,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -133,7 +124,7 @@
       "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 13,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -142,7 +133,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 14,
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -151,7 +142,7 @@
       "status": "operational",
       "created_at": "2025-11-07T21:55:20Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 15,
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,7 +151,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 16,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,7 +160,7 @@
       "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 17,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,16 +169,7 @@
       "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 18,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01KMKFAMWKQ81YWSE1Z18R6VHR",
-      "name": "App",
-      "status": "operational",
-      "created_at": "2026-03-25T21:45:05Z",
-      "updated_at": "2026-04-27T15:52:49Z",
-      "position": 19,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -196,7 +178,7 @@
       "status": "operational",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 20,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -205,7 +187,7 @@
       "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 21,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,7 +196,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 22,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -223,7 +205,7 @@
       "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 23,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -232,39 +214,26 @@
       "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-04-27T15:52:49Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
+      "name": "Audio",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-04-27T15:52:49Z",
+      "position": 23,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01KMP3KP5M8X0EBTVW6KN327EE",
+      "name": "VS Code extension",
+      "status": "operational",
+      "created_at": "2026-03-26T22:18:01Z",
+      "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KRG0AZKH41DV4D9SNJSXM33Q",
-      "name": "Realtime API  - SIP/WebRTC flow are down",
-      "status": "investigating",
-      "created_at": "2026-05-13T06:28:11Z",
-      "updated_at": "2026-05-13T06:37:18Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KRG0VNH51B62FKHZX009ZSCW",
-          "body": "",
-          "created_at": "2026-05-13T06:37:18Z",
-          "display_at": "2026-05-13T06:37:18Z",
-          "incident_id": "01KRG0AZKH41DV4D9SNJSXM33Q",
-          "status": "investigating",
-          "updated_at": "2026-05-13T06:37:18Z"
-        },
-        {
-          "id": "01KRG0AZKHH37CKBST5E3WBQW6",
-          "body": "",
-          "created_at": "2026-05-13T06:28:11Z",
-          "display_at": "2026-05-13T06:28:11Z",
-          "incident_id": "01KRG0AZKH41DV4D9SNJSXM33Q",
-          "status": "investigating",
-          "updated_at": "2026-05-13T06:28:11Z"
-        }
-      ]
     }
   ]
 }
