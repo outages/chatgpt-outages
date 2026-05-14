@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-27T15:52:49Z"
+    "updated_at": "2026-05-14T21:18:25Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,6 +234,37 @@
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KRM4H2T37TNSS7BCSGXVS8RQ",
+      "name": "Codex Cloud and Code Review experiencing high failure rate",
+      "status": "investigating",
+      "created_at": "2026-05-14T20:58:23Z",
+      "updated_at": "2026-05-14T21:18:25Z",
+      "impact": "none",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KRM5NRYYX6DBHDE7MZDV79XY",
+          "body": "",
+          "created_at": "2026-05-14T21:18:25Z",
+          "display_at": "2026-05-14T21:18:25Z",
+          "incident_id": "01KRM4H2T37TNSS7BCSGXVS8RQ",
+          "status": "investigating",
+          "updated_at": "2026-05-14T21:18:25Z"
+        },
+        {
+          "id": "01KRM4H2T3T2JCV4QNCA53VKR6",
+          "body": "",
+          "created_at": "2026-05-14T20:58:23Z",
+          "display_at": "2026-05-14T20:58:23Z",
+          "incident_id": "01KRM4H2T37TNSS7BCSGXVS8RQ",
+          "status": "identified",
+          "updated_at": "2026-05-14T20:58:23Z"
+        }
+      ]
     }
   ]
 }
