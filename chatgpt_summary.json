@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-05-21T22:05:52Z"
+    "updated_at": "2026-05-21T22:57:08Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,31 @@
     {
       "id": "01KS695P8GHC0NCMFE96C34KJ1",
       "name": "Elevated latency and error rates for ChatGPT 5.5 Thinking",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-05-21T22:05:52Z",
-      "updated_at": "2026-05-21T22:07:53Z",
+      "updated_at": "2026-05-21T22:57:08Z",
+      "monitoring_at": "2026-05-21T22:25:40Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KS6C3HT7VWJWNKEVMH2RP998",
+          "body": "",
+          "created_at": "2026-05-21T22:57:08Z",
+          "display_at": "2026-05-21T22:57:08Z",
+          "incident_id": "01KS695P8GHC0NCMFE96C34KJ1",
+          "status": "monitoring",
+          "updated_at": "2026-05-21T22:57:08Z"
+        },
+        {
+          "id": "01KS6A9YF6KX2V72EEYS67YTW1",
+          "body": "",
+          "created_at": "2026-05-21T22:25:40Z",
+          "display_at": "2026-05-21T22:25:40Z",
+          "incident_id": "01KS695P8GHC0NCMFE96C34KJ1",
+          "status": "monitoring",
+          "updated_at": "2026-05-21T22:25:40Z"
+        },
         {
           "id": "01KS695P8GVJQG8FDRE8D0TKEQ",
           "body": "",
