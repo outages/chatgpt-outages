@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-05-21T13:52:46Z"
+    "updated_at": "2026-04-27T15:52:49Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -148,7 +148,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 15,
@@ -234,28 +234,6 @@
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KS5CYS472SA003BQSXSBM8EW",
-      "name": "Elevated error rates on ChatGPT paid plans",
-      "status": "identified",
-      "created_at": "2026-05-21T13:52:46Z",
-      "updated_at": "2026-05-21T13:52:46Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KS5CYS474BF5PC67SRMTA3DG",
-          "body": "",
-          "created_at": "2026-05-21T13:52:46Z",
-          "display_at": "2026-05-21T13:52:46Z",
-          "incident_id": "01KS5CYS472SA003BQSXSBM8EW",
-          "status": "identified",
-          "updated_at": "2026-05-21T13:52:46Z"
-        }
-      ]
     }
   ]
 }
