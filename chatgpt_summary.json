@@ -103,7 +103,7 @@
     {
       "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
       "name": "Embeddings",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 10,
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBRMFEKVBWKK82B44QFMCE",
       "name": "Audio",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 23,
@@ -254,72 +254,6 @@
           "incident_id": "01KSN9ATSF1WCJ5ZTQSR1H9CC7",
           "status": "identified",
           "updated_at": "2026-05-27T17:57:17Z"
-        }
-      ]
-    },
-    {
-      "id": "01KSMYEEWP0BZYANSMAXWJ3K59",
-      "name": "Elevated Latency and Errors on API",
-      "status": "monitoring",
-      "created_at": "2026-05-27T14:47:02Z",
-      "updated_at": "2026-05-27T17:54:42Z",
-      "monitoring_at": "2026-05-27T15:59:22Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KSN9633P9GQN3EXDXZDV6FAQ",
-          "body": "",
-          "created_at": "2026-05-27T17:54:42Z",
-          "display_at": "2026-05-27T17:54:42Z",
-          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
-          "status": "monitoring",
-          "updated_at": "2026-05-27T17:54:42Z"
-        },
-        {
-          "id": "01KSN6SJRMV2F6TAT0CR44Y6E6",
-          "body": "",
-          "created_at": "2026-05-27T17:12:55Z",
-          "display_at": "2026-05-27T17:12:55Z",
-          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
-          "status": "resolved",
-          "updated_at": "2026-05-27T17:12:55Z"
-        },
-        {
-          "id": "01KSN2JXRJRKYFJ6AX2CBGPW6H",
-          "body": "",
-          "created_at": "2026-05-27T15:59:22Z",
-          "display_at": "2026-05-27T15:59:22Z",
-          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
-          "status": "monitoring",
-          "updated_at": "2026-05-27T15:59:22Z"
-        },
-        {
-          "id": "01KSN1RRKF7T0Y64SD754KA6F3",
-          "body": "",
-          "created_at": "2026-05-27T15:45:05Z",
-          "display_at": "2026-05-27T15:45:05Z",
-          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
-          "status": "identified",
-          "updated_at": "2026-05-27T15:45:05Z"
-        },
-        {
-          "id": "01KSN0EF5MSW7MKEZ2PVCQ18PR",
-          "body": "",
-          "created_at": "2026-05-27T15:21:59Z",
-          "display_at": "2026-05-27T15:21:59Z",
-          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
-          "status": "investigating",
-          "updated_at": "2026-05-27T15:21:59Z"
-        },
-        {
-          "id": "01KSMYEEWPD4XV2ZPSGB831YQA",
-          "body": "",
-          "created_at": "2026-05-27T14:47:02Z",
-          "display_at": "2026-05-27T14:47:02Z",
-          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
-          "status": "investigating",
-          "updated_at": "2026-05-27T14:47:02Z"
         }
       ]
     },
