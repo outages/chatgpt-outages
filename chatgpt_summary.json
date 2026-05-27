@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-05-27T16:24:26Z"
+    "updated_at": "2026-05-27T17:57:17Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -20,21 +20,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
-      "name": "Embeddings",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-04-27T15:52:49Z",
-      "position": 1,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JMXBRMFEMZK0HPK19RYET250",
       "name": "Fine-tuning",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 2,
+      "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -43,7 +34,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 3,
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -52,7 +43,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 4,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -61,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 5,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,7 +61,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 6,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -79,7 +70,7 @@
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 7,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -88,16 +79,16 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 8,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
       "name": "CLI",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 9,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -105,6 +96,15 @@
       "name": "FedRAMP",
       "status": "operational",
       "created_at": "2026-03-09T22:59:29Z",
+      "updated_at": "2026-04-27T15:52:49Z",
+      "position": 9,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
+      "name": "Embeddings",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -175,7 +175,7 @@
     {
       "id": "01KMP3KP5MGE23B80K1EK4S8PV",
       "name": "Codex API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 18,
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBRMFEKVBWKK82B44QFMCE",
       "name": "Audio",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 23,
@@ -229,7 +229,7 @@
     {
       "id": "01KMP3KP5M8X0EBTVW6KN327EE",
       "name": "VS Code extension",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
@@ -237,6 +237,92 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01KSN9ATSF1WCJ5ZTQSR1H9CC7",
+      "name": "Codex Context Compaction Latency",
+      "status": "identified",
+      "created_at": "2026-05-27T17:57:17Z",
+      "updated_at": "2026-05-27T17:57:17Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KSN9ATSF845KF3956NY20E9Z",
+          "body": "",
+          "created_at": "2026-05-27T17:57:17Z",
+          "display_at": "2026-05-27T17:57:17Z",
+          "incident_id": "01KSN9ATSF1WCJ5ZTQSR1H9CC7",
+          "status": "identified",
+          "updated_at": "2026-05-27T17:57:17Z"
+        }
+      ]
+    },
+    {
+      "id": "01KSMYEEWP0BZYANSMAXWJ3K59",
+      "name": "Elevated Latency and Errors on API",
+      "status": "monitoring",
+      "created_at": "2026-05-27T14:47:02Z",
+      "updated_at": "2026-05-27T17:54:42Z",
+      "monitoring_at": "2026-05-27T15:59:22Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KSN9633P9GQN3EXDXZDV6FAQ",
+          "body": "",
+          "created_at": "2026-05-27T17:54:42Z",
+          "display_at": "2026-05-27T17:54:42Z",
+          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
+          "status": "monitoring",
+          "updated_at": "2026-05-27T17:54:42Z"
+        },
+        {
+          "id": "01KSN6SJRMV2F6TAT0CR44Y6E6",
+          "body": "",
+          "created_at": "2026-05-27T17:12:55Z",
+          "display_at": "2026-05-27T17:12:55Z",
+          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
+          "status": "resolved",
+          "updated_at": "2026-05-27T17:12:55Z"
+        },
+        {
+          "id": "01KSN2JXRJRKYFJ6AX2CBGPW6H",
+          "body": "",
+          "created_at": "2026-05-27T15:59:22Z",
+          "display_at": "2026-05-27T15:59:22Z",
+          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
+          "status": "monitoring",
+          "updated_at": "2026-05-27T15:59:22Z"
+        },
+        {
+          "id": "01KSN1RRKF7T0Y64SD754KA6F3",
+          "body": "",
+          "created_at": "2026-05-27T15:45:05Z",
+          "display_at": "2026-05-27T15:45:05Z",
+          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
+          "status": "identified",
+          "updated_at": "2026-05-27T15:45:05Z"
+        },
+        {
+          "id": "01KSN0EF5MSW7MKEZ2PVCQ18PR",
+          "body": "",
+          "created_at": "2026-05-27T15:21:59Z",
+          "display_at": "2026-05-27T15:21:59Z",
+          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
+          "status": "investigating",
+          "updated_at": "2026-05-27T15:21:59Z"
+        },
+        {
+          "id": "01KSMYEEWPD4XV2ZPSGB831YQA",
+          "body": "",
+          "created_at": "2026-05-27T14:47:02Z",
+          "display_at": "2026-05-27T14:47:02Z",
+          "incident_id": "01KSMYEEWP0BZYANSMAXWJ3K59",
+          "status": "investigating",
+          "updated_at": "2026-05-27T14:47:02Z"
+        }
+      ]
+    },
     {
       "id": "01KSN40TAYQYGAKFA50HNH22YG",
       "name": "Android ChatGPT Business users having trouble switching workspaces",
