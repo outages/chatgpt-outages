@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-05-26T14:20:00Z"
+    "updated_at": "2026-05-27T05:31:12Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KSJKR3EXTMKY0C287HS1BR8P",
       "name": "Login issues for FedRAMP users who recently logged out",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-05-26T17:01:35Z",
-      "updated_at": "2026-05-26T17:02:51Z",
+      "updated_at": "2026-05-27T05:31:12Z",
+      "monitoring_at": "2026-05-27T05:31:12Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KSKYMQ0B4KAM3NK9EQWCYYHY",
+          "body": "",
+          "created_at": "2026-05-27T05:31:12Z",
+          "display_at": "2026-05-27T05:31:12Z",
+          "incident_id": "01KSJKR3EXTMKY0C287HS1BR8P",
+          "status": "monitoring",
+          "updated_at": "2026-05-27T05:31:12Z"
+        },
         {
           "id": "01KSJKTDWECY6D4AEY9J3KCFA4",
           "body": "",
