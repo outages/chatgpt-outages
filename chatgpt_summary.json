@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-02T23:36:43Z"
+    "updated_at": "2026-06-03T05:12:57Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -76,7 +76,7 @@
     {
       "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
       "name": "CLI",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 7,
@@ -103,7 +103,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 10,
@@ -112,7 +112,7 @@
     {
       "id": "01K8C008QVXHA6JX98PAS42VPD",
       "name": "ChatGPT Atlas",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 11,
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 14,
@@ -148,7 +148,7 @@
     {
       "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
       "name": "Connectors/Apps",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 15,
@@ -157,7 +157,7 @@
     {
       "id": "01KMP3KP5MGE23B80K1EK4S8PV",
       "name": "Codex API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 16,
@@ -166,7 +166,7 @@
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 17,
@@ -175,7 +175,7 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 18,
@@ -184,7 +184,7 @@
     {
       "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
       "name": "GPTs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 19,
@@ -193,7 +193,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 20,
@@ -211,7 +211,7 @@
     {
       "id": "01KMP3KP5M8X0EBTVW6KN327EE",
       "name": "VS Code extension",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 22,
@@ -220,7 +220,7 @@
     {
       "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
       "name": "Voice mode",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 23,
@@ -229,7 +229,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
@@ -238,53 +238,40 @@
   ],
   "incidents": [
     {
-      "id": "01KT5AMWGKRTMQW2BAHD70PC4X",
-      "name": "Elevated errors for ChatGPT Pro",
-      "status": "monitoring",
-      "created_at": "2026-06-02T23:28:06Z",
-      "updated_at": "2026-06-02T23:36:43Z",
-      "monitoring_at": "2026-06-02T23:36:43Z",
-      "impact": "minor",
+      "id": "01KT5XJ5ATD6RMYP908WS69FVD",
+      "name": "Elevated error rates on Codex",
+      "status": "investigating",
+      "created_at": "2026-06-03T04:58:40Z",
+      "updated_at": "2026-06-03T05:12:57Z",
+      "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01KT5B4MVBZY5VBAYPA4VM9N0A",
+          "id": "01KT5YC9ZDCE124000E0EGXVXV",
           "body": "",
-          "created_at": "2026-06-02T23:36:43Z",
-          "display_at": "2026-06-02T23:36:43Z",
-          "incident_id": "01KT5AMWGKRTMQW2BAHD70PC4X",
-          "status": "monitoring",
-          "updated_at": "2026-06-02T23:36:43Z"
+          "created_at": "2026-06-03T05:12:57Z",
+          "display_at": "2026-06-03T05:12:57Z",
+          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
+          "status": "investigating",
+          "updated_at": "2026-06-03T05:12:57Z"
         },
         {
-          "id": "01KT5AMWGKBY9MKWEBHVY1TTZ9",
+          "id": "01KT5Y9TN7J7BP88PA5YS25VDV",
           "body": "",
-          "created_at": "2026-06-02T23:28:06Z",
-          "display_at": "2026-06-02T23:28:06Z",
-          "incident_id": "01KT5AMWGKRTMQW2BAHD70PC4X",
-          "status": "identified",
-          "updated_at": "2026-06-02T23:28:06Z"
-        }
-      ]
-    },
-    {
-      "id": "01KT5B2V94YX1T1M88BVQHB58J",
-      "name": "codex-gpt-image-2-does-not-exist-errors",
-      "status": "monitoring",
-      "created_at": "2026-06-02T23:35:44Z",
-      "updated_at": "2026-06-02T23:35:44Z",
-      "monitoring_at": "2026-06-02T23:35:44Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
+          "created_at": "2026-06-03T05:11:35Z",
+          "display_at": "2026-06-03T05:11:35Z",
+          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
+          "status": "investigating",
+          "updated_at": "2026-06-03T05:11:35Z"
+        },
         {
-          "id": "01KT5B2V94YSRWBVAA1YW7VYVT",
+          "id": "01KT5XJ5ATTSMEK56ANVWBPK5Y",
           "body": "",
-          "created_at": "2026-06-02T23:35:44Z",
-          "display_at": "2026-06-02T23:35:44Z",
-          "incident_id": "01KT5B2V94YX1T1M88BVQHB58J",
-          "status": "monitoring",
-          "updated_at": "2026-06-02T23:35:44Z"
+          "created_at": "2026-06-03T04:58:40Z",
+          "display_at": "2026-06-03T04:58:40Z",
+          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
+          "status": "investigating",
+          "updated_at": "2026-06-03T04:58:40Z"
         }
       ]
     }
