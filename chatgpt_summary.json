@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-03T09:20:39Z"
+    "updated_at": "2026-04-27T15:52:49Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,128 +234,6 @@
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KT5XJ5ATD6RMYP908WS69FVD",
-      "name": "Elevated error rates on Codex, ChatGPT and Responses API",
-      "status": "monitoring",
-      "created_at": "2026-06-03T04:58:40Z",
-      "updated_at": "2026-06-03T09:20:39Z",
-      "monitoring_at": "2026-06-03T07:16:03Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KT6CHW6Y7G87GV06SKQX08EZ",
-          "body": "",
-          "created_at": "2026-06-03T09:20:39Z",
-          "display_at": "2026-06-03T09:20:39Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "monitoring",
-          "updated_at": "2026-06-03T09:20:39Z"
-        },
-        {
-          "id": "01KT67PCZ5TTHE57F2YRJEVVVD",
-          "body": "",
-          "created_at": "2026-06-03T07:55:45Z",
-          "display_at": "2026-06-03T07:55:45Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "monitoring",
-          "updated_at": "2026-06-03T07:55:45Z"
-        },
-        {
-          "id": "01KT65DQ9T9ZZGSH0CC3CH2YPV",
-          "body": "",
-          "created_at": "2026-06-03T07:16:03Z",
-          "display_at": "2026-06-03T07:16:03Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "monitoring",
-          "updated_at": "2026-06-03T07:16:03Z"
-        },
-        {
-          "id": "01KT654P4DF8VV4P430T7JZ4D5",
-          "body": "",
-          "created_at": "2026-06-03T07:11:07Z",
-          "display_at": "2026-06-03T07:11:07Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "investigating",
-          "updated_at": "2026-06-03T07:11:07Z"
-        },
-        {
-          "id": "01KT63Z12VKCHDZS391EC24QEZ",
-          "body": "",
-          "created_at": "2026-06-03T06:50:33Z",
-          "display_at": "2026-06-03T06:50:33Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "investigating",
-          "updated_at": "2026-06-03T06:50:33Z"
-        },
-        {
-          "id": "01KT630VBXYR1QA0GHRAGT9VKN",
-          "body": "",
-          "created_at": "2026-06-03T06:34:04Z",
-          "display_at": "2026-06-03T06:34:04Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "investigating",
-          "updated_at": "2026-06-03T06:34:04Z"
-        },
-        {
-          "id": "01KT621H245RR00PS892R8BQ3X",
-          "body": "",
-          "created_at": "2026-06-03T06:16:58Z",
-          "display_at": "2026-06-03T06:16:58Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "investigating",
-          "updated_at": "2026-06-03T06:16:58Z"
-        },
-        {
-          "id": "01KT6022SH3AGNBKS0QBQX3GHZ",
-          "body": "",
-          "created_at": "2026-06-03T05:42:19Z",
-          "display_at": "2026-06-03T05:42:19Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "investigating",
-          "updated_at": "2026-06-03T05:42:19Z"
-        },
-        {
-          "id": "01KT5YXAKHJN00F6Z364VTZWG8",
-          "body": "",
-          "created_at": "2026-06-03T05:22:14Z",
-          "display_at": "2026-06-03T05:22:14Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "investigating",
-          "updated_at": "2026-06-03T05:22:14Z"
-        },
-        {
-          "id": "01KT5YC9ZDCE124000E0EGXVXV",
-          "body": "",
-          "created_at": "2026-06-03T05:12:57Z",
-          "display_at": "2026-06-03T05:12:57Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "investigating",
-          "updated_at": "2026-06-03T05:12:57Z"
-        },
-        {
-          "id": "01KT5Y9TN7J7BP88PA5YS25VDV",
-          "body": "",
-          "created_at": "2026-06-03T05:11:35Z",
-          "display_at": "2026-06-03T05:11:35Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "investigating",
-          "updated_at": "2026-06-03T05:11:35Z"
-        },
-        {
-          "id": "01KT5XJ5ATTSMEK56ANVWBPK5Y",
-          "body": "",
-          "created_at": "2026-06-03T04:58:40Z",
-          "display_at": "2026-06-03T04:58:40Z",
-          "incident_id": "01KT5XJ5ATD6RMYP908WS69FVD",
-          "status": "investigating",
-          "updated_at": "2026-06-03T04:58:40Z"
-        }
-      ]
     }
   ]
 }
