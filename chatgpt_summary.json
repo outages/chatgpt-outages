@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-05T19:47:35Z"
+    "updated_at": "2026-06-05T21:19:17Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -242,11 +242,29 @@
       "name": "Some users may experience issues accessing OpenAI accounts",
       "status": "monitoring",
       "created_at": "2026-06-05T13:26:40Z",
-      "updated_at": "2026-06-05T19:47:35Z",
+      "updated_at": "2026-06-05T21:19:17Z",
       "monitoring_at": "2026-06-05T19:09:48Z",
       "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KTCTF5M321F3AQZTVKJ52D5V",
+          "body": "The team is uncovering some additional impacted users and is still working through related subscription and credit impacts for affected users. Impacted users will be receiving an email shortly.",
+          "created_at": "2026-06-05T21:19:17Z",
+          "display_at": "2026-06-05T21:19:17Z",
+          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
+          "status": "monitoring",
+          "updated_at": "2026-06-05T21:19:17Z"
+        },
+        {
+          "id": "01KTCS033XPC4XQT11TJ8Y82CS",
+          "body": "All users impacted should have received an email with more information. The team is monitoring for additional changes.",
+          "created_at": "2026-06-05T20:53:34Z",
+          "display_at": "2026-06-05T20:53:34Z",
+          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
+          "status": "monitoring",
+          "updated_at": "2026-06-05T20:53:34Z"
+        },
         {
           "id": "01KTCN78MJZQCY83XM085A7VSY",
           "body": "The team is still working through related subscription and credit impacts for affected users. Impacted users will be receiving an email shortly.",
