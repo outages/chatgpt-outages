@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-04-27T15:52:49Z"
+    "updated_at": "2026-06-05T13:26:40Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -11,12 +11,21 @@
   },
   "components": [
     {
+      "id": "01KMP3KP5MGE23B80K1EK4S8PV",
+      "name": "Codex API",
+      "status": "operational",
+      "created_at": "2026-03-26T22:18:01Z",
+      "updated_at": "2026-04-27T15:52:49Z",
+      "position": 0,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
       "id": "01JMXBRMFEMZK0HPK19RYET250",
       "name": "Fine-tuning",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 0,
+      "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -25,7 +34,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 1,
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -34,7 +43,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 2,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -43,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 3,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -52,7 +61,7 @@
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 4,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -61,7 +70,7 @@
       "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 5,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,7 +79,7 @@
       "status": "operational",
       "created_at": "2026-03-09T22:59:29Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 6,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -79,7 +88,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 7,
+      "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -88,7 +97,7 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 8,
+      "position": 9,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -97,7 +106,7 @@
       "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 9,
+      "position": 10,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -106,7 +115,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 10,
+      "position": 11,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -115,7 +124,7 @@
       "status": "operational",
       "created_at": "2025-11-07T21:55:20Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 11,
+      "position": 12,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -124,7 +133,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-04-27T15:52:49Z",
-      "position": 12,
+      "position": 13,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -132,15 +141,6 @@
       "name": "Connectors/Apps",
       "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
-      "updated_at": "2026-04-27T15:52:49Z",
-      "position": 13,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01KMP3KP5MGE23B80K1EK4S8PV",
-      "name": "Codex API",
-      "status": "operational",
-      "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -234,6 +234,28 @@
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KTBZDS20E3PZ53DH2SCKXN49",
+      "name": "Some users may experience issues accessing ChatGPT and Codex",
+      "status": "investigating",
+      "created_at": "2026-06-05T13:26:40Z",
+      "updated_at": "2026-06-05T13:26:40Z",
+      "impact": "none",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KTBZDS20RXWHD1VFP7T6YNDQ",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-06-05T13:26:40Z",
+          "display_at": "2026-06-05T13:26:40Z",
+          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
+          "status": "investigating",
+          "updated_at": "2026-06-05T13:26:40Z"
+        }
+      ]
     }
   ]
 }
