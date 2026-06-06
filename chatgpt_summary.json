@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-05T21:19:17Z"
+    "updated_at": "2026-04-27T15:52:49Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,101 +234,6 @@
       "updated_at": "2026-04-27T15:52:49Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KTBZDS20E3PZ53DH2SCKXN49",
-      "name": "Some users may experience issues accessing OpenAI accounts",
-      "status": "monitoring",
-      "created_at": "2026-06-05T13:26:40Z",
-      "updated_at": "2026-06-05T21:19:17Z",
-      "monitoring_at": "2026-06-05T19:09:48Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KTCTF5M321F3AQZTVKJ52D5V",
-          "body": "The team is uncovering some additional impacted users and is still working through related subscription and credit impacts for affected users. Impacted users will be receiving an email shortly.",
-          "created_at": "2026-06-05T21:19:17Z",
-          "display_at": "2026-06-05T21:19:17Z",
-          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
-          "status": "monitoring",
-          "updated_at": "2026-06-05T21:19:17Z"
-        },
-        {
-          "id": "01KTCS033XPC4XQT11TJ8Y82CS",
-          "body": "All users impacted should have received an email with more information. The team is monitoring for additional changes.",
-          "created_at": "2026-06-05T20:53:34Z",
-          "display_at": "2026-06-05T20:53:34Z",
-          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
-          "status": "monitoring",
-          "updated_at": "2026-06-05T20:53:34Z"
-        },
-        {
-          "id": "01KTCN78MJZQCY83XM085A7VSY",
-          "body": "The team is still working through related subscription and credit impacts for affected users. Impacted users will be receiving an email shortly.",
-          "created_at": "2026-06-05T19:47:35Z",
-          "display_at": "2026-06-05T19:47:35Z",
-          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
-          "status": "monitoring",
-          "updated_at": "2026-06-05T19:47:35Z"
-        },
-        {
-          "id": "01KTCK23137EWSR5MZD1PYZ8W0",
-          "body": "We’ve restored account access for users. The team is working through related subscription and credit impacts for affected users.",
-          "created_at": "2026-06-05T19:09:48Z",
-          "display_at": "2026-06-05T19:09:48Z",
-          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
-          "status": "monitoring",
-          "updated_at": "2026-06-05T19:09:48Z"
-        },
-        {
-          "id": "01KTC8QKFZ9ZW15KXHJPYG5K6D",
-          "body": "All impacted services have now fully recovered.",
-          "created_at": "2026-06-05T16:09:19Z",
-          "display_at": "2026-06-05T16:09:19Z",
-          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
-          "status": "resolved",
-          "updated_at": "2026-06-05T16:09:19Z"
-        },
-        {
-          "id": "01KTC5VR0DB0Z0CAZ4HVE9F3K8",
-          "body": "An issue caused some user accounts to be incorrectly suspended. We’re restoring account access and working through related subscription and credit impacts for affected users.\n",
-          "created_at": "2026-06-05T15:19:09Z",
-          "display_at": "2026-06-05T15:19:09Z",
-          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
-          "status": "identified",
-          "updated_at": "2026-06-05T15:19:09Z"
-        },
-        {
-          "id": "01KTC4AXG3GYKNA3TAQZG64NQB",
-          "body": "We are still implementing the mitigation.",
-          "created_at": "2026-06-05T14:52:29Z",
-          "display_at": "2026-06-05T14:52:29Z",
-          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
-          "status": "identified",
-          "updated_at": "2026-06-05T14:52:29Z"
-        },
-        {
-          "id": "01KTC2GR18Q8M872CAASX3ZETT",
-          "body": "We have identified the issue impacting account access for some users, and we are working on a fix.",
-          "created_at": "2026-06-05T14:20:43Z",
-          "display_at": "2026-06-05T14:20:43Z",
-          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
-          "status": "identified",
-          "updated_at": "2026-06-05T14:20:43Z"
-        },
-        {
-          "id": "01KTBZDS20RXWHD1VFP7T6YNDQ",
-          "body": "We are investigating the issue for the listed services.",
-          "created_at": "2026-06-05T13:26:40Z",
-          "display_at": "2026-06-05T13:26:40Z",
-          "incident_id": "01KTBZDS20E3PZ53DH2SCKXN49",
-          "status": "investigating",
-          "updated_at": "2026-06-05T13:26:40Z"
-        }
-      ]
     }
   ]
 }
