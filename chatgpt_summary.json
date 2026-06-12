@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-11T22:22:14Z"
+    "updated_at": "2026-06-11T23:25:36Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,31 @@
     {
       "id": "01KTWCER83NNKE698QXNXJG11M",
       "name": "Elevated 431 Errors",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-06-11T22:22:14Z",
-      "updated_at": "2026-06-11T22:22:14Z",
+      "updated_at": "2026-06-11T23:25:36Z",
+      "monitoring_at": "2026-06-11T23:25:36Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KTWG2RFRYRKDXXEMA0JD6Y4Z",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-06-11T23:25:36Z",
+          "display_at": "2026-06-11T23:25:36Z",
+          "incident_id": "01KTWCER83NNKE698QXNXJG11M",
+          "status": "monitoring",
+          "updated_at": "2026-06-11T23:25:36Z"
+        },
+        {
+          "id": "01KTWEJSRSXWGANTN1RX2KP22R",
+          "body": "We are continuing to investigate the issue regarding elevated 431 errors and are working on the mitigation.",
+          "created_at": "2026-06-11T22:59:24Z",
+          "display_at": "2026-06-11T22:59:24Z",
+          "incident_id": "01KTWCER83NNKE698QXNXJG11M",
+          "status": "investigating",
+          "updated_at": "2026-06-11T22:59:24Z"
+        },
         {
           "id": "01KTWCER83HKVKX3MNCF8NFQ1A",
           "body": "We have identified that some users are experiencing elevated 431 errors for the impacted services.\n\nWe are working on implementing a mitigation.",
