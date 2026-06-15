@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-15T18:05:16Z"
+    "updated_at": "2026-06-15T22:16:11Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -148,7 +148,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-06-09T23:37:59Z",
       "position": 15,
@@ -238,22 +238,31 @@
   ],
   "incidents": [
     {
-      "id": "01KV67B3HB2B6JKHAMHCCYS0KZ",
-      "name": "OAuth Account Creation / Login Error",
-      "status": "identified",
-      "created_at": "2026-06-15T18:05:16Z",
-      "updated_at": "2026-06-15T18:37:55Z",
+      "id": "01KV6NGBYE50GK3TRXHD2EMTXA",
+      "name": "FedRAMP workspaces and API orgs have degraded performance",
+      "status": "investigating",
+      "created_at": "2026-06-15T22:12:49Z",
+      "updated_at": "2026-06-15T22:16:11Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01KV67B3HBCF90F6JA0WZWH4YE",
-          "body": "We have identified that users are experiencing an error when attempting to create an account or logging in using Google OAuth for the impacted services.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-06-15T18:05:16Z",
-          "display_at": "2026-06-15T18:05:16Z",
-          "incident_id": "01KV67B3HB2B6JKHAMHCCYS0KZ",
+          "id": "01KV6NPH3Q86YDSAC2BXT5JDDS",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-06-15T22:16:11Z",
+          "display_at": "2026-06-15T22:16:11Z",
+          "incident_id": "01KV6NGBYE50GK3TRXHD2EMTXA",
+          "status": "investigating",
+          "updated_at": "2026-06-15T22:16:11Z"
+        },
+        {
+          "id": "01KV6NGBYE6NVVQQG9MG2WPHKG",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-06-15T22:12:49Z",
+          "display_at": "2026-06-15T21:23:00Z",
+          "incident_id": "01KV6NGBYE50GK3TRXHD2EMTXA",
           "status": "identified",
-          "updated_at": "2026-06-15T18:37:49Z"
+          "updated_at": "2026-06-15T22:16:31Z"
         }
       ]
     }
