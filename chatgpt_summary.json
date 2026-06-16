@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-15T22:16:11Z"
+    "updated_at": "2026-06-16T00:07:04Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -182,19 +182,19 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
-      "name": "Codex Web",
+      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
+      "name": "Responses",
       "status": "operational",
-      "created_at": "2025-05-16T15:26:46Z",
+      "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-06-09T23:37:59Z",
       "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
-      "name": "Responses",
-      "status": "operational",
-      "created_at": "2025-03-13T18:31:32Z",
+      "id": "01JVCV8YSWZFRSM1G5CVP253SK",
+      "name": "Codex Web",
+      "status": "degraded_performance",
+      "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-06-09T23:37:59Z",
       "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -237,6 +237,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01KV6W1JX2T4T1455777Q1R2W5",
+      "name": "Users may experience issue with Codex Cloud tasks",
+      "status": "investigating",
+      "created_at": "2026-06-16T00:07:04Z",
+      "updated_at": "2026-06-16T00:07:04Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KV6W1JX217HSQE51D7PDKSC2",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-06-16T00:07:04Z",
+          "display_at": "2026-06-16T00:07:04Z",
+          "incident_id": "01KV6W1JX2T4T1455777Q1R2W5",
+          "status": "investigating",
+          "updated_at": "2026-06-16T00:07:04Z"
+        }
+      ]
+    },
     {
       "id": "01KV6NGBYE50GK3TRXHD2EMTXA",
       "name": "FedRAMP workspaces and API orgs have degraded performance",
