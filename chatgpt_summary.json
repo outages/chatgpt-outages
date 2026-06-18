@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-18T09:59:44Z"
+    "updated_at": "2026-06-17T01:24:25Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -148,7 +148,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-06-09T23:37:59Z",
       "position": 15,
@@ -237,36 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01KVCZ38K0RJZTSX7Y70RQMV2D",
-      "name": "SSO login errors for some ChatGPT Enterprise workspaces",
-      "status": "monitoring",
-      "created_at": "2026-06-18T08:55:52Z",
-      "updated_at": "2026-06-18T09:59:44Z",
-      "monitoring_at": "2026-06-18T09:59:44Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KVD2R6NF3R6V6YERCFV1BMPS",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-06-18T09:59:44Z",
-          "display_at": "2026-06-18T09:59:44Z",
-          "incident_id": "01KVCZ38K0RJZTSX7Y70RQMV2D",
-          "status": "monitoring",
-          "updated_at": "2026-06-18T09:59:44Z"
-        },
-        {
-          "id": "01KVCZ38K0X77FB31GZ3PEAAE9",
-          "body": "We are investigating the issue for the listed services.",
-          "created_at": "2026-06-18T08:55:52Z",
-          "display_at": "2026-06-18T08:55:52Z",
-          "incident_id": "01KVCZ38K0RJZTSX7Y70RQMV2D",
-          "status": "investigating",
-          "updated_at": "2026-06-18T08:55:52Z"
-        }
-      ]
-    },
     {
       "id": "01KV6NGBYE50GK3TRXHD2EMTXA",
       "name": "FedRAMP workspaces and API orgs have degraded performance",
