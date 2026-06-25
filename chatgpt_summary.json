@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-25T05:51:27Z"
+    "updated_at": "2026-06-25T08:02:38Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KVYNAMMJ7AMF94YBECG6JG6Q",
       "name": "Users may encounter issues using access token with Codex",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-06-25T05:51:27Z",
-      "updated_at": "2026-06-25T05:51:27Z",
+      "updated_at": "2026-06-25T08:02:39Z",
+      "monitoring_at": "2026-06-25T08:02:38Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KVYWTV5KCKV8KSB1YBE8088X",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-06-25T08:02:38Z",
+          "display_at": "2026-06-25T08:02:38Z",
+          "incident_id": "01KVYNAMMJ7AMF94YBECG6JG6Q",
+          "status": "monitoring",
+          "updated_at": "2026-06-25T08:02:38Z"
+        },
         {
           "id": "01KVYNAMMJFFM729VPW8YQK1CS",
           "body": "We are investigating the issue for the listed services.",
