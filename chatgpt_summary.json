@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-23T18:25:14Z"
+    "updated_at": "2026-06-26T17:04:02Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -182,30 +182,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
-      "name": "CLI",
-      "status": "operational",
-      "created_at": "2026-03-25T21:45:05Z",
-      "updated_at": "2026-06-23T18:25:14Z",
-      "position": 19,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01KMP3KP5M8X0EBTVW6KN327EE",
-      "name": "VS Code extension",
-      "status": "operational",
-      "created_at": "2026-03-26T22:18:01Z",
-      "updated_at": "2026-06-23T18:25:14Z",
-      "position": 20,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex Web",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-06-23T18:25:14Z",
-      "position": 21,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,7 +196,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-06-23T18:25:14Z",
-      "position": 22,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -223,20 +205,58 @@
       "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2026-06-23T18:25:14Z",
-      "position": 23,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01KMKFAMWKQ81YWSE1Z18R6VHR",
       "name": "App",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2026-03-25T21:45:05Z",
+      "updated_at": "2026-06-23T18:25:14Z",
+      "position": 22,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01KMP3KP5MGE23B80K1EK4S8PV",
+      "name": "Codex API",
+      "status": "degraded_performance",
+      "created_at": "2026-03-26T22:18:01Z",
+      "updated_at": "2026-06-23T18:25:14Z",
+      "position": 23,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01KKAD7C71MCCH3FTREMJH4AAS",
+      "name": "FedRAMP",
+      "status": "degraded_performance",
+      "created_at": "2026-03-09T22:59:29Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     }
   ],
   "incidents": [
+    {
+      "id": "01KW2E6W0503W4NXJNCVAG8V6T",
+      "name": "Codex Usage Limits Depleting Faster Than Expected",
+      "status": "investigating",
+      "created_at": "2026-06-26T17:04:02Z",
+      "updated_at": "2026-06-26T17:04:02Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KW2E6W05PQTV3H634X8ZG46Z",
+          "body": "We are investigating reports that Codex usage limits are being consumed faster than expected.",
+          "created_at": "2026-06-26T17:04:02Z",
+          "display_at": "2026-06-26T17:04:02Z",
+          "incident_id": "01KW2E6W0503W4NXJNCVAG8V6T",
+          "status": "investigating",
+          "updated_at": "2026-06-26T17:04:02Z"
+        }
+      ]
+    },
     {
       "id": "01KV6NGBYE50GK3TRXHD2EMTXA",
       "name": "FedRAMP workspaces and API orgs have degraded performance",
