@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-25T16:02:50Z"
+    "updated_at": "2026-06-23T18:25:14Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -31,7 +31,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-06-23T18:25:13Z",
       "position": 2,
@@ -40,7 +40,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-06-23T18:25:13Z",
       "position": 3,
@@ -49,7 +49,7 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-06-23T18:25:13Z",
       "position": 4,
@@ -58,7 +58,7 @@
     {
       "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
       "name": "GPTs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 5,
@@ -67,7 +67,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 6,
@@ -76,7 +76,7 @@
     {
       "id": "01K8C008QVXHA6JX98PAS42VPD",
       "name": "ChatGPT Atlas",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 7,
@@ -85,7 +85,7 @@
     {
       "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
       "name": "Connectors/Apps",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 8,
@@ -148,7 +148,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-06-23T18:25:13Z",
       "position": 15,
@@ -157,7 +157,7 @@
     {
       "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
       "name": "Voice mode",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 16,
@@ -166,7 +166,7 @@
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 17,
@@ -211,7 +211,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 22,
@@ -220,7 +220,7 @@
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Agent",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 23,
@@ -237,26 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01KVZRA3Z551H993JHJ9P2TW9E",
-      "name": "Small Number of Users Have Incorrectly Cancelled Subscription",
-      "status": "identified",
-      "created_at": "2026-06-25T16:02:50Z",
-      "updated_at": "2026-06-25T16:02:50Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KVZRA3Z5EZ5C8ZTE73VZH8D4",
-          "body": "A small number of Users have incorrectly cancelled subscription.",
-          "created_at": "2026-06-25T16:02:51Z",
-          "display_at": "2026-06-25T16:02:50Z",
-          "incident_id": "01KVZRA3Z551H993JHJ9P2TW9E",
-          "status": "identified",
-          "updated_at": "2026-06-25T16:02:51Z"
-        }
-      ]
-    },
     {
       "id": "01KV6NGBYE50GK3TRXHD2EMTXA",
       "name": "FedRAMP workspaces and API orgs have degraded performance",
