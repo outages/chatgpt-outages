@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-06-26T17:04:02Z"
+    "updated_at": "2026-06-26T23:24:31Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -184,7 +184,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 19,
@@ -211,7 +211,7 @@
     {
       "id": "01KMKFAMWKQ81YWSE1Z18R6VHR",
       "name": "App",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 22,
@@ -220,7 +220,7 @@
     {
       "id": "01KMP3KP5MGE23B80K1EK4S8PV",
       "name": "Codex API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-26T22:18:01Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 23,
@@ -240,12 +240,22 @@
     {
       "id": "01KW2E6W0503W4NXJNCVAG8V6T",
       "name": "Codex Usage Limits Depleting Faster Than Expected",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-06-26T17:04:02Z",
-      "updated_at": "2026-06-26T17:04:02Z",
+      "updated_at": "2026-06-26T23:24:31Z",
+      "monitoring_at": "2026-06-26T23:24:31Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KW33ZJQN77M79GX3EG9Y6TFF",
+          "body": "We have identified that some reports of Codex usage limits depleting faster than expected are related to our abuse and fraud prevention systems incorrectly rate limiting certain accounts. The impact appears limited, and we have not observed broader degradation to Codex usage. We are continuing to monitor the situation.",
+          "created_at": "2026-06-26T23:24:31Z",
+          "display_at": "2026-06-26T23:24:31Z",
+          "incident_id": "01KW2E6W0503W4NXJNCVAG8V6T",
+          "status": "monitoring",
+          "updated_at": "2026-06-26T23:24:31Z"
+        },
         {
           "id": "01KW2E6W05PQTV3H634X8ZG46Z",
           "body": "We are investigating reports that Codex usage limits are being consumed faster than expected.",
