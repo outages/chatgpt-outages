@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-07T14:40:15Z"
+    "updated_at": "2026-06-29T07:00:00Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -76,7 +76,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-06-23T18:25:14Z",
       "position": 7,
@@ -237,45 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01KWY5DQZ0KC8PTT3Y3T26H30D",
-      "name": "Elevated errors with image generation in ChatGPT",
-      "status": "monitoring",
-      "created_at": "2026-07-07T11:29:14Z",
-      "updated_at": "2026-07-07T14:40:15Z",
-      "monitoring_at": "2026-07-07T14:40:15Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KWYGBGBXNE3MR1WYYWFS7V9R",
-          "body": "We have implemented a mitigation and are seeing error rates return to normal levels. We are monitoring the recovery, and some users may continue to experience errors with image generation in ChatGPT.",
-          "created_at": "2026-07-07T14:40:15Z",
-          "display_at": "2026-07-07T14:40:15Z",
-          "incident_id": "01KWY5DQZ0KC8PTT3Y3T26H30D",
-          "status": "monitoring",
-          "updated_at": "2026-07-07T14:40:15Z"
-        },
-        {
-          "id": "01KWY859V7CSARJZCK0JH19EN6",
-          "body": "We have identified the issue and are implementing a mitigation. Some users may continue to experience errors with image generation in ChatGPT while we implement the mitigation.",
-          "created_at": "2026-07-07T12:17:03Z",
-          "display_at": "2026-07-07T12:17:03Z",
-          "incident_id": "01KWY5DQZ0KC8PTT3Y3T26H30D",
-          "status": "identified",
-          "updated_at": "2026-07-07T12:17:03Z"
-        },
-        {
-          "id": "01KWY5DQZ0RZX65SW92Y40BJ66",
-          "body": "We are investigating elevated errors affecting image generation in ChatGPT. Some users may be unable to generate images.",
-          "created_at": "2026-07-07T11:29:14Z",
-          "display_at": "2026-07-07T11:29:14Z",
-          "incident_id": "01KWY5DQZ0KC8PTT3Y3T26H30D",
-          "status": "investigating",
-          "updated_at": "2026-07-07T11:29:14Z"
-        }
-      ]
-    },
     {
       "id": "01KWDW344V7XWEQERJSEW62W57",
       "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
