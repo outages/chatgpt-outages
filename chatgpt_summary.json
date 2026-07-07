@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-07T12:17:03Z"
+    "updated_at": "2026-07-07T14:40:15Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KWY5DQZ0KC8PTT3Y3T26H30D",
       "name": "Elevated errors with image generation in ChatGPT",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-07-07T11:29:14Z",
-      "updated_at": "2026-07-07T12:17:03Z",
+      "updated_at": "2026-07-07T14:40:15Z",
+      "monitoring_at": "2026-07-07T14:40:15Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KWYGBGBXNE3MR1WYYWFS7V9R",
+          "body": "We have implemented a mitigation and are seeing error rates return to normal levels. We are monitoring the recovery, and some users may continue to experience errors with image generation in ChatGPT.",
+          "created_at": "2026-07-07T14:40:15Z",
+          "display_at": "2026-07-07T14:40:15Z",
+          "incident_id": "01KWY5DQZ0KC8PTT3Y3T26H30D",
+          "status": "monitoring",
+          "updated_at": "2026-07-07T14:40:15Z"
+        },
         {
           "id": "01KWY859V7CSARJZCK0JH19EN6",
           "body": "We have identified the issue and are implementing a mitigation. Some users may continue to experience errors with image generation in ChatGPT while we implement the mitigation.",
