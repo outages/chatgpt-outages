@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-09T19:44:14Z"
+    "updated_at": "2026-07-09T19:25:56Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -237,26 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01KX46HHYJ0YB8VPBZTB0KZ03V",
-      "name": "Users are experiencing elevated errors when selecting models",
-      "status": "investigating",
-      "created_at": "2026-07-09T19:44:14Z",
-      "updated_at": "2026-07-09T19:44:14Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KX46HHYJPHVNSQMR4KPB3TE1",
-          "body": "We are investigating an issue causing users to receive “Selected model is at capacity. Please try a different model.” errors across multiple models. We are working to identify the cause and restore normal service.",
-          "created_at": "2026-07-09T19:44:14Z",
-          "display_at": "2026-07-09T19:44:14Z",
-          "incident_id": "01KX46HHYJ0YB8VPBZTB0KZ03V",
-          "status": "investigating",
-          "updated_at": "2026-07-09T19:44:14Z"
-        }
-      ]
-    },
     {
       "id": "01KWDW344V7XWEQERJSEW62W57",
       "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
