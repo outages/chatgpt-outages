@@ -6,8 +6,8 @@
     "updated_at": "2026-07-09T19:25:56Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -148,7 +148,7 @@
     {
       "id": "01KKAD7C71MCCH3FTREMJH4AAS",
       "name": "FedRAMP",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-09T22:59:29Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 15,
@@ -234,28 +234,6 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KWDW344V7XWEQERJSEW62W57",
-      "name": "Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and Compliance Log Platform download endpoint not working in FedRAMP workspaces",
-      "status": "investigating",
-      "created_at": "2026-07-01T03:38:18Z",
-      "updated_at": "2026-07-01T03:38:18Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KWDW344VZZEWHPGTH3NVQEVB",
-          "body": "Core functionality has been restored but we are aware of known and ongoing issues in FedRAMP workspaces with Codex, workspace analytics, conversation search, searching for custom GPTs, ChatGPT user invites, and the Compliance Logs Platform download endpoint. We are working to resolve these issues and will share further updates we have more information available.",
-          "created_at": "2026-07-01T03:38:18Z",
-          "display_at": "2026-06-29T07:00:00Z",
-          "incident_id": "01KWDW344V7XWEQERJSEW62W57",
-          "status": "investigating",
-          "updated_at": "2026-07-01T03:40:53Z"
-        }
-      ]
     }
   ]
 }
