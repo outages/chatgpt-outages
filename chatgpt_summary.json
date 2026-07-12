@@ -3,20 +3,29 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-09T19:25:56Z"
+    "updated_at": "2026-07-12T09:49:34Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
+    {
+      "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
+      "name": "Conversations",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2026-07-09T19:25:56Z",
+      "position": 0,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
     {
       "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
       "name": "Batch",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 0,
+      "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -25,7 +34,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 1,
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -34,7 +43,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 2,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -43,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 3,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -52,7 +61,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 4,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -61,7 +70,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 5,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,7 +79,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 6,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -78,15 +87,6 @@
       "name": "Login",
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
-      "updated_at": "2026-07-09T19:25:56Z",
-      "position": 7,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
-      "name": "Conversations",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -234,6 +234,28 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KXAVPTZ85KG478DP1YC0SV2V",
+      "name": "Elevated conversation error rates on ChatGPT for iOS",
+      "status": "investigating",
+      "created_at": "2026-07-12T09:49:34Z",
+      "updated_at": "2026-07-12T09:49:34Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KXAVPTZ89Z5QWYGHBA9WVMT3",
+          "body": "We are investigating an issue where some users may encounter 403 errors when loading or using ChatGPT conversations on iOS. We will provide updates as we learn more.",
+          "created_at": "2026-07-12T09:49:34Z",
+          "display_at": "2026-07-12T09:49:34Z",
+          "incident_id": "01KXAVPTZ85KG478DP1YC0SV2V",
+          "status": "investigating",
+          "updated_at": "2026-07-12T09:49:34Z"
+        }
+      ]
     }
   ]
 }
