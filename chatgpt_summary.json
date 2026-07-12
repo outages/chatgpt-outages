@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-12T09:49:34Z"
+    "updated_at": "2026-07-12T11:29:02Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -239,13 +239,31 @@
   "incidents": [
     {
       "id": "01KXAVPTZ85KG478DP1YC0SV2V",
-      "name": "Elevated conversation error rates on ChatGPT for iOS",
+      "name": "Elevated conversation and login errors on ChatGPT for iOS and macOS",
       "status": "investigating",
       "created_at": "2026-07-12T09:49:34Z",
-      "updated_at": "2026-07-12T09:49:34Z",
+      "updated_at": "2026-07-12T11:29:02Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KXB1CZFA1TFAQY0VGK029SDH",
+          "body": "We are continuing to investigate elevated errors affecting conversations, sign-ups, and sign-ins for some users on iOS and macOS.",
+          "created_at": "2026-07-12T11:29:02Z",
+          "display_at": "2026-07-12T11:29:02Z",
+          "incident_id": "01KXAVPTZ85KG478DP1YC0SV2V",
+          "status": "investigating",
+          "updated_at": "2026-07-12T11:29:02Z"
+        },
+        {
+          "id": "01KXAZX0DQAHEWK77BE1TQC7PV",
+          "body": "We are continuing to investigate elevated errors affecting some users on iOS. Some users may be unable to load or use conversations.",
+          "created_at": "2026-07-12T11:02:50Z",
+          "display_at": "2026-07-12T11:02:50Z",
+          "incident_id": "01KXAVPTZ85KG478DP1YC0SV2V",
+          "status": "investigating",
+          "updated_at": "2026-07-12T11:02:50Z"
+        },
         {
           "id": "01KXAVPTZ89Z5QWYGHBA9WVMT3",
           "body": "We are investigating an issue where some users may encounter 403 errors when loading or using ChatGPT conversations on iOS. We will provide updates as we learn more.",
