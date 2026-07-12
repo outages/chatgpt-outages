@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-12T12:02:04Z"
+    "updated_at": "2026-07-12T13:09:46Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -13,7 +13,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 0,
@@ -242,10 +242,28 @@
       "name": "Elevated conversation and login errors on ChatGPT for iOS and macOS",
       "status": "identified",
       "created_at": "2026-07-12T09:49:34Z",
-      "updated_at": "2026-07-12T12:02:04Z",
+      "updated_at": "2026-07-12T13:09:46Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KXB75E7FK4TDV6PWZ4ZVD1YT",
+          "body": "We have restored sign-in access for affected users. We are continuing to work on mitigating account creation and password update errors on iOS and macOS.",
+          "created_at": "2026-07-12T13:09:46Z",
+          "display_at": "2026-07-12T13:09:46Z",
+          "incident_id": "01KXAVPTZ85KG478DP1YC0SV2V",
+          "status": "identified",
+          "updated_at": "2026-07-12T13:09:46Z"
+        },
+        {
+          "id": "01KXB55EC26KA3JRKY2ST44RQA",
+          "body": "We have implemented a mitigation that restored conversation access for affected users on iOS and macOS. We are continuing to work on mitigating sign-up and sign-in errors.",
+          "created_at": "2026-07-12T12:34:49Z",
+          "display_at": "2026-07-12T12:34:49Z",
+          "incident_id": "01KXAVPTZ85KG478DP1YC0SV2V",
+          "status": "identified",
+          "updated_at": "2026-07-12T12:34:49Z"
+        },
         {
           "id": "01KXB39EX7H9QN833NPVMJFERA",
           "body": "We have identified the issue causing elevated conversation, sign-up, and sign-in errors for some users on iOS and macOS. We are working to implement a mitigation.",
