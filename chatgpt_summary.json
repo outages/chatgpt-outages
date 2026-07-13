@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-13T12:21:05Z"
+    "updated_at": "2026-07-09T19:25:56Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -121,7 +121,7 @@
     {
       "id": "01KX45G1SHQQ9DTAX9S4W7FV8G",
       "name": "Sites",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-07-09T19:25:56Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 12,
@@ -234,85 +234,6 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KXDMD4T8TM58CSKBN7YFD2CK",
-      "name": "Elevated errors when creating sites in ChatGPT",
-      "status": "monitoring",
-      "created_at": "2026-07-13T11:39:39Z",
-      "updated_at": "2026-07-13T12:21:05Z",
-      "monitoring_at": "2026-07-13T12:21:05Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KXDPS0HBMK5D7XMZN1N3F0G3",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-07-13T12:21:05Z",
-          "display_at": "2026-07-13T12:21:05Z",
-          "incident_id": "01KXDMD4T8TM58CSKBN7YFD2CK",
-          "status": "monitoring",
-          "updated_at": "2026-07-13T12:21:05Z"
-        },
-        {
-          "id": "01KXDMD4T8FRXR54KVV5PJ5VG0",
-          "body": "We are investigating the issue for the listed services.",
-          "created_at": "2026-07-13T11:39:39Z",
-          "display_at": "2026-07-13T11:39:39Z",
-          "incident_id": "01KXDMD4T8TM58CSKBN7YFD2CK",
-          "status": "investigating",
-          "updated_at": "2026-07-13T11:39:39Z"
-        }
-      ]
-    },
-    {
-      "id": "01KXDBYJ7BWBE2NRDAQTKPM5WK",
-      "name": "Users may experience elevated errors uploading, deleting, and navigating files in the ChatGPT Library",
-      "status": "investigating",
-      "created_at": "2026-07-13T09:11:53Z",
-      "updated_at": "2026-07-13T11:48:55Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KXDMY3B82QYWZ3KF5892MCWV",
-          "body": "We are investigating the issue for the listed services.",
-          "created_at": "2026-07-13T11:48:55Z",
-          "display_at": "2026-07-13T11:48:55Z",
-          "incident_id": "01KXDBYJ7BWBE2NRDAQTKPM5WK",
-          "status": "investigating",
-          "updated_at": "2026-07-13T11:48:55Z"
-        },
-        {
-          "id": "01KXDJSXB07EFWT5FPQB8KTDXK",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-07-13T11:11:40Z",
-          "display_at": "2026-07-13T11:11:40Z",
-          "incident_id": "01KXDBYJ7BWBE2NRDAQTKPM5WK",
-          "status": "monitoring",
-          "updated_at": "2026-07-13T11:11:40Z"
-        },
-        {
-          "id": "01KXDFET7CGFMYFJYDBKMHMD3V",
-          "body": "We are continuing to investigate elevated errors affecting file uploads, deletions, and navigation in the ChatGPT Library.",
-          "created_at": "2026-07-13T10:13:11Z",
-          "display_at": "2026-07-13T10:13:11Z",
-          "incident_id": "01KXDBYJ7BWBE2NRDAQTKPM5WK",
-          "status": "investigating",
-          "updated_at": "2026-07-13T10:13:11Z"
-        },
-        {
-          "id": "01KXDBYJ7BPCX2PJNVS6BRSDAD",
-          "body": "We are investigating the issue for the listed services.",
-          "created_at": "2026-07-13T09:11:53Z",
-          "display_at": "2026-07-13T09:11:53Z",
-          "incident_id": "01KXDBYJ7BWBE2NRDAQTKPM5WK",
-          "status": "investigating",
-          "updated_at": "2026-07-13T09:11:53Z"
-        }
-      ]
     }
   ]
 }
