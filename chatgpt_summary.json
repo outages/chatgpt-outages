@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-14T23:57:45Z"
+    "updated_at": "2026-07-09T19:25:56Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 2,
@@ -40,7 +40,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 3,
@@ -49,7 +49,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance API",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 4,
@@ -130,7 +130,7 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 13,
@@ -139,7 +139,7 @@
     {
       "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
       "name": "GPTs",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 14,
@@ -148,7 +148,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 15,
@@ -175,7 +175,7 @@
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Agent",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 18,
@@ -193,7 +193,7 @@
     {
       "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
       "name": "Connectors/Apps",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 20,
@@ -202,7 +202,7 @@
     {
       "id": "01K8C008QVXHA6JX98PAS42VPD",
       "name": "ChatGPT Atlas",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 21,
@@ -211,7 +211,7 @@
     {
       "id": "01KMKFAMWKQ81YWSE1Z18R6VHR",
       "name": "Codex in ChatGPT Desktop",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 22,
@@ -220,7 +220,7 @@
     {
       "id": "01KX45G1SH21AX5DT93D4HMF0P",
       "name": "ChatGPT Work",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2026-07-09T19:25:56Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 23,
@@ -229,33 +229,11 @@
     {
       "id": "01KX45G1SHQQ9DTAX9S4W7FV8G",
       "name": "Sites",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2026-07-09T19:25:56Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KXHH1BJ9BS0FVE2MGEJ9FZ5M",
-      "name": "Elevated errors affecting ChatGPT",
-      "status": "investigating",
-      "created_at": "2026-07-14T23:57:45Z",
-      "updated_at": "2026-07-14T23:57:45Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KXHH1BJ9AF46RT7B911AQP0E",
-          "body": "We are investigating login issues and intermittent errors affecting ChatGPT.",
-          "created_at": "2026-07-14T23:57:45Z",
-          "display_at": "2026-07-14T23:57:45Z",
-          "incident_id": "01KXHH1BJ9BS0FVE2MGEJ9FZ5M",
-          "status": "investigating",
-          "updated_at": "2026-07-14T23:57:45Z"
-        }
-      ]
     }
   ]
 }
