@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-09T19:25:56Z"
+    "updated_at": "2026-07-16T08:36:46Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -20,21 +20,30 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
-      "name": "Audio",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
+      "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
+      "name": "Login",
+      "status": "degraded_performance",
+      "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
-      "name": "Login",
+      "id": "01JMXBRMFEKVBWKK82B44QFMCE",
+      "name": "Audio",
       "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
+      "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 2,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
+      "name": "Login",
+      "status": "degraded_performance",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2026-07-09T19:25:56Z",
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -43,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 3,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -52,7 +61,7 @@
       "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 4,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -61,7 +70,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 5,
+      "position": 6,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,7 +79,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 6,
+      "position": 7,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -78,15 +87,6 @@
       "name": "Files",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-07-09T19:25:56Z",
-      "position": 7,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
-      "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
-      "name": "Login",
-      "status": "operational",
-      "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 8,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -234,6 +234,28 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KXN14DD3EYYJ6PJ9M736WDSV",
+      "name": "Elevated Error Rates For SSO Login",
+      "status": "identified",
+      "created_at": "2026-07-16T08:36:46Z",
+      "updated_at": "2026-07-16T08:36:46Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KXN14DD35F3SF6G32ZZYNRW0",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-07-16T08:36:46Z",
+          "display_at": "2026-07-16T08:36:46Z",
+          "incident_id": "01KXN14DD3EYYJ6PJ9M736WDSV",
+          "status": "identified",
+          "updated_at": "2026-07-16T08:36:46Z"
+        }
+      ]
     }
   ]
 }
