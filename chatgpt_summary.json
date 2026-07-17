@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-17T15:32:26Z"
+    "updated_at": "2026-07-17T17:19:22Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -238,11 +238,31 @@
   ],
   "incidents": [
     {
+      "id": "01KXRHE25717D2WQ1WFMT2B7WZ",
+      "name": "Codex 5.6-sol Experiencing Increased Server-Overload Errors",
+      "status": "identified",
+      "created_at": "2026-07-17T17:19:22Z",
+      "updated_at": "2026-07-17T17:19:22Z",
+      "impact": "none",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KXRHE257N5R9YR9YAX5B2RXM",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-07-17T17:19:22Z",
+          "display_at": "2026-07-17T17:19:22Z",
+          "incident_id": "01KXRHE25717D2WQ1WFMT2B7WZ",
+          "status": "identified",
+          "updated_at": "2026-07-17T17:19:22Z"
+        }
+      ]
+    },
+    {
       "id": "01KXRBA8B98QHMMVP3M86NHFZ1",
-      "name": "New ChatGPT App Not Available For Users Without Codex Permissions",
+      "name": "New ChatGPT App Not Available For Enterprise Users Without Codex Permissions",
       "status": "identified",
       "created_at": "2026-07-17T15:32:26Z",
-      "updated_at": "2026-07-17T15:32:26Z",
+      "updated_at": "2026-07-17T16:24:46Z",
       "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
