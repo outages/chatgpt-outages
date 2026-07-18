@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-17T15:32:26Z"
+    "updated_at": "2026-07-09T19:25:56Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,28 +234,6 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KXRBA8B98QHMMVP3M86NHFZ1",
-      "name": "New ChatGPT App Not Available For Enterprise Users Without Codex Permissions",
-      "status": "identified",
-      "created_at": "2026-07-17T15:32:26Z",
-      "updated_at": "2026-07-17T16:24:46Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KXRBA8B93PHVN84R283RAKH5",
-          "body": "Enterprise users who do not have Codex RBAC enabled may see a \"codex_cli_workspace_disabled\" error when trying to log into the new ChatGPT app post-install.\n\nPlease use our ChatGPT Classic while we work to implement a fix.",
-          "created_at": "2026-07-17T15:32:26Z",
-          "display_at": "2026-07-17T15:32:26Z",
-          "incident_id": "01KXRBA8B98QHMMVP3M86NHFZ1",
-          "status": "identified",
-          "updated_at": "2026-07-17T21:22:10Z"
-        }
-      ]
     }
   ]
 }
