@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-21T10:36:02Z"
+    "updated_at": "2026-07-21T12:25:05Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -175,7 +175,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 18,
@@ -239,13 +239,49 @@
   "incidents": [
     {
       "id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
-      "name": "Image generation unavailable for some ChatGPT users",
-      "status": "identified",
+      "name": "Image generation unavailable in ChatGPT",
+      "status": "investigating",
       "created_at": "2026-07-21T10:36:02Z",
-      "updated_at": "2026-07-21T10:36:02Z",
-      "impact": "minor",
+      "updated_at": "2026-07-21T12:25:06Z",
+      "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KY2A6349N393251JEN85BQSQ",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-07-21T12:25:05Z",
+          "display_at": "2026-07-21T12:25:05Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "investigating",
+          "updated_at": "2026-07-21T12:25:05Z"
+        },
+        {
+          "id": "01KY2A0T7F3H3P0TBP6W3XA9GM",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-07-21T12:22:13Z",
+          "display_at": "2026-07-21T12:22:12Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "investigating",
+          "updated_at": "2026-07-21T12:22:13Z"
+        },
+        {
+          "id": "01KY29XRKJNWVZV13E6FJKM030",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-07-21T12:20:33Z",
+          "display_at": "2026-07-21T12:20:33Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "investigating",
+          "updated_at": "2026-07-21T12:20:33Z"
+        },
+        {
+          "id": "01KY270JV9PMQDF6DW2BNPQY21",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-07-21T11:29:39Z",
+          "display_at": "2026-07-21T11:29:39Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "monitoring",
+          "updated_at": "2026-07-21T11:29:39Z"
+        },
         {
           "id": "01KY23YCPJAR3H55XMVGTPV1C3",
           "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
