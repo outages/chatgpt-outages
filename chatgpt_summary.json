@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-21T14:37:17Z"
+    "updated_at": "2026-07-21T15:15:27Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -242,11 +242,20 @@
       "name": "Image generation unavailable in ChatGPT",
       "status": "monitoring",
       "created_at": "2026-07-21T10:36:02Z",
-      "updated_at": "2026-07-21T14:37:17Z",
+      "updated_at": "2026-07-21T15:15:27Z",
       "monitoring_at": "2026-07-21T11:29:39Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KY2KY0YX8R4DTGWHKEVQ1VKP",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-07-21T15:15:27Z",
+          "display_at": "2026-07-21T15:15:27Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "monitoring",
+          "updated_at": "2026-07-21T15:15:27Z"
+        },
         {
           "id": "01KY2HR4E2KBFR0FH7BBEM5HEA",
           "body": "We have applied the mitigation and are monitoring the recovery.",
