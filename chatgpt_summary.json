@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-21T12:25:05Z"
+    "updated_at": "2026-07-21T14:37:17Z"
   },
   "status": {
     "description": "Partial System Outage",
@@ -240,12 +240,58 @@
     {
       "id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
       "name": "Image generation unavailable in ChatGPT",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-07-21T10:36:02Z",
-      "updated_at": "2026-07-21T12:25:06Z",
+      "updated_at": "2026-07-21T14:37:17Z",
+      "monitoring_at": "2026-07-21T11:29:39Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KY2HR4E2KBFR0FH7BBEM5HEA",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-07-21T14:37:17Z",
+          "display_at": "2026-07-21T14:37:17Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "monitoring",
+          "updated_at": "2026-07-21T14:37:17Z"
+        },
+        {
+          "id": "01KY2FWZ1MAQ499PWJPRXVJJ6K",
+          "body": "We are still implementing the mitigation.",
+          "created_at": "2026-07-21T14:04:58Z",
+          "display_at": "2026-07-21T14:04:58Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "identified",
+          "updated_at": "2026-07-21T14:04:58Z"
+        },
+        {
+          "id": "01KY2ECTZMW2QKEK0QPJVH0TH8",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-07-21T13:38:41Z",
+          "display_at": "2026-07-21T13:38:41Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "identified",
+          "updated_at": "2026-07-21T13:38:41Z"
+        },
+        {
+          "id": "01KY2DZZA7TS1B2SBTQDT6M6T2",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-07-21T13:31:39Z",
+          "display_at": "2026-07-21T13:31:39Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "investigating",
+          "updated_at": "2026-07-21T13:31:39Z"
+        },
+        {
+          "id": "01KY2C0JCFXBQ9EPGY28EJFBJ6",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-07-21T12:57:02Z",
+          "display_at": "2026-07-21T12:57:02Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "investigating",
+          "updated_at": "2026-07-21T12:57:02Z"
+        },
         {
           "id": "01KY2A6349N393251JEN85BQSQ",
           "body": "We are investigating the issue for the listed services.",
