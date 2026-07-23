@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-23T19:16:25Z"
+    "updated_at": "2026-07-23T20:22:48Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -22,7 +22,7 @@
     {
       "id": "01KX45G1SHQQ9DTAX9S4W7FV8G",
       "name": "Sites",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-07-09T19:25:56Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 1,
@@ -58,7 +58,7 @@
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 5,
@@ -67,7 +67,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 6,
@@ -112,7 +112,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 11,
@@ -121,7 +121,7 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 12,
@@ -175,7 +175,7 @@
     {
       "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
       "name": "GPTs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 18,
@@ -202,7 +202,7 @@
     {
       "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
       "name": "Connectors/Apps",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 21,
@@ -211,7 +211,7 @@
     {
       "id": "01K8C008QVXHA6JX98PAS42VPD",
       "name": "ChatGPT Atlas",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 22,
@@ -220,7 +220,7 @@
     {
       "id": "01KX45G1SH21AX5DT93D4HMF0P",
       "name": "ChatGPT Work",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-07-09T19:25:56Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 23,
@@ -229,7 +229,7 @@
     {
       "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
       "name": "Deep Research",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
@@ -238,35 +238,33 @@
   ],
   "incidents": [
     {
-      "id": "01KY86GP2Z5YHMHCZEKT3D3V2G",
-      "name": "Some users are experiencing increased latency and error rates in ChatGPT",
-      "status": "identified",
-      "created_at": "2026-07-23T19:16:25Z",
-      "updated_at": "2026-07-23T19:16:25Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KY86GP2ZB0XDPMCW52V499VH",
-          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-07-23T19:16:25Z",
-          "display_at": "2026-07-23T19:16:25Z",
-          "incident_id": "01KY86GP2Z5YHMHCZEKT3D3V2G",
-          "status": "identified",
-          "updated_at": "2026-07-23T19:16:25Z"
-        }
-      ]
-    },
-    {
       "id": "01KY7SX5MYJ2BP51X5MXAPYX71",
       "name": "Elevated Error Rates",
       "status": "monitoring",
       "created_at": "2026-07-23T15:36:02Z",
-      "updated_at": "2026-07-23T18:50:34Z",
+      "updated_at": "2026-07-23T20:22:48Z",
       "monitoring_at": "2026-07-23T18:50:34Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KY8AA832N7X7DPQDE6ZQDEKD",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-07-23T20:22:48Z",
+          "display_at": "2026-07-23T20:22:48Z",
+          "incident_id": "01KY7SX5MYJ2BP51X5MXAPYX71",
+          "status": "monitoring",
+          "updated_at": "2026-07-23T20:22:48Z"
+        },
+        {
+          "id": "01KY87Q0KM4ZVYQF7ZYRCYZ0Y9",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-07-23T19:37:21Z",
+          "display_at": "2026-07-23T19:37:21Z",
+          "incident_id": "01KY7SX5MYJ2BP51X5MXAPYX71",
+          "status": "investigating",
+          "updated_at": "2026-07-23T19:37:21Z"
+        },
         {
           "id": "01KY851B3YG8BZ4G0FH47HBHNT",
           "body": "We have applied the mitigation and are monitoring the recovery.",
