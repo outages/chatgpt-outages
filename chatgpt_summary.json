@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-25T23:16:12Z"
+    "updated_at": "2026-07-25T23:57:40Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 14,
@@ -240,12 +240,22 @@
     {
       "id": "01KYDN6YPS6ARY1EC9089N089G",
       "name": "Elevated errors affecting ChatGPT conversations",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-07-25T22:09:27Z",
-      "updated_at": "2026-07-25T23:16:12Z",
+      "updated_at": "2026-07-25T23:57:40Z",
+      "monitoring_at": "2026-07-25T23:57:40Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KYDVD3AC4RVNAGYQ6SGPCX67",
+          "body": "Mitigation has been implemented, and we are monitoring the recovery of ChatGPT conversations.",
+          "created_at": "2026-07-25T23:57:40Z",
+          "display_at": "2026-07-25T23:57:40Z",
+          "incident_id": "01KYDN6YPS6ARY1EC9089N089G",
+          "status": "monitoring",
+          "updated_at": "2026-07-25T23:57:40Z"
+        },
         {
           "id": "01KYDS167T8MM52AAXV82R9V8T",
           "body": "We have identified the source of intermittent errors affecting some ChatGPT conversations and are working to mitigate the issue. Error rates have decreased, but some users may continue to experience failures.",
