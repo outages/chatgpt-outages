@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-27T14:04:55Z"
+    "updated_at": "2026-07-27T16:52:41Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,10 +242,19 @@
       "name": "Image generation unavailable in ChatGPT",
       "status": "investigating",
       "created_at": "2026-07-21T10:36:02Z",
-      "updated_at": "2026-07-27T14:04:55Z",
+      "updated_at": "2026-07-27T16:52:41Z",
       "impact": "major",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KYJ7WC24NN7Q8NKY5E5KSBB8",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-07-27T16:52:41Z",
+          "display_at": "2026-07-27T16:52:41Z",
+          "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
+          "status": "investigating",
+          "updated_at": "2026-07-27T16:52:41Z"
+        },
         {
           "id": "01KYHY95XY2C83FKK09CN0AM5C",
           "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
@@ -362,45 +371,6 @@
           "incident_id": "01KY23YCPJ9M5BFFT6ZHKQE9MP",
           "status": "identified",
           "updated_at": "2026-07-21T10:36:02Z"
-        }
-      ]
-    },
-    {
-      "id": "01KYDN6YPS6ARY1EC9089N089G",
-      "name": "Elevated errors affecting ChatGPT conversations",
-      "status": "monitoring",
-      "created_at": "2026-07-25T22:09:27Z",
-      "updated_at": "2026-07-25T23:57:40Z",
-      "monitoring_at": "2026-07-25T23:57:40Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KYDVD3AC4RVNAGYQ6SGPCX67",
-          "body": "Mitigation has been implemented, and we are monitoring the recovery of ChatGPT conversations.",
-          "created_at": "2026-07-25T23:57:40Z",
-          "display_at": "2026-07-25T23:57:40Z",
-          "incident_id": "01KYDN6YPS6ARY1EC9089N089G",
-          "status": "monitoring",
-          "updated_at": "2026-07-25T23:57:40Z"
-        },
-        {
-          "id": "01KYDS167T8MM52AAXV82R9V8T",
-          "body": "We have identified the source of intermittent errors affecting some ChatGPT conversations and are working to mitigate the issue. Error rates have decreased, but some users may continue to experience failures.",
-          "created_at": "2026-07-25T23:16:12Z",
-          "display_at": "2026-07-25T23:16:12Z",
-          "incident_id": "01KYDN6YPS6ARY1EC9089N089G",
-          "status": "identified",
-          "updated_at": "2026-07-25T23:16:12Z"
-        },
-        {
-          "id": "01KYDN6YPSZHX1S6N1EJPVJHDW",
-          "body": "We are investigating intermittent errors that may prevent some users from loading or continuing conversations in ChatGPT. The current period of impact began around 1:00 PM PT.",
-          "created_at": "2026-07-25T22:09:27Z",
-          "display_at": "2026-07-25T22:09:27Z",
-          "incident_id": "01KYDN6YPS6ARY1EC9089N089G",
-          "status": "investigating",
-          "updated_at": "2026-07-25T22:09:27Z"
         }
       ]
     }
