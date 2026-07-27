@@ -256,26 +256,6 @@
           "updated_at": "2026-07-27T18:06:39Z"
         }
       ]
-    },
-    {
-      "id": "01KYJFG4S86K8FMTB4N6BDZS7F",
-      "name": "Image generation unavailable in ChatGPT",
-      "status": "investigating",
-      "created_at": "2026-07-27T19:05:49Z",
-      "updated_at": "2026-07-27T19:05:49Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KYJFG4S8C081J2GS9PYFN000",
-          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-07-27T19:05:49Z",
-          "display_at": "2026-07-27T14:04:00Z",
-          "incident_id": "01KYJFG4S86K8FMTB4N6BDZS7F",
-          "status": "investigating",
-          "updated_at": "2026-07-27T19:07:34Z"
-        }
-      ]
     }
   ]
 }
