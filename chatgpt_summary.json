@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-27T18:06:39Z"
+    "updated_at": "2026-07-09T19:25:56Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,28 +234,6 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01KYJC3TDHZVSQFFPTC8X9RAHC",
-      "name": "We’re seeing elevated latency, timeouts, and interrupted streaming across gpt 5.1 mini model and gpt 4.1 mini",
-      "status": "investigating",
-      "created_at": "2026-07-27T18:06:39Z",
-      "updated_at": "2026-07-27T18:06:39Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01KYJC3TDH17NJV110VQPF8ZET",
-          "body": "We are investigating the issue for the listed services.",
-          "created_at": "2026-07-27T18:06:39Z",
-          "display_at": "2026-07-27T18:06:39Z",
-          "incident_id": "01KYJC3TDHZVSQFFPTC8X9RAHC",
-          "status": "investigating",
-          "updated_at": "2026-07-27T18:06:39Z"
-        }
-      ]
     }
   ]
 }
