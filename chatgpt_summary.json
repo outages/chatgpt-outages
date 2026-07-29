@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-09T19:25:56Z"
+    "updated_at": "2026-07-29T00:55:27Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -234,6 +234,28 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KYNNX2TQ3PV0KPJ9PTRRPX6C",
+      "name": "Elevated error rates with the invalid_prompt error code",
+      "status": "investigating",
+      "created_at": "2026-07-29T00:55:27Z",
+      "updated_at": "2026-07-29T00:55:27Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KYNNX2TQAYR92FM2J10D8ZMM",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-07-29T00:55:27Z",
+          "display_at": "2026-07-29T00:55:27Z",
+          "incident_id": "01KYNNX2TQ3PV0KPJ9PTRRPX6C",
+          "status": "investigating",
+          "updated_at": "2026-07-29T00:55:27Z"
+        }
+      ]
     }
   ]
 }
