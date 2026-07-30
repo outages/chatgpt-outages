@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-09T19:25:56Z"
+    "updated_at": "2026-07-30T14:53:10Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 14,
@@ -234,6 +234,38 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KYSQ7PC81PV3PZE3ZEVFK6K5",
+      "name": "Elevated errors affecting ChatGPT conversations",
+      "status": "monitoring",
+      "created_at": "2026-07-30T14:35:41Z",
+      "updated_at": "2026-07-30T14:53:10Z",
+      "monitoring_at": "2026-07-30T14:53:10Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KYSR7NZY10JWH8R4Z9GHBJ38",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-07-30T14:53:10Z",
+          "display_at": "2026-07-30T14:53:10Z",
+          "incident_id": "01KYSQ7PC81PV3PZE3ZEVFK6K5",
+          "status": "monitoring",
+          "updated_at": "2026-07-30T14:53:10Z"
+        },
+        {
+          "id": "01KYSQ7PC8XVKAS9P4PEGKDMX8",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-07-30T14:35:41Z",
+          "display_at": "2026-07-30T14:35:41Z",
+          "incident_id": "01KYSQ7PC81PV3PZE3ZEVFK6K5",
+          "status": "identified",
+          "updated_at": "2026-07-30T14:35:41Z"
+        }
+      ]
     }
   ]
 }
