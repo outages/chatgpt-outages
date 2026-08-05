@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-08-05T15:28:25Z"
+    "updated_at": "2026-08-05T17:06:16Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -85,7 +85,7 @@
     {
       "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
       "name": "Files",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 8,
@@ -112,7 +112,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 11,
@@ -137,21 +137,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
-      "name": "GPTs",
-      "status": "operational",
-      "created_at": "2025-04-22T20:31:32Z",
-      "updated_at": "2026-07-09T19:25:56Z",
-      "position": 14,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01KVR95C58GGWHV7RYBT32NP11",
       "name": "Ads API",
       "status": "operational",
       "created_at": "2026-06-22T18:23:26Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 15,
+      "position": 14,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -160,7 +151,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 16,
+      "position": 15,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -169,7 +160,7 @@
       "status": "operational",
       "created_at": "2025-10-24T20:54:13Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 17,
+      "position": 16,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -178,7 +169,7 @@
       "status": "operational",
       "created_at": "2025-04-28T18:53:36Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 18,
+      "position": 17,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -187,7 +178,7 @@
       "status": "degraded_performance",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 19,
+      "position": 18,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -196,7 +187,7 @@
       "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 20,
+      "position": 19,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -205,7 +196,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 21,
+      "position": 20,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -214,7 +205,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 22,
+      "position": 21,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -223,7 +214,7 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 23,
+      "position": 22,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -232,11 +223,61 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
+      "position": 23,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
+      "name": "Moderations",
+      "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     }
   ],
   "incidents": [
+    {
+      "id": "01KZ9E7QD8WFJD5DMF73QGVYH8",
+      "name": "Elevated errors in ChatGPT conversations with files",
+      "status": "monitoring",
+      "created_at": "2026-08-05T17:06:16Z",
+      "updated_at": "2026-08-05T17:06:16Z",
+      "monitoring_at": "2026-08-05T17:06:16Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KZ9E7QD8AE26DGPEAFS0PF95",
+          "body": "Error rates affecting ChatGPT conversations that use files and images have improved. We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-08-05T17:06:16Z",
+          "display_at": "2026-08-05T17:06:16Z",
+          "incident_id": "01KZ9E7QD8WFJD5DMF73QGVYH8",
+          "status": "monitoring",
+          "updated_at": "2026-08-05T17:06:16Z"
+        }
+      ]
+    },
+    {
+      "id": "01KZ9DMQD2GJ8JJWDN7572RH78",
+      "name": "Issues with Custom GPT actions",
+      "status": "investigating",
+      "created_at": "2026-08-05T16:55:54Z",
+      "updated_at": "2026-08-05T16:55:54Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KZ9DMQD2QM1033WSAY1M9J01",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-08-05T16:55:54Z",
+          "display_at": "2026-08-05T16:55:54Z",
+          "incident_id": "01KZ9DMQD2GJ8JJWDN7572RH78",
+          "status": "investigating",
+          "updated_at": "2026-08-05T16:55:54Z"
+        }
+      ]
+    },
     {
       "id": "01KZ96S5HEWX0CX26W2WFYFKE6",
       "name": "Elevated errors with image generation",
