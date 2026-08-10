@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-09T19:25:56Z"
+    "updated_at": "2026-08-10T14:04:37Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -29,21 +29,12 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
-      "name": "Conversations",
-      "status": "operational",
-      "created_at": "2025-02-25T01:31:15Z",
-      "updated_at": "2026-07-09T19:25:56Z",
-      "position": 2,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
       "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 3,
+      "position": 2,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -52,7 +43,7 @@
       "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 4,
+      "position": 3,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -61,7 +52,7 @@
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 5,
+      "position": 4,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
@@ -70,13 +61,22 @@
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 6,
+      "position": 5,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
       "name": "Login",
       "status": "operational",
+      "created_at": "2025-02-25T01:31:15Z",
+      "updated_at": "2026-07-09T19:25:56Z",
+      "position": 6,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
+      "name": "Conversations",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 7,
@@ -234,6 +234,28 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01KZNZTPWMV06Z6TQNMY1R1QDR",
+      "name": "Increased error rates",
+      "status": "investigating",
+      "created_at": "2026-08-10T14:04:37Z",
+      "updated_at": "2026-08-10T14:04:37Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01KZNZTPWM1TEMYPSWNHC6ZE3A",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-08-10T14:04:37Z",
+          "display_at": "2026-08-10T14:04:37Z",
+          "incident_id": "01KZNZTPWMV06Z6TQNMY1R1QDR",
+          "status": "investigating",
+          "updated_at": "2026-08-10T14:04:37Z"
+        }
+      ]
     }
   ]
 }
