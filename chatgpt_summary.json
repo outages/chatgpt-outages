@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-08-10T14:04:37Z"
+    "updated_at": "2026-08-10T15:07:54Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -240,12 +240,22 @@
     {
       "id": "01KZNZTPWMV06Z6TQNMY1R1QDR",
       "name": "Increased error rates",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2026-08-10T14:04:37Z",
-      "updated_at": "2026-08-10T14:04:37Z",
+      "updated_at": "2026-08-10T15:07:54Z",
+      "monitoring_at": "2026-08-10T15:07:54Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01KZP3EK1R6D4TWMFS0MEW3ECC",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-08-10T15:07:54Z",
+          "display_at": "2026-08-10T15:07:54Z",
+          "incident_id": "01KZNZTPWMV06Z6TQNMY1R1QDR",
+          "status": "monitoring",
+          "updated_at": "2026-08-10T15:07:54Z"
+        },
         {
           "id": "01KZNZTPWM1TEMYPSWNHC6ZE3A",
           "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
