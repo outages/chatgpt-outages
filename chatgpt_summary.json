@@ -3,17 +3,17 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-08-14T22:22:28Z"
+    "updated_at": "2026-07-09T19:25:56Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 0,
@@ -234,28 +234,6 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M015X5NF9D6C4MYR6NGR8HAR",
-      "name": "Unexpected GPT-5.6 Terra responses",
-      "status": "identified",
-      "created_at": "2026-08-14T22:22:28Z",
-      "updated_at": "2026-08-14T22:22:28Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M015X5NFHJVZBRQ3WJVGRXR2",
-          "body": "We are investigating an issue affecting some customers using GPT-5.6 Terra. Affected requests may intermittently return incomplete or malformed responses, or include unexpected content.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-08-14T22:22:28Z",
-          "display_at": "2026-08-14T22:22:28Z",
-          "incident_id": "01M015X5NF9D6C4MYR6NGR8HAR",
-          "status": "identified",
-          "updated_at": "2026-08-14T22:22:28Z"
-        }
-      ]
     }
   ]
 }
