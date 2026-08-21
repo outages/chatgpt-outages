@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-08-21T20:36:33Z"
+    "updated_at": "2026-07-09T19:25:56Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,38 +234,6 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M0JXWD740S0Y50DWJZS7SH75",
-      "name": "Unexpected logouts for some ChatGPT web users",
-      "status": "monitoring",
-      "created_at": "2026-08-21T19:48:34Z",
-      "updated_at": "2026-08-21T20:36:33Z",
-      "monitoring_at": "2026-08-21T20:36:33Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M0K0M8P5GTEWA72BJRKC1XVX",
-          "body": "We have applied a mitigation and are seeing recovery from the issue causing some ChatGPT web users to be unexpectedly logged out when refreshing the page. We’ll continue monitoring closely to confirm the recovery is sustained.",
-          "created_at": "2026-08-21T20:36:33Z",
-          "display_at": "2026-08-21T20:36:33Z",
-          "incident_id": "01M0JXWD740S0Y50DWJZS7SH75",
-          "status": "monitoring",
-          "updated_at": "2026-08-21T20:36:33Z"
-        },
-        {
-          "id": "01M0JXWD74Q6EHRNX9TJQQTVPK",
-          "body": "We’re investigating an issue causing some ChatGPT web users to be unexpectedly logged out when refreshing the page.",
-          "created_at": "2026-08-21T19:48:34Z",
-          "display_at": "2026-08-21T19:48:34Z",
-          "incident_id": "01M0JXWD740S0Y50DWJZS7SH75",
-          "status": "investigating",
-          "updated_at": "2026-08-21T19:48:34Z"
-        }
-      ]
     }
   ]
 }
