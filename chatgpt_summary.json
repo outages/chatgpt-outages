@@ -3,27 +3,27 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-08-31T19:29:27Z"
+    "updated_at": "2026-08-31T23:13:46Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
-    {
-      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
-      "name": "Responses",
-      "status": "operational",
-      "created_at": "2025-03-13T18:31:32Z",
-      "updated_at": "2026-07-09T19:25:56Z",
-      "position": 0,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
       "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-07-09T19:25:56Z",
+      "position": 0,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
+      "name": "Responses",
+      "status": "degraded_performance",
+      "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
@@ -238,67 +238,32 @@
   ],
   "incidents": [
     {
-      "id": "01M1C5M4K0WC8PPT0Z175RJA1E",
-      "name": "ChatGPT Work seeing elevated errors and latency",
-      "status": "identified",
-      "created_at": "2026-08-31T15:04:53Z",
-      "updated_at": "2026-08-31T19:29:27Z",
-      "impact": "major",
+      "id": "01M1CYZDD84XD0H56XNEV2PT98",
+      "name": "Elevated latency in the Responses API",
+      "status": "monitoring",
+      "created_at": "2026-08-31T22:27:56Z",
+      "updated_at": "2026-08-31T23:13:47Z",
+      "monitoring_at": "2026-08-31T23:13:46Z",
+      "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01M1CMRJMZSHHHJG7C8F94YRV2",
-          "body": "User across multiple subscription plans may be unable to start or continue tasks in ChatGPT Work.\n\nWe are continuing work on implementing a mitigation.",
-          "created_at": "2026-08-31T19:29:27Z",
-          "display_at": "2026-08-31T19:29:27Z",
-          "incident_id": "01M1C5M4K0WC8PPT0Z175RJA1E",
-          "status": "identified",
-          "updated_at": "2026-08-31T19:29:27Z"
+          "id": "01M1D1KAX255BEJ4VDE9H4NXSW",
+          "body": "We have applied a mitigation and are monitoring recovery.",
+          "created_at": "2026-08-31T23:13:46Z",
+          "display_at": "2026-08-31T23:13:46Z",
+          "incident_id": "01M1CYZDD84XD0H56XNEV2PT98",
+          "status": "monitoring",
+          "updated_at": "2026-08-31T23:13:46Z"
         },
         {
-          "id": "01M1CF6JXBCCBCYB41X8F0MB55",
-          "body": "User across multiple subscription plans may be unable to start or continue tasks in ChatGPT Work.\n\nWe are continuing work on implementing a mitigation.",
-          "created_at": "2026-08-31T17:52:14Z",
-          "display_at": "2026-08-31T17:52:14Z",
-          "incident_id": "01M1C5M4K0WC8PPT0Z175RJA1E",
+          "id": "01M1CYZDD8BGG35VJSSZG9Y5WE",
+          "body": "We have identified an issue causing elevated latency for some Responses API requests. We are working on implementing a mitigation.",
+          "created_at": "2026-08-31T22:27:57Z",
+          "display_at": "2026-08-31T22:27:56Z",
+          "incident_id": "01M1CYZDD84XD0H56XNEV2PT98",
           "status": "identified",
-          "updated_at": "2026-08-31T17:52:14Z"
-        },
-        {
-          "id": "01M1CC9A6FZK7B665MWHVTV3KE",
-          "body": "User across multiple subscription plans may be unable to start or continue tasks in ChatGPT Work. We\n\nWe are continuing work on implementing a mitigation.",
-          "created_at": "2026-08-31T17:01:18Z",
-          "display_at": "2026-08-31T17:01:18Z",
-          "incident_id": "01M1C5M4K0WC8PPT0Z175RJA1E",
-          "status": "identified",
-          "updated_at": "2026-08-31T17:01:18Z"
-        },
-        {
-          "id": "01M1C8X1ZYZ7SVYNVR39P5RKWP",
-          "body": "User across multiple subscription plans may be unable to start or continue tasks in ChatGPT Work. We are continuing to work on a mitigation.",
-          "created_at": "2026-08-31T16:02:11Z",
-          "display_at": "2026-08-31T16:02:11Z",
-          "incident_id": "01M1C5M4K0WC8PPT0Z175RJA1E",
-          "status": "identified",
-          "updated_at": "2026-08-31T16:02:11Z"
-        },
-        {
-          "id": "01M1C6JJ6C4MVZ6SZWSK52KCKB",
-          "body": "We have identified that users are experiencing elevated errors for the impacted services. Plus users are particularly impacted, where Work mode is currently unavailable.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-08-31T15:21:30Z",
-          "display_at": "2026-08-31T15:21:30Z",
-          "incident_id": "01M1C5M4K0WC8PPT0Z175RJA1E",
-          "status": "identified",
-          "updated_at": "2026-08-31T15:21:30Z"
-        },
-        {
-          "id": "01M1C5M4K08A4ANFQ2V18FDBM9",
-          "body": "We have identified that users are experiencing elevated latency for the impacted services.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-08-31T15:04:53Z",
-          "display_at": "2026-08-31T15:04:53Z",
-          "incident_id": "01M1C5M4K0WC8PPT0Z175RJA1E",
-          "status": "identified",
-          "updated_at": "2026-08-31T15:04:53Z"
+          "updated_at": "2026-08-31T22:27:57Z"
         }
       ]
     }
