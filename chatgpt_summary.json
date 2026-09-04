@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-09-04T07:00:26Z"
+    "updated_at": "2026-07-09T19:25:56Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -139,7 +139,7 @@
     {
       "id": "01JVCV8YSWZFRSM1G5CVP253SK",
       "name": "Codex Web",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-05-16T15:26:46Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 14,
@@ -229,33 +229,11 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M1NKFZH5EEYEREC54HNAHY35",
-      "name": "Users in APAC region may face increased error in ChatGPT, Work, image generation, file upload, Voice, and Codex Cloud",
-      "status": "investigating",
-      "created_at": "2026-09-04T07:00:26Z",
-      "updated_at": "2026-09-04T07:07:01Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M1NKFZH5D8T35CRX9763AS6A",
-          "body": "We are investigating the issue for the listed services.",
-          "created_at": "2026-09-04T07:00:26Z",
-          "display_at": "2026-09-04T07:00:26Z",
-          "incident_id": "01M1NKFZH5EEYEREC54HNAHY35",
-          "status": "investigating",
-          "updated_at": "2026-09-04T07:00:26Z"
-        }
-      ]
     }
   ]
 }
