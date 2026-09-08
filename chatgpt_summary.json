@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-09-08T16:35:08Z"
+    "updated_at": "2026-09-08T19:11:26Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -229,7 +229,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
@@ -240,12 +240,22 @@
     {
       "id": "01M20PYYYGRT9303VHAPA7YNT2",
       "name": "Elevated errors for image generation",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-09-08T14:32:42Z",
-      "updated_at": "2026-09-08T16:35:08Z",
+      "updated_at": "2026-09-08T19:11:26Z",
+      "monitoring_at": "2026-09-08T19:11:26Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01M216XAQRJTXPYH0P34MD1BVC",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-09-08T19:11:26Z",
+          "display_at": "2026-09-08T19:11:26Z",
+          "incident_id": "01M20PYYYGRT9303VHAPA7YNT2",
+          "status": "monitoring",
+          "updated_at": "2026-09-08T19:11:26Z"
+        },
         {
           "id": "01M20XZ51RVWRJBM8VV8V898NP",
           "body": "We have identified the issue affecting image generation in ChatGPT and the Images API. Some image-generation requests may continue to fail. ",
@@ -281,53 +291,6 @@
           "incident_id": "01M20PYYYGRT9303VHAPA7YNT2",
           "status": "investigating",
           "updated_at": "2026-09-08T14:32:42Z"
-        }
-      ]
-    },
-    {
-      "id": "01M20QBACYZMK2PRCJQCBSWTYJ",
-      "name": "File uploads are delayed or failing",
-      "status": "identified",
-      "created_at": "2026-09-08T14:39:27Z",
-      "updated_at": "2026-09-08T16:29:52Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M20XNGDC0RZ571HZ2H8ZZ1VV",
-          "body": "We have identified the issue causing file-upload processing failures and delays in ChatGPT. Some files may remain unavailable while processing, and some uploads may fail.",
-          "created_at": "2026-09-08T16:29:52Z",
-          "display_at": "2026-09-08T16:29:52Z",
-          "incident_id": "01M20QBACYZMK2PRCJQCBSWTYJ",
-          "status": "identified",
-          "updated_at": "2026-09-08T16:30:35Z"
-        },
-        {
-          "id": "01M20TMVZMW0Y3Z33AG1SMF5ET",
-          "body": "We’re continuing to investigate file-upload processing failures and delays in ChatGPT. Some files may appear uploaded but remain unavailable while processing; other uploads may fail. We have not confirmed recovery and will share another update as we learn more.",
-          "created_at": "2026-09-08T15:37:05Z",
-          "display_at": "2026-09-08T15:37:05Z",
-          "incident_id": "01M20QBACYZMK2PRCJQCBSWTYJ",
-          "status": "investigating",
-          "updated_at": "2026-09-08T15:37:05Z"
-        },
-        {
-          "id": "01M20QTM4ZCEP792ZZ4ZAJ5JQ4",
-          "body": "We are investigating the issue for the listed services.",
-          "created_at": "2026-09-08T14:47:48Z",
-          "display_at": "2026-09-08T14:47:48Z",
-          "incident_id": "01M20QBACYZMK2PRCJQCBSWTYJ",
-          "status": "investigating",
-          "updated_at": "2026-09-08T14:47:48Z"
-        },
-        {
-          "id": "01M20QBACY2DBCT0RREJQ0F587",
-          "body": "Some file uploads are failing to process. Successful uploads may take longer than usual to become available. We’re investigating and will share another update as we learn more.",
-          "created_at": "2026-09-08T14:39:27Z",
-          "display_at": "2026-09-08T14:39:27Z",
-          "incident_id": "01M20QBACYZMK2PRCJQCBSWTYJ",
-          "status": "investigating",
-          "updated_at": "2026-09-08T14:39:27Z"
         }
       ]
     }
