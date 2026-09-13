@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-09T19:25:56Z"
+    "updated_at": "2026-09-13T09:55:55Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,6 +234,65 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01M2D1CZG0862JB4JHVW56QF89",
+      "name": "Codex GitHub Review and Pull Request Failures",
+      "status": "monitoring",
+      "created_at": "2026-09-13T09:26:00Z",
+      "updated_at": "2026-09-13T09:55:55Z",
+      "monitoring_at": "2026-09-13T09:55:55Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01M2D33RRBJYCCEKJYQZC9BSSQ",
+          "body": "Github have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-09-13T09:55:55Z",
+          "display_at": "2026-09-13T09:55:55Z",
+          "incident_id": "01M2D1CZG0862JB4JHVW56QF89",
+          "status": "monitoring",
+          "updated_at": "2026-09-13T09:55:55Z"
+        },
+        {
+          "id": "01M2D2ZPZ2VCQS6A3ACKHKRFG8",
+          "body": "Github has applied the mitigation and we are monitoring the recovery.",
+          "created_at": "2026-09-13T09:53:42Z",
+          "display_at": "2026-09-13T09:53:42Z",
+          "incident_id": "01M2D1CZG0862JB4JHVW56QF89",
+          "status": "resolved",
+          "updated_at": "2026-09-13T09:53:42Z"
+        },
+        {
+          "id": "01M2D1YP5VFGGDJQ1GJW6Z5TZG",
+          "body": "We have identified an upstream GitHub service disruption affecting review publication and pull request creation in Codex. Follow [GitHub’s status page](https://www.githubstatus.com/ \"GitHub’s status page\") for updates. We expect these workflows to recover as GitHub restores its services.",
+          "created_at": "2026-09-13T09:35:40Z",
+          "display_at": "2026-09-13T09:35:40Z",
+          "incident_id": "01M2D1CZG0862JB4JHVW56QF89",
+          "status": "identified",
+          "updated_at": "2026-09-13T09:35:40Z"
+        },
+        {
+          "id": "01M2D1SH2Y6AKV5RTKRMDJ7EZG",
+          "body": "We have identified an upstream GitHub service disruption affecting review publication and pull request creation in Codex. Follow [GitHub’s status page](https://www.githubstatus.com/ \"GitHub’s status page\") for updates. We expect these workflows to recover as GitHub restores service.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-09-13T09:32:51Z",
+          "display_at": "2026-09-13T09:32:51Z",
+          "incident_id": "01M2D1CZG0862JB4JHVW56QF89",
+          "status": "identified",
+          "updated_at": "2026-09-13T09:32:51Z"
+        },
+        {
+          "id": "01M2D1CZG0GMHHAZRF7XG5RQ9Y",
+          "body": "We are investigating the issue for the listed services.",
+          "created_at": "2026-09-13T09:26:00Z",
+          "display_at": "2026-09-13T09:26:00Z",
+          "incident_id": "01M2D1CZG0862JB4JHVW56QF89",
+          "status": "investigating",
+          "updated_at": "2026-09-13T09:26:00Z"
+        }
+      ]
     }
   ]
 }
