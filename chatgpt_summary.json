@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-09T19:25:56Z"
+    "updated_at": "2026-09-15T23:50:32Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -20,27 +20,27 @@
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
-      "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
-      "name": "Images",
-      "status": "operational",
-      "created_at": "2025-02-25T01:32:55Z",
-      "updated_at": "2026-07-09T19:25:56Z",
-      "position": 1,
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    },
-    {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
       "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2026-07-09T19:25:56Z",
-      "position": 2,
+      "position": 1,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
     },
     {
       "id": "01JMXBRMFEKVBWKK82B44QFMCE",
       "name": "Audio",
       "status": "operational",
+      "created_at": "2025-02-25T01:32:55Z",
+      "updated_at": "2026-07-09T19:25:56Z",
+      "position": 2,
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    },
+    {
+      "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
+      "name": "Images",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 3,
@@ -234,6 +234,28 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01M2KQNE5C42NEZPX6V01NHH5W",
+      "name": "Elevated errors with gpt-image-2.5-flare",
+      "status": "investigating",
+      "created_at": "2026-09-15T23:50:32Z",
+      "updated_at": "2026-09-15T23:50:32Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01M2KQNE5C88N99ZZPP03Y0MKG",
+          "body": "We are experiencing elevated error rates for image generation and editing requests using gpt-image-2.5-flare in the API.\n\nOur team is working to mitigate the issue. We will provide another update as more information becomes available.",
+          "created_at": "2026-09-15T23:50:32Z",
+          "display_at": "2026-09-15T23:50:32Z",
+          "incident_id": "01M2KQNE5C42NEZPX6V01NHH5W",
+          "status": "investigating",
+          "updated_at": "2026-09-15T23:50:32Z"
+        }
+      ]
     }
   ]
 }
