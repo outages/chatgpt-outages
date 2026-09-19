@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-09-18T23:22:34Z"
+    "updated_at": "2026-09-19T01:08:42Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -240,12 +240,21 @@
     {
       "id": "01M2VA7X37P1ASADSNZ1CG4N4D",
       "name": "Overbilling for OpenAI-hosted containers in the Agent API",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2026-09-18T22:29:53Z",
-      "updated_at": "2026-09-18T23:22:34Z",
+      "updated_at": "2026-09-19T01:08:42Z",
       "impact": "none",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01M2VKAQ62GZSZFS58290F995F",
+          "body": "We are still implementing the mitigation.",
+          "created_at": "2026-09-19T01:08:42Z",
+          "display_at": "2026-09-19T01:08:42Z",
+          "incident_id": "01M2VA7X37P1ASADSNZ1CG4N4D",
+          "status": "identified",
+          "updated_at": "2026-09-19T01:08:42Z"
+        },
         {
           "id": "01M2VD8C53X3MDRF74GB0WVYE8",
           "body": "We’re continuing to work on a fix for the container overbilling issue.\n\nWe’re also reviewing affected usage to identify impacted customers and calculate refunds.",
@@ -263,36 +272,6 @@
           "incident_id": "01M2VA7X37P1ASADSNZ1CG4N4D",
           "status": "investigating",
           "updated_at": "2026-09-18T22:29:53Z"
-        }
-      ]
-    },
-    {
-      "id": "01M2V76GEPJB0HQGRA0QERRZ3T",
-      "name": "Delayed support responses",
-      "status": "monitoring",
-      "created_at": "2026-09-18T21:36:41Z",
-      "updated_at": "2026-09-18T21:59:34Z",
-      "monitoring_at": "2026-09-18T21:59:34Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M2V8GCRMEV3VC2J84XCJK5JD",
-          "body": "We have applied the mitigation and are monitoring the recovery.\n\nSome support responses by email and chat may still be delayed while we work through affected cases.",
-          "created_at": "2026-09-18T21:59:34Z",
-          "display_at": "2026-09-18T21:59:34Z",
-          "incident_id": "01M2V76GEPJB0HQGRA0QERRZ3T",
-          "status": "monitoring",
-          "updated_at": "2026-09-18T21:59:34Z"
-        },
-        {
-          "id": "01M2V76GEPVSC13G2Y6VX3T0CJ",
-          "body": "Some users are experiencing delayed responses from OpenAI Support by email and chat.\n\nWe’re investigating and will share updates as we learn more.",
-          "created_at": "2026-09-18T21:36:41Z",
-          "display_at": "2026-09-18T21:36:41Z",
-          "incident_id": "01M2V76GEPJB0HQGRA0QERRZ3T",
-          "status": "identified",
-          "updated_at": "2026-09-18T21:36:41Z"
         }
       ]
     }
