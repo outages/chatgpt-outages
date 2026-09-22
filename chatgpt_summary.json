@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-07-09T19:25:56Z"
+    "updated_at": "2026-09-22T15:26:40Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -234,6 +234,38 @@
       "updated_at": "2026-07-09T19:25:56Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01M34TAFM9WBGEBE3G1GBH4SE8",
+      "name": "Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans.",
+      "status": "monitoring",
+      "created_at": "2026-09-22T15:04:05Z",
+      "updated_at": "2026-09-22T15:26:41Z",
+      "monitoring_at": "2026-09-22T15:26:40Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01M34VKVSQ8VEEN02VT334H01X",
+          "body": "We have applied the mitigation and are monitoring the recovery.",
+          "created_at": "2026-09-22T15:26:41Z",
+          "display_at": "2026-09-22T15:26:40Z",
+          "incident_id": "01M34TAFM9WBGEBE3G1GBH4SE8",
+          "status": "monitoring",
+          "updated_at": "2026-09-22T15:26:41Z"
+        },
+        {
+          "id": "01M34TAFM9882DEK6XCSQ2ZBMD",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-09-22T15:04:05Z",
+          "display_at": "2026-09-22T15:04:05Z",
+          "incident_id": "01M34TAFM9WBGEBE3G1GBH4SE8",
+          "status": "identified",
+          "updated_at": "2026-09-22T15:04:05Z"
+        }
+      ]
     }
   ]
 }
