@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-09-30T06:03:10Z"
+    "updated_at": "2026-09-30T10:34:34Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -85,7 +85,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 8,
@@ -242,11 +242,20 @@
       "name": "Elevated errors in ChatGPT Space Pages",
       "status": "monitoring",
       "created_at": "2026-09-30T02:20:32Z",
-      "updated_at": "2026-09-30T06:03:10Z",
+      "updated_at": "2026-09-30T10:34:34Z",
       "monitoring_at": "2026-09-30T06:03:10Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01M3RY2QNVRHFCQS5EZQW9M06G",
+          "body": "All impacted services are recovered, we are continuing to monitor for any reoccurrence.",
+          "created_at": "2026-09-30T10:34:34Z",
+          "display_at": "2026-09-30T10:34:34Z",
+          "incident_id": "01M3R1T4FCR1337FBBYY9K2RPB",
+          "status": "monitoring",
+          "updated_at": "2026-09-30T10:34:34Z"
+        },
         {
           "id": "01M3REHSA8HTNT9FKGXWZSTVKH",
           "body": "We have applied the mitigation and are monitoring the recovery.",
@@ -264,36 +273,6 @@
           "incident_id": "01M3R1T4FCR1337FBBYY9K2RPB",
           "status": "identified",
           "updated_at": "2026-09-30T02:20:32Z"
-        }
-      ]
-    },
-    {
-      "id": "01M3RDNY37CAPQGRKPBVMNRT4K",
-      "name": "Elevated error rates for ChatGPT Pro and Plus users",
-      "status": "monitoring",
-      "created_at": "2026-09-30T05:47:57Z",
-      "updated_at": "2026-09-30T05:56:48Z",
-      "monitoring_at": "2026-09-30T05:56:48Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M3RE64M00EFV5X0RJH1K8DEP",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-09-30T05:56:48Z",
-          "display_at": "2026-09-30T05:56:48Z",
-          "incident_id": "01M3RDNY37CAPQGRKPBVMNRT4K",
-          "status": "monitoring",
-          "updated_at": "2026-09-30T05:56:48Z"
-        },
-        {
-          "id": "01M3RDNY37DEB7AFNNXYKVDDT2",
-          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-09-30T05:47:57Z",
-          "display_at": "2026-09-30T05:47:57Z",
-          "incident_id": "01M3RDNY37CAPQGRKPBVMNRT4K",
-          "status": "identified",
-          "updated_at": "2026-09-30T05:47:57Z"
         }
       ]
     }
