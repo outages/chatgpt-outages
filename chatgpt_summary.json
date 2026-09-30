@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-09-30T18:21:53Z"
+    "updated_at": "2026-09-30T15:00:05Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat Completions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 14,
@@ -166,7 +166,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 17,
@@ -237,54 +237,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "01M3SMF1Q0TDCQVNYSXYG37QMR",
-      "name": "Elevated latency for some API requests",
-      "status": "monitoring",
-      "created_at": "2026-09-30T17:05:46Z",
-      "updated_at": "2026-09-30T18:21:53Z",
-      "monitoring_at": "2026-09-30T18:21:53Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M3SRTE4DMVKG9A369CBW1CWX",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-09-30T18:21:53Z",
-          "display_at": "2026-09-30T18:21:53Z",
-          "incident_id": "01M3SMF1Q0TDCQVNYSXYG37QMR",
-          "status": "monitoring",
-          "updated_at": "2026-09-30T18:21:53Z"
-        },
-        {
-          "id": "01M3SQ338215J61X3XQZK7S3YC",
-          "body": "We have implemented an initial mitigation and are seeing improvements in API latency. We are continuing to investigate the scope of the issue and apply additional mitigations as needed. Some requests to the Responses and Chat Completions APIs may still experience elevated latency or timeouts.",
-          "created_at": "2026-09-30T17:51:40Z",
-          "display_at": "2026-09-30T17:51:40Z",
-          "incident_id": "01M3SMF1Q0TDCQVNYSXYG37QMR",
-          "status": "identified",
-          "updated_at": "2026-09-30T17:51:40Z"
-        },
-        {
-          "id": "01M3SMWPSHQCZSH3B1BYCJYJ9E",
-          "body": "We have identified that users are experiencing elevated latency for the impacted services.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-09-30T17:13:13Z",
-          "display_at": "2026-09-30T17:13:13Z",
-          "incident_id": "01M3SMF1Q0TDCQVNYSXYG37QMR",
-          "status": "identified",
-          "updated_at": "2026-09-30T17:13:13Z"
-        },
-        {
-          "id": "01M3SMF1Q0H8471KPS2XE2ME4W",
-          "body": "We have identified that users are experiencing elevated latency for the impacted services.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-09-30T17:05:46Z",
-          "display_at": "2026-09-30T17:05:46Z",
-          "incident_id": "01M3SMF1Q0TDCQVNYSXYG37QMR",
-          "status": "identified",
-          "updated_at": "2026-09-30T17:05:46Z"
-        }
-      ]
-    },
     {
       "id": "01M3R1T4FCR1337FBBYY9K2RPB",
       "name": "Elevated errors in ChatGPT Space Pages",
