@@ -3,17 +3,17 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-09-29T22:03:22Z"
+    "updated_at": "2026-09-29T18:29:41Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
       "id": "01JMXBRMFEQW613TFE89F45035",
       "name": "Realtime",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 0,
@@ -22,7 +22,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance API",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 1,
@@ -40,7 +40,7 @@
     {
       "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
       "name": "Search",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 3,
@@ -49,7 +49,7 @@
     {
       "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
       "name": "Agent",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-23T00:49:15Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 4,
@@ -58,7 +58,7 @@
     {
       "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
       "name": "Connectors/Apps",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-10-05T18:52:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 5,
@@ -67,7 +67,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 6,
@@ -76,7 +76,7 @@
     {
       "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
       "name": "CLI",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 7,
@@ -85,7 +85,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 8,
@@ -94,7 +94,7 @@
     {
       "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
       "name": "GPTs",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-22T20:31:32Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 9,
@@ -103,7 +103,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 10,
@@ -112,7 +112,7 @@
     {
       "id": "01KX45G1SH21AX5DT93D4HMF0P",
       "name": "ChatGPT Work",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-07-09T19:25:56Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 11,
@@ -121,7 +121,7 @@
     {
       "id": "01JMXBRMFE5ESNNV8JDHVCGSRD",
       "name": "Batch",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 12,
@@ -130,7 +130,7 @@
     {
       "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
       "name": "Images",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 13,
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBRMFE6N2NNT7DG6XZQ6PW",
       "name": "Chat Completions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 14,
@@ -148,7 +148,7 @@
     {
       "id": "01JMXBRMFEMZK0HPK19RYET250",
       "name": "Fine-tuning",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 15,
@@ -157,7 +157,7 @@
     {
       "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
       "name": "Embeddings",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 16,
@@ -166,7 +166,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 17,
@@ -175,7 +175,7 @@
     {
       "id": "01JMXBRMFEKVBWKK82B44QFMCE",
       "name": "Audio",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 18,
@@ -184,7 +184,7 @@
     {
       "id": "01JMXBRMFEVZ7E0X9GD9FWR9WX",
       "name": "Moderations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 19,
@@ -193,7 +193,7 @@
     {
       "id": "01JMXBRMFESJCBGJR10PDD3WCQ",
       "name": "Files",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:32:55Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 20,
@@ -202,7 +202,7 @@
     {
       "id": "01JSM5RTJWHRWDTS6Q604VEW3B",
       "name": "Login",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-04-24T15:13:29Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 21,
@@ -211,7 +211,7 @@
     {
       "id": "01M3Q6W0264T1RJS1YEM47CAQJ",
       "name": "Agents",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-09-29T18:29:41Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 22,
@@ -234,122 +234,6 @@
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M3Q4RK1SM4EMK445GGPG7C0N",
-      "name": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
-      "status": "monitoring",
-      "created_at": "2026-09-29T17:52:52Z",
-      "updated_at": "2026-09-29T22:03:22Z",
-      "monitoring_at": "2026-09-29T19:39:36Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M3QK38JKQ8GDGPW0D93FSKVN",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-09-29T22:03:22Z",
-          "display_at": "2026-09-29T22:03:22Z",
-          "incident_id": "01M3Q4RK1SM4EMK445GGPG7C0N",
-          "status": "monitoring",
-          "updated_at": "2026-09-29T22:03:22Z"
-        },
-        {
-          "id": "01M3QG0220NEVW56ST31MCTJXE",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-09-29T21:09:11Z",
-          "display_at": "2026-09-29T21:09:11Z",
-          "incident_id": "01M3Q4RK1SM4EMK445GGPG7C0N",
-          "status": "monitoring",
-          "updated_at": "2026-09-29T21:09:11Z"
-        },
-        {
-          "id": "01M3QAW0PGZ6Z35MWA7CKJDMPH",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-09-29T19:39:36Z",
-          "display_at": "2026-09-29T19:39:36Z",
-          "incident_id": "01M3Q4RK1SM4EMK445GGPG7C0N",
-          "status": "monitoring",
-          "updated_at": "2026-09-29T19:39:36Z"
-        },
-        {
-          "id": "01M3Q93AV8RWSC34VKNF9VX43Q",
-          "body": "We’re still investigating elevated errors affecting ChatGPT, Codex, and the API including the Agents API.\n\nSome users may experience failed requests, difficulty logging in or signing up, and tasks that do not complete. We’ll share updates as we learn more.",
-          "created_at": "2026-09-29T19:08:39Z",
-          "display_at": "2026-09-29T19:08:39Z",
-          "incident_id": "01M3Q4RK1SM4EMK445GGPG7C0N",
-          "status": "investigating",
-          "updated_at": "2026-09-29T19:08:39Z"
-        },
-        {
-          "id": "01M3Q6J3T2220NEB407NX63SS9",
-          "body": "We’re investigating elevated errors affecting ChatGPT, Codex, and the API including the Agents API.\n\nSome users may experience failed requests, difficulty logging in or signing up, and tasks that do not complete. We’ll share updates as we learn more.",
-          "created_at": "2026-09-29T18:24:17Z",
-          "display_at": "2026-09-29T18:24:17Z",
-          "incident_id": "01M3Q4RK1SM4EMK445GGPG7C0N",
-          "status": "investigating",
-          "updated_at": "2026-09-29T18:24:17Z"
-        },
-        {
-          "id": "01M3Q4RK1S5K0NQDA0FZ267QJC",
-          "body": "We’re investigating elevated errors affecting ChatGPT, Codex, and the API. Some users may experience failed requests, difficulty logging in or signing up, and tasks that do not complete. We’ll share updates as we learn more.",
-          "created_at": "2026-09-29T17:52:52Z",
-          "display_at": "2026-09-29T17:52:52Z",
-          "incident_id": "01M3Q4RK1SM4EMK445GGPG7C0N",
-          "status": "investigating",
-          "updated_at": "2026-09-29T17:52:52Z"
-        }
-      ]
-    },
-    {
-      "id": "01M3Q4HMNP8SZ27DTZKW6F5BJ4",
-      "name": "Support available via email",
-      "status": "monitoring",
-      "created_at": "2026-09-29T17:49:05Z",
-      "updated_at": "2026-09-29T21:50:57Z",
-      "monitoring_at": "2026-09-29T21:50:57Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M3QJCGFSZY69NFZ4JC80F313",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-09-29T21:50:57Z",
-          "display_at": "2026-09-29T21:50:57Z",
-          "incident_id": "01M3Q4HMNP8SZ27DTZKW6F5BJ4",
-          "status": "monitoring",
-          "updated_at": "2026-09-29T21:50:57Z"
-        },
-        {
-          "id": "01M3Q82B8JBVGEQGPDEHATTCPQ",
-          "body": "Our Help Center is available, but support chat remains unavailable. If you need assistance, you can browse the Help Center or email [support@openai.com](mailto:support@openai.com \"support@openai.com\").",
-          "created_at": "2026-09-29T18:50:38Z",
-          "display_at": "2026-09-29T18:50:38Z",
-          "incident_id": "01M3Q4HMNP8SZ27DTZKW6F5BJ4",
-          "status": "investigating",
-          "updated_at": "2026-09-29T18:50:38Z"
-        },
-        {
-          "id": "01M3Q4X0946G4SRQZJ9EWWBD20",
-          "body": "Our Help Center is available, but support chat remains unavailable. If you need assistance, you can browse the Help Center or email [support@openai.com](mailto:support@openai.com \"support@openai.com\").",
-          "created_at": "2026-09-29T17:55:17Z",
-          "display_at": "2026-09-29T17:55:17Z",
-          "incident_id": "01M3Q4HMNP8SZ27DTZKW6F5BJ4",
-          "status": "investigating",
-          "updated_at": "2026-09-29T17:55:17Z"
-        },
-        {
-          "id": "01M3Q4HMNPYS4EAN2T4TZFXA2J",
-          "body": "Our Help Center and support chat are currently unavailable. If you need assistance, you can still reach our support team by emailing [support@openai.com](mailto:support@openai.com \"support@openai.com\").\n\nWe apologize for the inconvenience.",
-          "created_at": "2026-09-29T17:49:05Z",
-          "display_at": "2026-09-29T17:49:05Z",
-          "incident_id": "01M3Q4HMNP8SZ27DTZKW6F5BJ4",
-          "status": "investigating",
-          "updated_at": "2026-09-29T17:49:05Z"
-        }
-      ]
     }
   ]
 }
