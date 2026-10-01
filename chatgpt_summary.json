@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-09-30T15:00:05Z"
+    "updated_at": "2026-10-01T16:51:16Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,11 +242,20 @@
       "name": "Elevated errors in ChatGPT Space Pages",
       "status": "monitoring",
       "created_at": "2026-09-30T02:20:32Z",
-      "updated_at": "2026-09-30T15:00:05Z",
+      "updated_at": "2026-10-01T16:51:16Z",
       "monitoring_at": "2026-09-30T06:03:10Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01M3W617A49S8ZS7HPXBRX7VTF",
+          "body": "We are continuing to monitor our mitigiations. Some users may see slow or timed out results, especially for creating new pages or spaces.",
+          "created_at": "2026-10-01T16:51:16Z",
+          "display_at": "2026-10-01T16:51:16Z",
+          "incident_id": "01M3R1T4FCR1337FBBYY9K2RPB",
+          "status": "monitoring",
+          "updated_at": "2026-10-01T16:51:16Z"
+        },
         {
           "id": "01M3SD8XPS5NZ1EZ1WGWC1V2Y0",
           "body": "We have applied mitigations and are monitoring the recovery.",
