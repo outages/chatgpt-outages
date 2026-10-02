@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-02T16:03:10Z"
+    "updated_at": "2026-09-29T18:29:41Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,29 +234,6 @@
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M3YNNVTSCXS8YM2V1YMHMVSE",
-      "name": "Issues with data analysis and file creation in ChatGPT",
-      "status": "monitoring",
-      "created_at": "2026-10-02T16:03:10Z",
-      "updated_at": "2026-10-02T16:03:10Z",
-      "monitoring_at": "2026-10-02T16:03:10Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M3YNNVTS2KCY2GR31K4VWE0X",
-          "body": "Some users experienced errors when running code, analyzing data or creating files in ChatGPT.\n\nWe have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-10-02T16:03:10Z",
-          "display_at": "2026-10-02T16:03:10Z",
-          "incident_id": "01M3YNNVTSCXS8YM2V1YMHMVSE",
-          "status": "monitoring",
-          "updated_at": "2026-10-02T16:03:10Z"
-        }
-      ]
     }
   ]
 }
