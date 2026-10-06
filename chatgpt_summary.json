@@ -130,7 +130,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 13,
@@ -264,36 +264,6 @@
           "incident_id": "01M46KED6KQ6PR195KZYYVNY8W",
           "status": "identified",
           "updated_at": "2026-10-05T17:58:04Z"
-        }
-      ]
-    },
-    {
-      "id": "01M46G248GGHV9RSAJE82BZY1X",
-      "name": "Elevated errors in ChatGPT conversations",
-      "status": "monitoring",
-      "created_at": "2026-10-05T16:58:56Z",
-      "updated_at": "2026-10-05T17:55:04Z",
-      "monitoring_at": "2026-10-05T17:55:04Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M46K8XDEGQ44JKK2F2RZ3Z4G",
-          "body": "We have mitigated the issue affecting ChatGPT conversations and are monitoring recovery.",
-          "created_at": "2026-10-05T17:55:04Z",
-          "display_at": "2026-10-05T17:55:04Z",
-          "incident_id": "01M46G248GGHV9RSAJE82BZY1X",
-          "status": "monitoring",
-          "updated_at": "2026-10-05T17:55:04Z"
-        },
-        {
-          "id": "01M46G248GHCQNAJAZPATT55K8",
-          "body": "We are investigating elevated error rates affecting some ChatGPT conversations. Error rates are improving, and our team is continuing to assess recovery. We will share further updates as they become available.",
-          "created_at": "2026-10-05T16:58:56Z",
-          "display_at": "2026-10-05T16:58:56Z",
-          "incident_id": "01M46G248GGHV9RSAJE82BZY1X",
-          "status": "investigating",
-          "updated_at": "2026-10-05T16:58:56Z"
         }
       ]
     },
