@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-09-29T18:29:41Z"
+    "updated_at": "2026-10-07T02:00:00Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -157,7 +157,7 @@
     {
       "id": "01KMKFAMWKQ81YWSE1Z18R6VHR",
       "name": "Codex in ChatGPT Desktop",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 16,
@@ -234,6 +234,28 @@
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01M4ADHMMBK7K92NJFJ0DXRYJM",
+      "name": "Unable to create new ChatGPT Work threads in latest version of desktop app",
+      "status": "investigating",
+      "created_at": "2026-10-07T05:31:56Z",
+      "updated_at": "2026-10-07T05:43:44Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01M4ADHMMBBBEB2S23W2SXYZK9",
+          "body": "We are investigating the issue. Version 26.1002.51308 is affected",
+          "created_at": "2026-10-07T05:31:56Z",
+          "display_at": "2026-10-07T02:00:00Z",
+          "incident_id": "01M4ADHMMBK7K92NJFJ0DXRYJM",
+          "status": "investigating",
+          "updated_at": "2026-10-07T05:44:55Z"
+        }
+      ]
     }
   ]
 }
