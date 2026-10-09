@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-09-29T18:29:41Z"
+    "updated_at": "2026-10-09T18:46:25Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -166,7 +166,7 @@
     {
       "id": "01JNKS9D9S72PMP1938PVFFQN4",
       "name": "Compliance API",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-03-05T18:32:33Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 17,
@@ -234,6 +234,46 @@
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01M4GV1M2A3K38T73JCVCD9G0R",
+      "name": "Delayed Costs data in the Compliance API",
+      "status": "identified",
+      "created_at": "2026-10-09T17:23:18Z",
+      "updated_at": "2026-10-09T18:46:25Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01M4GZSTQD80N1F9QNVV9MCPFN",
+          "body": "Some customers may continue to experience delayed Costs data through the Compliance API. ChatGPT usage and API Platform requests are not affected, and other reporting channels remain available. We have identified the cause and are continuing work to restore normal data freshness. We will provide another update as work progresses.",
+          "created_at": "2026-10-09T18:46:25Z",
+          "display_at": "2026-10-09T18:46:25Z",
+          "incident_id": "01M4GV1M2A3K38T73JCVCD9G0R",
+          "status": "identified",
+          "updated_at": "2026-10-09T18:46:25Z"
+        },
+        {
+          "id": "01M4GV9WN6CQJ085324GXRTZTB",
+          "body": "We have identified an issue causing delays in publishing Costs data through the Compliance API. The API Platform organization costs endpoint and ChatGPT usage are not affected, and other reporting channels remain available. We are working to restore normal data freshness.",
+          "created_at": "2026-10-09T17:27:49Z",
+          "display_at": "2026-10-09T17:27:49Z",
+          "incident_id": "01M4GV1M2A3K38T73JCVCD9G0R",
+          "status": "identified",
+          "updated_at": "2026-10-09T17:27:49Z"
+        },
+        {
+          "id": "01M4GV1M2AYFPXHSVEN9J3VV1G",
+          "body": "We have identified an issue causing delays in publishing organization cost data through the Costs API. API and ChatGPT usage are not affected, and other reporting channels remain available. We are working to restore normal data freshness.",
+          "created_at": "2026-10-09T17:23:18Z",
+          "display_at": "2026-10-09T17:23:18Z",
+          "incident_id": "01M4GV1M2A3K38T73JCVCD9G0R",
+          "status": "identified",
+          "updated_at": "2026-10-09T17:23:18Z"
+        }
+      ]
     }
   ]
 }
