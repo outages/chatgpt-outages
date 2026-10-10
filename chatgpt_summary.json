@@ -6,8 +6,8 @@
     "updated_at": "2026-10-09T22:03:59Z"
   },
   "status": {
-    "description": "Partial System Outage",
-    "indicator": "major"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -130,7 +130,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 13,
@@ -282,26 +282,6 @@
           "incident_id": "01M4GV1M2A3K38T73JCVCD9G0R",
           "status": "identified",
           "updated_at": "2026-10-09T17:23:18Z"
-        }
-      ]
-    },
-    {
-      "id": "01M4H7FKXDA425TDNP2CRGEYA3",
-      "name": "Some ChatGPT content may be unavailable on Android",
-      "status": "identified",
-      "created_at": "2026-10-09T21:00:39Z",
-      "updated_at": "2026-10-09T21:00:39Z",
-      "impact": "major",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M4H7FKXDV7ZDAY7GHXQ6M1DT",
-          "body": "We have identified an issue affecting the ChatGPT Android app where users may see “This content is unavailable in this version of the app” instead of certain content. A fix is rolling out gradually in the latest Android version. Users can use ChatGPT on the web while we work to restore the experience for older app versions.",
-          "created_at": "2026-10-09T21:00:39Z",
-          "display_at": "2026-10-09T21:00:39Z",
-          "incident_id": "01M4H7FKXDA425TDNP2CRGEYA3",
-          "status": "identified",
-          "updated_at": "2026-10-09T21:00:39Z"
         }
       ]
     }
