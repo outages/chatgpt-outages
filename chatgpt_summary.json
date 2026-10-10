@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-09T18:46:25Z"
+    "updated_at": "2026-10-09T22:03:59Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "Partial System Outage",
+    "indicator": "major"
   },
   "components": [
     {
@@ -130,7 +130,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 13,
@@ -240,12 +240,22 @@
     {
       "id": "01M4GV1M2A3K38T73JCVCD9G0R",
       "name": "Delayed Costs data in the Compliance API",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2026-10-09T17:23:18Z",
-      "updated_at": "2026-10-09T18:46:25Z",
+      "updated_at": "2026-10-09T22:03:59Z",
+      "monitoring_at": "2026-10-09T22:03:59Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01M4HB3JQR38KYXS3RSAZBT2FC",
+          "body": "We have implemented a mitigation, and delayed Costs data is now processing through the Compliance API. Some customers may continue to see incomplete Costs data while the backlog catches up. We expect this catch-up process to continue through Sunday, October 11. ChatGPT usage and API Platform requests remain unaffected. We are monitoring recovery.",
+          "created_at": "2026-10-09T22:03:59Z",
+          "display_at": "2026-10-09T22:03:59Z",
+          "incident_id": "01M4GV1M2A3K38T73JCVCD9G0R",
+          "status": "monitoring",
+          "updated_at": "2026-10-09T22:03:59Z"
+        },
         {
           "id": "01M4GZSTQD80N1F9QNVV9MCPFN",
           "body": "Some customers may continue to experience delayed Costs data through the Compliance API. ChatGPT usage and API Platform requests are not affected, and other reporting channels remain available. We have identified the cause and are continuing work to restore normal data freshness. We will provide another update as work progresses.",
@@ -272,6 +282,26 @@
           "incident_id": "01M4GV1M2A3K38T73JCVCD9G0R",
           "status": "identified",
           "updated_at": "2026-10-09T17:23:18Z"
+        }
+      ]
+    },
+    {
+      "id": "01M4H7FKXDA425TDNP2CRGEYA3",
+      "name": "Some ChatGPT content may be unavailable on Android",
+      "status": "identified",
+      "created_at": "2026-10-09T21:00:39Z",
+      "updated_at": "2026-10-09T21:00:39Z",
+      "impact": "major",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01M4H7FKXDV7ZDAY7GHXQ6M1DT",
+          "body": "We have identified an issue affecting the ChatGPT Android app where users may see “This content is unavailable in this version of the app” instead of certain content. A fix is rolling out gradually in the latest Android version. Users can use ChatGPT on the web while we work to restore the experience for older app versions.",
+          "created_at": "2026-10-09T21:00:39Z",
+          "display_at": "2026-10-09T21:00:39Z",
+          "incident_id": "01M4H7FKXDA425TDNP2CRGEYA3",
+          "status": "identified",
+          "updated_at": "2026-10-09T21:00:39Z"
         }
       ]
     }
