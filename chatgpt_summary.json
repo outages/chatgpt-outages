@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-14T07:05:44Z"
+    "updated_at": "2026-09-29T18:29:41Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -148,7 +148,7 @@
     {
       "id": "01KX45G1SH21AX5DT93D4HMF0P",
       "name": "ChatGPT Work",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-07-09T19:25:56Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 15,
@@ -157,7 +157,7 @@
     {
       "id": "01KMKFAMWKQ81YWSE1Z18R6VHR",
       "name": "Codex in ChatGPT Desktop",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-03-25T21:45:05Z",
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 16,
@@ -234,28 +234,6 @@
       "updated_at": "2026-09-29T18:29:41Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M4WKPE1EY48ZB4RZJ80YH7ES",
-      "name": "Degraded performance in Codex and ChatGPT Work",
-      "status": "identified",
-      "created_at": "2026-10-14T07:05:44Z",
-      "updated_at": "2026-10-14T07:05:44Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M4WKPE1E2EM1QWXDGRYMJ8EZ",
-          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-10-14T07:05:44Z",
-          "display_at": "2026-10-14T07:05:44Z",
-          "incident_id": "01M4WKPE1EY48ZB4RZJ80YH7ES",
-          "status": "identified",
-          "updated_at": "2026-10-14T07:05:44Z"
-        }
-      ]
     }
   ]
 }
