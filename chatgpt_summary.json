@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-14T17:02:47Z"
+    "updated_at": "2026-10-14T20:00:36Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,10 +242,19 @@
       "name": "Delayed Costs data in the Compliance API",
       "status": "identified",
       "created_at": "2026-10-14T17:00:44Z",
-      "updated_at": "2026-10-14T17:02:47Z",
+      "updated_at": "2026-10-14T20:00:36Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01M4Y017SBZVNTAV6CNX15DVZG",
+          "body": "We have identified an issue causing delays in publishing organization cost data through the Costs API. A fix is in progress and currently undergoing testing. API and ChatGPT usage are not affected, and other reporting channels remain available. We are continuing work to restore normal data freshness.",
+          "created_at": "2026-10-14T20:00:36Z",
+          "display_at": "2026-10-14T20:00:36Z",
+          "incident_id": "01M4XNQX7C6RCBNGX9H711WFSG",
+          "status": "identified",
+          "updated_at": "2026-10-14T20:00:36Z"
+        },
         {
           "id": "01M4XNVN4QKEF7VQHDK9E2F03N",
           "body": "We have identified an issue causing delays in publishing organization cost data through the Costs API. API and ChatGPT usage are not affected, and other reporting channels remain available. We are working to restore normal data freshness.",
