@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-22T02:42:24Z"
+    "updated_at": "2026-10-16T20:01:40Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -22,7 +22,7 @@
     {
       "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
       "name": "Responses",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-03-13T18:31:32Z",
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 1,
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 14,
@@ -234,38 +234,6 @@
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M5GPE9C4E19HE461P8JAMYXD",
-      "name": "ChatGPT conversion failures in India, Japan and Korea. And Response API errors",
-      "status": "monitoring",
-      "created_at": "2026-10-22T02:18:32Z",
-      "updated_at": "2026-10-22T02:42:24Z",
-      "monitoring_at": "2026-10-22T02:42:24Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M5GQSZKNN3M28SHB5RMJ75HP",
-          "body": "We have applied the mitigation and are monitoring the recovery.",
-          "created_at": "2026-10-22T02:42:24Z",
-          "display_at": "2026-10-22T02:42:24Z",
-          "incident_id": "01M5GPE9C4E19HE461P8JAMYXD",
-          "status": "monitoring",
-          "updated_at": "2026-10-22T02:42:24Z"
-        },
-        {
-          "id": "01M5GPE9C4S2VSEPGANMJN77CN",
-          "body": "We are investigating the issue for the listed services.",
-          "created_at": "2026-10-22T02:18:32Z",
-          "display_at": "2026-10-22T02:18:32Z",
-          "incident_id": "01M5GPE9C4E19HE461P8JAMYXD",
-          "status": "investigating",
-          "updated_at": "2026-10-22T02:18:32Z"
-        }
-      ]
     }
   ]
 }
