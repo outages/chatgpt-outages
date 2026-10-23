@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-23T04:43:12Z"
+    "updated_at": "2026-10-16T20:01:40Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,46 +234,6 @@
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M5KDJ4079XQTZDSRX40NMN6H",
-      "name": "Delays in customer support responses",
-      "status": "identified",
-      "created_at": "2026-10-23T03:41:03Z",
-      "updated_at": "2026-10-23T04:43:12Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M5KH3XNV9PY1G5H2JV783ER9",
-          "body": "A fix is being implemented for the issue affecting our support systems. Customers may continue to experience delays in receiving support responses. We will provide further updates as recovery progresses.",
-          "created_at": "2026-10-23T04:43:12Z",
-          "display_at": "2026-10-23T04:43:12Z",
-          "incident_id": "01M5KDJ4079XQTZDSRX40NMN6H",
-          "status": "identified",
-          "updated_at": "2026-10-23T04:43:12Z"
-        },
-        {
-          "id": "01M5KEFJHDGY9BMXS27PX0K70X",
-          "body": "As a temporary solution, customers looking to reach out to OpenAI Support can email [support@openai.com](mailto:support@openai.com \"support@openai.com\").",
-          "created_at": "2026-10-23T03:57:09Z",
-          "display_at": "2026-10-23T03:57:09Z",
-          "incident_id": "01M5KDJ4079XQTZDSRX40NMN6H",
-          "status": "investigating",
-          "updated_at": "2026-10-23T03:57:09Z"
-        },
-        {
-          "id": "01M5KDJ407R189M8F0X9HN4W5F",
-          "body": "We are investigating technical issues affecting our customer support systems. Customers may experience longer than usual response times. We are working to restore normal operations.",
-          "created_at": "2026-10-23T03:41:03Z",
-          "display_at": "2026-10-23T03:41:03Z",
-          "incident_id": "01M5KDJ4079XQTZDSRX40NMN6H",
-          "status": "investigating",
-          "updated_at": "2026-10-23T03:41:03Z"
-        }
-      ]
     }
   ]
 }
