@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-22T21:30:55Z"
+    "updated_at": "2026-10-16T20:01:40Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,37 +234,6 @@
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M5JHVJVC8WAXB4WRYFMKG6HP",
-      "name": "New Ad Accounts failing to provision admins",
-      "status": "identified",
-      "created_at": "2026-10-22T19:36:53Z",
-      "updated_at": "2026-10-22T21:30:55Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M5JRCCBJD2524R1XNB38YS3B",
-          "body": "We have identified the issue and are working to implement the mitigation.",
-          "created_at": "2026-10-22T21:30:55Z",
-          "display_at": "2026-10-22T21:30:55Z",
-          "incident_id": "01M5JHVJVC8WAXB4WRYFMKG6HP",
-          "status": "identified",
-          "updated_at": "2026-10-22T21:30:55Z"
-        },
-        {
-          "id": "01M5JHVJVC0JQ64EBBNK74VJM3",
-          "body": "We have identified that new ad accounts are failing to assign their creator admin. We are investigating the issue.",
-          "created_at": "2026-10-22T19:36:53Z",
-          "display_at": "2026-10-22T19:36:53Z",
-          "incident_id": "01M5JHVJVC8WAXB4WRYFMKG6HP",
-          "status": "identified",
-          "updated_at": "2026-10-22T19:36:53Z"
-        }
-      ]
     }
   ]
 }
