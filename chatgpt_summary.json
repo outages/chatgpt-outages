@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-23T21:30:25Z"
+    "updated_at": "2026-10-16T20:01:40Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,28 +234,6 @@
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M5NAR5GZC5M7D0S7AQ6CGEEN",
-      "name": "Help Center Chat Support Degraded",
-      "status": "investigating",
-      "created_at": "2026-10-23T21:30:25Z",
-      "updated_at": "2026-10-23T21:30:25Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M5NAR5GZ69DY4MCX4TSNSZ1C",
-          "body": "We’re currently experiencing degraded performance with the Help Center chat support experience. While we work to resolve the issue, we recommend contacting our Support team via email at [support@openai.com](mailto:support@openai.com \"support@openai.com\") for assistance.\n\nWe apologize for the inconvenience and will provide updates as they become available.",
-          "created_at": "2026-10-23T21:30:25Z",
-          "display_at": "2026-10-23T21:30:25Z",
-          "incident_id": "01M5NAR5GZC5M7D0S7AQ6CGEEN",
-          "status": "investigating",
-          "updated_at": "2026-10-23T21:30:25Z"
-        }
-      ]
     }
   ]
 }
