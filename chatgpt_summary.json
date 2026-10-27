@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-27T08:21:10Z"
+    "updated_at": "2026-10-16T20:01:40Z"
   },
   "status": {
     "description": "All Systems Operational",
@@ -234,38 +234,6 @@
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M5Y60NQGGN514EB3943V94EN",
-      "name": "Elevated error rates for most hosted Code Reviews and Security Reviews on private GitHub repositories",
-      "status": "monitoring",
-      "created_at": "2026-10-27T08:00:50Z",
-      "updated_at": "2026-10-27T08:21:10Z",
-      "monitoring_at": "2026-10-27T08:21:10Z",
-      "impact": "none",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M5Y75WV5QVD0R1B43HN8BR17",
-          "body": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery.",
-          "created_at": "2026-10-27T08:21:10Z",
-          "display_at": "2026-10-27T08:21:10Z",
-          "incident_id": "01M5Y60NQGGN514EB3943V94EN",
-          "status": "monitoring",
-          "updated_at": "2026-10-27T08:21:10Z"
-        },
-        {
-          "id": "01M5Y60NQGNP7BK0DECAGADQCM",
-          "body": "We’re investigating a potential issue for the listed services and checking how it affects users. We’ll share an update when we know more.",
-          "created_at": "2026-10-27T08:00:51Z",
-          "display_at": "2026-10-27T08:00:50Z",
-          "incident_id": "01M5Y60NQGGN514EB3943V94EN",
-          "status": "investigating",
-          "updated_at": "2026-10-27T08:00:51Z"
-        }
-      ]
     }
   ]
 }
