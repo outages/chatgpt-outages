@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-10-16T20:01:40Z"
+    "updated_at": "2026-11-03T00:58:21Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -193,7 +193,7 @@
     {
       "id": "01JMXBNJXG1YMQPPCPCQX3MPA2",
       "name": "File uploads",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 20,
@@ -234,6 +234,37 @@
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "01M6FDZ89W4PKDS19K496J307G",
+      "name": "File upload errors in ChatGPT",
+      "status": "investigating",
+      "created_at": "2026-11-03T00:46:58Z",
+      "updated_at": "2026-11-03T00:58:21Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01M6FEM347THYMY2JGRQ95YMTZ",
+          "body": "We’re investigating a potential issue for the listed services and checking how it affects users. We’ll share an update when we know more.",
+          "created_at": "2026-11-03T00:58:21Z",
+          "display_at": "2026-11-03T00:58:21Z",
+          "incident_id": "01M6FDZ89W4PKDS19K496J307G",
+          "status": "investigating",
+          "updated_at": "2026-11-03T00:58:21Z"
+        },
+        {
+          "id": "01M6FDZ89WRT1G76Q6XCPQR3WS",
+          "body": "Some users are having trouble uploading files to ChatGPT or getting ChatGPT to read uploaded files.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-11-03T00:46:58Z",
+          "display_at": "2026-11-03T00:46:58Z",
+          "incident_id": "01M6FDZ89W4PKDS19K496J307G",
+          "status": "identified",
+          "updated_at": "2026-11-03T00:46:58Z"
+        }
+      ]
     }
   ]
 }
