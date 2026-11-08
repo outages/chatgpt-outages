@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-11-07T01:29:31Z"
+    "updated_at": "2026-11-08T15:11:15Z"
   },
   "status": {
-    "description": "All Systems Operational",
-    "indicator": "none"
+    "description": "Partial System Degradation",
+    "indicator": "minor"
   },
   "components": [
     {
@@ -220,7 +220,7 @@
     {
       "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
       "name": "Image Generation",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2025-03-25T20:06:33Z",
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 23,
@@ -237,6 +237,26 @@
     }
   ],
   "incidents": [
+    {
+      "id": "01M6XVDCKRT3PSB0YP8J30GTD5",
+      "name": "Elevated errors with image generation",
+      "status": "identified",
+      "created_at": "2026-11-08T15:11:15Z",
+      "updated_at": "2026-11-08T15:19:25Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01M6XVDCKRDTGGRYK0T0PPX8BN",
+          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
+          "created_at": "2026-11-08T15:11:15Z",
+          "display_at": "2026-11-08T15:11:15Z",
+          "incident_id": "01M6XVDCKRT3PSB0YP8J30GTD5",
+          "status": "identified",
+          "updated_at": "2026-11-08T15:11:15Z"
+        }
+      ]
+    },
     {
       "id": "01M6S2FV5TZWQ753NHRB7BF5K7",
       "name": "Elevated error rates with some U.S. business Mastercards",
