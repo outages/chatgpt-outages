@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-11-13T16:20:45Z"
+    "updated_at": "2026-11-13T18:56:44Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -238,6 +238,36 @@
   ],
   "incidents": [
     {
+      "id": "01M7ATRS6BMZ61E4JDHJGM79Y0",
+      "name": "Delayed Costs Data in the Compliance API",
+      "status": "monitoring",
+      "created_at": "2026-11-13T16:10:07Z",
+      "updated_at": "2026-11-13T18:56:45Z",
+      "monitoring_at": "2026-11-13T18:56:44Z",
+      "impact": "minor",
+      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
+      "incident_updates": [
+        {
+          "id": "01M7B49WBWREW6JM1PAKAA1RZ0",
+          "body": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery. Delays in cost data are still expected.",
+          "created_at": "2026-11-13T18:56:44Z",
+          "display_at": "2026-11-13T18:56:44Z",
+          "incident_id": "01M7ATRS6BMZ61E4JDHJGM79Y0",
+          "status": "monitoring",
+          "updated_at": "2026-11-13T18:56:44Z"
+        },
+        {
+          "id": "01M7ATRS6BXTP5ZVKAXG9DB243",
+          "body": "We have identified an issue causing delays in publishing Organization cost data through the Costs API. API and ChatGPT usage are not affected. We are working to restore normal data freshness.",
+          "created_at": "2026-11-13T16:10:07Z",
+          "display_at": "2026-11-13T16:10:07Z",
+          "incident_id": "01M7ATRS6BMZ61E4JDHJGM79Y0",
+          "status": "identified",
+          "updated_at": "2026-11-13T16:10:07Z"
+        }
+      ]
+    },
+    {
       "id": "01M78GAT3AK9P9W8Z230KHFVE8",
       "name": "Elevated errors affecting the Microsoft 365 connector",
       "status": "monitoring",
@@ -264,26 +294,6 @@
           "incident_id": "01M78GAT3AK9P9W8Z230KHFVE8",
           "status": "investigating",
           "updated_at": "2026-11-12T18:29:15Z"
-        }
-      ]
-    },
-    {
-      "id": "01M7ATRS6BMZ61E4JDHJGM79Y0",
-      "name": "Delayed Costs Data in the Compliance API",
-      "status": "identified",
-      "created_at": "2026-11-13T16:10:07Z",
-      "updated_at": "2026-11-13T16:10:07Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M7ATRS6BXTP5ZVKAXG9DB243",
-          "body": "We have identified an issue causing delays in publishing Organization cost data through the Costs API. API and ChatGPT usage are not affected. We are working to restore normal data freshness.",
-          "created_at": "2026-11-13T16:10:07Z",
-          "display_at": "2026-11-13T16:10:07Z",
-          "incident_id": "01M7ATRS6BMZ61E4JDHJGM79Y0",
-          "status": "identified",
-          "updated_at": "2026-11-13T16:10:07Z"
         }
       ]
     }
