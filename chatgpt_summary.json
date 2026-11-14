@@ -266,36 +266,6 @@
           "updated_at": "2026-11-13T16:10:07Z"
         }
       ]
-    },
-    {
-      "id": "01M78GAT3AK9P9W8Z230KHFVE8",
-      "name": "Elevated errors affecting the Microsoft 365 connector",
-      "status": "monitoring",
-      "created_at": "2026-11-12T18:29:14Z",
-      "updated_at": "2026-11-13T16:20:45Z",
-      "monitoring_at": "2026-11-13T16:20:45Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M7AVC7WK1E6J9FYT8G4E17RE",
-          "body": "We’re seeing signs of recovery for the Microsoft 365 connector and are continuing to monitor the affected services to confirm recovery.",
-          "created_at": "2026-11-13T16:20:45Z",
-          "display_at": "2026-11-13T16:20:45Z",
-          "incident_id": "01M78GAT3AK9P9W8Z230KHFVE8",
-          "status": "monitoring",
-          "updated_at": "2026-11-13T16:20:45Z"
-        },
-        {
-          "id": "01M78GAT3A3RJB684K8JWKWBPQ",
-          "body": "We’re investigating an issue with Microsoft connectors where new connections may be broken and tools are not working as expected. We’ll share an update when we know more.",
-          "created_at": "2026-11-12T18:29:15Z",
-          "display_at": "2026-11-12T18:29:14Z",
-          "incident_id": "01M78GAT3AK9P9W8Z230KHFVE8",
-          "status": "investigating",
-          "updated_at": "2026-11-12T18:29:15Z"
-        }
-      ]
     }
   ]
 }
