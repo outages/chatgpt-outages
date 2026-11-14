@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-11-13T18:56:44Z"
+    "updated_at": "2026-11-14T05:31:20Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -242,11 +242,20 @@
       "name": "Delayed Costs Data in the Compliance API",
       "status": "monitoring",
       "created_at": "2026-11-13T16:10:07Z",
-      "updated_at": "2026-11-13T18:56:45Z",
+      "updated_at": "2026-11-14T05:31:20Z",
       "monitoring_at": "2026-11-13T18:56:44Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
+        {
+          "id": "01M7C8KV75AD3DJ6B0CA5EACSH",
+          "body": "We are monitoring the affected services to confirm recovery. Delays in cost data are still expected.",
+          "created_at": "2026-11-14T05:31:20Z",
+          "display_at": "2026-11-14T05:31:20Z",
+          "incident_id": "01M7ATRS6BMZ61E4JDHJGM79Y0",
+          "status": "monitoring",
+          "updated_at": "2026-11-14T05:31:20Z"
+        },
         {
           "id": "01M7B49WBWREW6JM1PAKAA1RZ0",
           "body": "We’ve applied a mitigation and are monitoring the affected services to confirm recovery. Delays in cost data are still expected.",
