@@ -3,7 +3,7 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-11-25T13:22:34Z"
+    "updated_at": "2026-11-25T16:58:51Z"
   },
   "status": {
     "description": "Partial System Degradation",
@@ -139,7 +139,7 @@
     {
       "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
       "name": "Conversations",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2025-02-25T01:31:15Z",
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 14,
@@ -157,7 +157,7 @@
     {
       "id": "01KX45G1SH21AX5DT93D4HMF0P",
       "name": "ChatGPT Work",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2026-07-09T19:25:56Z",
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 16,
@@ -238,50 +238,32 @@
   ],
   "incidents": [
     {
-      "id": "01M898HVZGXFV2XC4775CG9GF8",
-      "name": "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors",
+      "id": "01M89RGC3STKK2MT53TXHFMY4H",
+      "name": "Elevated errors with Codex GitHub reviews and pull request merges",
       "status": "monitoring",
-      "created_at": "2026-11-25T11:48:13Z",
-      "updated_at": "2026-11-25T13:22:34Z",
-      "monitoring_at": "2026-11-25T13:22:34Z",
+      "created_at": "2026-11-25T16:27:02Z",
+      "updated_at": "2026-11-25T16:58:51Z",
+      "monitoring_at": "2026-11-25T16:58:51Z",
       "impact": "minor",
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
       "incident_updates": [
         {
-          "id": "01M89DYKK1HQ3BY50DZA1EH775",
-          "body": "We have applied mitigations and are seeing recovery across ChatGPT, ChatGPT Work, and Codex cloud threads. We are monitoring the affected services to ensure continued stability. Our investigation into the underlying cause remains ongoing.",
-          "created_at": "2026-11-25T13:22:34Z",
-          "display_at": "2026-11-25T13:22:34Z",
-          "incident_id": "01M898HVZGXFV2XC4775CG9GF8",
+          "id": "01M89TAN16YY6103ERER7Z8976",
+          "body": "GitHub reports that the service disruption affecting pull requests and webhooks has been mitigated. We are monitoring Codex automated pull request reviews and merge operations to confirm recovery and stability.",
+          "created_at": "2026-11-25T16:58:51Z",
+          "display_at": "2026-11-25T16:58:51Z",
+          "incident_id": "01M89RGC3STKK2MT53TXHFMY4H",
           "status": "monitoring",
-          "updated_at": "2026-11-25T13:22:34Z"
+          "updated_at": "2026-11-25T16:58:51Z"
         },
         {
-          "id": "01M89D2HPEM6XN4TDJQE1JNG4K",
-          "body": "We are seeing improvements following our mitigations. Some users may continue to experience elevated errors across ChatGPT, ChatGPT Work, and Codex cloud threads. We are continuing to work toward full recovery.",
-          "created_at": "2026-11-25T13:07:14Z",
-          "display_at": "2026-11-25T13:07:14Z",
-          "incident_id": "01M898HVZGXFV2XC4775CG9GF8",
+          "id": "01M89RGC3SAF0CJ495G7GXMV8Q",
+          "body": "Some Codex users may not receive automated reviews on GitHub pull requests or may encounter errors when merging pull requests from Codex. We have identified these failures as related to a GitHub service disruption. We will provide further updates as more information becomes available.",
+          "created_at": "2026-11-25T16:27:02Z",
+          "display_at": "2026-11-25T16:27:02Z",
+          "incident_id": "01M89RGC3STKK2MT53TXHFMY4H",
           "status": "identified",
-          "updated_at": "2026-11-25T13:07:14Z"
-        },
-        {
-          "id": "01M8990VXVPNCQ9Y33NZ5KX1YM",
-          "body": "We have identified that users are experiencing elevated errors for ChatGPT and ChatGPT Work, as well as cloud Codex threads.\n\nWe have identified the issue and are working on implementing a mitigation.",
-          "created_at": "2026-11-25T11:56:25Z",
-          "display_at": "2026-11-25T11:56:25Z",
-          "incident_id": "01M898HVZGXFV2XC4775CG9GF8",
-          "status": "identified",
-          "updated_at": "2026-11-25T12:16:54Z"
-        },
-        {
-          "id": "01M898HVZGD5F9F88KKFVTMDQM",
-          "body": "We have identified that users are experiencing elevated errors for the impacted services.\n\nWe are working on implementing a mitigation.",
-          "created_at": "2026-11-25T11:48:13Z",
-          "display_at": "2026-11-25T11:48:13Z",
-          "incident_id": "01M898HVZGXFV2XC4775CG9GF8",
-          "status": "identified",
-          "updated_at": "2026-11-25T11:48:13Z"
+          "updated_at": "2026-11-25T16:27:02Z"
         }
       ]
     }
