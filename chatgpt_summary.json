@@ -3,11 +3,11 @@
     "id": "01JMDK9XYNY6RXSED6SDWW50WY",
     "name": "OpenAI",
     "url": "https://status.openai.com/",
-    "updated_at": "2026-11-25T16:58:51Z"
+    "updated_at": "2026-10-16T20:01:40Z"
   },
   "status": {
-    "description": "Partial System Degradation",
-    "indicator": "minor"
+    "description": "All Systems Operational",
+    "indicator": "none"
   },
   "components": [
     {
@@ -234,38 +234,6 @@
       "updated_at": "2026-10-16T20:01:40Z",
       "position": 24,
       "page_id": "01JMDK9XYNY6RXSED6SDWW50WY"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "01M89RGC3STKK2MT53TXHFMY4H",
-      "name": "Elevated errors with Codex GitHub reviews and pull request merges",
-      "status": "monitoring",
-      "created_at": "2026-11-25T16:27:02Z",
-      "updated_at": "2026-11-25T16:58:51Z",
-      "monitoring_at": "2026-11-25T16:58:51Z",
-      "impact": "minor",
-      "page_id": "01JMDK9XYNY6RXSED6SDWW50WY",
-      "incident_updates": [
-        {
-          "id": "01M89TAN16YY6103ERER7Z8976",
-          "body": "GitHub reports that the service disruption affecting pull requests and webhooks has been mitigated. We are monitoring Codex automated pull request reviews and merge operations to confirm recovery and stability.",
-          "created_at": "2026-11-25T16:58:51Z",
-          "display_at": "2026-11-25T16:58:51Z",
-          "incident_id": "01M89RGC3STKK2MT53TXHFMY4H",
-          "status": "monitoring",
-          "updated_at": "2026-11-25T16:58:51Z"
-        },
-        {
-          "id": "01M89RGC3SAF0CJ495G7GXMV8Q",
-          "body": "Some Codex users may not receive automated reviews on GitHub pull requests or may encounter errors when merging pull requests from Codex. We have identified these failures as related to a GitHub service disruption. We will provide further updates as more information becomes available.",
-          "created_at": "2026-11-25T16:27:02Z",
-          "display_at": "2026-11-25T16:27:02Z",
-          "incident_id": "01M89RGC3STKK2MT53TXHFMY4H",
-          "status": "identified",
-          "updated_at": "2026-11-25T16:27:02Z"
-        }
-      ]
     }
   ]
 }
